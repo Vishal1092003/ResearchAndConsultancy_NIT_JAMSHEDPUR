@@ -1,0 +1,15 @@
+.logo {
+    animation: waveIn .7s 1 ease-in-out;
+}
+
+@keyframes waveIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

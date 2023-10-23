@@ -4,7 +4,7 @@ import LogoRC from './LogoR&C'
 import Name from './Name'
 const Navbar = () => {
   return (
-    <div className='w-full sticky top-0 z-10 shadow-lg bg-white'>
+    <div className='w-full fixed top-0 z-10 shadow-lg bg-white'>
       <div className="
     max-w-[2520px]
     mx-auto
