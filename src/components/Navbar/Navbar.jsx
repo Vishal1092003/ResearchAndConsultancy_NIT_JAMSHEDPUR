@@ -1,11 +1,10 @@
 
-import React from 'react'
-import Logo from './Logo'
+import Logo from './LogoNIT'
+import LogoRC from './LogoR&C'
 import Name from './Name'
-import Menu from './Menu'
 const Navbar = () => {
   return (
-    <div className='w-full sticky top-0 z-10 shadow-sm bg-white'>
+    <div className='w-full fixed top-0 z-10 shadow-lg bg-white'>
       <div className="
     max-w-[2520px]
     mx-auto
@@ -16,8 +15,8 @@ const Navbar = () => {
     ">
           <div className='flex flex-row justify-between items-center gap-3 md:gap-0'>
             <Logo />
-            <Name/>
-            <Menu/> 
+          <Name />
+          <LogoRC size={10} />
           </div>
         </div>
     </div>

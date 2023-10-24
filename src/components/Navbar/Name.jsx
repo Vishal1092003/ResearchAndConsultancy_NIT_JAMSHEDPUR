@@ -1,5 +1,4 @@
 
-import React from 'react'
 
 const Name = () => {
   return (
@@ -8,7 +7,7 @@ const Name = () => {
         National Institute of Technology Jamshedpur
       </div>
       <div className=' text-center md:text-3xl font-extrabold text-sm'>
-        Research And Development
+        Research And Consultancy
       </div>
     </div>
   )
