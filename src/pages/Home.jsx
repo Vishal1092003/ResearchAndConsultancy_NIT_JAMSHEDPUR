@@ -1,5 +1,5 @@
 import Navbar from '../components/Navbar/Navbar'
-import Dashboard from '../components/dashboard/dashboard'
+import Dashboard from '../components/Dashboard/Dashboard'
 const Home = () => {
   return (
     <div className='w-[100vw] h-[100vh]'>
