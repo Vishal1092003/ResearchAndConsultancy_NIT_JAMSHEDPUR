@@ -1,6 +1,6 @@
 .logo {
-    animation: waveIn .7s 1 ease-in-out 0.4s;
-        animation: rotate 1s 1 ease-in-out 0.4s;
+    animation: waveIn .7s 1 ease-in-out .5s;
+        animation: rotate 1s 1 ease-in-out .5s;
 }
 
 @keyframes waveIn {
