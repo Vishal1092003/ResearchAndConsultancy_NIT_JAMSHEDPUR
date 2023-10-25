@@ -1,27 +1,14 @@
 .logo {
-    animation: waveIn .7s 1 ease-in-out .5s;
-        animation: rotate 1s 1 ease-in-out .5s;
+    animation: waveIn .7s 1 ease-in-out .7s;
 }
 
 @keyframes waveIn {
     from {
         opacity: 0;
-            transform: translateX(-100px);
+            transform: translateX(-100px) rotate(-50deg);
     }
 to {
     opacity: 1;
-    transform: translateX(0px);
-}
-}
-
-@keyframes rotate {
-    from {
-        opacity: 0;
-        transform: rotate(-50deg);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0px);
+    transform: translateX(0px) rotate(0px);
     }
 }
