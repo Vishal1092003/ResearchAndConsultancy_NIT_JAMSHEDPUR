@@ -1,10 +1,17 @@
-import logo from '../../assets/logoRC-removebg-preview.png'
+import { Link } from 'react-router-dom'
+import logo from '../../assets/logoRC.png'
 import './style.css'
 const Dashboard = () => {
     return (<>
-        <div className=' w-full h-full flex justify-center items-center '>
-            <div className=' shadow-2xl shadow-gray-400 rounded-full w-[70%] md:w-[20%] logo flex justify-center items-center'>
-                <img src={logo} alt="" />
+        <div className='  w-full h-full flex justify-center items-center '>
+            <div className="wrap">
+                <Link href="#"></Link>
+                <Link href="#"></Link>
+                <Link href="#"></Link>
+                <Link href="#"></Link>
+                <Link href="">
+                    <img src={logo} alt="" />
+                </Link>
             </div>
         </div>
     </>
