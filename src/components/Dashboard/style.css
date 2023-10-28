@@ -12,3 +12,89 @@ to {
     transform: translateX(0px) rotate(0px);
     }
 }
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+
+.wrap {
+    position: relative;
+    width: 80vmin;
+    height: 80vmin;
+    background: inherit;
+    transition: transform .5s, opacity .5s;
+    opacity: 0.7;
+    margin: 0 auto;
+}
+
+
+a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 47.5%;
+    height: 47.5%;
+    overflow: hidden;
+    transform: scale(.5) translateZ(0px);
+    background-color: #A0E9FF;
+}
+
+a:nth-child(1) {
+    border-radius: 40vmin 0 0 0;
+    transform-origin: 110% 110%;
+    transition: transform .4s .15s;
+}
+
+a:nth-child(2) {
+    border-radius: 0 40vmin 0 0;
+    left: 52.5%;
+    transform-origin: -10% 110%;
+    transition: transform .4s .2s;
+}
+
+a:nth-child(3) {
+    border-radius: 0 0 0 40vmin;
+    top: 52.5%;
+    transform-origin: 110% -10%;
+    transition: transform .4s .25s;
+}
+
+a:nth-child(4) {
+    border-radius: 0 0 40vmin 0;
+    top: 52.5%;
+    left: 52.5%;
+    transform-origin: -10% -10%;
+    transition: transform .4s .3s;
+
+}
+
+a:nth-child(5) {
+    border-radius: 50vmin;
+    width: 55%;
+    height: 55%;
+    top: 22.5%;
+    left: 22.5%;
+    transform-origin: -10% -10%;
+    transform: scale(1);
+    box-shadow: 0 0 0 5vmin white;
+
+}
+
+a:hover {
+    background: #1f6479;
+    transition: background 0.7s;
+}
+
+.wrap:hover {
+    transform: scale(0.8) translateZ(0px);
+    opacity: 1;
+}
+
+
+.wrap:hover a {
+    transform: scale(1) translateZ(0px);
+}
