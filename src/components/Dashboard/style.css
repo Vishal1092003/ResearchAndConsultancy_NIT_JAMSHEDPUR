@@ -1,17 +1,3 @@
-.logo {
-    animation: waveIn .7s 1 ease-in-out .7s;
-}
-
-@keyframes waveIn {
-    from {
-        opacity: 0;
-            transform: translateX(-100px) rotate(-50deg);
-    }
-to {
-    opacity: 1;
-    transform: translateX(0px) rotate(0px);
-    }
-}
 body,
 html {
     margin: 0;
@@ -20,7 +6,7 @@ html {
 }
 
 @media screen and (max-width:700px) {
-    a:nth-child(5) {
+    a:nth-child(9) {
         width: 90%;
         height: 90%;
         top: 10.5%;
@@ -46,7 +32,7 @@ a {
     width: 47.5%;
     height: 47.5%;
     overflow: hidden;
-    transform: scale(.5) translateZ(0px);
+    transform: scale(.4) translateZ(0px);
     background-color: #A0E9FF;
 }
 
@@ -54,32 +40,68 @@ a:nth-child(1) {
     border-radius: 40vmin 0 0 0;
     transform-origin: 110% 110%;
     transition: transform .4s .15s;
+    z-index: 1;
 }
 
 a:nth-child(2) {
+    border-radius: 40vmin 0 0 0;
+        left: -8%;
+        top: -8%;
+        transform-origin: 110% 110%;
+        transition: transform .4s .15s;
+    }
+    
+    a:nth-child(3) {
     border-radius: 0 40vmin 0 0;
     left: 52.5%;
     transform-origin: -10% 110%;
     transition: transform .4s .2s;
+    z-index: 1;
 }
 
-a:nth-child(3) {
+a:nth-child(8) {
+    border-radius: 0 40vmin 0 0;
+    left: 62.5%;
+    top: -8%;
+    transform-origin: -10% 110%;
+    transition: transform .4s .2s;
+}
+
+a:nth-child(4) {
     border-radius: 0 0 0 40vmin;
     top: 52.5%;
     transform-origin: 110% -10%;
     transition: transform .4s .25s;
+    z-index: 1;
 }
 
-a:nth-child(4) {
+a:nth-child(6) {
+    border-radius: 0 0 0 40vmin;
+    top: 62.5%;
+    left: -8%;
+    transform-origin: 110% -10%;
+    transition: transform .4s .25s;
+}
+
+a:nth-child(5) {
     border-radius: 0 0 40vmin 0;
     top: 52.5%;
     left: 52.5%;
     transform-origin: -10% -10%;
     transition: transform .4s .3s;
+    z-index: 1;
+    }
+    
+    a:nth-child(7) {
+        border-radius: 0 0 40vmin 0;
+        top: 62.5%;
+        left: 62.5%;
+        transform-origin: -10% -10%;
+        transition: transform .4s .3s;
 
 }
 
-a:nth-child(5) {
+a:nth-child(9) {
     border-radius: 50vmin;
     width: 55%;
     height: 55%;
@@ -88,7 +110,7 @@ a:nth-child(5) {
     transform-origin: -10% -10%;
     transform: scale(1);
     box-shadow: 0 0 0 5vmin white;
-
+    z-index: 10;
 }
 
 a:hover {
