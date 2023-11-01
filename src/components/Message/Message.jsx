@@ -1,4 +1,4 @@
-import React from 'react'
+
 import img from '../../assets/img.jpeg'
 const Message = () => {
     return (
@@ -11,7 +11,7 @@ const Message = () => {
                     </div>
                 </div>
                 <div className=''>
-                    <div className='py-5 px-4 h-[500px] flex justify-center items-center h-full overflow-scroll'>
+                    <div className='py-5 px-4 h-[500px] flex justify-center items-center overflow-scroll'>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde totam non in magnam est tenetur rem sunt et quaerat! Vitae, ullam. Enim magni officia asperiores doloremque impedit, non dolor corporis.
                         Necessitatibus nam mollitia, rerum vero blanditiis iure quibusdam corrupti enim fuga nisi ullam expedita nihil, recusandae dolores placeat sit, illum iusto. Maxime, quisquam. Iusto corrupti, impedit dolorum quam dicta distinctio.
                         Aperiam, necessitatibus voluptatum nihil perspiciatis sit, officiis ratione ut incidunt, esse quos corporis ipsa expedita nemo nobis maxime libero itaque accusamus! Maiores doloremque assumenda incidunt totam at aut tempore blanditiis.
