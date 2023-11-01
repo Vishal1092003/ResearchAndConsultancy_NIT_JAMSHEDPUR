@@ -6,7 +6,7 @@ html {
 }
 
 @media screen and (max-width:700px) {
-    a:nth-child(9) {
+    .logoTab:nth-child(9) {
         width: 90%;
         height: 90%;
         top: 10.5%;
@@ -25,33 +25,33 @@ html {
 }
 
 
-a {
+.logoTab {
     position: absolute;
     left: 0;
     top: 0;
     width: 47.5%;
     height: 47.5%;
     overflow: hidden;
-    transform: scale(.4) translateZ(0px);
+    transform: scale(.3) translateZ(0px);
     background-color: #A0E9FF;
 }
 
-a:nth-child(1) {
+.logoTab:nth-child(1) {
     border-radius: 40vmin 0 0 0;
     transform-origin: 110% 110%;
     transition: transform .4s .15s;
     z-index: 1;
 }
 
-a:nth-child(2) {
+.logoTab:nth-child(2) {
     border-radius: 40vmin 0 0 0;
-        left: -8%;
-        top: -8%;
+        left: -12%;
+            top: -12%;
         transform-origin: 110% 110%;
         transition: transform .4s .15s;
     }
     
-    a:nth-child(3) {
+        .logoTab:nth-child(3) {
     border-radius: 0 40vmin 0 0;
     left: 52.5%;
     transform-origin: -10% 110%;
@@ -59,15 +59,15 @@ a:nth-child(2) {
     z-index: 1;
 }
 
-a:nth-child(8) {
+.logoTab:nth-child(8) {
     border-radius: 0 40vmin 0 0;
-    left: 62.5%;
-    top: -8%;
+    left: 64.5%;
+        top: -12%;
     transform-origin: -10% 110%;
     transition: transform .4s .2s;
 }
 
-a:nth-child(4) {
+.logoTab:nth-child(4) {
     border-radius: 0 0 0 40vmin;
     top: 52.5%;
     transform-origin: 110% -10%;
@@ -75,15 +75,15 @@ a:nth-child(4) {
     z-index: 1;
 }
 
-a:nth-child(6) {
+.logoTab:nth-child(6) {
     border-radius: 0 0 0 40vmin;
-    top: 62.5%;
-    left: -8%;
+    top: 64.5%;
+        left: -12%;
     transform-origin: 110% -10%;
     transition: transform .4s .25s;
 }
 
-a:nth-child(5) {
+.logoTab:nth-child(5) {
     border-radius: 0 0 40vmin 0;
     top: 52.5%;
     left: 52.5%;
@@ -92,16 +92,16 @@ a:nth-child(5) {
     z-index: 1;
     }
     
-    a:nth-child(7) {
+        .logoTab:nth-child(7) {
         border-radius: 0 0 40vmin 0;
-        top: 62.5%;
-        left: 62.5%;
+        top: 64.5%;
+            left: 64.5%;
         transform-origin: -10% -10%;
         transition: transform .4s .3s;
 
 }
 
-a:nth-child(9) {
+.logoTab:nth-child(9) {
     border-radius: 50vmin;
     width: 55%;
     height: 55%;
@@ -113,7 +113,7 @@ a:nth-child(9) {
     z-index: 10;
 }
 
-a:hover {
+.logoTab:hover {
     background: #1f6479;
     transition: background 0.7s;
 }
@@ -124,6 +124,6 @@ a:hover {
 }
 
 
-.wrap:hover a {
+.wrap:hover .logoTab {
     transform: scale(1) translateZ(0px);
 }
