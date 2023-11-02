@@ -9,7 +9,7 @@ const Home = () => {
     <Navbar />
     <div className='h-[80vh] w-[100vw]'>
       <div className=' flex bg-slate-100 justify-center items-center '>
-        <div className=' min-h-[74vh] bg-white md:flex-row flex-col shadow-lg flex shadow-blue-300 rounded-lg m-3'>
+        <div className=' min-h-[74vh] md:flex-row flex-col shadow-md flex shadow-blue-300 rounded-lg m-3'>
           <CarouselComponents />
           <div>
             <div className='py-5 flex justify-center font-bold text-2xl'>
