@@ -1,4 +1,5 @@
 
+import Tab from '../Tab/Tab'
 import Logo from './LogoNIT'
 import LogoRC from './LogoR&C'
 import Name from './Name'
@@ -17,7 +18,9 @@ const Navbar = () => {
             <Logo />
           <Name />
           <LogoRC size={10} />
-          </div>
+        </div>
+        <hr />
+        <Tab />
         </div>
     </div>
   )
