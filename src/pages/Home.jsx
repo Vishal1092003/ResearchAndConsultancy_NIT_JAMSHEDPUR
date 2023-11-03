@@ -8,7 +8,7 @@ const Home = () => {
 
     <Navbar />
     <div className='h-[80vh] w-[100vw]'>
-      <div className=' flex bg-slate-100 justify-center items-center '>
+      <div className=' flex bg-slate-50 justify-center items-center '>
         <div className=' min-h-[74vh] md:flex-row flex-col shadow-md flex shadow-blue-300 rounded-lg m-3'>
           <CarouselComponents />
           <div>
@@ -20,7 +20,7 @@ const Home = () => {
         </div>
       </div>
       <div className='pt-5'>
-        <div className='min-h-[80vh] bg-slate-100'>
+        <div className='min-h-[80vh] '>
           <div className='flex bg-sky-300 shadow-md p-2 mx-4 rounded-lg font-extrabold text-3xl font-serif justify-center items-center'>
             Director Message
           </div>
@@ -29,7 +29,7 @@ const Home = () => {
         </div>
       </div>
       <div className='pt-5'>
-        <div className='min-h-[80vh] flex bg-slate-100'>
+        <div className='min-h-[80vh] flex'>
           <div className='flex my-2 bg-sky-300 shadow-md p-2 mx-4 text-center rounded-lg font-extrabold text-3xl font-serif justify-center items-center'>
             Dean Message
           </div>
@@ -40,7 +40,7 @@ const Home = () => {
         </div>
       </div>
       <div className='pt-5'>
-        <div className='min-h-[80vh]  bg-slate-100'>
+        <div className='min-h-[80vh]  '>
           <div className='flex my-2 bg-sky-300 shadow-md p-2 mx-4 text-center rounded-lg font-extrabold text-3xl font-serif justify-center items-center'>
             Professor
           </div>
@@ -51,7 +51,7 @@ const Home = () => {
         </div>
       </div>
       <div className='pt-5'>
-        <div className='min-h-[80vh] flex  bg-slate-100'>
+        <div className='min-h-[80vh] flex '>
           <div className=''>
             <Message />
             <Message />
