@@ -3,7 +3,7 @@ import img from '../../assets/img.jpeg'
 const Message = () => {
     return (
         <div className='w-full flex p-4 justify-center '>
-            <div className='flex flex-col md:flex-row shadow-md bg-sky-100 rounded-md w-[90%]'>
+            <div className='flex flex-col md:flex-row shadow-lg bg-sky-100 rounded-md w-[90%]'>
                 <div className='h-full flex justify-center items-center flex-col min-w-[13rem] py-5 px-4 rounded-md'>
                     <img className=' rounded-lg' src={img} width={150} height={400} alt="" />
                     <div className='w-full flex p-2 justify-center font-semibold text-lg'>
