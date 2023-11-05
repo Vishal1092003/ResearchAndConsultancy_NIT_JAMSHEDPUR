@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
-import ashoksir from '../../assets/Teacher/Ashoksir.png'
+import ashoksir from '../../assets/AshokSir.png'
 import Footer from '../Footer/Footer'
 import { AiFillPhone, AiOutlineMail, AiOutlineProfile, AiFillGolden, AiFillCaretRight } from 'react-icons/ai'
 
@@ -18,11 +18,11 @@ const Profile = () => {
           <p>Assistant Professor</p>
           <h3>Mechanical Engineering</h3>
           <p> <AiFillPhone />91+6206676494</p>
-          <a href="https://www.flipkart.com/"><AiOutlineMail /> lavkushraj1155@gmail.com</a>
+          <a href="/"><AiOutlineMail /> lavkushraj1155@gmail.com</a>
         </div>
         <div className='ppt'>
-          <a href="https://www.flipkart.com/"><AiFillGolden /> Achievements</a>
-          <a href="https://www.flipkart.com/"><AiOutlineProfile />Biodata</a>
+          <a href="/"><AiFillGolden /> Achievements</a>
+          <a href="/"><AiOutlineProfile />Biodata</a>
 
         </div>
       </div>
