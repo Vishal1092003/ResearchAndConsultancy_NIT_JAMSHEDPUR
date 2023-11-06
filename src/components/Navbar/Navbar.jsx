@@ -1,4 +1,4 @@
-
+import { motion } from 'framer-motion'
 import Tab from '../Tab/Tab'
 import Logo from './LogoNIT'
 import LogoRC from './LogoR&C'
@@ -14,14 +14,26 @@ const Navbar = () => {
     sm:px-2
     px-4
     ">
+        <motion.div
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, type: "spring" }}
+          className='h-full w-full'>
           <div className='flex flex-row justify-between items-center gap-3 md:gap-0'>
             <Logo />
-          <Name />
-          <LogoRC size={10} />
-        </div>
-        <hr />
-        <Tab />
-        </div>
+            <Name />
+            <LogoRC size={10} />
+          </div>
+          <hr />
+        </motion.div>
+        <motion.div
+          initial={{ x: -500, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ type: "spring", duration: 1.3 }}
+          className='h-full w-full'>
+          <Tab />
+        </motion.div>
+      </div>
     </div>
   )
 }
