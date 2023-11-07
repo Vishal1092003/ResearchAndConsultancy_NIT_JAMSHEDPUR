@@ -1,67 +1,17 @@
 'use client'
+import { Carousel } from 'react-responsive-carousel'
 import '../../App.css'
+import { Sheet } from '../../Data/SponseredResearchData.json'
+import SponseredResearchCard from '../SponseredResearchCard/SponseredResearchCard'
 const Notice = () => {
-    const notice = [
-        {
-            title: "SIH1",
-            description: "SIH is a student information hub. It is a platform for students to share their knowledge and resources with the world. It is a place where students can find information, resources, and support about their studies, career, and personal life."
-        },
-        {
-            title: "SIH2",
-            description: "SIH is a student information hub. It is a platform for students to share their knowledge and resources with the world. It is a place where students can find information, resources, and support about their studies, career, and personal life."
-        },
-        {
-            title: "SIH3",
-            description: "SIH is a student information hub. It is a platform for students to share their knowledge and resources with the world. It is a place where students can find information, resources, and support about their studies, career, and personal life."
-        },
-        {
-            title: "SIH4",
-            description: "SIH is a student information hub. It is a platform for students to share their knowledge and resources with the world. It is a place where students can find information, resources, and support about their studies, career, and personal life."
-        },
-        {
-            title: "SIH5",
-            description: "SIH is a student information hub. It is a platform for students to share their knowledge and resources with the world. It is a place where students can find information, resources, and support about their studies, career, and personal life."
-        },
-        {
-            title: "SIH6",
-            description: "SIH is a student information hub. It is a platform for students to share their knowledge and resources with the world. It is a place where students can find information, resources, and support about their studies, career, and personal life."
-        },
-        {
-            title: "SIH7",
-            description: "SIH is a student information hub. It is a platform for students to share their knowledge and resources with the world. It is a place where students can find information, resources, and support about their studies, career, and personal life."
-        },
-        {
-            title: "SIH8",
-            description: "SIH is a student information hub. It is a platform for students to share their knowledge and resources with the world. It is a place where students can find information, resources, and support about their studies, career, and personal life."
-        },
-        {
-            title: "SIH9",
-            description: "SIH is a student information hub. It is a platform for students to share their knowledge and resources with the world. It is a place where students can find information, resources, and support about their studies, career, and personal life."
-        },
-        {
-            title: "SIH10",
-            description: "SIH is a student information hub. It is a platform for students to share their knowledge and resources with the world. It is a place where students can find information, resources, and support about their studies, career, and personal life."
-        },
-    ]
     return (
         <div className='pb-10 w-full'>
-            <div className="
-                max-w-[2520px]
-                mx-auto
-                xl:px-20
-                md:px-10
-                sm:px-2
-                px-4
-                ">
-                <div className='w-full rounded-lg h-[56vh] border p-5 overflow-scroll no-scrollbar'>
+            <div className='w-[95%] rounded-lg h-[56vh] border p-5 bg-slate-50/50 shadow-md overflow-hidden no-scrollbar'>
+                <Carousel showIndicators={false} className='md:w-[700px] rounded-xl w-full px-4' useKeyboardArrows showStatus={false} swipeable transitionTime={800} autoPlay showThumbs={false} infiniteLoop>
                     {
-                        notice.map((item, index) => (
-                            <div key={index} className='border-b-2 border-gray-200 animate py-4 flex flex-col gap-2 '>
-                                <div className='text-2xl font-bold'>{item.title}</div>
-                                <div>{item.description}</div>
-                            </div>))
+                        Sheet.map((item, index) => (<SponseredResearchCard title={item.TITLE} principalInvestigator={item.PRINCIPALINVESTIGATOR} fundingAgency={item.FUNDINGAGENCY} amount={item.AMOUNT} key={index} />))
                     }
-                </div>
+                </Carousel>
             </div>
         </div>
     )

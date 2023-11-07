@@ -1,13 +1,15 @@
-.animate {
+/* .animate {
   position: relative;
   animation: rotatetion 20s 2s infinite;
 }
+
+*/
 
 * {
   scroll-behavior: smooth;
 }
 
-@keyframes rotatetion {
+/* @keyframes rotatetion {
   from {
     bottom: 0px;
 
@@ -17,6 +19,8 @@
     bottom: 1530px;
   }
 }
+
+*/
 .logo {
   height: 6em;
   padding: 1.5em;
