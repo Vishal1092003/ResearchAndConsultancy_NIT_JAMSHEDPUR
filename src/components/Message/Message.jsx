@@ -3,9 +3,9 @@ import img from '../../assets/img.jpeg'
 const Message = () => {
     return (
         <motion.div
-            initial={{ x: 500, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 1 }}>
+            initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: .7 }}>
         <div className='w-full flex p-4 justify-center '>
                 <div className='flex flex-col md:flex-row shadow-lg bg-sky-100 rounded-md w-[90%]'>
                 <div className='h-full flex justify-center items-center flex-col min-w-[13rem] py-5 px-4 rounded-md'>
