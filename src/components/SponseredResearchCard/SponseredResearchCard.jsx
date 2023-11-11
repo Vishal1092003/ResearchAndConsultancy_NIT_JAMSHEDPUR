@@ -2,22 +2,22 @@
 const SponseredResearchCard = ({ title, principalInvestigator, fundingAgency, amount }) => {
     return (
 
-<table className="w-[100%] text-start">
+        <table className="w-[100%] min-h-[53vh] text-start">
     <tr>
-        <td className="border p-2 pr-8">Title: </td>
-        <td className="border p-2">{title}</td>
+                <td className="border pl-5 pr-8 font-medium  text-xl">Title: </td>
+                <td className="border p-2 font-medium text-md">{title}</td>
     </tr>
     <tr>
-        <td className="border p-2 pr-8">Principal Investigator: </td>
-        <td className="border p-2">{principalInvestigator}</td>
+                <td className="border pl-5 pr-8 font-medium  text-xl">Principal Investigator: </td>
+                <td className="border p-2 font-medium text-md">{principalInvestigator}</td>
     </tr>
     <tr>
-        <td className="border p-2 pr-8">Funding Agency: </td>
-        <td className="border p-2">{fundingAgency}</td>
+                <td className="border pl-5 pr-8 font-medium  text-xl">Funding Agency: </td>
+                <td className="border p-2 font-medium text-md">{fundingAgency}</td>
     </tr>
     <tr>
-        <td className="border p-2 pr-8">Amount: </td>
-        <td className="border p-2">₹{amount}</td>
+                <td className="border pl-5 pr-8 font-medium  text-xl">Amount: </td>
+                <td className="border p-2 font-medium text-lg">₹{amount}</td>
     </tr>
 </table>
 
