@@ -38,7 +38,6 @@ html {
     transform: scale(.3) translateZ(0px);
     background-color: #A0E9FF;
 }
-
 .logoTab:nth-child(1) {
     border-radius: 40vmin 0 0 0;
     transform-origin: 110% 110%;
