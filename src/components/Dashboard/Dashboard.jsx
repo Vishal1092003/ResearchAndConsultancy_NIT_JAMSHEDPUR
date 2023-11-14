@@ -2,61 +2,69 @@ import { Link } from 'react-router-dom'
 import logo from '../../assets/logoRC.png'
 import './style.css'
 import ReactCurvedText from 'react-curved-text'
+import { useEffect, useState } from 'react'
 const Dashboard = () => {
+    const [deviceType, setDeviceType] = useState("desktop");
+    useEffect(() => {
+        const handleResize = () => {
+            const width = window.innerWidth;
+            if (width <= 768) {
+                setDeviceType("mobile");
+            } else if (width > 768 && width <= 1024) {
+                setDeviceType("tablet");
+            } else {
+                setDeviceType("desktop");
+            }
+        };
+        handleResize();
+        window.addEventListener("resize", handleResize);
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
     return (<>
         <div className='  w-full h-full flex justify-center items-center '>
             <div className="wrap">
                 <Link className=' logoTab flex justify-center group items-center ' to={'/home'}>
                     <ReactCurvedText
-                    width={300}
-                    height={300}    
-                    text='Office Dean'
-                    cx={250}
-                    cy={250}
-                    rx={180}
-                    ry={170}
-                    reversed={true}
-                    startOffset={30}
-                    textProps={{"style":{ "fontSize":"2rem"}}}
-                        // width={300}
-                        // height={300}
-                        // cx='255'
-                        // cy='255'
-                        // rx='145'
-                        // ry='150'
-                        // startOffset='37'
-                        // reversed={true}
-                        // tspanProps={{ "dy": "-30" }}
-                        // text='Office Dean'
-                        // textProps={{ "style": { "fontSize": 28 } }}
-                         />
-                </Link>
-                <Link className='  logoTab bg-blue-300 group  flex justify-center items-center' to='/home'>
-                    <ReactCurvedText 
                         width={300}
                         height={300}
-                        cx='280'
-                        cy='300'
-                        rx='190'
-                        ry='200'
-                        startOffset='30'
+                        text='Office Dean'
+                        cx={ deviceType == "mobile"? 220 :  250}
+                        cy={ deviceType == "mobile"? 225 : 250}
+                        rx={ deviceType == "mobile" ? 190 : 180}
+                        ry={ deviceType == "mobile"? 155 : 170}
+                        reversed={true}
+                        startOffset={30}
+                        textProps={{ "style": { "fontSize": deviceType == "desktop"? "2rem": deviceType == "tablet"?"1.8rem":"1rem" } }}
+                    />
+                </Link>
+                <Link className='  logoTab bg-blue-300 group  flex justify-center items-center' to='/home'>
+                    <ReactCurvedText
+                        width={300}
+                        height={300}
+                        cx={ deviceType == "mobile"? 240 :  280}
+                        cy={ deviceType == "mobile"? 250 : 300}
+                        rx={ deviceType == "mobile" ? 195 : 198}
+                        ry={ deviceType == "mobile"? 140 : 205}
+                        startOffset='32'
                         reversed={true}
                         text='Research Expertise'
-                        tspanProps={{ "dy": "-30" }}
-                        textProps={{ "style": { "fontSize": 28 } }}
+                        tspanProps={{ "dy": "-32" }}
+                        textProps={{ "style": { "fontSize": deviceType == "mobile" ? "0.88rem": "2rem" } }}
                     />
                 </Link>
                 <Link className=' logoTab flex group justify-center items-center' to='/home'>
                     <ReactCurvedText width={300}
                         height={300}
-                        cx={40}
-                        cy={260}
-                        rx={195}
-                        ry={195}
+                        cx={ deviceType == "mobile"? -80 :  40}
+                        cy={ deviceType == "mobile"? 220 : 260}
+                        rx={ deviceType == "mobile" ? 180 : 195}
+                        ry={ deviceType == "mobile"? 135 : 195}
                         startOffset='350'
                         reversed={true}
                         text='Area of Research'
-                        textProps={{ "style": { "fontSize": 30 } }}
+                        textProps={{ "style": { "fontSize": deviceType == "mobile"?"1rem" : "2rem" } }}
                         textPathProps={null}
                         tspanProps={null}
                         ellipseProps={null}
@@ -65,14 +73,14 @@ const Dashboard = () => {
                 <Link className=' logoTab flex group justify-center items-center' to='/home'>
                     <ReactCurvedText width={300}
                         height={300}
-                        cx={280}
-                        cy={20}
-                        rx={205}
-                        ry={215}
+                        cx={ deviceType == "mobile"? 265 :  280}
+                        cy={ deviceType == "mobile"? 65 : 20}
+                        rx={ deviceType == "mobile" ? 225 : 205}
+                        ry={ deviceType == "mobile"? 138 : 215}
                         startOffset='20'
                         reversed={false}
                         text='Sponsored Research'
-                        textProps={{ "style": { "fontSize": 30 } }}
+                        textProps={{ "style": { "fontSize": deviceType == "mobile"?"0.88rem":"2rem" } }}
                         tspanProps={{ "dy": "30" }}
                         textPathProps={null}
                         ellipseProps={null}
@@ -81,14 +89,14 @@ const Dashboard = () => {
                 <Link className=' logoTab group flex justify-center items-center' to='/home'>
                     <ReactCurvedText width={300}
                         height={300}
-                        cx='15'
-                        cy='30'
-                        rx='225'
-                        ry='230'
+                        cx={ deviceType == "mobile"? -58 :  15}
+                        cy={ deviceType == "mobile"? 10 : 30}
+                        rx={ deviceType == "mobile" ? 188: 225}
+                        ry={ deviceType == "mobile"? 200: 230}
                         startOffset='378'
                         reversed={false}
                         text='Research Consultancy'
-                        textProps={{ "style": { "fontSize": 30 } }}
+                        textProps={{ "style": { "fontSize": deviceType == "mobile"?"0.88rem": "2rem"} }}
                         textPathProps={null}
                         tspanProps={{ "dy": "10" }}
                         ellipseProps={null}
@@ -97,14 +105,14 @@ const Dashboard = () => {
                 <Link className=' logoTab group bg-blue-300' to='/home'>
                     <ReactCurvedText width={300}
                         height={300}
-                        cx={290}
-                        cy={-10}
-                        rx={180}
-                        ry={255}
+                        cx={ deviceType == "mobile"? 170 :  290}
+                        cy={ deviceType == "mobile"? -100 : -10}
+                        rx={ deviceType == "mobile" ? 135 : 180}
+                        ry={ deviceType == "mobile"? 180 : 255}
                         startOffset='110'
                         reversed={false}
                         text='Collaboration'
-                        textProps={{ "style": { "fontSize": 30 } }}
+                        textProps={{ "style": { "fontSize": deviceType == "mobile"?"0.88rem": "2rem" } }}
                         tspanProps={{ "dy": "50" }}
                         textPathProps={null}
                         ellipseProps={null}
@@ -113,14 +121,14 @@ const Dashboard = () => {
                 <Link to='/home' className=' logoTab group bg-blue-300' >
                     <ReactCurvedText width={300}
                         height={300}
-                        cx='35'
-                        cy='60'
-                        rx='230'
-                        ry='220'
+                        cx={ deviceType == "mobile"? -90 :  35}
+                        cy={ deviceType == "mobile"? -88 : 60}
+                        rx={ deviceType == "mobile" ? 210 : 230}
+                        ry={ deviceType == "mobile"? 205: 220}
                         startOffset='430'
                         reversed={false}
                         text='Patent(IPRCELL)'
-                        textProps={{ "style": { "fontSize": 30 } }}
+                        textProps={{ "style": { "fontSize": deviceType == "mobile"?"0.88rem":"2rem" } }}
                         textPathProps={null}
                         tspanProps={{ "dy": "30" }}
                         ellipseProps={null}
@@ -129,15 +137,15 @@ const Dashboard = () => {
                 <Link to='/home' className=' logoTab group bg-blue-300'>
                     <ReactCurvedText width={300}
                         height={300}
-                        cx={10}
-                        cy={310}
-                        rx={220}
-                        ry={190}
+                        cx={ deviceType == "mobile"? -88 :  10}
+                        cy={ deviceType == "mobile"? 215 : 310}
+                        rx={ deviceType == "mobile" ? 195 : 220}
+                        ry={ deviceType == "mobile"? 179 : 190}
                         startOffset='355'
                         reversed={true}
                         text='Research Facilities'
-                        textProps={{ "style": { "fontSize": 28 } }}
-                        tspanProps={{ "dy": "-30","dx":"30" }}
+                        textProps={{ "style": { "fontSize":deviceType == "mobile"?"0.88rem":"2rem"} }}
+                        tspanProps={{ "dy": "-30", "dx": "30" }}
                         textPathProps={null} />
                 </Link>
                 <Link to='/home' className='logoTab'>
