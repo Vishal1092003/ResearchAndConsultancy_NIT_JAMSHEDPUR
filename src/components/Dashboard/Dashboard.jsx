@@ -35,7 +35,7 @@ const Dashboard = () => {
                         rx={ deviceType == "mobile" ? 190 : 180}
                         ry={ deviceType == "mobile"? 155 : 170}
                         reversed={true}
-                        startOffset={30}
+                        startOffset={35}
                         textProps={{ "style": { "fontSize": deviceType == "desktop"? "2rem": deviceType == "tablet"?"1.8rem":"1rem" } }}
                     />
                 </Link>
@@ -57,9 +57,9 @@ const Dashboard = () => {
                 <Link className=' logoTab flex group justify-center items-center' to='/home'>
                     <ReactCurvedText width={300}
                         height={300}
-                        cx={ deviceType == "mobile"? -80 :  40}
-                        cy={ deviceType == "mobile"? 220 : 260}
-                        rx={ deviceType == "mobile" ? 180 : 195}
+                        cx={ deviceType == "mobile"? -75 :  40}
+                        cy={ deviceType == "mobile"? 228 : 260}
+                        rx={ deviceType == "mobile" ? 188 : 195}
                         ry={ deviceType == "mobile"? 135 : 195}
                         startOffset='350'
                         reversed={true}
@@ -121,7 +121,7 @@ const Dashboard = () => {
                 <Link to='/home' className=' logoTab group bg-blue-300' >
                     <ReactCurvedText width={300}
                         height={300}
-                        cx={ deviceType == "mobile"? -90 :  35}
+                        cx={ deviceType == "mobile"? -82 :  35}
                         cy={ deviceType == "mobile"? -88 : 60}
                         rx={ deviceType == "mobile" ? 210 : 230}
                         ry={ deviceType == "mobile"? 205: 220}
