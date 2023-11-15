@@ -1,0 +1,40 @@
+
+#footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #22376c;
+    display: flex;
+    flex-direction: column;
+}
+#footer > div:nth-child(1){
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+}
+#footer > div:nth-child(2){
+    border-top: solid #7c94d1;
+    height: 40%;
+}
+#footer > div:nth-child(1) > div{
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+#footer > div:nth-child(1) > div:nth-child(1) > b{
+    font-size: medium;
+}
+#footer > div:nth-child(1) > div:nth-child(1){
+    font-size: small;
+}
+#footer > div:nth-child(1) > div:nth-child(2) > a{
+    font-size: small;
+    line-height: 15px;
+    color: aliceblue;
+    text-decoration: none;
+}
+#footer > div:nth-child(1) > div:nth-child(3) > a{
+    font-size: medium;
+    line-height: 30px;
+    letter-spacing: 10px;
+    color: aliceblue;
+}
