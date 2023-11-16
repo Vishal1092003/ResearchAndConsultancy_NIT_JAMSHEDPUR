@@ -2,7 +2,7 @@
 const SponseredResearchCard = ({ title, principalInvestigator, fundingAgency, amount }) => {
     return (
 
-        <table className="w-[100%] min-h-[53vh] text-start">
+        <table className="w-full min-h-[30vh] text-start">
     <tr>
                 <td className="border pl-5 pr-8 font-medium  text-xl">Title: </td>
                 <td className="border p-2 font-medium text-md">{title}</td>

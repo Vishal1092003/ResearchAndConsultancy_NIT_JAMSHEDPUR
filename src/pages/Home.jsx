@@ -11,17 +11,12 @@ const Home = () => {
     <div className='h-[80vh]  w-[100vw]'>
       <div className=' flex bg-yellow-50/50  justify-center items-center '>
         <div className='p-12 md:flex-row flex-col gap-x-2 shadow-md flex rounded-lg'>
-          <CarouselComponents />
-          <motion.div
-            initial={{ x: 500, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 1, type: "spring", delay: ".2" }}
-          >
-            <div className='bg-sky-200 text-black mt-2 font-semibold text-2xl p-2 text-center'>
-              Sponsored Research Projects
-            </div>
+          <div>
+            <CarouselComponents />
+          </div>
+          <div>
             <Notice />
-          </motion.div>
+          </div>
         </div>
       </div>
       <div
