@@ -31,8 +31,6 @@ const Footer = () => {
                     <FaLinkedinIn className="mr-4 text-2xl" />
                     </Link>
                 </div>
-            </div>
-            <div>s</div>
         </div>
 
     )
