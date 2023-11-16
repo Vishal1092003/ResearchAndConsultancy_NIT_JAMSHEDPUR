@@ -1,6 +1,7 @@
 .Home {
     transform: rotate(-45deg);
 }
+
 body,
 html {
     margin: 0;
@@ -17,10 +18,11 @@ html {
     }
 }
 
+
 .wrap {
     position: relative;
-    width: 80vmin;
-    height: 80vmin;
+    width: 75vmin;
+    height: 75vmin;
     background: inherit;
     transition: transform .5s, opacity .5s;
     opacity: 0.7;
@@ -38,35 +40,35 @@ html {
     transform: scale(.3) translateZ(0px);
     background-color: #A0E9FF;
 }
+
 .logoTab:nth-child(1) {
     border-radius: 40vmin 0 0 0;
     transform-origin: 110% 110%;
     transition: transform .4s .15s;
     z-index: 1;
+    background-image: url('../../assets/menu/office_dean.png');
+    background-size: cover;
+
 }
 
 .logoTab:nth-child(2) {
-    border-radius: 40vmin 0 0 0;
-        left: -12%;
-            top: -12%;
-        transform-origin: 110% 110%;
-        transition: transform .4s .15s;
-    }
-    
-        .logoTab:nth-child(3) {
+    border-radius: 100vmin 0 0 0;
+    left: -13%;
+    top: -12%;
+    transform-origin: 110% 110%;
+    transition: transform .4s .15s;
+    background-image: url('../../assets/menu/reserch_experties.png');
+    background-size: cover;
+}
+
+.logoTab:nth-child(3) {
     border-radius: 0 40vmin 0 0;
     left: 52.5%;
     transform-origin: -10% 110%;
     transition: transform .4s .2s;
     z-index: 1;
-}
-
-.logoTab:nth-child(8) {
-    border-radius: 0 40vmin 0 0;
-    left: 64.5%;
-        top: -12%;
-    transform-origin: -10% 110%;
-    transition: transform .4s .2s;
+    background-image: url('../../assets/menu/area_of_reserch.png');
+    background-size: cover;
 }
 
 .logoTab:nth-child(4) {
@@ -75,14 +77,8 @@ html {
     transform-origin: 110% -10%;
     transition: transform .4s .25s;
     z-index: 1;
-}
-
-.logoTab:nth-child(6) {
-    border-radius: 0 0 0 40vmin;
-    top: 64.5%;
-        left: -12%;
-    transform-origin: 110% -10%;
-    transition: transform .4s .25s;
+    background-image: url('../../assets/menu/sponcered_reserch.png');
+    background-size: cover;
 }
 
 .logoTab:nth-child(5) {
@@ -92,19 +88,43 @@ html {
     transform-origin: -10% -10%;
     transition: transform .4s .3s;
     z-index: 1;
-    }
-    
-        .logoTab:nth-child(7) {
-        border-radius: 0 0 40vmin 0;
-        top: 64.5%;
-            left: 64.5%;
-        transform-origin: -10% -10%;
-        transition: transform .4s .3s;
+    background-image: url('../../assets/menu/reserchconsultency.png');
+    background-size: cover;
+}
 
+.logoTab:nth-child(6) {
+    border-radius: 0 0 0 100vmin;
+    top: 64.5%;
+    left: -12%;
+    transform-origin: 110% -10%;
+    transition: transform .4s .25s;
+    background-image: url('../../assets/menu/colab.png');
+    background-size: cover;
+}
+
+
+.logoTab:nth-child(7) {
+    border-radius: 0 0 100vmin 0;
+    top: 64%;
+    left: 64%;
+    transform-origin: -10% -10%;
+    transition: transform .4s .3s;
+    background-image: url('../../assets/menu/iprcell.png');
+    background-size: cover;
+
+}
+.logoTab:nth-child(8) {
+    border-radius: 0 100vmin 0 0;
+    left: 66%;
+    top: -12%;
+    transform-origin: -10% 110%;
+    transition: transform .4s .2s;
+    background-image: url('../../assets/menu/reserch_facility.png');
+    background-size: cover;
 }
 
 .logoTab:nth-child(9) {
-    border-radius: 50vmin;
+    border-radius: 100vmin;
     width: 55%;
     height: 55%;
     top: 22.5%;
@@ -116,7 +136,7 @@ html {
 }
 
 .logoTab:hover {
-    background: #1f6479;
+    background-color: #1f6479;
     transition: background 0.7s;
 }
 
