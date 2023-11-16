@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { } from 'react-icons/ri'
 const Tab = () => {
     return (
-        <div className='flex justify-between h-10 px-5 py-6  items-center'>
+        <div className=' hidden md:flex justify-between h-10 px-5 py-6  items-center'>
             <Link to={'/home'} className=' transition  duration-200  py-1 px-2 hover:text-black/80  hover:bg-slate-200 rounded-md cursor-pointer text-slate-700/80 font-semibold ' >
                 Home
             </Link>
