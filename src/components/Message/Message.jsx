@@ -7,9 +7,9 @@ const Message = ({ name, message1, message2 = '', img, designation1, designation
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: .7 }}>
             <div className='w-full flex p-4 min-h-[70vh] justify-center '>
-                <div className='flex flex-col md:flex-row shadow-lg bg-sky-100 rounded-md w-[90%]'>
-                    <div className='h-full flex justify-center items-center flex-col min-w-[25rem] min-h-[20rem] py-5 px-4 rounded-md'>
-                        <img className=' rounded-full' src={img} width={1000} height={1000} alt="" />
+                <div className='flex items-center justify-center flex-col md:flex-row shadow-lg bg-sky-100 rounded-md w-[90%]'>
+                    <div className='h-full flex justify-center items-center flex-col min-w-[25rem] md:min-w-[25rem] min-h-[20rem] py-5 px-4 rounded-md'>
+                        <img className=' rounded-full max-w-[15rem] md:max-w-[20rem]' src={img} width={1000} height={1000} alt="" />
                         <div className='w-full flex-col text-center flex p-2 justify-center font-semibold text-lg'>
                             <div>
                                 {name}

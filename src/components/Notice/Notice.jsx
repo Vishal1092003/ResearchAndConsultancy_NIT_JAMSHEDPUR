@@ -11,7 +11,7 @@ const Notice = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 1, type: "spring", delay: ".2" }}
         >
-            <div className='bg-sky-200 text-black mt-2 font-semibold text-2xl p-2 text-center'>
+            <div className='bg-sky-200 text-black mt-2 font-semibold text-lg md:text-2xl p-2 text-center'>
                 Sponsored Research Projects
             </div>
             <Carousel showIndicators={false} className='md:max-w-[700px] rounded-xl' useKeyboardArrows showStatus={false} swipeable transitionTime={800} autoPlay showThumbs={false} infiniteLoop>
