@@ -21,7 +21,7 @@ const Home = () => {
 
 
       <div
-        className='pt-5 px-4 bg-yellow-50/50 '>
+        className='pt-5 px-4 w-full bg-yellow-50/50 '>
         <div className='min-h-[70vh] flex flex-col justify-center items-center'>
           <div className='flex bg-sky-200 w-full shadow-md p-2 mx-4 rounded-lg  font-medium text-3xl font-serif justify-center items-center'>
             Director Message
