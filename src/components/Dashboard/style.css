@@ -136,8 +136,9 @@ html {
 }
 
 .logoTab:hover {
-    background-color: #1f6479;
-    transition: background 0.7s;
+    background-color: #ead40f;
+    transition:  0.2s;
+    
 }
 
 .wrap:hover {
