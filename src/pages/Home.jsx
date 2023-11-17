@@ -8,7 +8,7 @@ const Home = () => {
   return (<>
     <div className='h-[100vh] w-[100vw]'>
       <Navbar />
-      <div className=' flex bg-yellow-50/50  justify-center items-center '>
+      <div className=' z-10 flex bg-yellow-50/50  justify-center items-center '>
         <div className='md:p-12 p-0 md:flex-row flex-col gap-x-2 shadow-md flex rounded-lg'>
           <div className='w-96 md:w-full'>
             <CarouselComponents />
