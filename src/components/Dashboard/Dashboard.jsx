@@ -1,14 +1,16 @@
 import { Link } from 'react-router-dom'
 import logo from '../../assets/logoRC.png'
 import './style.css'
-
+import { motion } from 'framer-motion'
 const Dashboard = () => {
     return (<>
         <div className='  w-full h-full flex justify-center items-center '>
             <div className="wrap">
                 {/* Office Dean */}
+
                 <Link className=' logoTab flex justify-center group items-center hover:invert ' to={'/home'}>
                 </Link>
+
                 {/* Research Expertise */}
                 <Link className='  logoTab bg-blue-300 group  flex justify-center items-center  hover:invert' to='/home'>
                 </Link>
@@ -29,7 +31,7 @@ const Dashboard = () => {
                 </Link>
                 {/* Research Facilities */}
                 <Link to='/home' className=' logoTab group bg-blue-300 hover:invert'>
-                {/* Center logo */}
+                    {/* Center logo */}
                 </Link>
                 <Link to='/home' className='logoTab '>
                     <img src={logo} alt="" />
