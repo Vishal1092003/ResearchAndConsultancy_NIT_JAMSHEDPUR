@@ -33,9 +33,9 @@ const Dashboard = () => {
                 <Link to='/home' className=' logoTab group bg-blue-300 hover:invert'>
                     {/* Center logo */}
                 </Link>
-                <Link to='/home' className='logoTab '>
+                <div className='logoTab '>
                     <img src={logo} alt="" />
-                </Link>
+                </div>
             </div>
         </div>
     </>
