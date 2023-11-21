@@ -7,10 +7,8 @@ const Dashboard = () => {
         <div className='  w-full h-full flex justify-center items-center '>
             <div className="wrap">
                 {/* Office Dean */}
-
                 <Link className=' logoTab flex justify-center group items-center hover:invert ' to={'/home'}>
                 </Link>
-
                 {/* Research Expertise */}
                 <Link className='  logoTab bg-blue-300 group  flex justify-center items-center  hover:invert' to='/home'>
                 </Link>
