@@ -1,0 +1,75 @@
+.faculties {
+    width: 13rem;
+    height: 17rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    >.card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: aquamarine;
+        width: 250px;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        padding: 30px 50px;
+        background-color: rgba(165, 243, 252, 0.635);
+        transition: .5s;
+
+        &:hover {
+            height: 250px;
+        }
+
+        &:hover>.image>h2 {
+            opacity: 0;
+        }
+
+        &:hover>.content {
+            opacity: 1;
+            transform: translateY(-40px);
+        }
+
+        >.image {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            transform: translateY(-10px);
+
+            >h2 {
+                margin: 1rem 0 0 2rem;
+                width: 15rem;
+                display: flex;
+                padding: 10px;
+            }
+
+            >img {
+                border-radius: 10px;
+                box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+            }
+        }
+
+        .content {
+            position: relative;
+            width: 15rem;
+            height: 50px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            flex-direction: column;
+            transform: translateY(-200px);
+            opacity: 0;
+            transition: .5s;
+        }
+    }
+}
