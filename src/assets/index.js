@@ -1,4 +1,4 @@
-import DirectorSir from "./DirectorSir.png";
+import DirectorSir from "./DirectorSir.jpg";
 import DeanSir from "./DeanSir.png";
 import DrKanika from "./Dr.Kanika.jpeg";
 import OmSir from "./Om-Gupta-10.jpg";
