@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import logo from '../../assets/logoRC.png'
 import './style.css'
-import { motion } from 'framer-motion'
 const Dashboard = () => {
     return (<>
         <div className='  w-full h-full flex justify-center items-center '>
