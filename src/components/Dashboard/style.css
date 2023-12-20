@@ -46,7 +46,8 @@ html {
     transform-origin: 110% 110%;
     transition: transform .4s .15s;
     z-index: 1;
-    background-image: url('../../assets/menu/office_dean.png');
+    background-image: url('../../assets/menu/office_of_dean.png');
+    zoom: 12;
     background-size: cover;
 
 }
