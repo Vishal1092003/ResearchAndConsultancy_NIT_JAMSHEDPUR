@@ -1,0 +1,19 @@
+{
+    "resarchArea" : [
+        { "RA": "Robotics" },
+        { "RA": "Energy" },
+        { "RA": "Material Scince" },
+        { "RA": "Biological science" },
+        { "RA": "Engineering" },
+        { "RA": "Chemistry" },
+        { "RA": "Psycology" },
+        { "RA": "Artificial Inteligence" },
+        { "RA": "Computer Science" },
+        { "RA": "Micro biology" },
+        { "RA": "Data science" },
+        { "RA": "Earth science" },
+        { "RA": "Technology" },
+        { "RA": "Microbiology" }
+    ]
+
+}

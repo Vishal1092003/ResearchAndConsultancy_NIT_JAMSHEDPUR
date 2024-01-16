@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
-import ashoksir from '../../assets/AshokSir.png'
+import ashoksir from '../../assets/AshokSir.jpg'
 import Footer from '../Footer/Footer'
 import { AiFillPhone, AiOutlineMail, AiOutlineProfile, AiFillGolden, AiFillCaretRight } from 'react-icons/ai'
 

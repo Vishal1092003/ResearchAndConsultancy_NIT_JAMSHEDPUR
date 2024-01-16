@@ -1,13 +1,14 @@
 import { FaArrowDown } from 'react-icons/fa6'
+import { HashLink } from 'react-router-hash-link'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 const Tab = () => {
     return (
         <div className=' hidden md:flex justify-between h-10 px-5 py-6  items-center'>
             <motion.div whileHover={{ scale: 1.1 }}>
-            <Link to={'/home'} className=' transition  duration-200  py-1 px-2 hover:text-black/80  hover:bg-slate-200 rounded-md cursor-pointer text-slate-700/80 font-semibold ' >
+            <HashLink to={'/home'} className=' transition  duration-200  py-1 px-2 hover:text-black/80  hover:bg-slate-200 rounded-md cursor-pointer text-slate-700/80 font-semibold ' >
                 Home
-            </Link>
+            </HashLink>
             </motion.div>
             <motion.div whileHover={{ scale: 1.1 }}>
             <Link to={'/expertise'} className=' transition  duration-200 py-1 px-1 hover:text-black/80  hover:bg-slate-200 rounded-md cursor-pointer text-slate-700/80 font-semibold '>

@@ -4,22 +4,8 @@ import Navbar from "../components/Navbar/Navbar"
 import Sidebar from "../components/Sidebar/Sidebar"
 import Profile from "../components/Teacher/Profile"
 import { AiFillProfile } from "react-icons/ai"
-const resarchArea = [
-    { "RA": "Robotics" },
-    { "RA": "Energy" },
-    { "RA": "Material Scince" },
-    { "RA": "Biological science" },
-    { "RA": "Engineering" },
-    { "RA": "Chemistry" },
-    { "RA": "Psycology" },
-    { "RA": "Artificial Inteligence" },
-    { "RA": "Computer Science" },
-    { "RA": "Micro biology" },
-    { "RA": "Data science" },
-    { "RA": "Earth science" },
-    { "RA": "Technology" },
-    { "RA": "Microbiology" },
-]
+import ReserchAreaData from "../Data/ReserchAreaData.json"
+import TeacherData from "../Data/TeacherData.json"
 const Expretise = () => {
     return (
         <>
@@ -28,11 +14,11 @@ const Expretise = () => {
                 <div className="flex bg-yellow-50/50">
                     <div className="w-[20%] m-3">
                         <div className="w-full text-center p-3  font-medium text-xl rounded-xl bg-sky-300">
-                            Resarch Area
+                            Research Area
                         </div>
                         <div className="p-4 ">
                             {
-                                resarchArea.map((item, index) => (<Sidebar Icon={AiFillProfile} ResarchArea={item.RA} key={index} />))
+                                ReserchAreaData.resarchArea.map((item, index) => (<Sidebar Icon={AiFillProfile} ResarchArea={item.RA} key={index} />))
                             }</div>
                     </div>
                     <div className=" border-l-2 border-sky-100 m-2">
@@ -44,7 +30,7 @@ const Expretise = () => {
                         </div>
                         <div className="flex mt-5 gap-5 flex-wrap">
                             {
-                                resarchArea.map((item, index) => (<div key={index} className="w-[20%] m-3"><Card /></div>))
+                                TeacherData.DataSheet.map((item, id) => (<Card  name={item.NAME} photo={item.PHOTO} designation={item.DESIGNATION} department={item.DEPARTMENT} key={id}/>))
                             }
                         </div>
                     </div>
