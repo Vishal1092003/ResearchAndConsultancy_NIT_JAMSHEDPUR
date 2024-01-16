@@ -5,65 +5,34 @@ const Dashboard = () => {
     return (<>
         <div className='  w-full h-full flex justify-center items-center '>
             <div className="wrap">
-                <Link className=' logoTab flex justify-center group items-center ' to={'/home'}>
-                    <div className='w-[220px] h-[100px]  flex justify-center items-center text-2xl text-white font-bold absolute top-[28%] left-[10%]'>
-                        <div className=' -rotate-45 flex gap-1 tracking-wider group-hover:text-white text-slate-600 '>
-                            Office Dean
-                        </div>
-                    </div>
+                {/* Office Dean */}
+                <Link className=' logoTab flex justify-center group items-center hover:invert ' to={'/home'}>
                 </Link>
-                <Link className='  logoTab bg-blue-300 group  flex justify-center items-center' to='/home'>
-                    <div className='w-[300px] h-[100px] flex justify-center items-center text-2xl text-white font-bold  absolute top-[28%] -left-[6%]'>
-                        <div className=' -rotate-45 tracking-wider group-hover:text-white text-slate-600 '>
-                            Research Expertise
-                        </div>
-                    </div>
+                {/* Research Expertise */}
+                <Link className='  logoTab bg-blue-300 group  flex justify-center items-center  hover:invert' to='/home'>
                 </Link>
-                <Link className=' logoTab flex group justify-center items-center' to='/home'>
-                    <div className='w-[220px] h-[100px] flex justify-center items-center text-2xl text-white font-bold absolute top-[28%] right-[12%]'>
-                        <div className=' rotate-45  group-hover:text-white text-slate-600 '>
-                            Area of Research
-                        </div>
-                    </div>
+                {/* Area of Research */}
+                <Link className=' logoTab flex group justify-center items-center hover:invert' to='/home'>
                 </Link>
-                <Link className=' logoTab flex group justify-center items-center' to='/home'>
-                    <div className='w-[240px] h-[100px] flex justify-center items-center text-2xl text-white font-bold absolute bottom-[30%] left-[6%]'>
-                        <div className=' rotate-45  group-hover:text-white text-slate-600 '>
-                            Sponsored Research
-                        </div>
-                    </div>
+                {/* Sponsored Research */}
+                <Link className=' logoTab flex group justify-center items-center hover:invert' to='/home'>
                 </Link>
-                <Link className=' logoTab group flex justify-center items-center' to='/home'>
-                    <div className='w-[260px] h-[100px] flex justify-center items-center text-2xl text-white font-bold absolute bottom-[30%] right-[4%]'>
-                        <div className=' -rotate-45  group-hover:text-white text-slate-600 '>
-                            Research Consultancy
-                        </div>
-                    </div>
+                {/* Research Consultancy */}
+                <Link className=' logoTab group flex justify-center items-center hover:invert' to='/home'>
                 </Link>
-                <Link className=' logoTab group bg-blue-300' to='/home'>
-                    <div className='w-[100px] h-[100px] flex justify-center items-center text-2xl text-white font-bold absolute bottom-[25%] left-[25%]'>
-                        <div className=' rotate-45  group-hover:text-white text-slate-600 '>
-                            Collaboration
-                        </div>
-                    </div>
+                {/* Collaboration */}
+                <Link className=' logoTab group bg-blue-300 hover:invert' to='/home'>
                 </Link>
-                <Link to='/home' className=' logoTab group bg-blue-300' >
-                    <div className='w-[100px] h-[100px] flex justify-center items-center text-2xl text-white font-bold absolute bottom-[25%] right-[25%]'>
-                        <div className=' -rotate-45  group-hover:text-white text-slate-600 '>
-                            Patent(IPRCELL)
-                        </div>
-                    </div>
+                {/* Patent */}
+                <Link to='/home' className=' logoTab group bg-blue-300 hover:invert' >
                 </Link>
-                <Link to='/home' className=' logoTab group bg-blue-300'>
-                    <div className='w-[220px] h-[100px] flex justify-center items-center text-2xl text-white font-bold absolute top-[28%] left-[23%]'>
-                        <div className=' rotate-45  group-hover:text-white text-slate-600 '>
-                            Research Facilities
-                        </div>
-                    </div>
+                {/* Research Facilities */}
+                <Link to='/home' className=' logoTab group bg-blue-300 hover:invert'>
+                    {/* Center logo */}
                 </Link>
-                <Link to='/home' className='logoTab'>
+                <div className='logoTab '>
                     <img src={logo} alt="" />
-                </Link>
+                </div>
             </div>
         </div>
     </>

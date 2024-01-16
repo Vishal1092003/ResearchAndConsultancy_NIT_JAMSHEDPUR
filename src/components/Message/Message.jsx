@@ -1,26 +1,46 @@
-
-import img from '../../assets/img.jpeg'
-const Message = () => {
+import { motion } from 'framer-motion'
+// import img from '../../assets/img.jpeg'
+const Message = ({ name, message1, message2 = '', img, designation1, designation2 }) => {
     return (
-        <div className='w-full flex p-4 justify-center '>
-            <div className='flex flex-col md:flex-row shadow-lg bg-sky-100 rounded-md w-[90%]'>
-                <div className='h-full flex justify-center items-center flex-col min-w-[13rem] py-5 px-4 rounded-md'>
-                    <img className=' rounded-lg' src={img} width={150} height={400} alt="" />
-                    <div className='w-full flex p-2 justify-center font-semibold text-lg'>
-                        Prof.MK Sinha
+        <motion.div
+            initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: .7 }}>
+            <div className='w-full flex p-4 min-h-[70vh] justify-center '>
+                <div className='flex items-center justify-center flex-col md:flex-row shadow-lg bg-sky-100 rounded-md w-[90%]'>
+                    <div className='h-full flex justify-center items-center flex-col min-w-[22rem] md:min-w-[25rem] min-h-[20rem] py-5 px-4 rounded-md'>
+                        <img className=' rounded-xl max-w-[15rem] md:max-w-[20rem]' src={img} width={1000} height={1000} alt="" />
+                        <div className='w-full flex-col text-center flex p-2 justify-center font-semibold text-lg'>
+                            <div>
+                                {name}
+                            </div>
+                            {
+                                message1 !== null ? (<></>) : <>
+                                    <div className=' font-normal'>
+                                        {designation1}
+                                    </div>
+                                    <div className=' font-normal'>
+                                        {designation2}
+                                    </div></>
+                            }
+                        </div>
                     </div>
-                </div>
-                <div className=''>
-                    <div className='py-5 px-4 h-[500px] flex justify-center items-center overflow-scroll'>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde totam non in magnam est tenetur rem sunt et quaerat! Vitae, ullam. Enim magni officia asperiores doloremque impedit, non dolor corporis.
-                        Necessitatibus nam mollitia, rerum vero blanditiis iure quibusdam corrupti enim fuga nisi ullam expedita nihil, recusandae dolores placeat sit, illum iusto. Maxime, quisquam. Iusto corrupti, impedit dolorum quam dicta distinctio.
-                        Aperiam, necessitatibus voluptatum nihil perspiciatis sit, officiis ratione ut incidunt, esse quos corporis ipsa expedita nemo nobis maxime libero itaque accusamus! Maiores doloremque assumenda incidunt totam at aut tempore blanditiis.
-                        Perspiciatis dolor quae provident repellat atque quisquam, possimus officiis nisi reiciendis aliquam, temporibus quia consequuntur vero optio beatae dolores inventore voluptatum consectetur sapiente cupiditate. Sit quos nobis iste asperiores beatae?
-                        Fugit omnis necessitatibus eius unde cum? Laudantium numquam rem fuga ipsam accusantium omnis repudiandae, iusto vel aspernatur molestias earum est illum nulla maiores, necessitatibus sunt laborum at labore cumque odit
-                    </div>
-                </div>
+                    {
+                        message1 === null ? (<>
+                        </>) : <div className='m-5'>
+                                <div className='py-5 text-lg font-serif font-medium px-4 h-[300px] md:h-[500px] flex justify-center  items-center overflow-scroll'>
+                                    <div className=' tracking-wide'>
+                                        {message1}
+                                        <br />
+                                        <br />
+                                        {message2}
+                                    </div>
+                                </div>
+                            </div>
+                    }
             </div>
-        </div>
+            </div>
+        </motion.div>
     )
 }
 
