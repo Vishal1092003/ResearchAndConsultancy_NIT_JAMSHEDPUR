@@ -1,0 +1,25 @@
+{
+    "DataSheet":[
+        { "id":1,
+            "NAME":"Ashok Kumar Mandal",
+            "PHOTO":"",
+            "DESIGNATION":"Assistant Professor",
+            "DEPARTMENT":"Mechanical Engineering"
+
+        },
+        {"id":2,
+            "NAME":"Dinesh Kumar",
+            "PHOTO":"",
+            "DESIGNATION":"Assistant Professor",
+            "DEPARTMENT":"Computer Science and Engineering"
+
+        },
+        {"id":3,
+            "NAME":"Bhupali Dutta",
+            "PHOTO":"",
+            "DESIGNATION":"Assistant Professor",
+            "DEPARTMENT":"Civil Engineering"
+
+        }
+    ]
+}
