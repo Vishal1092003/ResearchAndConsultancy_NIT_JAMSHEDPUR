@@ -1,5 +1,5 @@
 import AshokSir from "../assets/AshokSir.jpg";
-import DrKanika from "../assets/Dr.Kanika.jpeg";
+import Dineshsir from "../assets/Dineshsir.jpg";
 import ArunPandit from "../assets/ArunPandit.png";
 const data = {
   DataSheet: [
@@ -12,10 +12,10 @@ const data = {
     },
     {
       id: 2,
-      NAME: "Dr.Kanika",
-      PHOTO: DrKanika,
+      NAME: "Dinesh kumar",
+      PHOTO: Dineshsir,
       DESIGNATION: "Assistant Professor",
-      DEPARTMENT: "Computer Science and Engineering",
+      DEPARTMENT: "Computer Science ",
     },
     {
       id: 3,
