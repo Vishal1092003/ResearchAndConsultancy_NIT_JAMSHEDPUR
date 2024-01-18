@@ -2,7 +2,7 @@ import React from 'react'
 import {Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent} from '../ui/card.jsx'
 const Cardpatent = () => {
   return (<>
-   <Card className='w-60 h-72'>
+   <Card className='w-60 h-72 hover:shadow-lg hover:bg-emerald-100 bg-emerald-200'>
             <CardHeader>
                 <div>
                     <CardTitle>Title</CardTitle>
