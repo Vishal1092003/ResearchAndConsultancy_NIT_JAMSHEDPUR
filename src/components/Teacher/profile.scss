@@ -1,14 +1,13 @@
 
 
 .teacher {
-    width: 100vw;
-    height: 100%;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 25rem;
-    padding: 25rem 0 25rem 0;
+    margin: 5rem 0rem 5rem;
+   
     
     .profile {
         width: 80%;
@@ -52,6 +51,35 @@
             flex-direction: column;
             justify-content: center;
             justify-content: space-between;
+            >h2{
+              font-size: 1.2rem;
+              font-weight: 700;
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+              align-items: center;
+            }
+            >p{
+              font-size: 20px;
+              font-weight: 450;
+            }
+            >h3{
+              font-size: 21px;
+              font-weight: 500;
+            }
+            >div{
+              font-size: 21px;
+              font-weight: 400;
+              >svg{
+                
+                font-size: 21px;
+                font-weight: 400;
+              }
+            }
+            >a{
+              font-size: 20px;
+              
+            }
         }
 
         >.ppt {

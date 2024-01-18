@@ -2,14 +2,14 @@ import { Link } from 'react-router-dom'
 
 
 import './card.scss'
-const Card = (name,photo,designation,department) => {
+const Card = ({name,photo,designation,department}) => {
     return (
-        <Link to={"/Biodata"} className="link  text-black">
+        <Link to={"/teacher"}>
             <div className="faculties"  >
                 <div className="card">
                     <div className="image">
-                        <img src={photo} alt="ashoksir" />
-                        <h2 className=' font-medium text-xl text-slate-600/90'>{name}</h2>
+                        <img src={photo} alt={name} />
+                        <h2 className=' font-medium text-xl text-slate-600/90 '>{name}</h2>
                     </div>
                     <div className="content text-black">
                         <h2 className='text-lg '>{name}</h2>

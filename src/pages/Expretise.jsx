@@ -25,10 +25,10 @@ const Expretise = () => {
 
                     </div>
                     <div className="w-[80%] m-3">
-                        <div className="w-full text-center p-3 font-semibold text-2xl rounded-xl bg-sky-300">
+                        <div className="w-full text-center p-3 font-semibold text-2xl rounded-xl bg-sky-300 ">
                             Professors
                         </div>
-                        <div className="flex mt-5 gap-5 flex-wrap">
+                        <div className="flex mt-5 gap-20 flex-wrap ">
                             {
                                 TeacherData.DataSheet.map((item, id) => (<Card  name={item.NAME} photo={item.PHOTO} designation={item.DESIGNATION} department={item.DEPARTMENT} key={id}/>))
                             }

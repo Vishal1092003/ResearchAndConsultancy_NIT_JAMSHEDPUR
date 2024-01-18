@@ -23,7 +23,7 @@ const Home = () => {
               </div>
             </HashLink>
 
-            <HashLink to={"./#rahul"}>
+            <HashLink to={"./#AssociateProfessor"}>
               <div className="w-96 h-14 ml-56   rounded-lg flex justify-center align-centre bg-slate-200 gap-5  text-2xl border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50  cursor-pointer">
                 Associate Professor
               </div>
@@ -75,7 +75,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div id="rahul" className="pt-5 bg-yellow-50/50">
+        <div id="AssociateProfessor" className="pt-5 bg-yellow-50/50">
           <div className="min-h-[20vh] flex-col flex justify-center items-center  ">
             <div className="flex w-[97vw] bg-sky-200 shadow-md text-center p-2 mx-4 rounded-lg  font-medium text-3xl font-serif justify-center items-center">
               Associate Professor

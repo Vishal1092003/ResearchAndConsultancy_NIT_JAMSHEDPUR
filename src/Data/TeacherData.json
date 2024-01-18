@@ -1,8 +1,10 @@
+
+
 {
     "DataSheet":[
         { "id":1,
             "NAME":"Ashok Kumar Mandal",
-            "PHOTO":"",
+            "PHOTO":"assets/AshokSir.png",
             "DESIGNATION":"Assistant Professor",
             "DEPARTMENT":"Mechanical Engineering"
 
