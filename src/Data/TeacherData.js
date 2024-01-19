@@ -19,7 +19,7 @@ const data = {
     },
     {
       id: 3,
-      NAME: "Bhupali Dutta",
+      NAME: "Arun Pandit",
       PHOTO: ArunPandit,
       DESIGNATION: "Assistant Professor",
       DEPARTMENT: "Civil Engineering",
