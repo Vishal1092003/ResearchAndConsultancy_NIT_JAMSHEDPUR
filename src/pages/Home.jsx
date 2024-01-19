@@ -20,7 +20,7 @@ const Home = () => {
                     src={DirectorSir}
                     alt="Direc photo"
                   />
-                  <div> Director Message</div>
+                  <div> Director's Message</div>
                 </div>
               </HashLink>
 
@@ -30,7 +30,7 @@ const Home = () => {
               <div className=" flex justify-center items-center">
                 <HashLink to={"./#AssociateProfessor"}>
                   <div className="w-96 h-14   rounded-lg flex justify-center align-centre bg-slate-200 gap-5  text-2xl border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50  cursor-pointer">
-                    <div> Associate Professor</div>
+                    <div> Dean,R&C</div>
                   </div>
                 </HashLink>
               </div>
@@ -42,7 +42,7 @@ const Home = () => {
         <div id="directormessage" className="pt-5 px-4 w-full bg-yellow-50/50 ">
           <div className="min-h-[70vh] flex flex-col justify-center items-center">
             <div className="flex bg-sky-200 w-full shadow-md p-2 mx-4 rounded-lg  font-medium text-3xl font-serif justify-center items-center">
-              Director Message
+              Director's Message
             </div>
             <Message
               img={DirectorSir}
@@ -78,7 +78,7 @@ const Home = () => {
         <div id="AssociateProfessor" className="pt-5 bg-yellow-50/50">
           <div className="min-h-[20vh] flex-col flex justify-center items-center  ">
             <div className="flex w-[97vw] bg-sky-200 shadow-md text-center p-2 mx-4 rounded-lg  font-medium text-3xl font-serif justify-center items-center">
-              Associate Professor
+            Dean,R&C
             </div>
             <div className="flex md:flex-row flex-col">
               <Message
