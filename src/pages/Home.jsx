@@ -11,31 +11,29 @@ const Home = () => {
       <div className="h-[100vh] w-[100vw]  ">
         <Navbar />
         <div className=" z-10 flex bg-yellow-50/50  justify-center items-center flex-col ">
-          <div className="w-full  h-32 flex-wrap bg-blue-50/50  flex gap-5">
-            <HashLink to={"./#directormessage"}>
-              <div className="w-96 h-14    rounded-lg flex justify-center align-centre gap-5 bg-slate-200 text-2xl border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50 cursor-pointer">
-                <img
-                  className="w-50 h-12 rounded-md  "
-                  src={DirectorSir}
-                  alt="Direc photo"
-                />
-                <div> Director Message</div>
-               
-              </div>
-            </HashLink>
-
-            <HashLink to={"./#AssociateProfessor"}>
-              <div className="w-96 h-14   rounded-lg flex justify-center align-centre bg-slate-200 gap-5  text-2xl border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50  cursor-pointer">
-               
-                <div> Associate Professor</div>
-              </div>
-            </HashLink>
-          </div>
           <div className="md:p-12 p-0 md:flex-row flex-col gap-x-2 shadow-md flex rounded-lg">
-            <div className="w-96 md:w-full">
+            <div className="w-96 md:w-full flex justify-center items-center flex-col">
+              <HashLink to={"./#directormessage"}>
+                <div className="w-96 h-14    rounded-lg flex justify-center align-centre gap-5 bg-slate-200 text-2xl border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50 cursor-pointer">
+                  <img
+                    className="w-50 h-12 rounded-md  "
+                    src={DirectorSir}
+                    alt="Direc photo"
+                  />
+                  <div> Director Message</div>
+                </div>
+              </HashLink>
+
               <CarouselComponents />
             </div>
-            <div className="w-96 md:w-full">
+            <div className="w-96 md:w-full ">
+              <div className=" flex justify-center items-center">
+                <HashLink to={"./#AssociateProfessor"}>
+                  <div className="w-96 h-14   rounded-lg flex justify-center align-centre bg-slate-200 gap-5  text-2xl border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50  cursor-pointer">
+                    <div> Associate Professor</div>
+                  </div>
+                </HashLink>
+              </div>
               <Notice />
             </div>
           </div>
