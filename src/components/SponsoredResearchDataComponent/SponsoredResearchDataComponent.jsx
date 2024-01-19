@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { FaArrowDown } from 'react-icons/fa6';
-import { motion } from 'framer-motion'
+ import { FaArrowDown } from 'react-icons/fa6';
+ import { motion } from 'framer-motion'
 const SponsoredResearchDataComponent = ({ index, title, principalInvestigator, fundingAgency, amount }) => {
     const [isOpen, setIsOpen] = useState(false);
     return (<>
@@ -14,9 +14,9 @@ const SponsoredResearchDataComponent = ({ index, title, principalInvestigator, f
                         {title}
                     </div>
                 </div>
-                <motion.div whileTap={{ scale: 0.8 }} >
+                 <motion.div whileTap={{ scale: 0.8 }} >
                     <FaArrowDown size={20} className={`${isOpen ? `rotate-180 scale-110` : `rotate-0`} transition duration-300`} />
-                </motion.div>
+                </motion.div> 
             </div>
         </div>
         <div className={`${isOpen ? 'md:h-[15vh] h-[10vh] ' : 'h-0 '} shadow-lg rounded-b-lg w-[98%] m-auto  flex-col  transition-all duration-300  bg-amber-100`}>
@@ -42,7 +42,7 @@ const SponsoredResearchDataComponent = ({ index, title, principalInvestigator, f
                         Amount:
                     </div>
                     <div className=' text-center font-medium'>
-                        {amount}
+                    ₹{amount}
                     </div>
                 </div>
             </div>
