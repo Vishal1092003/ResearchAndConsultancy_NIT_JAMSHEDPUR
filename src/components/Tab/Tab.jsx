@@ -46,8 +46,8 @@ const Tab = () => {
                 </div>
                 <div
                     className='  group-hover:flex flex-col bg-yellow-100  absolute top-[11.4rem] hidden'>
-                    <Link to={'/industry'} className='hover:scale-105 py-2 px-5 hover:shadow-xl transition duration-100 hover:shadow-amber-200 font-medium text-md text-center rounded-lg hover:bg-amber-200 text-slate-600 hover:text-black cursor-pointer tracking-wide'>Industry</Link>
-                    <Link to={'/academia'} className=' hover:scale-105 py-2 px-5 hover:shadow-xl transition duration-100 hover:shadow-amber-200 font-medium text-md text-center rounded-lg hover:bg-amber-200 text-slate-600 hover:text-black cursor-pointer tracking-wide'>Academia</Link>
+                    <Link to={'/academia'} className='hover:scale-105 py-2 px-5 hover:shadow-xl transition duration-100 hover:shadow-amber-200 font-medium text-md text-center rounded-lg hover:bg-amber-200 text-slate-600 hover:text-black cursor-pointer tracking-wide'>Academia</Link>
+                    <Link to={'/industry'} className=' hover:scale-105 py-2 px-5 hover:shadow-xl transition duration-100 hover:shadow-amber-200 font-medium text-md text-center rounded-lg hover:bg-amber-200 text-slate-600 hover:text-black cursor-pointer tracking-wide'>Industry</Link>
                     <Link to={'/researchinstitute'} className=' hover:scale-105 hover:shadow-xl transition duration-100 hover:shadow-amber-200 py-2 px-5 font-medium text-md text-center rounded-lg hover:bg-amber-200 text-slate-600 hover:text-black cursor-pointer'>Research Institute</Link>
                 </div>
             </div>

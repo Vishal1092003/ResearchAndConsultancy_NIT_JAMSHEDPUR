@@ -1,0 +1,76 @@
+{
+    "industryMOU":[
+        {
+            "id":1,
+            "organisation":" Advance Tech India Pvt. Ltd. Chandigarh",
+            "place":"Chandigarh",
+            "executionTime":"18.12.2018  ",
+            "logo":"-",
+            "regarding":"Working on joint R&D proposals, technical support in setting up labs and resource centers etc."
+        },
+        {
+            "id":2,
+            "organisation":"Indo-Danish Tool Room (IDTR) Jamshedpur ",
+            "place":"Jamshedpur",
+            "executionTime":" 29.01.2021 ",
+            "logo":"-",
+            "regarding":"To promote industry-academia collaboration."
+        },
+        {
+            "id":3,
+            "organisation":"Damodar Valley Corporation (DVC)  ",
+            "place":"-",
+            "executionTime":"13.08.2022 ",
+            "logo":"-",
+            "regarding":"To promote industry- academia collaboration."
+        },
+        {
+            "id":4,
+            "organisation":"POWERGRID Corporation of India Ltd",
+            "place":"-",
+            "executionTime":"13.08.2022",
+            "logo":"-",
+            "regarding":"Establishment of Wi-fi facility at Institute campus, under CSR activity. The estimated cost of the project is Rs. 4.53 Crore."
+        },
+        {
+            "id":5,
+            "organisation":"RSB Transmissions Ltd. ",
+            "place":"-",
+            "executionTime":"02.11.2022",
+            "logo":"-",
+            "regarding":"Industry-academia collaboration"
+        },
+        {
+            "id":6,
+            "organisation":"Jharkhand Police ",
+            "place":"-",
+            "executionTime":"16.01.23  ",
+            "logo":"-",
+            "regarding":"Technical collaboration"
+        },
+        {
+            "id":7,
+            "organisation":"National Highways & Infrastructure Development Corporation Limited (NHIDCL) ",
+            "place":"-",
+            "executionTime":"31.07.2023 ",
+            "logo":"-",
+            "regarding":"-"
+        },
+        {
+            "id":8,
+            "organisation":"Chittaranjan Locomotive Works (CLW), Chittaranjan ",
+            "place":"Chittaranjan",
+            "executionTime":"16.09.2023",
+            "logo":"-",
+            "regarding":"-"
+        },
+        {
+            "id":9,
+            "organisation":"UGC-Human Resource Development Centre (UGC-HRDC), JNVU Jodhpur  ",
+            "place":"Jodhpur",
+            "executionTime":"03.10.2023",
+            "logo":"-",
+            "regarding":"-"
+        }
+    ]
+}

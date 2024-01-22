@@ -24,7 +24,7 @@ const Home = () => {
                 </div>
               </HashLink>
 
-              <CarouselComponents />
+               <CarouselComponents /> 
             </div>
             <div className="w-96 md:w-full ">
               <div className=" flex justify-center items-center">
