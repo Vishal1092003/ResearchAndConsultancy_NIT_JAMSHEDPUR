@@ -1,0 +1,44 @@
+{
+    "reserchInstituteMOU":[
+        {
+            "id":1,
+            "organisation":" CSIR-NML Jamshedpur ",
+            "place":"Jamshedpur",
+            "executionTime":"11.12.2018",
+            "logo":"-",
+            "regarding":"Academic exchange, joint research and access to each other’s facilities."
+        },
+        {
+            "id":2,
+            "organisation":" CSIR - Institute of Minerals and Materials Technology (CSIR-IMMT), Bhubaneswar",
+            "place":"Bhubaneswar",
+            "executionTime":"18.04.23",
+            "logo":"-",
+            "regarding":"Academic and research collaboration"
+        },
+        {
+            "id":3,
+            "organisation":"CSIR-Central Institute of Mining and Fuel Research (CSIR-CIMFR) Dhanbad  ",
+            "place":"-",
+            "executionTime":"23-11-2023 ",
+            "logo":"-",
+            "regarding":"-"
+        },
+        {
+            "id":4,
+            "organisation":"CSIR-Central Mechanical Engineering Research Institute (CSIR-CMERI) Durgapur ",
+            "place":"-",
+            "executionTime":"23-11-2023 ",
+            "logo":"-",
+            "regarding":"-"
+        },
+        {
+            "id":5,
+            "organisation":" CSIR-Central Glass & Ceramic Research Institute (CGCRI) ",
+            "place":"-",
+            "executionTime":"23-11-2023 ",
+            "logo":"-",
+            "regarding":"-"
+        }
+    ]
+}

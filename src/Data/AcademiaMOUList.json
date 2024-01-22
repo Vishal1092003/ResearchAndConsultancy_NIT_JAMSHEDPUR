@@ -1,0 +1,100 @@
+{
+    "academiaMOU":[
+        {
+            "id":1,
+            "organisation":"Madan Mohan Malaviya University of Technology Gorakhpur ",
+            "place":"Gorakhpur",
+            "executionTime":"24.02.2019",
+            "logo":"-",
+            "regarding":"Development of joint educational programmes, faculty and student exchange, collaborative research etc."
+        },
+        {
+            "id":2,
+            "organisation":"Indian Institutes of Technology Delhi ",
+            "place":"Delhi",
+            "executionTime":"06.03.2019",
+            "logo":"-",
+            "regarding":"Unnat Bharat Abhiyan."
+        },
+        {
+            "id":3,
+            "organisation":"Ritsumeikan University, Japan ",
+            "place":"Japan",
+            "executionTime":"09.04.2019",
+            "logo":"-",
+            "regarding":"Academic and cultural exchange."
+        },
+        {
+            "id":4,
+            "organisation":"National Institute of Technical Teacher’s Training & Research (NITTTR), Kolkata",
+            "place":"Kolkata",
+            "executionTime":"24.12.2021",
+            "logo":"-",
+            "regarding":"To promote research and training"
+        },
+        {
+            "id":5,
+            "organisation":"IIT Madras ",
+            "place":"Madras",
+            "executionTime":"12.12.2022 ",
+            "logo":"-",
+            "regarding":"student exchange, research collaboration and admission of top 10% B.Tech graduates of NIT Jamshedpur to IIT Madras"
+        },
+        {
+            "id":6,
+            "organisation":"Malaviya National Institute of Technology Jaipur (MNIT Jaipur)",
+            "place":"Jaipur",
+            "executionTime":"13.06.23",
+            "logo":"-",
+            "regarding":"-"
+        },
+        {
+            "id":7,
+            "organisation":"National Institute of Technology (NIT Raipur)  ",
+            "place":"Raipur",
+            "executionTime":"21.08.2023",
+            "logo":"-",
+            "regarding":"-"
+        },
+        {
+            "id":8,
+            "organisation":"National Institute of Technology Warangal (NIT Warangal)  ",
+            "place":"Warangal",
+            "executionTime":"24.09.2023",
+            "logo":"-",
+            "regarding":"-"
+        },
+        {
+            "id":9,
+            "organisation":"Indian Institutes of Technology Kharagpur (IIT Kharagpur) ",
+            "place":"kharagpur",
+            "executionTime":"03.10.2023",
+            "logo":"-",
+            "regarding":"INUP-i2i Programme "
+        },
+        {
+            "id":10,
+            "organisation":"Central University of Jharkhand, Ranchi  ",
+            "place":"Ranchi",
+            "executionTime":"23.11.2023",
+            "logo":"-",
+            "regarding":"-"
+        },
+        {
+            "id":11,
+            "organisation":" National Institute of Advanced Manufacturing Technology, Ranchi",
+            "place":"Ranchi",
+            "executionTime":"23.11.2023",
+            "logo":"-",
+            "regarding":"-"
+        },
+        {
+            "id":12,
+            "organisation":" National Institute of Technology Meghalaya (NIT Meghalaya)",
+            "place":"Meghalaya",
+            "executionTime":"23.11.2023",
+            "logo":"-",
+            "regarding":"-"
+        }
+    ]
+}
