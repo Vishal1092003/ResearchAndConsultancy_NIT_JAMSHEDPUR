@@ -18,7 +18,7 @@ const CollaborationTable = ({index,Organisation,Place,ExecutionTime,Logo,Regardi
   return (
      
  
-  <TableBody className='text-lg font-medium hover:bg-green-100 shadow-md'>
+  <TableBody className='text-lg font-medium hover:bg-green-100 hover:scale-y-125 shadow-md'>
   <TableRow>
     <TableCell className="text-left font-medium">{index+1}</TableCell>
     <TableCell className="text-left">{Organisation}</TableCell>
@@ -28,7 +28,7 @@ const CollaborationTable = ({index,Organisation,Place,ExecutionTime,Logo,Regardi
     <TableCell >
     <Dialog >
 <DialogTrigger className='w-20 h-10 rounded-md shadow-md hover:bg-green-200'>Open</DialogTrigger>
-<DialogContent className='w-full h-[80%]'>
+<DialogContent className='w-full h-[60%] hover:scale-125'>
   <DialogHeader>
     <DialogTitle className='text-3xl'>MOU with:{Organisation}</DialogTitle>
     <DialogDescription className=' text-2xl font-bold '>
