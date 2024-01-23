@@ -17,13 +17,13 @@ const data = {
       DESIGNATION: "Assistant Professor",
       DEPARTMENT: "Computer Science ",
     },
-    {
-      id: 3,
-      NAME: "Arun Pandit",
-      PHOTO: ArunPandit,
-      DESIGNATION: "Assistant Professor",
-      DEPARTMENT: "Civil Engineering",
-    },
+    // {
+    //   id: 3,
+    //   NAME: "Arun Pandit",
+    //   PHOTO: ArunPandit,
+    //   DESIGNATION: "Assistant Professor",
+    //   DEPARTMENT: "Civil Engineering",
+    // },
   ],
 };
 

@@ -21,7 +21,7 @@ const TableIndustry = () => {
       <TableHead>Organisation</TableHead>
       <TableHead>Place</TableHead>
       <TableHead>Execution Date</TableHead>
-      <TableHead className="text-right">Logo</TableHead>
+      <TableHead className="text-right"></TableHead>
       <TableHead></TableHead>
     </TableRow>
   </TableHeader>

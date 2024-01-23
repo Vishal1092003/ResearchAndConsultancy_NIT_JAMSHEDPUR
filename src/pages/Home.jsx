@@ -11,9 +11,8 @@ const Home = () => {
       <div className="h-[100vh] w-[100vw]  ">
         <Navbar />
         <div className=" z-10 flex bg-yellow-50/50  justify-center items-center flex-col ">
-          <div className="md:p-12 p-0 md:flex-row flex-col gap-x-2 shadow-md flex rounded-lg">
-            <div className="w-96 md:w-full flex justify-center items-center flex-col">
-              <HashLink to={"./#directormessage"}>
+        <div className='pt-10 flex gap-5 flex-wrap justify-center '>
+          <HashLink to={"./#directormessage"}>
                 <div className="w-96 h-14  flex justify-center items-center  rounded-lg  align-centre gap-5 bg-slate-200 text-2xl border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50 cursor-pointer">
                   <img
                     className="w-50 h-12 rounded-md  "
@@ -23,17 +22,24 @@ const Home = () => {
                   <div> Director's Message</div>
                 </div>
               </HashLink>
-
-               <CarouselComponents /> 
-            </div>
-            <div className="w-96 md:w-full ">
               <div className=" flex justify-center items-center">
-                <HashLink to={"./#AssociateProfessor"}>
+                <HashLink to={"./#Deanmessage"}>
                   <div className="w-96 h-14   rounded-lg flex items-center justify-center align-centre bg-slate-200 gap-5  text-2xl border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50  cursor-pointer">
-                    <div> Dean,R&C</div>
+                    <div> Dean Message </div>
                   </div>
                 </HashLink>
               </div>
+              <HashLink to={"./#Associatedeans"}>
+                <div className="w-96 h-14  flex justify-center items-center  rounded-lg  align-centre gap-5 bg-slate-200 text-2xl border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50 cursor-pointer">
+                  <div> Associate Deans</div>
+                </div>
+              </HashLink></div>
+          <div className="md:p-x-12 md:pb-12 p-0 md:flex-row flex-col gap-x-2 shadow-md flex rounded-lg">
+           
+            <div className="w-96 md:w-full flex justify-center items-center flex-col">
+               <CarouselComponents /> 
+            </div>
+            <div className="w-96 md:w-full ">   
               <Notice />
             </div>
           </div>
@@ -58,7 +64,7 @@ const Home = () => {
         </div>
         <div className="pt-5 px-4 bg-yellow-50/50">
           <div className="min-h-[70vh]  flex md:flex-row flex-col p-3">
-            <div className="flex bg-sky-200 shadow-md text-center p-2 mx-4 rounded-lg  font-medium text-3xl font-serif justify-center items-center">
+            <div id='Deanmessage'className="flex bg-sky-200 shadow-md text-center p-2 mx-4 rounded-lg  font-medium text-3xl font-serif justify-center items-center">
               Dean Message
             </div>
             <div>
@@ -75,10 +81,10 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div id="AssociateProfessor" className="pt-5 bg-yellow-50/50">
+        <div  className="pt-5 bg-yellow-50/50">
           <div className="min-h-[20vh] flex-col flex justify-center items-center  ">
-            <div className="flex w-[97vw] bg-sky-200 shadow-md text-center p-2 mx-4 rounded-lg  font-medium text-3xl font-serif justify-center items-center">
-              Dean,R&C
+            <div  id='Associatedeans'className="flex w-[97vw] bg-sky-200 shadow-md text-center p-2 mx-4 rounded-lg  font-medium text-3xl font-serif justify-center items-center">
+              Associated Deans
             </div>
             <div className="flex md:flex-row flex-col">
               <Message
