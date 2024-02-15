@@ -13,22 +13,32 @@ const Home = () => {
       <div className="h-[100vh] w-[100vw]  ">
         <Navbar />
         <div className=" z-10 flex bg-yellow-50/50  justify-center items-center flex-col ">
-          <div className="pt-10 flex gap-5 flex-wrap justify-center ">
+          <div className="py-5 flex gap-5 flex-wrap justify-center ">
             <HashLink to={"./#directormessage"}>
-              <div className="w-96 h-14  flex justify-center items-center  rounded-lg  align-centre gap-5 bg-slate-200 text-2xl border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50 cursor-pointer">
-                <div> Director's Message</div>
+              <div className="md:w-96 w-24 h-14  flex justify-center items-center  rounded-lg  align-centre gap-5 bg-slate-200 md:text-2xl text-md font-semibold md:font-medium border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50 cursor-pointer">
+                <div>
+                  {" "}
+                  Director&apos;s{" "}
+                  <span className=" hidden md:inline">Message</span>
+                </div>
               </div>
             </HashLink>
             <div className=" flex justify-center items-center">
               <HashLink to={"./#Deanmessage"}>
-                <div className="w-96 h-14   rounded-lg flex items-center justify-center align-centre bg-slate-200 gap-5  text-2xl border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50  cursor-pointer">
-                  <div> Dean Message </div>
+                <div className="md:w-96 w-24 h-14   rounded-lg flex items-center justify-center align-centre bg-slate-200 gap-5  md:text-2xl text-md font-semibold md:font-medium border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50  cursor-pointer">
+                  <div>
+                    {" "}
+                    Dean <span className=" hidden md:inline">Message</span>{" "}
+                  </div>
                 </div>
               </HashLink>
             </div>
             <HashLink to={"./#Associatedeans"}>
-              <div className="w-96 h-14  flex justify-center items-center  rounded-lg  align-centre gap-5 bg-slate-200 text-2xl border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50 cursor-pointer">
-                <div> Associate Deans</div>
+              <div className="md:w-96 w-28 h-14   rounded-lg flex items-center justify-center align-centre bg-slate-200 gap-5  md:text-2xl text-md font-semibold md:font-medium border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50  cursor-pointer">
+                <div className=" flex justify-center items-center">
+                  <span className=" hidden md:inline">Associate</span>
+                  <span className=" inline md:hidden">Assoc.</span> Deans
+                </div>
               </div>
             </HashLink>
           </div>
