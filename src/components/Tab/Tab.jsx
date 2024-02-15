@@ -36,7 +36,6 @@ const Tab = () => {
                 Patent(IPRCELL)
                 </Link>
             </motion.div>
-
             <div className=' hover:rounded-md transition flex-row flex group duration-200 py-1 px-1 hover:text-black/80  hover:bg-slate-200 cursor-pointer text-slate-700/80 font-semibold '>
                 <div>
                     Collaboration
