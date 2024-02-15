@@ -5,6 +5,7 @@ import Message from '../components/Message/Message'
 import Navbar from '../components/Navbar/Navbar'
 import Notice from '../components/Notice/Notice'
 import { DirectorSir, DeanSir, DrKanika, OmSir, AshokSir, Subhash, RahulMahato, ArunPandit, } from '../assets/index'
+import { LucideFolderMinus } from 'lucide-react'
 const Home = () => {
   return (
     <>
@@ -33,7 +34,8 @@ const Home = () => {
                 <div className="w-96 h-14  flex justify-center items-center  rounded-lg  align-centre gap-5 bg-slate-200 text-2xl border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50 cursor-pointer">
                   <div> Associate Deans</div>
                 </div>
-              </HashLink></div>
+              </HashLink>
+              </div>
           <div className="md:p-x-12 md:pb-12 p-0 md:flex-row flex-col gap-x-2 shadow-md flex rounded-lg">
            
             <div className="w-96 md:w-full flex justify-center items-center flex-col">
@@ -54,10 +56,10 @@ const Home = () => {
               img={DirectorSir}
               name={"Prof. (Dr.) Goutam Sutradhar"}
               message1={
-                "It is a privilege and honour for me to have led the NIT Jamshedpur as a Director of the Institution. NIT Jamshedpur has a rich legacy of more than sixty dedicated years of service to the nation and its pride of Jharkhand. NIT Jamshedpur takes extreme pride in the fact that it has been occupying a unique position in imparting technological education to Indian youth. Since its inception, the institute has had a vision to provide quality technical education and to facilitate scientific and technological research, coupled with a mission to develop human potential to its zenith with excellence in teaching and high quality research."
-              }
+                `ljhvkbnmjghgkjhlkjkl`
+                              }
               message2={
-                "1. To build conducive environment for learning and creativity.  2.To train students to become technically competent professionals and socially responsible citizens. 3. To develop innovative products and technologies for the betterment of the society."
+                `jjn;/j;kj/,m; /m, `
               }
             />
           </div>
