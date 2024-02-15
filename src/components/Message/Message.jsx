@@ -7,7 +7,7 @@ const Message = ({ name, message1, message2 = '', img, designation1, designation
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7 }}
       >
-        <div className="w-full flex p-4 min-h-[50vh] justify-center ">
+        <div className="w-full flex p-4 min-h-[50vh] md:min-h-[60vh] justify-center ">
           <div className="flex items-center justify-center flex-col md:flex-row shadow-lg bg-sky-100 rounded-md w-[90%]">
             <div className="h-full flex justify-center items-center flex-col min-w-[22rem] md:min-w-[25rem] min-h-[20srem] rounded-md">
               <img
