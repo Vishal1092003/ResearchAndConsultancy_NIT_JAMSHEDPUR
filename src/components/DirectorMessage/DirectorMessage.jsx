@@ -23,7 +23,7 @@ const DirectorMessage = () => {
             </div>
           </div>
           <div className="mx-5">
-            <div className="py-5 text-md font-serif font-medium px-4 h-[135dvh] md:h-[470px] flex justify-center text-center md:mt-10 mb-10 md:text-left  items-center ">
+            <div className="py-5 text-md font-serif font-medium px-4 md:h-[470px] flex justify-center text-center md:mt-10 mb-10 md:text-left  items-center ">
               <div className=" tracking-wide">
                 As I reflect upon my tenure as the Director of NIT Jamshedpur,
                 it brings me immense joy to witness and contribute to the
