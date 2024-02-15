@@ -11,7 +11,7 @@ const Scrolldown = () => {
     return (
         <div><Accordion type="single" collapsible>
             <AccordionItem value="item-1">
-                <AccordionTrigger className="text-md">Collaboration</AccordionTrigger>
+                <AccordionTrigger className="text-xl">Collaboration</AccordionTrigger>
                 <Link  to="/academia">
                     <AccordionContent className='text-xl font-bold'>
                         Academia
