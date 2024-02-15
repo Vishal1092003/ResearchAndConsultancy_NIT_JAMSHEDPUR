@@ -11,7 +11,7 @@ const DeanMessage = () => {
       <div className="w-full flex p-4 min-h-[70vh] justify-center ">
         <div className="flex items-center justify-center flex-col-reverse md:flex-row shadow-lg bg-sky-100 rounded-md md:w-[90%] w-[92vw]">
           <div className="mx-5">
-            <div className="py-5 text-md font-serif font-medium px-4 h-[1400px] md:h-[650px] flex justify-center text-center md:mt-10 mb-10 md:text-left  items-center ">
+            <div className="py-5 text-md font-serif font-medium px-4 h-[155dvh]  md:h-[650px] flex justify-center text-center md:mt-10 mb-10 md:text-left  items-center ">
               <div className=" tracking-wide">
                 I am delighted to emphasize our institute's strong dedication to
                 fostering a culture of research and innovation. With an
