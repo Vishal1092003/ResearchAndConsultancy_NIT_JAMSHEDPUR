@@ -13,12 +13,15 @@ import Industry from './pages/Industry'
 import Academia from './pages/Academia'
 import Interdisciplinary from './pages/Interdisciplinary'
 import ResearchInstitute from './pages/ResearchInstitute'
+
+import SideNavbar from './components/sideNavbar/SideNavbar'
 function App() {
 
   return (
     <>
       <Router>
         <Routes>
+       
           <Route path='/' element={<LogoPage />} />
           <Route path='/home' element={<Home />} />
           <Route path='/teacher' element={<Profile />} />
@@ -31,6 +34,7 @@ function App() {
           <Route path='/academia' element={<Academia />} />
           <Route path='/interdisciplinary' element={<Interdisciplinary />} />
           <Route path='/researchinstitute' element={<ResearchInstitute />} />
+          <Route path='/sidenavbar' element={<SideNavbar />} />
         </Routes>
       </Router>
     </>
