@@ -26,14 +26,14 @@ const SideNavbar = () => {
             <SheetTrigger ><AiOutlineMenu className='w-12 h-8' /></SheetTrigger>
             <SheetContent>
                 <SheetHeader>
-                    <SheetTitle className='flex justify-center  items-center text-xl font-bold gap-4'>
+                    <SheetTitle className='flex justify-center  items-center text-md font-bold gap-4'>
                     <img src={logo} width={100} height={100} alt="Logo" className={` w-14  py-3 md:w-28`} />
                         Research and Consultancy 
                         <img src={LogoNIT} alt="Logo" width={100} height={100} className='w-10 py-3 md:w-24' />
                         </SheetTitle>
                     <hr />
                     <div className='w-full h-full'>
-                        <Link className='w-full h-12 rounded-s-full flex justify-start text-center items-center  ' to="/">
+                        <Link className='w-full h-12 rounded-s-full flex justify-start text-center items-center  ' to="/home">
                             <SheetDescription className='text-lg flex gap-1 justify-center items-center font-semibold ml-5 hover:text-black'>
                                <FaHome /> Home
                             </SheetDescription>
