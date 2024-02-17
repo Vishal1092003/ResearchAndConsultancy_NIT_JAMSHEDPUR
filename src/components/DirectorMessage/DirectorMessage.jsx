@@ -23,13 +23,13 @@ const DirectorMessage = () => {
             </div>
           </div>
           <div className="mx-5">
-            <div className="py-5 text-md font-serif font-medium px-4 md:h-[470px] flex justify-center text-center md:mt-10 mb-10 md:text-left  items-center ">
-              <div className=" tracking-wide">
+            <div className="py-5 text-md font-serif font-medium px-4 md:h-[470px] flex md:items-center md:justify-center md:mt-10 mb-10 md:text-left  items-center ">
+              <div className=" leading-5 font-Poppins">
                 As I reflect upon my tenure as the Director of NIT Jamshedpur,
                 it brings me immense joy to witness and contribute to the
                 remarkable achievements and accolades earned by the dedicated
                 students, faculty members and staffs of NIT Jamshedpur, a
-                testament to their unwavering hard work and commitment. The
+                testament to their unwavering hard work and commitment.<br /><br /> The
                 excellence of NIT Jamshedpur is vividly demonstrated through its
                 steadfast dedication to cutting-edge research across a diverse
                 spectrum. Our commitment to fostering an environment of academic
@@ -37,25 +37,27 @@ const DirectorMessage = () => {
                 throughout the institution's history. In recent years, NIT
                 Jamshedpur has taken significant strides towards integrating
                 contemporary methods that infuse new technologies and skills
-                into the curriculum. <br /> Moreover, NIT Jamshedpur has
+                into the curriculum. <br /><br /> Moreover, NIT Jamshedpur has
                 actively pursued collaborations with other esteemed institutes,
-                exemplified by the signing of Memoranda of Understanding (MoUs).
+                exemplified by the signing of Memoranda of Understanding (MoUs).<br />
+                <br />
                 These agreements expand our knowledge base, resources, and
                 access to experts, enriching the educational experience for our
                 bright minds. The collaborations not only enhance research
                 projects but also provide students and faculty members with the
                 opportunities to engage in workshops, fostering a dynamic and
-                collaborative learning environment. In addition, NIT Jamshedpur
+                collaborative learning environment. 
+                <br /><br />In addition, NIT Jamshedpur
                 has a dedicated Intellectual Property Rights (IPR) Cell,
                 reinforcing our commitment to the authorization and protection
                 of research work. This initiative ensures that the innovative
                 ideas generated within our institution are duly recognized and
-                protected. As we continue to chart new territories in academia
+                protected.<br /><br /> As we continue to chart new territories in academia
                 and research, I am optimistic about the future of NIT
                 Jamshedpur. The journey ahead holds endless possibilities, and I
                 am confident that our collective efforts will propel this
                 institution to even greater heights of success and recognition.{" "}
-                <br />
+                <br /><br />
                 Best Wishes
               </div>
             </div>
