@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import LogoPage from './pages/LogoPage'
 import Home from './pages/Home'
 import Profile from './components/Teacher/Profile'
-import "./components/Teacher/profile.scss"
 import Expretise from './pages/Expretise'
 import SponsoredResearch from './pages/SponsoredResearch'
 import Consultancy from './pages/Consultancy'

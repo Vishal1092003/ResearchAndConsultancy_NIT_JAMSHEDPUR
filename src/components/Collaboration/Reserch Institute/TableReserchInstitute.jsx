@@ -15,7 +15,7 @@ const TableReserchInstitute = () => {
     <>
      <Table>
   
-  <TableHeader className='text-2xl bg-green-200'>
+  <TableHeader className='text-2xl bg-sky-200'>
     <TableRow>
       <TableHead >S.NO.</TableHead>
       <TableHead>Organisation</TableHead>

@@ -26,10 +26,9 @@ const SideNavbar = () => {
             <SheetTrigger ><AiOutlineMenu className='w-12 h-8' /></SheetTrigger>
             <SheetContent>
                 <SheetHeader>
-                    <SheetTitle className='flex justify-center  items-center text-md font-bold gap-4'>
+                    <SheetTitle className='flex justify-center p-1 items-center text-md font-bold gap-1'>
                     <img src={logo} width={100} height={100} alt="Logo" className={` w-14  py-3 md:w-28`} />
                         Research and Consultancy 
-                        <img src={LogoNIT} alt="Logo" width={100} height={100} className='w-10 py-3 md:w-24' />
                         </SheetTitle>
                     <hr />
                     <div className='w-full h-full'>

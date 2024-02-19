@@ -82,7 +82,7 @@ const Home = () => {
               id="Associatedeans"
               className="flex w-[97vw] bg-sky-200 shadow-md text-center p-2 mx-4 rounded-lg  font-medium text-3xl font-serif justify-center items-center"
             >
-              Associated Deans
+              Associate Deans
             </div>
             <div className="flex md:flex-row flex-col">
               <Message
