@@ -15,7 +15,7 @@ const ExpertiseSidebar = ({ResarchArea, Icon} ) => {
   return (
     <div><Sheet>
     <SheetTrigger ><BsThreeDotsVertical className='w-12 h-8 ml-4 md:hidden' /></SheetTrigger>
-    <SheetContent side='left' className='mt-32 '>
+    <SheetContent side='left' >
         <SheetHeader>
             <SheetTitle className='flex justify-center  items-center text-xl font-bold gap-4'>
                 Research Areas

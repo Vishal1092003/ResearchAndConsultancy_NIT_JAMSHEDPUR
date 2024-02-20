@@ -7,29 +7,28 @@ import CarouselComponents from "../components/Carousel/CarouselComponents"
 import { AiFillProfile } from "react-icons/ai"
 import ReserchAreaData from "../Data/ReserchAreaData.json"
 import TeacherData from "../Data/TeacherData.js";
-import { useMediaQuery } from '@react-hook/media-query'
-import ExpertiseSidebar from "@/components/Expertise/ExpertiseSidebar"
 import Footer from "@/components/Footer/Footer"
+import ExpertiseNavbar from "@/components/Expertise/ExpertiseNavbar"
 const Expretise = () => {
-  const isSmallScreen = useMediaQuery('(max-width: 768px)');
 
   return (
     <>
       <div className="w-[100vw] h-[100vh]">
-        <Navbar />
+        
+         <ExpertiseNavbar />  
+        
       
 
         <div className="md:flex  bg-yellow-50/50 mt-5 md:mt-0 ">
-        <ExpertiseSidebar  /> 
+        
         
           <div className="w-[20%] m-3 hidden md:block ">
             <div className="w-full text-center p-3   font-medium text-xl rounded-xl bg-sky-300">
               Research Area
             </div>
-            {
-              isSmallScreen ? (<div className="p-4 ">
+            
               
-            </div>)  :(<div className="p-4 ">
+            <div className="p-4 ">
               {ReserchAreaData.resarchArea.map((item, index) => (
                 <Sidebar
                   Icon={AiFillProfile}
@@ -37,8 +36,8 @@ const Expretise = () => {
                   key={index}
                 />
               ))}
-            </div>)
-            }
+            </div>
+            
             
           </div>
           
