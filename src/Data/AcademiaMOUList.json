@@ -1,3 +1,5 @@
+
+
 {
     "academiaMOU":[
         {
@@ -6,7 +8,8 @@
             "place":"Gorakhpur",
             "executionTime":"24.02.2019",
             "logo":"-",
-            "regarding":"Development of joint educational programmes, faculty and student exchange, collaborative research etc."
+            "regarding":"Development of joint educational programmes, faculty and student exchange, collaborative research etc.",
+            "pdfurl":"https://drive.google.com/file/d/1mxO35grmegZnCxWkRkga2smQsCL1KC16/view"
         },
         {
             "id":2,
@@ -14,7 +17,8 @@
             "place":"Delhi",
             "executionTime":"06.03.2019",
             "logo":"-",
-            "regarding":"Unnat Bharat Abhiyan."
+            "regarding":"Unnat Bharat Abhiyan.",
+            "pdfurl":"https://drive.google.com/file/d/1bcFhMoYcaEj6UY7HoahYPJhfGnlMau7g/view"
         },
         {
             "id":3,
@@ -22,7 +26,8 @@
             "place":"Japan",
             "executionTime":"09.04.2019",
             "logo":"-",
-            "regarding":"Academic and cultural exchange."
+            "regarding":"Academic and cultural exchange.",
+            "pdfurl":"https://drive.google.com/file/d/16KfzSVGgsCB2G47odrK295ZE9UYj9UJa/view"
         },
         {
             "id":4,
@@ -30,7 +35,8 @@
             "place":"Kolkata",
             "executionTime":"24.12.2021",
             "logo":"-",
-            "regarding":"To promote research and training"
+            "regarding":"To promote research and training",
+            "pdfurl":"https://drive.google.com/file/d/1zYBC9mYgGbsds4tDG3Oj_mDkqDWPqmOn/view"
         },
         {
             "id":5,
@@ -38,7 +44,8 @@
             "place":"Madras",
             "executionTime":"12.12.2022 ",
             "logo":"-",
-            "regarding":"student exchange, research collaboration and admission of top 10% B.Tech graduates of NIT Jamshedpur to IIT Madras"
+            "regarding":"student exchange, research collaboration and admission of top 10% B.Tech graduates of NIT Jamshedpur to IIT Madras",
+            "pdfurl":"https://drive.google.com/file/d/1YCgDNZwIb06qm0KLRIQIDY78w61g3MUZ/view"
         },
         {
             "id":6,
@@ -46,7 +53,8 @@
             "place":"Jaipur",
             "executionTime":"13.06.23",
             "logo":"-",
-            "regarding":"-"
+            "regarding":"-",
+            "pdfurl":""
         },
         {
             "id":7,
@@ -54,7 +62,8 @@
             "place":"Raipur",
             "executionTime":"21.08.2023",
             "logo":"-",
-            "regarding":"-"
+            "regarding":"-",
+            "pdfurl":"https://drive.google.com/file/d/1PSX-Vmlv0zdZObN7o1546kk7TNEYcz5-/view"
         },
         {
             "id":8,
@@ -62,7 +71,8 @@
             "place":"Warangal",
             "executionTime":"24.09.2023",
             "logo":"-",
-            "regarding":"-"
+            "regarding":"-",
+            "pdfurl":""
         },
         {
             "id":9,
@@ -70,7 +80,8 @@
             "place":"kharagpur",
             "executionTime":"03.10.2023",
             "logo":"-",
-            "regarding":"INUP-i2i Programme "
+            "regarding":"INUP-i2i Programme ",
+            "pdfurl":"https://drive.google.com/file/d/1woSvqEW8h9xKYoddXeqA9whhqrnzT9qI/view"
         },
         {
             "id":10,
@@ -78,7 +89,8 @@
             "place":"Ranchi",
             "executionTime":"23.11.2023",
             "logo":"-",
-            "regarding":"-"
+            "regarding":"-",
+            "pdfurl":"https://drive.google.com/file/d/1f_ej0sEpW9togObVN9R8qBfIJAYex3GV/view"
         },
         {
             "id":11,
@@ -86,7 +98,8 @@
             "place":"Ranchi",
             "executionTime":"23.11.2023",
             "logo":"-",
-            "regarding":"-"
+            "regarding":"-",
+            "pdfurl":""
         },
         {
             "id":12,
@@ -94,7 +107,19 @@
             "place":"Meghalaya",
             "executionTime":"23.11.2023",
             "logo":"-",
-            "regarding":"-"
+            "regarding":"-",
+            "pdfurl":"https://drive.google.com/file/d/1kwr0asTHSXr2hHYf9lJM2IbSYfuzTD8a/view"
+        },
+        {
+            "id":13,
+            "organisation":" Indian Institute of Technology Dnanbad (IIT Dhanbad)",
+            "place":"Dhanbad",
+            "executionTime":"23.11.2023",
+            "logo":"-",
+            "regarding":"-",
+            "pdfurl":"https://drive.google.com/file/d/1BwoNbuKDxHd0ZZOjid73VSuzSunZ2tZr/view"
         }
+    
     ]
-}
+ }
+

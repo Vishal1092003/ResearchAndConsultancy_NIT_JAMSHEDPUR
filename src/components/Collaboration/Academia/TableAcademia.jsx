@@ -24,7 +24,7 @@ const TableAcademia = () => {
     </TableRow>
   </TableHeader>
 
-{AcademiaMOUList.academiaMOU.map((item,index) => (<CollaborationTable  index={index} key={index} Organisation={item.organisation} Place={item.place} ExecutionTime={item.executionTime} Logo={item.logo} Regarding={item.regarding} />))}
+{AcademiaMOUList.academiaMOU.map((item,index) => (<CollaborationTable  index={index} key={index} Organisation={item.organisation} Place={item.place} ExecutionTime={item.executionTime} Logo={item.logo} Regarding={item.regarding} Pdfurl={item.pdfurl} />))}
 
 </Table> 
 
@@ -36,3 +36,12 @@ const TableAcademia = () => {
 }
 
 export default TableAcademia
+
+
+/*
+14
+15https://drive.google.com/file/d/1GxbUB1RyJavRMi4xk3q0eoqR6RLvFqxs/view
+16https://drive.google.com/file/d/1uIolfNsFO3IEywMLDf6E2ttxwBFFbPYI/view
+17
+18
+*/
