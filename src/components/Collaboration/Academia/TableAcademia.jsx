@@ -38,10 +38,5 @@ const TableAcademia = () => {
 export default TableAcademia
 
 
-/*
-14
-15https://drive.google.com/file/d/1GxbUB1RyJavRMi4xk3q0eoqR6RLvFqxs/view
-16https://drive.google.com/file/d/1uIolfNsFO3IEywMLDf6E2ttxwBFFbPYI/view
-17
-18
-*/
+
+//https://drive.google.com/file/d/1GxbUB1RyJavRMi4xk3q0eoqR6RLvFqxs/view
