@@ -1,5 +1,6 @@
 import Cardpatent from '@/components/Patent/Cardpatent'
 import Navbar from '@/components/Navbar/Navbar'
+import { Link } from 'react-router-dom'
 const Patent = () => {
     return (<>
         <div className="w-[100vw] h-[100vh] ">
@@ -20,6 +21,8 @@ const Patent = () => {
         <Cardpatent />
         <Cardpatent />
         <Cardpatent />
+        
+
         </div>
         </div>
         </>

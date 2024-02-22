@@ -4,7 +4,8 @@ import {
     TableBody,
     TableCell,
     TableRow,
-} from "@/components/ui/table"
+} from "@/components/ui/table";
+import { Link } from 'react-router-dom';
 import {
     Dialog,
     DialogContent,
@@ -14,7 +15,7 @@ import {
     DialogTrigger,
   } from "@/components/ui/dialog"
   
-const CollaborationTable = ({index,Organisation,Place,ExecutionTime,Logo,Regarding}) => {
+const CollaborationTable = ({index,Organisation,Place,ExecutionTime,Logo,Regarding,Pdfurl}) => {
   return (
      
  
@@ -28,14 +29,17 @@ const CollaborationTable = ({index,Organisation,Place,ExecutionTime,Logo,Regardi
     <TableCell >
     <Dialog >
 <DialogTrigger className='w-20 h-10 rounded-md shadow-md hover:bg-green-200'>Details</DialogTrigger>
-<DialogContent className='w-full h-[60%] hover:scale-125'>
+<DialogContent className=' max-w-[80%] h-[60%] flex justify-center flex-col items-center'>
   <DialogHeader>
     <DialogTitle className='text-3xl'>MOU with:{Organisation}</DialogTitle>
-    <DialogDescription className=' text-2xl font-bold '>
-     Regarding:<div className='text-xl font-bold'>{Regarding}</div>
-     
+    <DialogDescription className=' text-2xl font-bold flex'>
+    Regarding:<div className='text-xl font-bold'>{Regarding}</div>
+
     </DialogDescription>
   </DialogHeader>
+  <Link className='w-36 h-10 border flex justify-center flex-col items-center bg-red-500 rounded-md text-md font-semibold' to={Pdfurl} target='_blank'>
+  <button>View pdf</button>
+  </Link>
 </DialogContent>
 </Dialog>
 

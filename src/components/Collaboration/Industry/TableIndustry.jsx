@@ -26,7 +26,7 @@ const TableIndustry = () => {
     </TableRow>
   </TableHeader>
 
-{IndustryMOUList.industryMOU.map((item,index) => (<CollaborationTable  index={index} key={index} Organisation={item.organisation} Place={item.place} ExecutionTime={item.executionTime} Logo={item.logo} Regarding={item.regarding} />))}
+{IndustryMOUList.industryMOU.map((item,index) => (<CollaborationTable  index={index} key={index} Organisation={item.organisation} Place={item.place} ExecutionTime={item.executionTime} Logo={item.logo} Regarding={item.regarding} Pdfurl={item.pdfurl} />))}
 
 </Table> 
 
