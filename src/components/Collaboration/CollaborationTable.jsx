@@ -19,7 +19,7 @@ const CollaborationTable = ({index,Organisation,Place,ExecutionTime,Logo,Regardi
   return (
      
  
-  <TableBody className='text-lg font-medium hover:bg-green-100  shadow-md'>
+  <TableBody className='text-lg font-medium hover:bg-green-100 shadow-md'>
   <TableRow>
     <TableCell className="text-left font-medium">{index+1}</TableCell>
     <TableCell className="text-left">{Organisation}</TableCell>

@@ -40,7 +40,7 @@ const Home = () => {
               </HashLink>
             </div>
 <HashLink to={"./#Associatedeans"}>
-  <div className="md:w-96 w-24 h-14   rounded-lg flex items-center justify-center align-centre bg-slate-200 gap-5  md:text-2xl text-md font-semibold md:font-medium border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50  cursor-pointer">
+  <div className="md:w-96 w-24 h-14 rounded-lg flex items-center justify-center align-centre bg-slate-200 gap-5  md:text-2xl text-md font-semibold md:font-medium border-y-2 hover:shadow-lg transition  duration-200 py-1 px-1   hover: bg-blue-50/50  cursor-pointer">
                   <div>
                     {" "}
                   Associate{" "} <span className=" hidden md:inline">Deans</span>{" "}
@@ -48,10 +48,9 @@ const Home = () => {
                 </div>
 </HashLink>
 
-
           </div>
     <div className='flex'>
-      <div className='ml-5  '>
+      <div className='ml-5'>
          <h1 className='font-bold text-center'>Events: </h1>
       </div>
       <div className='ml-2'>
