@@ -8,10 +8,10 @@ const DeanMessage = () => {
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.7 }}
     >
-      <div className="w-full flex p-4 min-h-[70vh] justify-center ">
+      <div className="w-full flex p-4 justify-center ">
         <div className="flex md:items-center md:justify-center flex-col-reverse md:flex-row shadow-lg bg-sky-100 rounded-md md:w-[90%] w-[92vw]">
           <div className="mx-5">
-            <div className="py-5 text-md font-serif font-medium px-4  md:h-[650px] md:flex justify-start md:justify-center  md:mt-10 mb-10 md:text-left   ">
+            <div className="py-5 text-md font-serif font-medium px-4  md:h-[850px] md:flex justify-start md:justify-center  md:mt-10 mb-10 md:text-left   ">
               <div className="leading-5 font-Poppins">
                 I am delighted to emphasize our institute's strong dedication to
                 fostering a culture of research and innovation. With an
@@ -51,6 +51,7 @@ const DeanMessage = () => {
               </div>
             </div>
           </div>
+          
           <div className="h-full flex justify-center items-center flex-col min-w-[22rem] md:min-w-[25rem] min-h-[5rem]  py-4 rounded-md">
             <img
               className=" rounded-xl max-w-[15rem] md:max-w-[20rem]"
@@ -62,6 +63,21 @@ const DeanMessage = () => {
             <div className="w-full flex-col text-center flex py-2 justify-center font-semibold text-lg">
               <div>{"Prof.MK Sinha"}</div>
             </div>
+            
+            <p className="font-md"> Professor
+            Dept. of Mechanical Engineering
+             </p>
+             <p>
+             
+              Ph.No: +91 6572 374022(o)
+              
+             </p>
+             <p>
+               M.No: +91 9006771843
+             </p>
+
+             Email: mksinha.me@nitjsr.ac.in
+           
           </div>
         </div>
       </div>
