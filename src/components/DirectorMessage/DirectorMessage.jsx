@@ -3,13 +3,14 @@ import { DirectorSir } from "@/assets";
 import { motion } from "framer-motion";
 const DirectorMessage = () => {
   return (
-    <motion.div
+    <div className="w-full h-[]">
+      <motion.div
       initial={{ y: 50, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.7 }}
     >
-      <div className="w-full flex p-4 min-h-[70vh] justify-center ">
-        <div className="flex items-center justify-center flex-col md:flex-row shadow-lg bg-sky-100 rounded-md md:w-[90%] w-[92vw]">
+      <div className="w-full flex p-4 min-h-[70vh] justify-center  h-[750px]">
+        <div className=" h-full flex items-center justify-center flex-col md:flex-row shadow-lg bg-sky-100 rounded-md md:w-[90%] w-[92vw]">
           <div className="h-full flex justify-center items-center flex-col min-w-[22rem] md:min-w-[25rem] min-h-[5rem]  py-4 rounded-md">
             <img
               className=" rounded-xl max-w-[15rem] md:max-w-[20rem]"
@@ -21,8 +22,15 @@ const DirectorMessage = () => {
             <div className="w-full flex-col text-center flex py-2 justify-center font-semibold text-lg">
               <div>{"Prof. (Dr.) Goutam Sutradhar"}</div>
             </div>
+            <p className="font-md"> Professor
+            Dept. of Mechanical Engineering
+             </p>
+          
+
+             Email: director@nitjsr.ac.in
+            
           </div>
-          <div className="mx-5">
+          <div className="mx-5 ">
             <div className="py-5 text-md font-serif font-medium px-4 md:h-[470px] flex md:items-center md:justify-center md:mt-10 mb-10 md:text-left  items-center ">
               <div className=" leading-5 font-Poppins">
                 As I reflect upon my tenure as the Director of NIT Jamshedpur,
@@ -65,6 +73,8 @@ const DirectorMessage = () => {
         </div>
       </div>
     </motion.div>
+    </div>
+   
   );
 };
 
