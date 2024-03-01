@@ -8,7 +8,7 @@ const SponsoredResearch = () => {
         
         <div className='w-[100vw] h-[100vh]'>
             <Navbar />
-               <div className='flex mt-2'>
+               {/* <div className='flex mt-2'>
       <div className='ml-5  '>
          <h1 className='font-bold text-center'>Events: </h1>
       </div>
@@ -35,7 +35,7 @@ const SponsoredResearch = () => {
  </Marquee>
  
       </div>
-    </div>
+    </div> */}
             <div className='w-[98%] m-auto h-16 mt-5 rounded-lg shadow-lg flex justify-center items-center bg-sky-300'>
                 <div className=' font-bold text-2xl'>
                     Sponsored Research

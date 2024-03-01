@@ -6,7 +6,7 @@ import AshokSir from "./AshokSir.jpg";
 import Subhash from "./Subhash.jpeg";
 import RahulMahato from "./RahulMahato.png";
 import ArunPandit from "./ArunPandit.png";
-
+import vikashMeena from "./vikashMeena.jpg";
 export {
   DirectorSir,
   DeanSir,
@@ -16,4 +16,5 @@ export {
   Subhash,
   RahulMahato,
   ArunPandit,
+  vikashMeena,
 };
