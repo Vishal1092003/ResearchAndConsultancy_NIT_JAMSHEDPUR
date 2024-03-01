@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar/Navbar'
 import Notice from '../components/Notice/Notice'
 
 import Marquee from "react-fast-marquee";
-import { DirectorSir, DeanSir, DrKanika, OmSir, AshokSir, Subhash, RahulMahato, ArunPandit, } from '../assets/index'
+import { DirectorSir, DeanSir, DrKanika, OmSir, AshokSir, Subhash, RahulMahato, ArunPandit,vikashMeena } from '../assets/index'
 import DirectorMessage from "@/components/DirectorMessage/DirectorMessage";
 import DeanMessage from "@/components/DeanMessage/DeanMessage";
 
@@ -49,7 +49,7 @@ const Home = () => {
 </HashLink>
 
           </div>
-    <div className='flex'>
+    {/* <div className='flex'>
       <div className='ml-5'>
          <h1 className='font-bold text-center'>Events: </h1>
       </div>
@@ -76,7 +76,7 @@ const Home = () => {
  </Marquee>
  
       </div>
-    </div>
+    </div> */}
  
   
 
@@ -95,11 +95,10 @@ const Home = () => {
         </div>
 
         <div id="directormessage" className="pt-5 px-4 w-full bg-yellow-50/50 ">
-          <div className="min-h-[70vh] flex flex-col justify-center items-center">
+          <div className="min-h-[100vh]  flex flex-col justify-center items-center">
             <div className="flex bg-sky-200 w-full shadow-md p-2 mx-4 rounded-lg  font-medium text-3xl font-serif justify-center items-center">
               Director's Message
             </div>
-
             <DirectorMessage />
           </div>
         </div>
@@ -110,7 +109,6 @@ const Home = () => {
               className="flex bg-sky-200 shadow-md text-center p-2 mx-4 rounded-lg  font-medium text-3xl font-serif justify-center items-center"
             >
               Dean's Message
-              
             </div>
 
             <div>
@@ -175,7 +173,7 @@ const Home = () => {
                 name={"Subhash Kumar"}
               />
               <Message
-                img={RahulMahato}
+                img={vikashMeena}
                 designation1={"Juniour Assistant"}
                 message1={null}
                 message2=""
