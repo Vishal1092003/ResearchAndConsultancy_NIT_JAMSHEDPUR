@@ -10,8 +10,10 @@ const Facilities = () => {
             Facilities
             </div>
         </div>
-        <div className=" text-6xl">
+        <div className="  flex justify-center">
+        <div className=" text-4xl p-14 font-bold">
             Coming Soon...
+        </div>
         </div>
 
     </div>
