@@ -15,12 +15,12 @@ const Patent = () => {
 
     </div>
     <div className='w-full h-full p-8 flex flex-wrap gap-10 '>
+        {/* <Cardpatent />
         <Cardpatent />
         <Cardpatent />
         <Cardpatent />
         <Cardpatent />
-        <Cardpatent />
-        <Cardpatent />
+        <Cardpatent /> */}
         
 
         </div>
