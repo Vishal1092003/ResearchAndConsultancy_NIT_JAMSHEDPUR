@@ -10,7 +10,7 @@ const Interdisciplinary = () => {
             Interdisciplinary
             </div>
         </div>
-        <div className=" text-6xl">
+        <div className=" text-4xl p-14 font-bold">
             Coming Soon...
         </div>
 
