@@ -14,7 +14,7 @@ import Interdisciplinary from './pages/Interdisciplinary'
 import ResearchInstitute from './pages/ResearchInstitute'
 
 import SideNavbar from './components/sideNavbar/SideNavbar'
-import Collaboration from './pages/collaboration'
+import Collaboration from './pages/Collaboration'
 function App() {
 
   return (
