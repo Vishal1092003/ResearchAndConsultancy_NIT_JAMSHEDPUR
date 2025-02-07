@@ -9,8 +9,8 @@ import ReserchAreaData from "../Data/ReserchAreaData.json"
 import TeacherData from "../Data/TeacherData.js";
 import Footer from "@/components/Footer/Footer"
 import ExpertiseNavbar from "@/components/Expertise/ExpertiseNavbar"
-const Expretise = () => {
 
+const Expretise = () => {
   return (
     <>
       <div className="w-[100vw] h-[100vh]">
@@ -19,8 +19,7 @@ const Expretise = () => {
         
       
 
-        <div className="md:flex  bg-yellow-50/50 mt-5 md:mt-0 ">
-        
+        <div className="md:flex  bg-yellow-50/50 mt-5 md:mt-0 ">       
         
           <div className="w-[20%] m-3 hidden md:block ">
             <div className="w-full text-center p-3   font-medium text-xl rounded-xl bg-sky-300">
@@ -44,7 +43,7 @@ const Expretise = () => {
           <div className=" border-l-2 border-sky-100 m-2"></div>
           <div className="w-full pl-8 pr-8 md:w-[80%] m-3">
           <div className="md:p-12  w-80 md:w-full flex justify-center items-center flex-col">
-               <CarouselComponents /> 
+               {/* <CarouselComponents />  */}
             </div>
             <div className="w-full text-center p-3 font-semibold text-2xl rounded-xl bg-sky-300 ">
               Professors
