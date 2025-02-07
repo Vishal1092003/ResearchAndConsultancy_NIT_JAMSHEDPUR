@@ -11,7 +11,7 @@ const Consultancy = () => {
                 </div>
             </div>
             <div className=' pb-10'>
-                {SponseredResearchData.Sheet.map((item, index) => (<SponsoredResearchDataComponent title={item.TITLE} principalInvestigator={item.PRINCIPALINVESTIGATOR} fundingAgency={item.FUNDINGAGENCY} amount={item.AMOUNT} index={index} key={index} />))}
+                {SponseredResearchData.Sheet.map((item, index) => (<SponsoredResearchDataComponent index={index} year={item.Year_of_Sanction} department={item.Department} title={item.Name_of_Project} principalInvestigator={item.Name_of_PI} fundingAgency={item.Sponsoring_Agency} amount={item.Sanctioned_Amount} key={index} />))}
             </div>
         </div>
     )
