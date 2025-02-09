@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar/Navbar'
 import Notice from '../components/Notice/Notice'
 
 import Marquee from "react-fast-marquee";
-import { DirectorSir, DeanSir, DrKanika, OmSir, AshokSir, Subhash, RahulMahato, ArunPandit,vikashMeena } from '../assets/index'
+import { DirectorSir, DeanSir,AbhishekSir,AakashSir,AkanshaMam, DrKanika,SwagatadebSir, AshokSir, Subhash, RahulMahato, ArunPandit,vikashMeena } from '../assets/index'
 import DirectorMessage from "@/components/DirectorMessage/DirectorMessage";
 import DeanMessage from "@/components/DeanMessage/DeanMessage";
 
@@ -136,12 +136,12 @@ const Home = () => {
                 name={"Dr. Kanika Prashad"}
               />
               <Message
-                img={OmSir}
+                img={SwagatadebSir}
                 designation1={"Associate Dean"}
                 designation2={""}
                 message1={null}
                 message2=""
-                name={"Dr. Omhari Gupta"}
+                name={"Dr. Swagatadeb Sahoo"}
               />
               <Message
                 img={AshokSir}
@@ -158,26 +158,26 @@ const Home = () => {
           <div className="min-h-[20vh] flex justify-center items-center  ">
             <div className="flex md:flex-row flex-col">
               <Message
-                img={ArunPandit}
+                img={AbhishekSir}
                 designation1={"Accountant"}
                 designation2={""}
                 message1={null}
                 message2=""
-                name={"Arun Pandit"}
+                name={"Abhishek Verma"}
               />
               <Message
-                img={Subhash}
-                designation1={"Juniour Assistant"}
+                img={AakashSir}
+                designation1={"Senior Assistant"}
                 message1={null}
                 message2=""
-                name={"Subhash Kumar"}
+                name={"AakashSir"}
               />
               <Message
-                img={vikashMeena}
-                designation1={"Juniour Assistant"}
+                img={AkanshaMam}
+                designation1={"DEO"}
                 message1={null}
                 message2=""
-                name={"Vikas Meena"}
+                name={"Akansha Kumari"}
               />
             </div>
           </div>

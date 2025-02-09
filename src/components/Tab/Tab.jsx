@@ -56,8 +56,8 @@ const Tab = () => {
                 </div> */}
             {/* </div> */}
             <motion.div whileHover={{ scale: 1.1 }}>
-            <Link to={'/interdisciplinary'} className=' transition  duration-200 py-1 px-1 hover:text-black/80  hover:bg-slate-200 rounded-md cursor-pointer text-slate-700/80 font-semibold '>
-                Interdisciplinary
+            <Link to={'/workshops'} className=' transition  duration-200 py-1 px-1 hover:text-black/80  hover:bg-slate-200 rounded-md cursor-pointer text-slate-700/80 font-semibold '>
+                Workshops/Conferences
             </Link>
             </motion.div>
         </div>

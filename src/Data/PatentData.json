@@ -1,0 +1,548 @@
+{
+    "sheet1":[
+        {
+          "s_no": 1,
+          "name": "Abdhesh Kumar sinha",
+          "department": "Civil Engineering",
+          "patent_application_number": "406989-001",
+          "status": "Published",
+          "date": "2024-04-25 00:00:00"
+        },
+        {
+          "s_no": 2,
+          "name": "AJAY KUMAR",
+          "department": "Electronics and Communication Engineering",
+          "patent_application_number": "202331056079 A",
+          "status": "Published",
+          "date": "2023-10-06 00:00:00"
+        },
+        {
+          "s_no": 3,
+          "name": "AJAY KUMAR",
+          "department": "Electronics and Communication Engineering",
+          "patent_application_number": "202331043849 A",
+          "status": "Published",
+          "date": "2023-08-18 00:00:00"
+        },
+        {
+          "s_no": 4,
+          "name": "PRABHA CHAND",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "202231051822",
+          "status": "Published",
+          "date": "2022-09-16 00:00:00"
+        },
+        {
+          "s_no": 5,
+          "name": "PRABHA CHAND",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "202231051879",
+          "status": "Published",
+          "date": "2022-09-23 00:00:00"
+        },
+        {
+          "s_no": 6,
+          "name": "PRABHA CHAND",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "6338051",
+          "status": "Granted",
+          "date": "2024-01-06 00:00:00"
+        },
+        {
+          "s_no": 7,
+          "name": "Dr. Kanika Prasad",
+          "department": "Production and Industrial Engineering",
+          "patent_application_number": "202431020871 A",
+          "status": "Published",
+          "date": "2024-04-05 00:00:00"
+        },
+        {
+          "s_no": 8,
+          "name": "Dr KRISHNA DEO PRASAD SINGH",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "409778-001",
+          "status": "Applied",
+          "date": "2024-03-08 00:00:00"
+        },
+        {
+          "s_no": 9,
+          "name": "Omhari Gupta",
+          "department": "Electrical Engineering",
+          "patent_application_number": "202231054850",
+          "status": "Granted",
+          "date": "2023-11-15 00:00:00"
+        },
+        {
+          "s_no": 10,
+          "name": "Dr. Rashmi Sinha",
+          "department": "Electronics and Communication Engineering",
+          "patent_application_number": "202431030949",
+          "status": "Applied",
+          "date": "2024-04-18 00:00:00"
+        },
+        {
+          "s_no": 11,
+          "name": "Dr. Rashmi Sinha",
+          "department": "Electronics and Communication Engineering",
+          "patent_application_number": "202431018381",
+          "status": "Applied",
+          "date": "2024-03-13 00:00:00"
+        },
+        {
+          "s_no": 12,
+          "name": "Dr. Rashmi Sinha",
+          "department": "Electronics and Communication Engineering",
+          "patent_application_number": "202231060699",
+          "status": "Granted",
+          "date": "2023-05-12 00:00:00"
+        },
+        {
+          "s_no": 13,
+          "name": "Dr. Rashmi Sinha",
+          "department": "Electronics and Communication Engineering",
+          "patent_application_number": "EMP/E-1/29503/2020-KOL. 2020",
+          "status": "Published",
+          "date": "2021-12-31 00:00:00"
+        },
+        {
+          "s_no": 14,
+          "name": "Kunal Singh",
+          "department": "Electronics and Communication Engineering",
+          "patent_application_number": "202431034004",
+          "status": "Applied",
+          "date": "2024-05-10 00:00:00"
+        },
+        {
+          "s_no": 15,
+          "name": "Dr. SURAJIT KUNDU",
+          "department": "Electronics and Communication Engineering",
+          "patent_application_number": "202331066374",
+          "status": "Published",
+          "date": "2023-10-13 00:00:00"
+        },
+        {
+          "s_no": 16,
+          "name": "Dr. SURAJIT KUNDU",
+          "department": "Electronics and Communication Engineering",
+          "patent_application_number": "202431036854",
+          "status": "Applied",
+          "date": "2024-05-09 00:00:00"
+        },
+        {
+          "s_no": 17,
+          "name": "Dr. Subhadeep Metya",
+          "department": "Civil Engineering",
+          "patent_application_number": "202431015608",
+          "status": "Published",
+          "date": "2024-03-22 00:00:00"
+        },
+        {
+          "s_no": 18,
+          "name": "Dr. Subhadeep Metya",
+          "department": "Civil Engineering",
+          "patent_application_number": "202431027378",
+          "status": "Published",
+          "date": "2024-04-19 00:00:00"
+        },
+        {
+          "s_no": 19,
+          "name": "Deepak Kumar",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "202431008660",
+          "status": "Published",
+          "date": "2024-02-16 00:00:00"
+        },
+        {
+          "s_no": 20,
+          "name": "Deepak Kumar",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "202431015448",
+          "status": "Published",
+          "date": "2024-03-22 00:00:00"
+        },
+        {
+          "s_no": 21,
+          "name": "Deepak Kumar",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "202431027740",
+          "status": "Published",
+          "date": "2024-04-19 00:00:00"
+        },
+        {
+          "s_no": 22,
+          "name": "Deepak Kumar",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "202431028861",
+          "status": "Published",
+          "date": "2024-04-19 00:00:00"
+        },
+        {
+          "s_no": 23,
+          "name": "Deepak Kumar",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "202431027741",
+          "status": "Published",
+          "date": "2024-04-19 00:00:00"
+        },
+        {
+          "s_no": 24,
+          "name": "Dr.Mrinal Kanti Sarkar",
+          "department": "Electrical Engineering",
+          "patent_application_number": "‭202431012596‬",
+          "status": "Published",
+          "date": "2024-03-08 00:00:00"
+        },
+        {
+          "s_no": 25,
+          "name": "Dr.Mrinal Kanti Sarkar",
+          "department": "Electrical Engineering",
+          "patent_application_number": "408957-001",
+          "status": "Granted",
+          "date": "2024-02-28 00:00:00"
+        },
+        {
+          "s_no": 26,
+          "name": "Dr. Swagatadeb Sahoo",
+          "department": "Electronics and Communication Engineering",
+          "patent_application_number": "2020104029",
+          "status": "Granted",
+          "date": "2021-12-10 00:00:00"
+        },
+        {
+          "s_no": 27,
+          "name": "Dr. Swagatadeb Sahoo",
+          "department": "Electronics and Communication Engineering",
+          "patent_application_number": "2021104490",
+          "status": "Granted",
+          "date": "2022-03-30 00:00:00"
+        },
+        {
+          "s_no": 28,
+          "name": "Dr. B Ramachandra Reddy",
+          "department": "Computer Science and Engineering",
+          "patent_application_number": "202241044457",
+          "status": "Granted",
+          "date": "2024-04-24 00:00:00"
+        },
+        {
+          "s_no": 29,
+          "name": "Dr. B Ramachandra Reddy",
+          "department": "Computer Science and Engineering",
+          "patent_application_number": "202341026013",
+          "status": "Published",
+          "date": "2023-05-05 00:00:00"
+        },
+        {
+          "s_no": 30,
+          "name": "Dr. B Ramachandra Reddy",
+          "department": "Computer Science and Engineering",
+          "patent_application_number": "202431028980",
+          "status": "Published",
+          "date": "2024-04-19 00:00:00"
+        },
+        {
+          "s_no": 31,
+          "name": "Prof Sanjay",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "415189-001",
+          "status": "Granted",
+          "date": "2024-06-06 00:00:00"
+        },
+        {
+          "s_no": 32,
+          "name": "Prof. Mrityunjay Kumar Sinha",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "168686",
+          "status": "Granted",
+          "date": "2024-03-07 00:00:00"
+        },
+        {
+          "s_no": 33,
+          "name": "Dr Ram Krishna",
+          "department": "Metallurgical and Materials Engineering",
+          "patent_application_number": "202431037668",
+          "status": "Published",
+          "date": "2024-05-31 00:00:00"
+        },
+        {
+          "s_no": 34,
+          "name": "Dr Ram Krishna",
+          "department": "Metallurgical and Materials Engineering",
+          "patent_application_number": "202431037669",
+          "status": "Published",
+          "date": "2024-05-31 00:00:00"
+        },
+        {
+          "s_no": 35,
+          "name": "Prof M K Sinha",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "202431015375",
+          "status": "Published",
+          "date": "2024-06-07 00:00:00"
+        },
+        {
+          "s_no": 36,
+          "name": "Dr. Kuntal Maji",
+          "department": "Production and Industrial Engineering",
+          "patent_application_number": "202431027937A",
+          "status": "Published",
+          "date": "2024-04-19 00:00:00"
+        },
+        {
+          "s_no": 37,
+          "name": "Dinesh Kumar",
+          "department": "Production and Industrial Engineering",
+          "patent_application_number": "202131052146",
+          "status": "First examination report submitted",
+          "date": "2021-11-13 00:00:00"
+        },
+        {
+          "s_no": 38,
+          "name": "Vineet Sahoo",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "202431028752",
+          "status": "Published",
+          "date": "2024-05-10 00:00:00"
+        },
+        {
+          "s_no": 39,
+          "name": "Vineet Sahoo",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "202431029943",
+          "status": "Published",
+          "date": "2024-04-26 00:00:00"
+        },
+        {
+          "s_no": 40,
+          "name": "R. N. Mahanty",
+          "department": "Electrical Engineering",
+          "patent_application_number": "202431062281",
+          "status": "Published",
+          "date": "2024-09-06 00:00:00"
+        },
+        {
+          "s_no": 41,
+          "name": "Shailesh Kumar Jha",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "202231068071",
+          "status": "Published",
+          "date": "2024-02-08 00:00:00"
+        },
+        {
+          "s_no": 42,
+          "name": "Dr. Pashant Kumar",
+          "department": "Electronics and Communication Engineering",
+          "patent_application_number": "427468-001 with CBR no. 214798",
+          "status": "Applied",
+          "date": "2024-08-20 00:00:00"
+        },
+        {
+          "s_no": 43,
+          "name": "Dr. Kunal Singh",
+          "department": "Electronics and Communication Engineering",
+          "patent_application_number": "202431034004",
+          "status": "Applied",
+          "date": "2024-05-10 00:00:00"
+        },
+        {
+          "s_no": 44,
+          "name": "Gunda Yoganjaneyulu",
+          "department": "Production and Industrial Engineering",
+          "patent_application_number": "415104-001",
+          "status": "Published",
+          "date": "2024-04-26 00:00:00"
+        },
+        {
+          "s_no": 45,
+          "name": "Dr. Amit Majumder",
+          "department": "Computer Science and Engineering",
+          "patent_application_number": "202431062556",
+          "status": "Published",
+          "date": "2024-08-23 00:00:00"
+        },
+        {
+          "s_no": 46,
+          "name": "Dr. Kuntal Maji",
+          "department": "Production and Industrial Engineering",
+          "patent_application_number": "407833-001 (Design)",
+          "status": "Granted",
+          "date": "2024-02-16 00:00:00"
+        },
+        {
+          "s_no": 47,
+          "name": "Dr. Kuntal Maji",
+          "department": "Production and Industrial Engineering",
+          "patent_application_number": "202431027937A",
+          "status": "Published",
+          "date": "2024-04-19 00:00:00"
+        },
+        {
+          "s_no": 48,
+          "name": "Dr Rashmi Sinha",
+          "department": "Electronics & Communication Engineering",
+          "patent_application_number": "202431030949",
+          "status": "Published",
+          "date": "2024-07-12 00:00:00"
+        },
+        {
+          "s_no": 49,
+          "name": "Dr Rashmi Sinha",
+          "department": "Electronics & Communication Engineering",
+          "patent_application_number": "202431067375",
+          "status": "Applied",
+          "date": "2024-09-03 00:00:00"
+        },
+        {
+          "s_no": 50,
+          "name": "Dr. Ananta Kumar Atta",
+          "department": "Chemistry",
+          "patent_application_number": "202431067756",
+          "status": "Applied",
+          "date": "2024-09-09 00:00:00"
+        },
+        {
+          "s_no": 51,
+          "name": "M A Hassan",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "E-106/1438/2024/KOL",
+          "status": "Published",
+          "date": "2024-08-28 00:00:00"
+        },
+        {
+          "s_no": 52,
+          "name": "M A Hassan",
+          "department": "Mechanical Engineering",
+          "patent_application_number": "410740-001",
+          "status": "Granted",
+          "date": "2024-03-16 00:00:00"
+        },
+        {
+          "s_no": 53,
+          "name": "Dr. Ravi Bhushan",
+          "department": "Electrical Engineering",
+          "patent_application_number": "202411069170",
+          "status": "Published",
+          "date": "2024-10-04 00:00:00"
+        },
+        {
+          "s_no": 54,
+          "name": "Dr.Mrinal Kanti Sarkar",
+          "department": "Electrical Engineering",
+          "patent_application_number": "202431012596",
+          "status": "Granted",
+          "date": "2024-10-24 00:00:00"
+        },
+        {
+          "s_no": 55,
+          "name": "Dr. Simanta Kumar Samal",
+          "department": "Electrical Engineering",
+          "patent_application_number": "408957-001",
+          "status": "Granted",
+          "date": "2024-04-18 00:00:00"
+        },
+        {
+          "s_no": 56,
+          "name": "Dr. Simanta Kumar Samal",
+          "department": "Electrical Engineering",
+          "patent_application_number": "202431060295",
+          "status": "Published",
+          "date": "2024-08-16 00:00:00"
+        },
+        {
+          "s_no": 57,
+          "name": "Dr. Supriyo Das",
+          "department": "Electrical Engineering",
+          "patent_application_number": "202411069170",
+          "status": "Published",
+          "date": "2024-10-04 00:00:00"
+        },
+        {
+          "s_no": 58,
+          "name": "Dr. Dinesh Kumar",
+          "department": "Computer Science and Engineering",
+          "patent_application_number": "433397- 001",
+          "status": "Applied",
+          "date": "2024-10-09 00:00:00"
+        },
+        {
+          "s_no": 59,
+          "name": "Ananyo Bhattacharya",
+          "department": "Electrical Engineering",
+          "patent_application_number": "202431097136",
+          "status": "Applied",
+          "date": "2024-12-09 00:00:00"
+        },
+        {
+          "s_no": 60,
+          "name": "Dr Rashmi Sinha",
+          "department": "Electronics and Communication Engineering",
+          "patent_application_number": "202431030949",
+          "status": "Published",
+          "date": "2024-07-12 00:00:00"
+        },
+        {
+          "s_no": 61,
+          "name": "Dr Rashmi Sinha",
+          "department": "Electronics and Communication Engineering",
+          "patent_application_number": "202431067375",
+          "status": "Published",
+          "date": "2024-11-01 00:00:00"
+        },
+        {
+          "s_no": 62,
+          "name": "Basanta Bhowmik",
+          "department": "Electronics and Communication Engineering",
+          "patent_application_number": "202431087937",
+          "status": "Published",
+          "date": "2024-11-22 00:00:00"
+        },
+        {
+          "s_no": 63,
+          "name": "Dr. Binod Kumar Singh",
+          "department": "Computer Science & Engineering",
+          "patent_application_number": "440612-001 (Design)",
+          "status": "Applied",
+          "date": "2024-12-14 00:00:00"
+        },
+        {
+          "s_no": 64,
+          "name": "Dr. Binod Kumar Singh",
+          "department": "Computer Science & Engineering",
+          "patent_application_number": "440613-001 (Design)",
+          "status": "Applied",
+          "date": "2024-12-14 00:00:00"
+        },
+        {
+          "s_no": 65,
+          "name": "Dr. Binod Kumar Singh",
+          "department": "Computer Science and Engineering",
+          "patent_application_number": "440639-001 (Design)",
+          "status": "Applied",
+          "date": "2024-12-14 00:00:00"
+        },
+        {
+          "s_no": 66,
+          "name": "Dr. Binod Kumar Singh",
+          "department": "Computer Science and Engineering",
+          "patent_application_number": "202331047887",
+          "status": "Applied",
+          "date": "2024-03-14 00:00:00"
+        },
+        {
+          "s_no": 67,
+          "name": "Dr. Binod Kumar Singh",
+          "department": "Computer Science & Engineering",
+          "patent_application_number": "442206-001",
+          "status": "Applied",
+          "date": "2024-12-27 00:00:00"
+        },
+        {
+          "s_no": 68,
+          "name": "Dr. B Ramachandra Reddy",
+          "department": "Computer Science & Engineering",
+          "patent_application_number": "202441036543",
+          "status": "Published",
+          "date": "2024-05-17 00:00:00"
+        }
+      ]
+}

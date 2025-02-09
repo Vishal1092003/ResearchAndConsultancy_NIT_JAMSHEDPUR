@@ -1,0 +1,123 @@
+{
+    "Sheet1": [
+      {
+        "sl_no": 1,
+        "department": "DEE",
+        "subject": "Online FDP on Recent Advancement in EMobillity for Developing Power Utility",
+        "coordinators": "Dr. Mrinal K. Sarkar & Dr. Simanta Kr. Samal",
+        "date": "06/01/25 To 25/01/25"
+      },
+      {
+        "sl_no": 2,
+        "department": "CHM",
+        "subject": "MSME training programme (pickle making)",
+        "coordinators": "Dr. Ananta Kumar Atta",
+        "date": "09/01/25 To 13/02/25"
+      },
+      {
+        "sl_no": 3,
+        "department": "DEE",
+        "subject": "Online FDP on Electric Vehicle & Charging Station Technology for Sustainable Development",
+        "coordinators": "Dr. Mrinal K. Sarkar",
+        "date": "13/01/25 To 18/01/25"
+      },
+      {
+        "sl_no": 4,
+        "department": "DME",
+        "subject": "Workshop on Advanced heat transfer technologies for enhancing energy, efficiency & reducing carbon emission globally",
+        "coordinators": "Dr. Rinku Kr. Gouda",
+        "date": "13/01/25 To 17/01/25"
+      },
+      {
+        "sl_no": 5,
+        "department": "DEE",
+        "subject": "Workshop online on Distributed Energy Resources: Transforming grids with renewable technologies",
+        "coordinators": "Dr Veer Pratap Meena and Dr Suryaprakash",
+        "date": "15/01/25 To 19/01/25"
+      },
+      {
+        "sl_no": 6,
+        "department": "CIVIL",
+        "subject": "Hands-on Workshop on MATLAB application",
+        "coordinators": "Dr. S.K. Murmu, Dr. Sangeeta Kumari, Dr. D. Swargiary, Dr. Suravi Pal",
+        "date": "16/01/25 To 20/01/25"
+      },
+      {
+        "sl_no": 7,
+        "department": "DME",
+        "subject": "Workshop on \"Taming Turbulence: Advancement in flow and Acoustic\"",
+        "coordinators": "Dr. Shailesh Jha",
+        "date": "20/01/25 To 24/01/25"
+      },
+      {
+        "sl_no": 8,
+        "department": "DPIE",
+        "subject": "AICTE-ATAL sponsored 6 days Online FDP on Artificial Intelligence for Digital Manufacturing (AIDM 2025)",
+        "coordinators": "Dr. Kuntal Maji",
+        "date": "20/01/25 To 25/01/25"
+      },
+      {
+        "sl_no": 9,
+        "department": "DEE",
+        "subject": "Short Term Course - AI applications to microgrid",
+        "coordinators": "(Dr. Kethavath R. Naik, Dr. Sanjay Kr., Prof. U.K. Sinha)",
+        "date": "25/01/25 To 29/01/25"
+      },
+      {
+        "sl_no": 10,
+        "department": "UBA",
+        "subject": "National Seminar on Academic Social Responsibility and Orientation Programme",
+        "coordinators": "Dr. Shakti Prasad, DMTH & Dr. Kanika Prasad, DPIE",
+        "date": "01/02/25 To 02/02/25"
+      },
+      {
+        "sl_no": 11,
+        "department": "ECE",
+        "subject": "Workshop on VLSI design and verification",
+        "coordinators": "Dr. Basanta Bhowmik & Dr. Swagatadeb Sahoo",
+        "date": "07/04/25 To 11/04/25"
+      },
+      {
+        "sl_no": 12,
+        "department": "ECE",
+        "subject": "Workshop on AL and IoT enabled sensor Technology",
+        "coordinators": "Dr. Swagatadeb Sahoo & Dr. Basanta Bhowmik",
+        "date": "21/04/25 To 25/04/25"
+      },
+      {
+        "sl_no": 13,
+        "department": "DEE",
+        "subject": "International Conference on \"Energy Climate Governance\"",
+        "coordinators": "Dr. K. Namrata",
+        "date": "18/06/25 To 20/06/25"
+      },
+      {
+        "sl_no": 14,
+        "department": "DEE",
+        "subject": "IEEE GIEST 2025",
+        "coordinators": "Dr. Kundan Kumar",
+        "date": "09/10/25 To 11/10/25"
+      },
+      {
+        "sl_no": 15,
+        "department": "DME",
+        "subject": "One week STTP on Advanced Composite Materials for Next-Gen Technologies",
+        "coordinators": "Dr. Vishesh Ranjan Kar",
+        "date": "20/01/25 To 24/01/25"
+      },
+      {
+        "sl_no": 16,
+        "department": "DEE",
+        "subject": "IEEE Conference: International Conference on Electrical. Electronics and Computer Science with Advance Power Technologies - A Future Trends (ICE2CPT2025)",
+        "coordinators": "Dr. Veerpratap Meena",
+        "date": "29/10/25 To 31/10/25"
+      },
+      {
+        "sl_no": 17,
+        "department": "DME",
+        "subject": "STTP on Machine Maintenance and Occupational Hazards & Safety for Foundry and Forging Shop Workforce at Adityapyur Auto Component Cluster, Jamshedpur funded by SIDBI",
+        "coordinators": "Dr. KSK Sudhamshu",
+        "date": "31/03/25 To 04/04/25 & 12/05/25 To 16/05/25"
+      }
+    ]
+}

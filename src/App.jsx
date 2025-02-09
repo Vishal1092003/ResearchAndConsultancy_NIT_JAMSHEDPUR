@@ -15,6 +15,7 @@ import ResearchInstitute from './pages/ResearchInstitute'
 
 import SideNavbar from './components/sideNavbar/SideNavbar'
 import Collaboration from './pages/Collaboration'
+import Workshops from './pages/Workshops'
 function App() {
 
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path='/academia' element={<Academia />} /> */}
           <Route path='/collaboration' element={<Collaboration />} />
           <Route path='/interdisciplinary' element={<Interdisciplinary />} />
+          <Route path='/workshops' element={<Workshops />} />
           {/* <Route path='/researchinstitute' element={<ResearchInstitute />} /> */}
           <Route path='/sidenavbar' element={<SideNavbar />} />
           collaboration

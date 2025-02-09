@@ -1,8 +1,8 @@
 import Navbar from '@/components/Navbar/Navbar'
-import PatentDataComponent from '@/components/Patent/PatentDataComponent';
-import PatentData from '../Data/PatentData.json';
+import WorkshopData from '../Data/WorkshopData.json';
+import WorkshopsDataComponent from '@/components/Workshops/WorkshopsDataComponent';
 
-const Patent = () => {
+const Workshops = () => {
     return (
         <>
             <div className="min-h-screen w-full">
@@ -11,21 +11,20 @@ const Patent = () => {
                    
                     <div className='w-full  h-16 mt-5 rounded-lg shadow-lg flex justify-center items-center bg-sky-300'>
                         <h1 className='font-bold text-2xl'>
-                            Patent(IPRCELL)
+                        Workshops/Conferences/STC/STTP/FDP to be held in 2025
                         </h1>
                     </div>
 
                 
                     <div className="w-full  mt-8 space-y-4">
-                        {PatentData.sheet1.map((item, index) => (
-                            <PatentDataComponent
-                                key={item.s_no}
+                        {WorkshopData.Sheet1.map((item, index) => (
+                            <WorkshopsDataComponent
+                                key={item.sl_no}
                                 index={index}
-                                Name={item.name}
+                                Subject={item.subject}
                                 Department={item.department}
-                                Patent_application_number={item.patent_application_number}
-                                Status={item.status}
-                                Date={item.date.split(' ')[0]} 
+                                Coordinators={item.coordinators}
+                                Date={item.date} 
                             />
                         ))}
                     </div>
@@ -35,4 +34,4 @@ const Patent = () => {
     )
 }
 
-export default Patent;
+export default Workshops;
