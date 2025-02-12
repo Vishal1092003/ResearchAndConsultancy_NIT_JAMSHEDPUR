@@ -1,0 +1,215 @@
+{
+    "sheet1":[
+        {
+            "S_No.": 1,
+            "MoU_Institute": "CSIR-NML Jamshedpur",
+            "Date_of_MoU": "11-12-2018"
+        },
+        {
+            "S_No.": 2,
+            "MoU_Institute": "Madan Mohan Malaviya University of Technology Gorakhpur",
+            "Date_of_MoU": "24-02-2019"
+        },
+        {
+            "S_No.": 3,
+            "MoU_Institute": "Indian Institute of Technology Delhi (IIT Delhi)",
+            "Date_of_MoU": "06-03-2019"
+        },
+        {
+            "S_No.": 4,
+            "MoU_Institute": "Ritsumeikan University, Japan",
+            "Date_of_MoU": "09-04-2019"
+        },
+        {
+            "S_No.": 5,
+            "MoU_Institute": "Indo-Danish Tool Room (IDTR) Jamshedpur",
+            "Date_of_MoU": "29-01-2021"
+        },
+        {
+            "S_No.": 6,
+            "MoU_Institute": "NITTTR Kolkata",
+            "Date_of_MoU": "24-12-2021"
+        },
+        {
+            "S_No.": 7,
+            "MoU_Institute": "Damodar Valley Corporation (DVC)",
+            "Date_of_MoU": "13-08-2022"
+        },
+        {
+            "S_No.": 8,
+            "MoU_Institute": "Powergrid Corporation of India Limited",
+            "Date_of_MoU": "13-08-2022"
+        },
+        {
+            "S_No.": 9,
+            "MoU_Institute": "RSB Transmissions Limited",
+            "Date_of_MoU": "02-11-2022"
+        },
+        {
+            "S_No.": 10,
+            "MoU_Institute": "IIT Madras",
+            "Date_of_MoU": "12-12-2022"
+        },
+        {
+            "S_No.": 11,
+            "MoU_Institute": "Jharkhand Police regarding technical collaboration",
+            "Date_of_MoU": "16-01-2023"
+        },
+        {
+            "S_No.": 12,
+            "MoU_Institute": "CSIR-IMMT Bhubaneswar",
+            "Date_of_MoU": "18-04-2023"
+        },
+        {
+            "S_No.": 13,
+            "MoU_Institute": "MNIT Jaipur",
+            "Date_of_MoU": "13-06-2023"
+        },
+        {
+            "S_No.": 14,
+            "MoU_Institute": "National Highways & Infrastructure Development Corporation Limited (NHIDCL)",
+            "Date_of_MoU": "31-07-2023"
+        },
+        {
+            "S_No.": 15,
+            "MoU_Institute": "NIT Raipur",
+            "Date_of_MoU": "21-08-2023"
+        },
+        {
+            "S_No.": 16,
+            "MoU_Institute": "Chittaranjan Locomotive Works (CLW), Chittaranjan",
+            "Date_of_MoU": "16-09-2023"
+        },
+        {
+            "S_No.": 17,
+            "MoU_Institute": "NIT Warangal",
+            "Date_of_MoU": "23-09-2023"
+        },
+        {
+            "S_No.": 18,
+            "MoU_Institute": "UGC-HRDC, JNVU Jodhpur",
+            "Date_of_MoU": "03-10-2023"
+        },
+        {
+            "S_No.": 19,
+            "MoU_Institute": "Indian Institute of Technology Kharagpur",
+            "Date_of_MoU": "03-10-2023"
+        },
+        {
+            "S_No.": 20,
+            "MoU_Institute": "CSIR-CIMFR, Dhanbad",
+            "Date_of_MoU": "23-11-2023"
+        },
+        {
+            "S_No.": 21,
+            "MoU_Institute": "Central University of Jharkhand, Ranchi",
+            "Date_of_MoU": "23-11-2023"
+        },
+        {
+            "S_No.": 22,
+            "MoU_Institute": "CSIR-CMERI, Durgapur",
+            "Date_of_MoU": "23-11-2023"
+        },
+        {
+            "S_No.": 23,
+            "MoU_Institute": "CSIR-CGCRI, Kolkata",
+            "Date_of_MoU": "27-01-2020"
+        },
+        {
+            "S_No.": 24,
+            "MoU_Institute": "NIAMT, Ranchi",
+            "Date_of_MoU": "23-11-2023"
+        },
+        {
+            "S_No.": 25,
+            "MoU_Institute": "NIT Meghalaya",
+            "Date_of_MoU": "23-11-2023"
+        },
+        {
+            "S_No.": 26,
+            "MoU_Institute": "Bureau of Indian Standards (BIS)",
+            "Date_of_MoU": "12-01-2024"
+        },
+        {
+            "S_No.": 27,
+            "MoU_Institute": "IIT (ISM) Dhanbad",
+            "Date_of_MoU": "23-11-2023"
+        },
+        {
+            "S_No.": 28,
+            "MoU_Institute": "Sarla Birla University",
+            "Date_of_MoU": "29-02-2024"
+        },
+        {
+            "S_No.": 29,
+            "MoU_Institute": "MDS Indo Can Inc.",
+            "Date_of_MoU": "01-03-2024"
+        },
+        {
+            "S_No.": 30,
+            "MoU_Institute": "IIT Gandhinagar",
+            "Date_of_MoU": "04-03-2024"
+        },
+        {
+            "S_No.": 31,
+            "MoU_Institute": "IIT Patna",
+            "Date_of_MoU": "23-04-2024"
+        },
+        {
+            "S_No.": 32,
+            "MoU_Institute": "IIT Bhilai",
+            "Date_of_MoU": "13-09-2024"
+        },
+        {
+            "S_No.": 33,
+            "MoU_Institute": "Srinath University",
+            "Date_of_MoU": "10-09-2024"
+        },
+        {
+            "S_No.": 34,
+            "MoU_Institute": "IIT Jodhpur",
+            "Date_of_MoU": "15-11-2024"
+        },
+        {
+            "S_No.": 35,
+            "MoU_Institute": "IIT BHU, Varanasi",
+            "Date_of_MoU": "11-12-2024"
+        },
+        {
+            "S_No.": 36,
+            "MoU_Institute": "IIM Visakhapatnam",
+            "Date_of_MoU": "03-12-2024"
+        },
+        {
+            "S_No.": 37,
+            "MoU_Institute": "CIT Kokrajhar",
+            "Date_of_MoU": null
+        },
+        {
+            "S_No.": 38,
+            "MoU_Institute": "RVS College of Engineering and Technology",
+            "Date_of_MoU": "15-11-2024"
+        },
+        {
+            "S_No.": 39,
+            "MoU_Institute": "Ramgarh Engineering College",
+            "Date_of_MoU": "16-11-2024"
+        },
+        {
+            "S_No.": 40,
+            "MoU_Institute": "ISRO",
+            "Date_of_MoU": "10-09-2024"
+        },
+        {
+            "S_No.": 41,
+            "MoU_Institute": "Himalaya Enterprises",
+            "Date_of_MoU": "24-01-2025"
+        },
+        {
+            "S_No.": 42,
+            "MoU_Institute": "Jharkhand Rai University",
+            "Date_of_MoU": "31-01-2025"
+        }
+    ]
+    
+}
