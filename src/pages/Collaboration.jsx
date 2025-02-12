@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
+import CollaborationData from "../Data/CollaborationData.json"
 const Collaboration = () => {
   return (
     <div className="w-[100vw] h-[100vh] ">
@@ -11,7 +12,23 @@ const Collaboration = () => {
           </div>
         </div>
         <div className="p-5">
-          {/* <TableAcademia /> */}
+          {
+            CollaborationData.sheet1.map((data, index) => {
+              return (
+                <div key={index} className="w-full mt-5 rounded-lg shadow-lg flex justify-center items-center bg-orange-100">
+                  <div className="p-5 flex items-center justify-between w-full">
+                    <div className="text-md">{index+1}.</div>
+                  <div className="font-semibold md:text-xl text-lg">
+                      {data.MoU_Institute}
+                    </div>
+                    <div className="text-lg">
+                      {data.Date_of_MoU}
+                    </div>
+                  </div>
+                </div>
+              )
+            })
+          }
         </div>
       </div>
       <Footer />
