@@ -170,7 +170,7 @@ const Home = () => {
                 designation1={"Senior Assistant"}
                 message1={null}
                 message2=""
-                name={"AakashSir"}
+                name={"Aakash"}
               />
               <Message
                 img={AkanshaMam}
