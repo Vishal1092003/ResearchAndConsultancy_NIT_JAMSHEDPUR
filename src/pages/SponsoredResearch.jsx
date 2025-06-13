@@ -35,7 +35,7 @@ const SponsoredResearch = () => {
  
       </div>
     </div> */}
-            <div className='w-[98%] m-auto h-16 mt-5 rounded-lg shadow-lg flex justify-center items-center bg-sky-300'>
+            <div className='w-[98%] m-auto h-16 mt-5 rounded-[50%] shadow-lg flex justify-center items-center bg-green-300'>
                 <div className=' font-bold text-2xl'>
                     Sponsored Research
                 </div>

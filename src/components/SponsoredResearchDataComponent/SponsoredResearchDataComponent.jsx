@@ -13,11 +13,12 @@ const SponsoredResearchDataComponent = ({
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
+     {/* changed from bg-amber-50 to bg-blue-300 */}
       <div
         onClick={() => {
           setIsOpen(!isOpen);
         }}
-        className="w-[98%] m-auto h-16 mt-4 rounded-t-lg shadow-lg flex justify-center items-center bg-amber-50"
+        className="w-[98%] m-auto h-16 mt-4 rounded-3xl shadow-md flex justify-center items-center bg-blue-200"
       >
         <div className="flex justify-between mx-10 items-center w-full  ">
           <div className="   flex justify-center items-center">
@@ -29,7 +30,7 @@ const SponsoredResearchDataComponent = ({
 
           <motion.div
             whileTap={{ scale: 0.8 }}
-            className="flex justify-center items-center"
+            className="flex bg-blue-100 p-1 rounded justify-center items-center"
           >
             <div className=" font-semibold text-lg">{year}</div>
             <FaArrowDown
@@ -44,7 +45,7 @@ const SponsoredResearchDataComponent = ({
       <div
         className={`${
           isOpen ? "md:h-[15vh] h-[10vh] " : "h-0 "
-        } shadow-lg rounded-b-lg w-[98%] m-auto  flex-col  transition-all duration-300  bg-amber-100`}
+        } shadow-lg rounded-b-lg w-[98%] m-auto  flex-col  transition-all duration-300  bg-blue-100`}
       >
         <div
           className={`${
