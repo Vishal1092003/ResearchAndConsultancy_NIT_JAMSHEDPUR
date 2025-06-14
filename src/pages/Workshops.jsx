@@ -27,7 +27,7 @@ const Workshops = () => {
         {/* Title */}
         <div className="text-center py-10">
           <h1 className="text-3xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-700 to-orange-500 bg-clip-text text-transparent mb-4">
-            Upcoming Events & Collaborations
+            Upcoming Events & Workshops
           </h1>
           <p className="text-gray-700 text-sm sm:text-base">An overview of academic and technical programs</p>
         </div>
