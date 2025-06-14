@@ -27,13 +27,13 @@ const Workshops = () => {
         {/* Title */}
         <div className="text-center py-10">
           <h1 className="text-3xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-700 to-orange-500 bg-clip-text text-transparent mb-4">
-            Upcoming Events & Workshops
+            Upcoming Events & Collaborations
           </h1>
-          <p className="text-gray-700 text-sm sm:text-base">An overview of workshops and conferences </p>
+          <p className="text-gray-700 text-sm sm:text-base">An overview of academic and technical programs</p>
         </div>
 
-        {/* Cards */}
-        <div className="px-4 max-w-6xl mx-auto grid gap-6 md:grid-cols-2">
+        {/* Cards - one per row, centered */}
+        <div className="px-4 max-w-3xl mx-auto flex flex-col gap-6">
           {workshopData.Sheet1.slice(0, visibleItems).map((item, index) => {
             return (
               <div
