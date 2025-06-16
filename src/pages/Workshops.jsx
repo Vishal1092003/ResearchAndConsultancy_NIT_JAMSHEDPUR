@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Navbar from '@/components/Navbar/Navbar'
 import workshopData from '../data/WorkshopData.json';
 import { CalendarDays, Users, Award } from 'lucide-react';
 
@@ -18,8 +19,10 @@ const Workshops = () => {
   }, []);
 
   return (
-    <>
-      <div className="min-h-screen w-full bg-gradient-to-br from-blue-50 via-white to-orange-50 pb-20">
+    <><div className='min-h-screen w-full'>
+      <Navbar />
+      <div className='flex flex-col items-center p-4  w-full'>
+        <div className="min-h-screen w-full bg-gradient-to-br from-blue-50 via-white to-orange-50 pb-20">
         <header className="sticky top-0 z-50 bg-gradient-to-r from-blue-600 to-orange-500 text-white py-5 shadow-md text-center text-2xl font-bold">
           Workshops / Conferences / STC / STTP / FDP - 2025
         </header>
@@ -27,9 +30,9 @@ const Workshops = () => {
         {/* Title */}
         <div className="text-center py-10">
           <h1 className="text-3xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-700 to-orange-500 bg-clip-text text-transparent mb-4">
-            Upcoming Workshops & Conferences
+            Upcoming Events & Collaborations
           </h1>
-          <p className="text-gray-700 text-sm sm:text-base">An overview of workshop/conferences </p>
+          <p className="text-gray-700 text-sm sm:text-base">An overview of academic and technical programs</p>
         </div>
 
         {/* Cards - one per row, centered */}
@@ -79,6 +82,8 @@ const Workshops = () => {
         <div className="hidden md:block fixed bottom-10 right-10 opacity-20 animate-bounce-slower">
           <Users className="h-10 w-10 text-blue-500" />
         </div>
+      </div>
+      </div>
       </div>
     </>
   );
