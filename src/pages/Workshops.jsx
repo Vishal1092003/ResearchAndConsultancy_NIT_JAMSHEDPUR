@@ -13,7 +13,7 @@ const Workshops = () => {
       </div>
 
       {/* ✅ Sticky Workshop Header at 190px from top */}
-      <div className="sticky top-[190px] z-40 bg-gradient-to-r from-blue-600 to-orange-500 text-white py-4 text-center text-xl md:text-2xl font-bold shadow-md">
+      <div className="sticky top-[120px] md:top-[190px] z-40 bg-gradient-to-r from-blue-600 to-orange-500 text-white py-4 text-center text-xl md:text-2xl font-bold shadow-md">
         Workshops / Conferences / STC / STTP / FDP - 2025
       </div>
 
