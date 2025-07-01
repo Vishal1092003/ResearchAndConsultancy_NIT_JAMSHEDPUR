@@ -1,5 +1,5 @@
 import Navbar from '@/components/Navbar/Navbar';
-import workshopData from '../data/WorkshopData.json';
+import workshopData from '@/Data/WorkshopData.json';
 import { CalendarDays, Users, Award } from 'lucide-react';
 
 const Workshops = () => {
