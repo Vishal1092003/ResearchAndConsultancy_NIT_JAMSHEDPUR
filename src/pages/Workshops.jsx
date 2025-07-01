@@ -1,4 +1,3 @@
-import React from 'react';
 import Navbar from '@/components/Navbar/Navbar';
 import workshopData from '../data/WorkshopData.json';
 import { CalendarDays, Users, Award } from 'lucide-react';

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Building2, Calendar, FileText, Users, Award, ChevronRight } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Building2, Calendar, FileText, Users, Award } from 'lucide-react';
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import CollaborationData from "../Data/CollaborationData.json";
@@ -44,16 +44,16 @@ const Collaboration = () => {
   const formatDate = (dateString) => {
     const [day, month, year] = dateString.split('-');
     const date = new Date(`${year}-${month}-${day}`);
-    return date.toLocaleDateString('en-IN', { 
+    return date.toLocaleDateString('en-IN', {
       day: 'numeric',
-      month: 'long', 
+      month: 'long',
       year: 'numeric'
     });
   };
 
   return (
     <>
-      <style jsx>{`
+      <style>{`
         @keyframes fade-in-down {
           from {
             opacity: 0;
@@ -95,14 +95,13 @@ const Collaboration = () => {
           animation: float-delayed 8s ease-in-out infinite;
         }
       `}</style>
-      
+
       <div className="w-full min-h-screen bg-gradient-to-br from-blue-50 via-white to-orange-50">
-        <div className={`fixed top-0 w-full z-50 transition-transform duration-300 ${
-          isNavbarVisible ? 'translate-y-0' : '-translate-y-full'
-        }`}>
+        <div className={`fixed top-0 w-full z-50 transition-transform duration-300 ${isNavbarVisible ? 'translate-y-0' : '-translate-y-full'
+          }`}>
           <Navbar />
         </div>
-        
+
         {/* Hero Section */}
         <div className="relative overflow-hidden bg-gradient-to-r from-blue-600 via-blue-700 to-orange-600 text-white mt-16">
           <div className="absolute inset-0 bg-black opacity-10"></div>
@@ -113,7 +112,7 @@ const Collaboration = () => {
                 Our Collaborations with Academia
               </h1>
             </div>
-            
+
             {/* Floating Elements Mobile me hidden hai */}
             <div className="hidden sm:block absolute bottom-20 left-10">
               <Award className="h-8 w-8 text-white opacity-30 animate-float" />
@@ -152,23 +151,21 @@ const Collaboration = () => {
               {CollaborationData.sheet1.map((data, index) => {
                 const isVisible = index < visibleItems;
                 const isHovered = hoveredIndex === index;
-                
+
                 return (
                   <div
                     key={index}
-                    className={`transform transition-all duration-700 ${
-                      isVisible 
-                        ? 'translate-x-0 opacity-100' 
+                    className={`transform transition-all duration-700 ${isVisible
+                        ? 'translate-x-0 opacity-100'
                         : 'translate-x-full opacity-0'
-                    }`}
+                      }`}
                     style={{ transitionDelay: `${index * 100}ms` }}
                     onMouseEnter={() => setHoveredIndex(index)}
                     onMouseLeave={() => setHoveredIndex(null)}
                   >
-                    <div className={`relative bg-white rounded-2xl shadow-lg border-l-4 border-gradient-to-b from-blue-500 to-orange-500 overflow-hidden group hover:shadow-2xl transition-all duration-300 ${
-                      isHovered ? 'sm:scale-105 sm:-translate-y-2' : ''
-                    }`}>
-                      
+                    <div className={`relative bg-white rounded-2xl shadow-lg border-l-4 border-gradient-to-b from-blue-500 to-orange-500 overflow-hidden group hover:shadow-2xl transition-all duration-300 ${isHovered ? 'sm:scale-105 sm:-translate-y-2' : ''
+                      }`}>
+
                       {/* Background Pattern - Reduced on mobile */}
                       <div className="absolute inset-0 opacity-5">
                         <div className="absolute top-0 right-0 w-16 h-16 sm:w-32 sm:h-32 bg-gradient-to-br from-blue-600 to-orange-600 rounded-full -translate-y-8 translate-x-8 sm:-translate-y-16 sm:translate-x-16"></div>
@@ -221,9 +218,8 @@ const Collaboration = () => {
                         </div>
 
                         {/* Hover Effect */}
-                        <div className={`absolute inset-0 bg-gradient-to-r from-blue-600/5 to-orange-600/5 transition-opacity duration-300 ${
-                          isHovered ? 'opacity-100' : 'opacity-0'
-                        }`}></div>
+                        <div className={`absolute inset-0 bg-gradient-to-r from-blue-600/5 to-orange-600/5 transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'
+                          }`}></div>
                       </div>
                     </div>
                   </div>
@@ -232,7 +228,7 @@ const Collaboration = () => {
             </div>
           </div>
         </div>
-        
+
         <Footer />
       </div>
     </>
