@@ -1,11 +1,9 @@
-'use client'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import img1 from '../../assets/ppt1.png'
 import img2 from '../../assets/ppt2.png'
 import img3 from '../../assets/ppt3.png'
 import img4 from '../../assets/ppt4.png'
-// import img5 from '../../assets/ppt5.png'
 import img6 from '../../assets/ppt6.png'
 import img7 from '../../assets/ppt7.png'
 import img8 from '../../assets/ppt8.png'
@@ -32,9 +30,6 @@ const CarouselComponents = () => {
                 <div>
                     <img className="p-2 rounded-2xl" src={img4} alt='Photo' />
                 </div>
-                {/* <div>
-                    <img className="p-2 rounded-2xl" src={img5} alt='Photo' />
-                </div> */}
                 <div>
                     <img className="p-2 rounded-2xl" src={img6} alt='Photo' />
                 </div>
@@ -46,7 +41,7 @@ const CarouselComponents = () => {
                 </div>
                 <div>
                     <img className="p-2 rounded-2xl" src={img9} alt='Photo' />
-                </div> 
+                </div>
                 <div>
                     <img className="p-2 rounded-2xl" src={img10} alt='Photo' />
                 </div>

@@ -1,4 +1,3 @@
-'use client'
 import { Carousel } from 'react-responsive-carousel'
 import '../../App.css'
 import { Sheet } from '../../Data/SponseredResearchData.json'
@@ -15,9 +14,9 @@ const Notice = () => {
                 Sponsored Research Projects
             </div>
             <Carousel showIndicators={false} className='md:max-w-[700px] rounded-xl' useKeyboardArrows showStatus={false} swipeable transitionTime={800} autoPlay showThumbs={false} infiniteLoop>
-                    {
-                        Sheet.map((item, index) => (<SponseredResearchCard index={index} year={item.Year_of_Sanction} department={item.Department} title={item.Name_of_Project} principalInvestigator={item.Name_of_PI} fundingAgency={item.Sponsoring_Agency} amount={item.Sanctioned_Amount} key={index} />))
-                    }
+                {
+                    Sheet.map((item, index) => (<SponseredResearchCard index={index} year={item.Year_of_Sanction} department={item.Department} title={item.Name_of_Project} principalInvestigator={item.Name_of_PI} fundingAgency={item.Sponsoring_Agency} amount={item.Sanctioned_Amount} key={index} />))
+                }
             </Carousel>
         </motion.div>
     )
