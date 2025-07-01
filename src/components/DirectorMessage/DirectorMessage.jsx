@@ -9,9 +9,9 @@ const DirectorMessage = () => {
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.7 }}
     >
-      <div className="w-full flex p-4 min-h-[70vh] justify-center  ">
-        <div className=" h-full flex items-center justify-center flex-col md:flex-row shadow-lg bg-sky-100 rounded-md  lg:w-[95%] w-[92vw]">
-          <div className="h-full flex justify-center items-center flex-col min-w-[22rem] md:min-w-[25rem] min-h-[5rem]  py-4 rounded-md">
+      <div className="w-full flex p-4 justify-center">
+        <div className="h-auto flex items-stretch justify-center flex-col md:flex-row shadow-lg bg-sky-100 rounded-md lg:w-[95%] w-[92vw] overflow-hidden">
+          <div className="h-auto flex justify-center items-center flex-col min-w-[22rem] md:min-w-[25rem] lg:min-w-[28rem] py-4 px-2 rounded-md md:border-r border-gray-300">
             <img
               className=" rounded-xl max-w-[15rem] md:max-w-[20rem]"
               src={DirectorSir}
@@ -30,9 +30,10 @@ const DirectorMessage = () => {
              Email: director@nitjsr.ac.in
             
           </div>
-          <div className="mx-5 ">
-            <div className="py-5 text-md font-serif md:font-normal lg:font-medium px-1 md:h-[470px] flex md:items-center md:justify-center md:mt-10 mb-10 md:text-left  items-center ">
-              <div className=" md:leading-[16px] lg:leading-5 leading-5 font-Poppins">
+          <div className="mx-5 flex-1 min-h-0">
+            <div className="py-5 text-md font-serif md:font-normal lg:font-medium px-1 h-full flex flex-col justify-start md:mt-4 mb-4">
+              <div className="md:leading-5 lg:leading-6 leading-5 font-Poppins text-justify overflow-y-auto flex-1 max-h-[450px] md:max-h-[500px] pr-2"
+                   style={{ scrollbarWidth: 'thin', scrollbarColor: '#CBD5E0 #E2E8F0' }}>
                 As I reflect upon my tenure as the Director of NIT Jamshedpur,
                 it brings me immense joy to witness and contribute to the
                 remarkable achievements and accolades earned by the dedicated

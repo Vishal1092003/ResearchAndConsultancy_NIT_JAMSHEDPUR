@@ -59,27 +59,26 @@ const Home = () => {
           </div>
         </div>
 
-        <div id="directormessage" className="pt-5 px-4 w-full bg-yellow-50/50 ">
-          <div className="min-h-[100vh]  flex flex-col justify-center items-center">
-            <div className="flex bg-sky-200 w-full shadow-md p-2 mx-4 rounded-lg  font-medium text-3xl font-serif justify-center items-center">
+        <div id="directormessage" className="pt-5 px-4 w-full bg-yellow-50/50">
+          <div className="min-h-[50vh] flex flex-col justify-start items-center py-8">
+            <div className="flex bg-sky-200 w-full shadow-md p-2 mx-4 rounded-lg font-medium text-3xl font-serif justify-center items-center mb-4">
               Director&apos;s Message
             </div>
-            <DirectorMessage />
+            <div className="w-full flex justify-center">
+              <DirectorMessage />
+            </div>
           </div>
         </div>
         <div className="pt-5 px-4 bg-yellow-50/50">
-          <div className="min-h-[70vh]  flex md:flex-row flex-col p-3">
+          <div className="min-h-[50vh] flex flex-col justify-start items-center py-8">
             <div
               id="Deanmessage"
-              className="flex bg-sky-200 shadow-md text-center p-2 mx-4 rounded-lg  font-medium text-3xl font-serif justify-center items-center"
+              className="flex bg-sky-200 w-full shadow-md text-center p-2 mx-4 rounded-lg font-medium text-3xl font-serif justify-center items-center mb-4"
             >
               Dean&apos;s Message
             </div>
-
-            <div>
-              <div>
-                <DeanMessage />
-              </div>
+            <div className="w-full flex justify-center">
+              <DeanMessage />
             </div>
           </div>
         </div>
