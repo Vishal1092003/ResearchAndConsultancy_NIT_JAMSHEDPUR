@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaArrowDown } from "react-icons/fa6";
 import { motion } from "framer-motion";
+
 const SponsoredResearchDataComponent = ({
   index,
   title,
@@ -9,68 +10,68 @@ const SponsoredResearchDataComponent = ({
   amount,
   year,
   department,
-}) => { 
+}) => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
       <div
         onClick={() => {
           setIsOpen(!isOpen);
         }}
-        className="w-[98%] m-auto h-16 mt-4 rounded-t-lg shadow-lg flex justify-center items-center bg-amber-50"
+        className="w-[98%] m-auto mt-4 rounded-t-lg shadow-lg bg-amber-50 cursor-pointer"
       >
-        <div className="flex justify-between mx-10 items-center w-full  ">
-          <div className="   flex justify-center items-center">
-            <div className="mx-3">{index + 1}.</div>
-            <div className=" overflow-hidden flex md:items-center items-start leading-tight  h-[50px]">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center px-4 py-3 gap-2">
+          <div className="flex items-start md:items-center gap-2 flex-1">
+            <div className="font-semibold">{index + 1}.</div>
+            <div className="text-base font-medium break-words leading-snug">
               {title}
             </div>
           </div>
-
           <motion.div
-            whileTap={{ scale: 0.8 }}
-            className="flex justify-center items-center"
+            whileTap={{ scale: 0.9 }}
+            className="flex items-center gap-2 text-md font-semibold whitespace-nowrap"
           >
-            <div className=" font-semibold text-lg">{year}</div>
+            {year}
             <FaArrowDown
-              size={20}
+              size={16}
               className={`${
-                isOpen ? `rotate-180 scale-110` : `rotate-0`
+                isOpen ? "rotate-180 scale-110" : "rotate-0"
               } transition duration-300`}
             />
           </motion.div>
         </div>
       </div>
+
+      {/* EXPANDABLE SECTION */}
       <div
         className={`${
-          isOpen ? "md:h-[15vh] h-[10vh] " : "h-0 "
-        } shadow-lg rounded-b-lg w-[98%] m-auto  flex-col  transition-all duration-300  bg-amber-100`}
+          isOpen ? "h-auto py-4" : "h-0 overflow-hidden"
+        } transition-all duration-300 bg-amber-100 rounded-b-lg w-[98%] m-auto shadow-lg`}
       >
         <div
           className={`${
-            isOpen ? "flex " : "hidden "
-          } font-semibold text-xl justify-around items-center h-full w-full`}
+            isOpen ? "flex" : "hidden"
+          } flex-col md:flex-row justify-around items-start md:items-center gap-4 px-4`}
         >
-          <div className=" space-y-2">
-            <div className=" flex flex-col md:text-xl text-sm md:flex-row">
-              <div className="mx-3 ">Principal Investigator:</div>
-              <div className=" text-center font-normal">
-                {principalInvestigator}
-              </div>
+          <div className="space-y-2 text-sm md:text-base w-full md:w-1/2">
+            <div>
+              <span className="font-semibold">Principal Investigator:</span>{" "}
+              <span className="font-normal block md:inline text-center md:text-left">{principalInvestigator}</span>
             </div>
-            <div className="flex flex-col md:text-xl text-sm md:flex-row">
-              <div className="mx-3">Funding Agency:</div>
-              <div className=" text-center font-normal">{fundingAgency}</div>
+            <div>
+              <span className="font-semibold">Funding Agency:</span>{" "}
+              <span className="font-normal block md:inline text-center md:text-left">{fundingAgency}</span>
             </div>
           </div>
-          <div className=" space-y-2">
-            <div className="flex flex-col md:text-xl text-sm md:flex-row">
-              <div className="mx-3">Department:</div>
-              <div className=" text-center font-normal">{department}</div>
+          <div className="space-y-2 text-sm md:text-base w-full md:w-1/2">
+            <div>
+              <span className="font-semibold">Department:</span>{" "}
+              <span className="font-normal block md:inline text-center md:text-left">{department}</span>
             </div>
-            <div className="flex flex-col md:text-lg text-sm md:flex-row">
-              <div className="mx-3">Amount:</div>
-              <div className=" text-center font-normal">₹{amount}</div>
+            <div>
+              <span className="font-semibold">Amount:</span>{" "}
+              <span className="font-normal block md:inline text-center md:text-left">₹{amount}</span>
             </div>
           </div>
         </div>
