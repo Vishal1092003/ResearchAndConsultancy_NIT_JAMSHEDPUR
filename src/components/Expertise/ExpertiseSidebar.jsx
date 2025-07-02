@@ -1,3 +1,4 @@
+{/*responisveness not fixed */}
 import React from 'react'
 import { BsThreeDotsVertical } from "react-icons/bs";
 import ReserchAreaData from "../../Data/ReserchAreaData.json"
