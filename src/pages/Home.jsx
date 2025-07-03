@@ -82,70 +82,128 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="pt-5 bg-yellow-50/50">
-          <div className="min-h-[20vh] flex-col flex justify-center items-center  ">
+        
+        {/* Truly Uniform Associate Deans Section */}
+        <div className="pt-8 pb-12 bg-yellow-50/50">
+          <div className="container mx-auto px-4 max-w-7xl">
             <div
               id="Associatedeans"
-              className="flex w-[97vw] bg-sky-200 shadow-md text-center p-2 mx-4 rounded-lg  font-medium text-3xl font-serif justify-center items-center"
+              className="bg-sky-200 shadow-lg text-center p-6 mb-12 rounded-xl font-medium text-3xl font-serif"
             >
               Associate Deans
             </div>
-            <div className="flex md:flex-row flex-col">
-              <Message
-                img={DrKanika}
-                designation1={"Associate Dean"}
-                designation2={"IPR Cell"}
-                message1={null}
-                message2=""
-                name={"Dr. Kanika Prashad"}
-              />
-              <Message
-                img={SwagatadebSir}
-                designation1={"Associate Dean"}
-                designation2={""}
-                message1={null}
-                message2=""
-                name={"Dr. Swagatadeb Sahoo"}
-              />
-              <Message
-                img={AshokSir}
-                designation1={"Associate Dean"}
-                designation2={"Collaboration and Entrepreneurship Development"}
-                message1={null}
-                message2=""
-                name={"Dr. Ashok Mandal"}
-              />
+            
+            {/* CSS Grid with enforced uniform sizing */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+              {/* Uniform Card 1 */}
+              <div className="w-80 h-96 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
+                <div className="h-full w-full flex flex-col items-center justify-center p-4">
+                  <div className="flex-shrink-0 transform scale-90 flex justify-center items-center">
+                    <Message
+                      img={DrKanika}
+                      designation1={"Associate Dean"}
+                      designation2={"IPR Cell"}
+                      message1={null}
+                      message2=""
+                      name={"Dr. Kanika Prashad"}
+                    />
+                  </div>
+                </div>
+              </div>
+              
+              {/* Uniform Card 2 */}
+              <div className="w-80 h-96 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
+                <div className="h-full w-full flex flex-col items-center justify-center p-4">
+                  <div className="flex-shrink-0 transform scale-90 flex justify-center items-center">
+                    <Message
+                      img={SwagatadebSir}
+                      designation1={"Associate Dean"}
+                      designation2={""}
+                      message1={null}
+                      message2=""
+                      name={"Dr. Swagatadeb Sahoo"}
+                    />
+                  </div>
+                </div>
+              </div>
+              
+              {/* Uniform Card 3 */}
+              <div className="w-80 h-96 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col md:col-span-2 lg:col-span-1 md:justify-self-center">
+                <div className="h-full w-full flex flex-col items-center justify-center p-4">
+                  <div className="flex-shrink-0 transform scale-90 flex justify-center items-center">
+                    <Message
+                      img={AshokSir}
+                      designation1={"Associate Dean"}
+                      designation2={"Collaboration and Entrepreneurship Development"}
+                      message1={null}
+                      message2=""
+                      name={"Dr. Ashok Mandal"}
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div className="pt-5 bg-yellow-50/50">
-          <div className="min-h-[20vh] flex justify-center items-center  ">
-            <div className="flex md:flex-row flex-col">
-              <Message
-                img={AbhishekSir}
-                designation1={"Accountant"}
-                designation2={""}
-                message1={null}
-                message2=""
-                name={"Abhishek Verma"}
-              />
-              <Message
-                img={AakashSir}
-                designation1={"Senior Assistant"}
-                message1={null}
-                message2=""
-                name={"Aakash"}
-              />
-              <Message
-                img={AkanshaMam}
-                designation1={"DEO"}
-                message1={null}
-                message2=""
-                name={"Akansha Kumari"}
-              />
+        
+        {/* Truly Uniform Staff Section */}
+        <div className="pt-8 pb-12 bg-yellow-50/50">
+          <div className="container mx-auto px-4 max-w-7xl">
+            <div className="bg-sky-200 shadow-lg text-center p-6 mb-12 rounded-xl font-medium text-3xl font-serif">
+              Administrative Staff
+            </div>
+            
+            {/* CSS Grid with enforced uniform sizing */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+              {/* Uniform Card 1 */}
+              <div className="w-80 h-96 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
+                <div className="h-full w-full flex flex-col items-center justify-center p-4">
+                  <div className="flex-shrink-0 transform scale-90 flex justify-center items-center">
+                    <Message
+                      img={AbhishekSir}
+                      designation1={"Accountant"}
+                      designation2={""}
+                      message1={null}
+                      message2=""
+                      name={"Abhishek Verma"}
+                    />
+                  </div>
+                </div>
+              </div>
+              
+              {/* Uniform Card 2 */}
+              <div className="w-80 h-96 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
+                <div className="h-full w-full flex flex-col items-center justify-center p-4">
+                  <div className="flex-shrink-0 transform scale-90 flex justify-center items-center">
+                    <Message
+                      img={AakashSir}
+                      designation1={"Senior Assistant"}
+                      message1={null}
+                      message2=""
+                      name={"Aakash"}
+                    />
+                  </div>
+                </div>
+              </div>
+              
+              {/* Uniform Card 3 */}
+              <div className="w-80 h-96 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col md:col-span-2 lg:col-span-1 md:justify-self-center">
+                <div className="h-full w-full flex flex-col items-center justify-center p-4">
+                  <div className="flex-shrink-0 transform scale-90 flex justify-center items-center">
+                    <Message
+                      img={AkanshaMam}
+                      designation1={"DEO"}
+                      message1={null}
+                      message2=""
+                      name={"Akansha Kumari"}
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        
         <Footer />
       </div>
     </>
