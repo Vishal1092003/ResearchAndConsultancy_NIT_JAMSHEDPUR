@@ -137,9 +137,10 @@ import { motion } from 'framer-motion';
 import { AiFillProfile, AiOutlineBook, AiOutlineTrophy, AiOutlineDown } from 'react-icons/ai';
 import ReserchAreaData from "../Data/ReserchAreaData.json";
 import Footer from "@/components/Footer/Footer";
-import ExpertiseNavbar from "@/components/Expertise/ExpertiseNavbar";
+// import ExpertiseNavbar from "@/components/Expertise/ExpertiseNavbar";
 import SwagatadebProfile from "@/components/TeacherProfile/SwagatadebProfile";
-
+import Navbar from "../components/Navbar/Navbar";
+import Tab from "../components/Tab/Tab";
 const Expertise = () => {
   const [selectedArea, setSelectedArea] = useState(null);
   const [isNavbarVisible, setIsNavbarVisible] = useState(true);
@@ -196,10 +197,12 @@ const Expertise = () => {
   return (
     <>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
-        {/* Fixed Navbar */}
-        <div className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ${isNavbarVisible ? 'translate-y-0' : '-translate-y-full'}`}>
-          <ExpertiseNavbar />
-        </div>
+       <div className="overflow-x-hidden">
+        <Navbar />
+      </div>
+      <div className="sticky top-0 z-10 bg-white shadow-md">
+        <Tab />
+      </div>
         
         {/* Hero Section */}
         <motion.div 

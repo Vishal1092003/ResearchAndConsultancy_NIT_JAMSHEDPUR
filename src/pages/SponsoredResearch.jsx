@@ -1,13 +1,19 @@
-import Navbar from '../components/Navbar/Navbar'
-import SponseredResearchData from '../Data/SponseredResearchData.json'
-import SponsoredResearchDataComponent from '../components/SponsoredResearchDataComponent/SponsoredResearchDataComponent'
-const SponsoredResearch = () => {
-    return (
-        <div>
+import Navbar from "../components/Navbar/Navbar";
+import Tab from "../components/Tab/Tab";
 
-            <div className=''>
-                <Navbar />
-                {/* <div className='flex mt-2'>
+import SponseredResearchData from "../Data/SponseredResearchData.json";
+import SponsoredResearchDataComponent from "../components/SponsoredResearchDataComponent/SponsoredResearchDataComponent";
+const SponsoredResearch = () => {
+  return (
+    <div>
+      <div className="">
+        <div className="overflow-x-hidden">
+          <Navbar />
+        </div>
+        <div className="sticky top-0 z-10 bg-white shadow-md">
+          <Tab />
+        </div>
+        {/* <div className='flex mt-2'>
       <div className='ml-5  '>
          <h1 className='font-bold text-center'>Events: </h1>
       </div>
@@ -35,18 +41,28 @@ const SponsoredResearch = () => {
  
       </div>
     </div> */}
-                <div className='m-auto p-12 shadow-lg flex justify-center items-center bg-gradient-to-r from-blue-600 via-blue-700 to-orange-600 text-white'>
-                    <div className='font-bold text-5xl text-center'>
-                        Sponsored Research
-                    </div>
-                </div>
-                <div className='pb-12 px-12'>
-                    {SponseredResearchData.Sheet.map((item, index) => (<SponsoredResearchDataComponent index={index} year={item.Year_of_Sanction} department={item.Department} title={item.Name_of_Project} principalInvestigator={item.Name_of_PI} fundingAgency={item.Sponsoring_Agency} amount={item.Sanctioned_Amount} key={index} />))}
-                </div>
-            </div>
+        <div className="m-auto p-12 shadow-lg flex justify-center items-center bg-gradient-to-r from-blue-600 via-blue-700 to-orange-600 text-white">
+          <div className="font-bold text-5xl text-center">
+            Sponsored Research
+          </div>
         </div>
+        <div className="pb-12 px-12">
+          {SponseredResearchData.Sheet.map((item, index) => (
+            <SponsoredResearchDataComponent
+              index={index}
+              year={item.Year_of_Sanction}
+              department={item.Department}
+              title={item.Name_of_Project}
+              principalInvestigator={item.Name_of_PI}
+              fundingAgency={item.Sponsoring_Agency}
+              amount={item.Sanctioned_Amount}
+              key={index}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
 
-    )
-}
-
-export default SponsoredResearch
+export default SponsoredResearch;
