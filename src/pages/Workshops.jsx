@@ -1,4 +1,5 @@
 import Navbar from '@/components/Navbar/Navbar';
+import Tab from '@/components/Tab/Tab';
 import workshopData from '@/Data/WorkshopData.json';
 import { CalendarDays, Users, Award } from 'lucide-react';
 
@@ -7,12 +8,15 @@ const Workshops = () => {
     <div className="w-full min-h-screen bg-gradient-to-br from-blue-50 via-white to-orange-50">
       
       {/* ✅ Fixed Navbar */}
-      <div className="fixed top-0 left-0 w-full z-50">
+      <div className="overflow-x-hidden">
         <Navbar />
+      </div>
+      <div className="sticky top-0 z-10 bg-white shadow-md">
+        <Tab />
       </div>
 
       {/* ✅ Sticky Workshop Header at 190px from top */}
-      <div className="sticky top-[120px] md:top-[190px] z-40 bg-gradient-to-r from-blue-600 to-orange-500 text-white py-4 text-center text-xl md:text-2xl font-bold shadow-md">
+      <div className="md:top-[190px] z-40 bg-gradient-to-r from-blue-600 to-orange-500 text-white py-4 text-center text-xl md:text-2xl font-bold shadow-md">
         Workshops / Conferences / STC / STTP / FDP - 2025
       </div>
 

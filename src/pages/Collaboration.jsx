@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react';
-import { Building2, Calendar, FileText, Users, Award } from 'lucide-react';
+import { useState, useEffect } from "react";
+import { Building2, Calendar, FileText, Users, Award } from "lucide-react";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import CollaborationData from "../Data/CollaborationData.json";
-
+import Tab from "@/components/Tab/Tab";
 const Collaboration = () => {
   const [visibleItems, setVisibleItems] = useState(0);
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -13,7 +13,7 @@ const Collaboration = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       if (visibleItems < CollaborationData.sheet1.length) {
-        setVisibleItems(prev => prev + 1);
+        setVisibleItems((prev) => prev + 1);
       }
     }, 200);
 
@@ -23,7 +23,7 @@ const Collaboration = () => {
   // Navbar hide/show on scroll
   useEffect(() => {
     const controlNavbar = () => {
-      if (typeof window !== 'undefined') {
+      if (typeof window !== "undefined") {
         if (window.scrollY > lastScrollY && window.scrollY > 100) {
           setIsNavbarVisible(false);
         } else {
@@ -33,21 +33,21 @@ const Collaboration = () => {
       }
     };
 
-    if (typeof window !== 'undefined') {
-      window.addEventListener('scroll', controlNavbar);
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", controlNavbar);
       return () => {
-        window.removeEventListener('scroll', controlNavbar);
+        window.removeEventListener("scroll", controlNavbar);
       };
     }
   }, [lastScrollY]);
 
   const formatDate = (dateString) => {
-    const [day, month, year] = dateString.split('-');
+    const [day, month, year] = dateString.split("-");
     const date = new Date(`${year}-${month}-${day}`);
-    return date.toLocaleDateString('en-IN', {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric'
+    return date.toLocaleDateString("en-IN", {
+      day: "numeric",
+      month: "long",
+      year: "numeric",
     });
   };
 
@@ -97,9 +97,11 @@ const Collaboration = () => {
       `}</style>
 
       <div className="w-full min-h-screen bg-gradient-to-br from-blue-50 via-white to-orange-50">
-        <div className={`fixed top-0 w-full z-50 transition-transform duration-300 ${isNavbarVisible ? 'translate-y-0' : '-translate-y-full'
-          }`}>
+        <div className="overflow-x-hidden">
           <Navbar />
+        </div>
+        <div className="sticky top-0 z-10 bg-white shadow-md">
+          <Tab />
         </div>
 
         {/* Hero Section */}
@@ -128,13 +130,19 @@ const Collaboration = () => {
           <div className="flex flex-col sm:flex-row justify-center items-stretch gap-4 sm:gap-8 mb-12 sm:mb-16">
             <div className="w-full sm:flex-1 sm:min-w-[220px] sm:max-w-xs mx-auto text-center p-4 sm:p-6 bg-white rounded-xl shadow-lg border border-blue-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col items-center">
               <FileText className="mb-3 sm:mb-4 h-10 w-10 sm:h-12 sm:w-12 text-blue-600" />
-              <div className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">{CollaborationData.sheet1.length}</div>
+              <div className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
+                {CollaborationData.sheet1.length}
+              </div>
               <div className="text-gray-600 font-medium">Active MoUs</div>
             </div>
             <div className="w-full sm:flex-1 sm:min-w-[220px] sm:max-w-xs mx-auto text-center p-4 sm:p-6 bg-white rounded-xl shadow-lg border border-orange-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col items-center">
               <Building2 className="mb-3 sm:mb-4 h-10 w-10 sm:h-12 sm:w-12 text-orange-600" />
-              <div className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">{CollaborationData.sheet1.length}</div>
-              <div className="text-gray-600 font-medium">Partner Institutions</div>
+              <div className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
+                {CollaborationData.sheet1.length}
+              </div>
+              <div className="text-gray-600 font-medium">
+                Partner Institutions
+              </div>
             </div>
           </div>
 
@@ -142,7 +150,10 @@ const Collaboration = () => {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-                Our <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">Partnership Network</span>
+                Our{" "}
+                <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
+                  Partnership Network
+                </span>
               </h2>
               <div className="w-16 sm:w-24 h-1 bg-gradient-to-r from-blue-600 to-orange-600 mx-auto rounded-full"></div>
             </div>
@@ -155,17 +166,20 @@ const Collaboration = () => {
                 return (
                   <div
                     key={index}
-                    className={`transform transition-all duration-700 ${isVisible
-                        ? 'translate-x-0 opacity-100'
-                        : 'translate-x-full opacity-0'
-                      }`}
+                    className={`transform transition-all duration-700 ${
+                      isVisible
+                        ? "translate-x-0 opacity-100"
+                        : "translate-x-full opacity-0"
+                    }`}
                     style={{ transitionDelay: `${index * 100}ms` }}
                     onMouseEnter={() => setHoveredIndex(index)}
                     onMouseLeave={() => setHoveredIndex(null)}
                   >
-                    <div className={`relative bg-white rounded-2xl shadow-lg border-l-4 border-gradient-to-b from-blue-500 to-orange-500 overflow-hidden group hover:shadow-2xl transition-all duration-300 ${isHovered ? 'sm:scale-105 sm:-translate-y-2' : ''
-                      }`}>
-
+                    <div
+                      className={`relative bg-white rounded-2xl shadow-lg border-l-4 border-gradient-to-b from-blue-500 to-orange-500 overflow-hidden group hover:shadow-2xl transition-all duration-300 ${
+                        isHovered ? "sm:scale-105 sm:-translate-y-2" : ""
+                      }`}
+                    >
                       {/* Background Pattern - Reduced on mobile */}
                       <div className="absolute inset-0 opacity-5">
                         <div className="absolute top-0 right-0 w-16 h-16 sm:w-32 sm:h-32 bg-gradient-to-br from-blue-600 to-orange-600 rounded-full -translate-y-8 translate-x-8 sm:-translate-y-16 sm:translate-x-16"></div>
@@ -189,7 +203,9 @@ const Collaboration = () => {
                               </h3>
                               <div className="flex items-center text-gray-600">
                                 <Building2 className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
-                                <span className="text-xs sm:text-sm font-medium">Academic Institution</span>
+                                <span className="text-xs sm:text-sm font-medium">
+                                  Academic Institution
+                                </span>
                               </div>
                             </div>
                           </div>
@@ -199,13 +215,14 @@ const Collaboration = () => {
                             <div className="bg-gradient-to-r from-blue-50 to-orange-50 rounded-lg p-3 sm:p-4 border border-blue-100 flex-1 sm:flex-none">
                               <div className="flex items-center justify-center mb-1 sm:mb-2">
                                 <Calendar className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600 mr-2" />
-                                <span className="text-xs sm:text-sm font-medium text-gray-700">MoU Date</span>
+                                <span className="text-xs sm:text-sm font-medium text-gray-700">
+                                  MoU Date
+                                </span>
                               </div>
                               <div className="text-sm sm:text-lg font-bold text-gray-800 text-center">
                                 {formatDate(data.Date_of_MoU)}
                               </div>
                             </div>
-
                           </div>
                         </div>
 
@@ -218,8 +235,11 @@ const Collaboration = () => {
                         </div>
 
                         {/* Hover Effect */}
-                        <div className={`absolute inset-0 bg-gradient-to-r from-blue-600/5 to-orange-600/5 transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'
-                          }`}></div>
+                        <div
+                          className={`absolute inset-0 bg-gradient-to-r from-blue-600/5 to-orange-600/5 transition-opacity duration-300 ${
+                            isHovered ? "opacity-100" : "opacity-0"
+                          }`}
+                        ></div>
                       </div>
                     </div>
                   </div>
