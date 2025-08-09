@@ -3,7 +3,10 @@ import Footer from "../components/Footer/Footer";
 import Message from "../components/Message/Message";
 import Navbar from "../components/Navbar/Navbar";
 import Tab from "../components/Tab/Tab";
-
+import messages from "../pages/dean&directorMsg.json";
+// import { useState } from "react";
+import React, { useState } from "react";
+import { FaLinkedin } from "react-icons/fa";
 import {
   AbhishekSir,
   AakashSir,
@@ -15,15 +18,13 @@ import {
   DeanSir,
 } from "../assets/index";
 
-// JSON data
-import messages from "../pages/dean&directorMsg.json";
-import { useState } from "react";
+// dean&directorMsg.json contains the messages for Dean and Director
 
-// Map image keys from JSON to actual imports
 const imageMap = {
   DirectorSir,
   DeanSir,
 };
+
 const MessageTile = ({ data, reverse }) => {
   const [expanded, setExpanded] = useState(false);
   const imgSrc = imageMap[data.image];
@@ -87,6 +88,176 @@ const MessageTile = ({ data, reverse }) => {
   );
 };
 
+//different teams component
+
+const teams = {
+  "Associate Deans": [
+    {
+      name: "Dr. Kanika Prashad",
+      role: "Associate Dean-IPR Cell",
+      img: DrKanika,
+      linkedin: "#",
+    },
+
+    {
+      name: "Dr. Swagatadeb Sahoo",
+      role: "Associate Dean",
+      img: SwagatadebSir,
+      linkedin: "#",
+    },
+    {
+      name: "Dr. Ashok Mandal",
+      role: "Associate Dean-Collaboration and Entrepreneurship Development",
+      img: AshokSir,
+      linkedin: "#",
+    },
+  ],
+  "Administrative Staff": [
+    {
+      name: "Abhishek Verma",
+      role: "Accountant",
+      img: AbhishekSir,
+      linkedin: "#",
+    },
+    {
+      name: "Aakash",
+      role: "Senior Assistant",
+      img: AakashSir,
+      linkedin: "#",
+    },
+    {
+      name: "Akansha Kumari",
+      role: "Administrative Staff",
+      img: AkanshaMam,
+      linkedin: "#",
+    },
+  ],
+  "Web Team": [
+    {
+      name: "Alice Johnson",
+      role: "Frontend Developer",
+      img: "https://via.placeholder.com/120",
+      linkedin: "#",
+    },
+    {
+      name: "David Wilson",
+      role: "Backend Developer",
+      img: "https://via.placeholder.com/120",
+      linkedin: "#",
+    },
+  ],
+  "Research Team": [
+    {
+      name: "Sophia Lee",
+      role: "Research Analyst",
+      img: "https://via.placeholder.com/120",
+      linkedin: "#",
+    },
+  ],
+};
+
+const premiumBlue = "#3A8DCC";
+const accentColor = premiumBlue;
+
+export function TeamSection() {
+  const [activeTab, setActiveTab] = useState("Associate Deans");
+
+  return (
+    <div className="w-full max-w-6xl mx-auto px-4 py-12">
+      {/* Tabs */}
+      <div className="flex flex-wrap justify-center gap-3 mb-12">
+        {Object.keys(teams).map((tab) => (
+          <button
+            key={tab}
+            onClick={() => setActiveTab(tab)}
+            className={`px-6 py-3 rounded-full font-medium transition-all duration-300 text-lg ${
+              activeTab === tab
+                ? "text-white shadow-lg"
+                : "text-gray-600 hover:text-gray-800 bg-gray-100 hover:bg-gray-200"
+            }`}
+            style={{
+              backgroundColor: activeTab === tab ? accentColor : undefined,
+            }}
+          >
+            {tab}
+          </button>
+        ))}
+      </div>
+
+      {/* Team Members Grid - 2 columns */}
+      <div className="grid gap-8 md:grid-cols-2">
+        {teams[activeTab].map((member, index) => (
+          <div
+            key={index}
+            className="flex bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden"
+          >
+            {/* Image on left - larger size */}
+            <div className="w-1/3 min-w-[120px] relative">
+              <img
+                src={member.img}
+                alt={member.name}
+                className="w-full h-full object-cover"
+              />
+              {/* LinkedIn button */}
+              <a
+                href={member.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute bottom-2 right-2 bg-white p-2 rounded-full shadow hover:bg-gray-100 transition-colors"
+                style={{ color: accentColor }}
+              >
+                <FaLinkedin className="text-xl" />
+              </a>
+            </div>
+
+            {/* Content on right */}
+            <div className="w-2/3 p-5 flex flex-col justify-center">
+              <h3 className="text-xl font-bold text-gray-800 mb-1">
+                {member.name}
+              </h3>
+              <p className="text-gray-600 mb-3 text-sm">{member.role}</p>
+
+              {/* Additional info could go here */}
+              <div className="flex items-center text-sm text-gray-500 mt-2">
+                <svg
+                  className="w-4 h-4 mr-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  />
+                </svg>
+                <span>{member.email || "email@example.com"}</span>
+              </div>
+
+              <div className="flex items-center text-sm text-gray-500 mt-1">
+                <svg
+                  className="w-4 h-4 mr-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                  />
+                </svg>
+                <span>{member.phone || "+91 XXXXX XXXXX"}</span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 const Home = () => {
   return (
@@ -113,132 +284,9 @@ const Home = () => {
             </div>
           </div>
 
-
-
-          {/* profileCardsSection */}
+          {/* profileCardsSection*/}
           <div>
-            {/* associateDeans */}
-            <div className="pt-8 pb-12 bg-yellow-50/50">
-              <div className="container mx-auto px-4 max-w-7xl">
-                <div
-                  id="Associatedeans"
-                  className="bg-sky-200 shadow-lg text-center p-6 mb-12 rounded-xl font-medium text-3xl font-serif"
-                >
-                  Associate Deans
-                </div>
-
-                {/* CSS Grid with enforced uniform sizing */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
-                  {/* Uniform Card 1 */}
-                  <div className="w-80 h-96 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
-                    <div className="h-full w-full flex flex-col items-center justify-center p-4">
-                      <div className="flex-shrink-0 transform scale-90 flex justify-center items-center">
-                        <Message
-                          img={DrKanika}
-                          designation1={"Associate Dean"}
-                          designation2={"IPR Cell"}
-                          message1={null}
-                          message2=""
-                          name={"Dr. Kanika Prashad"}
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Uniform Card 2 */}
-                  <div className="w-80 h-96 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
-                    <div className="h-full w-full flex flex-col items-center justify-center p-4">
-                      <div className="flex-shrink-0 transform scale-90 flex justify-center items-center">
-                        <Message
-                          img={SwagatadebSir}
-                          designation1={"Associate Dean"}
-                          designation2={""}
-                          message1={null}
-                          message2=""
-                          name={"Dr. Swagatadeb Sahoo"}
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Uniform Card 3 */}
-                  <div className="w-80 h-96 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col md:col-span-2 lg:col-span-1 md:justify-self-center">
-                    <div className="h-full w-full flex flex-col items-center justify-center p-4">
-                      <div className="flex-shrink-0 transform scale-90 flex justify-center items-center">
-                        <Message
-                          img={AshokSir}
-                          designation1={"Associate Dean"}
-                          designation2={
-                            "Collaboration and Entrepreneurship Development"
-                          }
-                          message1={null}
-                          message2=""
-                          name={"Dr. Ashok Mandal"}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* administrativeStaff */}
-            <div className="pt-8 pb-12 bg-yellow-50/50">
-              <div className="container mx-auto px-4 max-w-7xl">
-                <div className="bg-sky-200 shadow-lg text-center p-6 mb-12 rounded-xl font-medium text-3xl font-serif">
-                  Administrative Staff
-                </div>
-
-                {/* CSS Grid with enforced uniform sizing */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
-                  {/* Uniform Card 1 */}
-                  <div className="w-80 h-96 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
-                    <div className="h-full w-full flex flex-col items-center justify-center p-4">
-                      <div className="flex-shrink-0 transform scale-90 flex justify-center items-center">
-                        <Message
-                          img={AbhishekSir}
-                          designation1={"Accountant"}
-                          designation2={""}
-                          message1={null}
-                          message2=""
-                          name={"Abhishek Verma"}
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Uniform Card 2 */}
-                  <div className="w-80 h-96 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
-                    <div className="h-full w-full flex flex-col items-center justify-center p-4">
-                      <div className="flex-shrink-0 transform scale-90 flex justify-center items-center">
-                        <Message
-                          img={AakashSir}
-                          designation1={"Senior Assistant"}
-                          message1={null}
-                          message2=""
-                          name={"Aakash"}
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Uniform Card 3 */}
-                  <div className="w-80 h-96 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col md:col-span-2 lg:col-span-1 md:justify-self-center">
-                    <div className="h-full w-full flex flex-col items-center justify-center p-4">
-                      <div className="flex-shrink-0 transform scale-90 flex justify-center items-center">
-                        <Message
-                          img={AkanshaMam}
-                          designation1={"DEO"}
-                          message1={null}
-                          message2=""
-                          name={"Akansha Kumari"}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <TeamSection />
           </div>
 
           {/* footer */}

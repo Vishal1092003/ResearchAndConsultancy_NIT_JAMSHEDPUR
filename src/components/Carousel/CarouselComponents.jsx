@@ -1,14 +1,14 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import img1 from "../../assets/ppt1.png";
-import img2 from "../../assets/ppt2.png";
+import img1 from "../../assets/ppt1b.png";
+import img2 from "../../assets/ppt2b.png";
 import img3 from "../../assets/ppt3.png";
 import img4 from "../../assets/ppt4.png";
 import img6 from "../../assets/ppt6.png";
 import img7 from "../../assets/ppt7.png";
-import img8 from "../../assets/ppt8.png";
-import img9 from "../../assets/ppt9.png";
-import img10 from "../../assets/ppt10.png";
+import img8 from "../../assets/ppt8b.png";
+import img9 from "../../assets/ppt9b.png";
+import img10 from "../../assets/ppt11b.png";
 import { motion } from "framer-motion";
 
 const images = [
