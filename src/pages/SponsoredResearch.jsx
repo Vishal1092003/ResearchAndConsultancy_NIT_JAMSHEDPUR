@@ -2,7 +2,8 @@ import Navbar from "../components/Navbar/Navbar";
 import Tab from "../components/Tab/Tab";
 
 import SponseredResearchData from "../Data/SponseredResearchData.json";
-import SponsoredResearchDataComponent from "../components/SponsoredResearchDataComponent/SponsoredResearchDataComponent";
+// import SponsoredResearchDataComponent from "../components/SponsoredResearchDataComponent/SponsoredResearchDataComponent";
+import DynamicTable from "@/components/dynamicTable/dynamicTable";
 const SponsoredResearch = () => {
   return (
     <div>
@@ -41,13 +42,18 @@ const SponsoredResearch = () => {
  
       </div>
     </div> */}
-        <div className="m-auto p-12 shadow-lg flex justify-center items-center bg-gradient-to-r from-blue-600 via-blue-700 to-orange-600 text-white">
+        {/* <div className="m-auto p-12 shadow-lg flex justify-center items-center bg-gradient-to-r from-blue-600 via-blue-700 to-orange-600 text-white">
           <div className="font-bold text-5xl text-center">
             Sponsored Research
           </div>
+        </div> */}
+
+        <div className="w-full  h-16 mt-5 mb-5 rounded-lg shadow-lg flex justify-center items-center bg-sky-300">
+            <h1 className="font-bold text-2xl">Sponsored Research</h1>
         </div>
+
         <div className="pb-12 px-12">
-          {SponseredResearchData.Sheet.map((item, index) => (
+          {/* {SponseredResearchData.Sheet.map((item, index) => (
             <SponsoredResearchDataComponent
               index={index}
               year={item.Year_of_Sanction}
@@ -58,7 +64,9 @@ const SponsoredResearch = () => {
               amount={item.Sanctioned_Amount}
               key={index}
             />
-          ))}
+          ))} */}
+
+          <DynamicTable data={SponseredResearchData.Sheet} />
         </div>
       </div>
     </div>
