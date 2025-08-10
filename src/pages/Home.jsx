@@ -29,11 +29,6 @@ const MessageTile = ({ data, reverse }) => {
   const [expanded, setExpanded] = useState(false);
   const imgSrc = imageMap[data.image];
 
-  const shortText =
-    data.message.length > 350
-      ? data.message.substring(0, 350) + "..."
-      : data.message;
-
   return (
     <div
       className={`flex flex-col md:flex-row ${
@@ -71,9 +66,17 @@ const MessageTile = ({ data, reverse }) => {
           {reverse ? "Director's Message" : "Dean's Message"}
         </h2>
         <div className="border-t border-gray-200 pt-4">
-          <p className="text-gray-700 text-justify leading-relaxed">
-            {expanded ? data.message : shortText}
-          </p>
+          <div
+            className="relative overflow-hidden transition-all duration-700 ease-in-out"
+            style={{ maxHeight: expanded ? "1000px" : "10rem" }} // Adjust height as needed
+          >
+            <p className="text-gray-700 text-justify leading-relaxed">
+              {data.message}
+            </p>
+            {!expanded && data.message.length > 350 && (
+              <div className="absolute bottom-0 left-0 w-full h-12 bg-gradient-to-t from-gray-50 to-transparent"></div>
+            )}
+          </div>
           {data.message.length > 350 && (
             <button
               onClick={() => setExpanded(!expanded)}
