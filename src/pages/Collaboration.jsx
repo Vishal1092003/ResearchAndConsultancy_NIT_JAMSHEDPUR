@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import CollaborationData from "../Data/CollaborationData.json";
 import Tab from "@/components/Tab/Tab";
+import DynamicTable from "@/components/dynamicTable/dynamicTable";
 const Collaboration = () => {
   const [visibleItems, setVisibleItems] = useState(0);
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -104,7 +105,6 @@ const Collaboration = () => {
           <Tab />
         </div>
 
-        {/* Hero Section */}
         <div className="relative overflow-hidden bg-gradient-to-r from-blue-600 via-blue-700 to-orange-600 text-white mt-16">
           <div className="absolute inset-0 bg-black opacity-10"></div>
           <div className="relative container mx-auto px-4 sm:px-6 py-12 sm:py-16 text-center">
@@ -157,95 +157,9 @@ const Collaboration = () => {
               </h2>
               <div className="w-16 sm:w-24 h-1 bg-gradient-to-r from-blue-600 to-orange-600 mx-auto rounded-full"></div>
             </div>
-
-            <div className="grid gap-4 sm:gap-6">
-              {CollaborationData.sheet1.map((data, index) => {
-                const isVisible = index < visibleItems;
-                const isHovered = hoveredIndex === index;
-
-                return (
-                  <div
-                    key={index}
-                    className={`transform transition-all duration-700 ${
-                      isVisible
-                        ? "translate-x-0 opacity-100"
-                        : "translate-x-full opacity-0"
-                    }`}
-                    style={{ transitionDelay: `${index * 100}ms` }}
-                    onMouseEnter={() => setHoveredIndex(index)}
-                    onMouseLeave={() => setHoveredIndex(null)}
-                  >
-                    <div
-                      className={`relative bg-white rounded-2xl shadow-lg border-l-4 border-gradient-to-b from-blue-500 to-orange-500 overflow-hidden group hover:shadow-2xl transition-all duration-300 ${
-                        isHovered ? "sm:scale-105 sm:-translate-y-2" : ""
-                      }`}
-                    >
-                      {/* Background Pattern - Reduced on mobile */}
-                      <div className="absolute inset-0 opacity-5">
-                        <div className="absolute top-0 right-0 w-16 h-16 sm:w-32 sm:h-32 bg-gradient-to-br from-blue-600 to-orange-600 rounded-full -translate-y-8 translate-x-8 sm:-translate-y-16 sm:translate-x-16"></div>
-                        <div className="absolute bottom-0 left-0 w-12 h-12 sm:w-24 sm:h-24 bg-gradient-to-tr from-orange-600 to-blue-600 rounded-full translate-y-6 -translate-x-6 sm:translate-y-12 sm:-translate-x-12"></div>
-                      </div>
-
-                      <div className="relative p-4 sm:p-6 md:p-8">
-                        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-4 sm:space-y-0">
-                          <div className="flex items-start sm:items-center space-x-3 sm:space-x-4 flex-1">
-                            {/* Serial Number */}
-                            <div className="flex-shrink-0">
-                              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-blue-600 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-sm sm:text-lg shadow-lg">
-                                {index + 1}
-                              </div>
-                            </div>
-
-                            {/* Institution Name */}
-                            <div className="flex-1 min-w-0">
-                              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800 mb-2 group-hover:text-blue-700 transition-colors duration-300 break-words">
-                                {data.MoU_Institute}
-                              </h3>
-                              <div className="flex items-center text-gray-600">
-                                <Building2 className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
-                                <span className="text-xs sm:text-sm font-medium">
-                                  Academic Institution
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-
-                          {/* Date Section */}
-                          <div className="flex items-center justify-between sm:justify-end space-x-3">
-                            <div className="bg-gradient-to-r from-blue-50 to-orange-50 rounded-lg p-3 sm:p-4 border border-blue-100 flex-1 sm:flex-none">
-                              <div className="flex items-center justify-center mb-1 sm:mb-2">
-                                <Calendar className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600 mr-2" />
-                                <span className="text-xs sm:text-sm font-medium text-gray-700">
-                                  MoU Date
-                                </span>
-                              </div>
-                              <div className="text-sm sm:text-lg font-bold text-gray-800 text-center">
-                                {formatDate(data.Date_of_MoU)}
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/* Active participation badge  */}
-                        <div className="mt-4 flex justify-end">
-                          <span className="inline-flex items-center px-2 sm:px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800 border border-green-200">
-                            <div className="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></div>
-                            Active Partnership
-                          </span>
-                        </div>
-
-                        {/* Hover Effect */}
-                        <div
-                          className={`absolute inset-0 bg-gradient-to-r from-blue-600/5 to-orange-600/5 transition-opacity duration-300 ${
-                            isHovered ? "opacity-100" : "opacity-0"
-                          }`}
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
+          <div>
+            <DynamicTable data={CollaborationData.sheet1}/>
+          </div>
           </div>
         </div>
 
