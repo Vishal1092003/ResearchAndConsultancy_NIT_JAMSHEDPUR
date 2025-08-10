@@ -1,12 +1,11 @@
-import { FaArrowDown } from "react-icons/fa6";
 import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 const Tab = () => {
   return (
     <div
-      className="hidden md:flex justify-between h-10 px-5 py-6 items-center 
-                sticky top-0 bg-white z-50 shadow"
+      className="hidden md:flex justify-between max-w-7xl mx-auto h-10 px-4 py-6 items-center 
+                sticky top-0 bg-white z-50"
     >
       <motion.div whileHover={{ scale: 1.1 }}>
         <HashLink
