@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import PatentDataComponent from "@/components/Patent/PatentDataComponent";
 import PatentData from "../Data/PatentData.json";
 import Tab from "@/components/Tab/Tab";
+import DynamicTable from "@/components/dynamicTable/dynamicTable";
 
 const Patent = () => {
   return (
@@ -19,7 +20,7 @@ const Patent = () => {
           </div>
 
           <div className="w-full  mt-8 space-y-4">
-            {PatentData.sheet1.map((item, index) => (
+            {/* {PatentData.sheet1.map((item, index) => (
               <PatentDataComponent
                 key={item.s_no}
                 index={index}
@@ -29,7 +30,9 @@ const Patent = () => {
                 Status={item.status}
                 Date={item.date.split(" ")[0]}
               />
-            ))}
+            ))} */}
+
+            <DynamicTable data={PatentData.sheet1} />
           </div>
         </div>
       </div>
