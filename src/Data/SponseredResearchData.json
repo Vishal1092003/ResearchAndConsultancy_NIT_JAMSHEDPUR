@@ -603,6 +603,15 @@
             "Sponsoring_Agency":"SERB",
             "Year_of_Sanction":2020
         },
+             {
+            "S_No":27,
+            "Name_of_PI":"Prof. R.V. Sharma",
+            "Name_of_Project":"Design of renewable energy system for rural and remote area under the Programme on National Mission on Power Electronics Technology Phase-III (NaMPET-III) Programme",
+            "Department":"Mechanical Engineering",
+            "Sanctioned_Amount":1893000,
+            "Sponsoring_Agency":"Ministry of Electronics & Information Technology",
+            "Year_of_Sanction":2019
+        },
         {
             "S_No":21,
             "Name_of_PI":"Dr. Dulari Hansdah",
@@ -611,15 +620,7 @@
             "Sanctioned_Amount":2128500,
             "Sponsoring_Agency":"SERB",
             "Year_of_Sanction":2019
-        },
-        {
-            "S_No":27,
-            "Name_of_PI":"Prof. R.V. Sharma",
-            "Name_of_Project":"Design of renewable energy system for rural and remote area under the Programme on National Mission on Power Electronics Technology Phase-III (NaMPET-III) Programme",
-            "Department":"Mechanical Engineering",
-            "Sanctioned_Amount":1893000,
-            "Sponsoring_Agency":"Ministry of Electronics & Information Technology",
-            "Year_of_Sanction":2019
         }
+   
     ]
 }
