@@ -31,14 +31,12 @@ function App() {
           <Route path='/collaboration' element={<Collaboration />} />
           <Route path='/interdisciplinary' element={<Interdisciplinary />} />
           <Route path='/workshops' element={<Workshops />} />
-          <Route path='/Events' element={<Events />} />
+          <Route path='/events' element={<Events />} />
           <Route path='/sidenavbar' element={<SideNavbar />} />
-          collaboration
+          {/* collaboration */}
         </Routes>
       </Router>
-      {/* <div>
-      <Events />
-    </div> */}
+
     </>
   )
         }
