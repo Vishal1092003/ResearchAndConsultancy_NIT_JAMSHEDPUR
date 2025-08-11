@@ -12,6 +12,8 @@ import Interdisciplinary from './pages/Interdisciplinary'
 import SideNavbar from './components/sideNavbar/SideNavbar'
 import Collaboration from './pages/Collaboration'
 import Workshops from './pages/Workshops'
+import Events from "./pages/Events";
+
 function App() {
 
   return (
@@ -29,10 +31,14 @@ function App() {
           <Route path='/collaboration' element={<Collaboration />} />
           <Route path='/interdisciplinary' element={<Interdisciplinary />} />
           <Route path='/workshops' element={<Workshops />} />
+          <Route path='/Events' element={<Events />} />
           <Route path='/sidenavbar' element={<SideNavbar />} />
           collaboration
         </Routes>
       </Router>
+      {/* <div>
+      <Events />
+    </div> */}
     </>
   )
         }
