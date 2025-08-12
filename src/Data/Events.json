@@ -1,0 +1,455 @@
+{
+  "Sheet": [
+    {
+      "sl_no": 1,
+      "department": "Metallurgical and Materials Engineering",
+      "event": "MSME A-ESDP course on Modern Agriculture, Husbandry, and Processing",
+      "concerned_person": "Dr. Ram Krishna",
+      "duration": "3rd - 7th January 2024"
+    },
+    {
+      "sl_no": 2,
+      "department": "Electronics and Communication Engineering",
+      "event": "Blood Donation Camp by NSS",
+      "concerned_person": "Dr. Jayendra Kumar",
+      "duration": "7th January, 2024"
+    },
+    {
+      "sl_no": 3,
+      "department": "Electronics and Communication Engineering",
+      "event": "MSME A-ESDP course on Smart and Effective Agriculture using IoT and Global Navigation Satellite Systems",
+      "concerned_person": "Dr. Suarajit Kundu",
+      "duration": "9th - 13th January, 2024"
+    },
+    {
+      "sl_no": 4,
+      "department": "Production and Industrial Engineering",
+      "event": "Sky Soar Festival by Think India in association with UBA",
+      "concerned_person": "Dr. Kanika Prasad",
+      "duration": "14th January, 2024"
+    },
+    {
+      "sl_no": 5,
+      "department": "Mechanical Engineering",
+      "event": "Cognitio’24 Annual fest of Mechanical Engineering Department",
+      "concerned_person": "Dr. Bipin Kumar",
+      "duration": "19th – 21st January, 2024"
+    },
+    {
+      "sl_no": 6,
+      "department": "",
+      "event": "75th Republic Day Celebration",
+      "concerned_person": "Dean (SW)",
+      "duration": "26th January, 2024"
+    },
+    {
+      "sl_no": 7,
+      "department": "Metallurgical and Materials Engineering",
+      "event": "Technica’24 Annual fest of MME Department",
+      "concerned_person": "HOD, MME",
+      "duration": "25th – 27th January, 2024"
+    },
+    {
+      "sl_no": 8,
+      "department": "HSSM",
+      "event": "Annual Alumni Meet",
+      "concerned_person": "Dr. Akansha Shukla",
+      "duration": "27th January, 2024"
+    },
+    {
+      "sl_no": 9,
+      "department": "Dean SW",
+      "event": "All India Inter NIT Sports Meet",
+      "concerned_person": "Sri Provat, office of Dean, SW",
+      "duration": "2nd – 4th February, 2024"
+    },
+    {
+      "sl_no": 10,
+      "department": "Mechanical Engineering",
+      "event": "Workshop cum Seminar on NEP-2020",
+      "concerned_person": "Dr. Satish Kumar",
+      "duration": "3rd February, 2024"
+    },
+    {
+      "sl_no": 11,
+      "department": "Dean SW",
+      "event": "Culfest’24",
+      "concerned_person": "Dr. Prahlad Prasad, Dean SW",
+      "duration": "9th – 11th February, 2024"
+    },
+    {
+      "sl_no": 12,
+      "department": "Electronics and Communication Engineering",
+      "event": "Workshop on RISC-V & VLSI design flow using EDA tools",
+      "concerned_person": "Dr. Kunal Singh",
+      "duration": "16th – 20th February, 2024"
+    },
+    {
+      "sl_no": 13,
+      "department": "Mechanical Engineering",
+      "event": "Workshop on Educational Outreach Program of Bureau of Indian Standards",
+      "concerned_person": "Dr. Ashok Mandal",
+      "duration": "21st February, 2024"
+    },
+    {
+      "sl_no": 14,
+      "department": "HSSM & Production and Industrial Engineering",
+      "event": "MSME Advanced Management Development Programme for Agripreneurs",
+      "concerned_person": "Dr. Swati Sudha, HSSM, Dr. Tushar Banerjee, PIE",
+      "duration": "24th - 28th Feb, 2024"
+    },
+    {
+      "sl_no": 15,
+      "department": "HSSM",
+      "event": "Event on Academic Excellence and Industry Collaboration organised by Soft Skill Club of NIT Jamshedpur With support of RSB Group",
+      "concerned_person": "Dr. Rajiv Bhusan",
+      "duration": "2nd March, 2024"
+    },
+    {
+      "sl_no": 16,
+      "department": "Production and Industrial Engineering",
+      "event": "Visit to Pindrabera, Rapcha by Student Volunteers of UBA",
+      "concerned_person": "Dr. Kanika Prasad",
+      "duration": "3rd March 2024"
+    },
+    {
+      "sl_no": 17,
+      "department": "Electronics and Communication Engineering",
+      "event": "Mera Pahla Vote",
+      "concerned_person": "Dr. Jayendra Kumar",
+      "duration": "5th – 7th March, 2024"
+    },
+    {
+      "sl_no": 18,
+      "department": "Mechanical Engineering",
+      "event": "Women Day celebrations",
+      "concerned_person": "Dr. Prabha Chand",
+      "duration": "8th March 2024"
+    },
+    {
+      "sl_no": 19,
+      "department": "Finance & Accounts Division",
+      "event": "Visit of Addl Secy Sh Sunil Barnwal",
+      "concerned_person": "Mr. Saikat",
+      "duration": "09th March 2024"
+    },
+    {
+      "sl_no": 20,
+      "department": "Mechanical Engineering",
+      "event": "VRITIKA Programme",
+      "concerned_person": "Dr. Satish Kumar, ME",
+      "duration": "12 March 2024 - 11 April 2024"
+    },
+    {
+      "sl_no": 21,
+      "department": "Electronics and Communication Engineering",
+      "event": "INDIA’S TECHADE- CHIPS FOR VIKSIT BHARAT@2047",
+      "concerned_person": "Dr. Kunal Singh ECE",
+      "duration": "13th March 2024"
+    },
+    {
+      "sl_no": 22,
+      "department": "Electrical Engineering",
+      "event": "SERB Sponsored Karyashala high end workshop held from 15th - 21st March 2024 on Nano-Robots",
+      "concerned_person": "Dr. Rinku Gowda",
+      "duration": "15-21st march 2024"
+    },
+    {
+      "sl_no": 23,
+      "department": "Electrical Engineering",
+      "event": "Advanced Control Techniques for Switched- Mode Power Supply for Electric Vehicle Application",
+      "concerned_person": "Dr. Mrinal K Sarkar",
+      "duration": "17th March"
+    },
+    {
+      "sl_no": 24,
+      "department": "Production and Industrial Engineering",
+      "event": "Faculty presentation who have attended workshops/STTPs/FDPs etc. in India/Abroad and presented paper in conference abroad",
+      "concerned_person": "Dr. Dinesh Kumar",
+      "duration": "27th March 2024"
+    },
+    {
+      "sl_no": 25,
+      "department": "R&C Section ",
+      "event": "guest lecture by Dr. Krishna Dev Kumar, Professor of Aerospace Engineering, Department of Aerospace Engineering at Toronto Metropolitan University, Canada",
+      "concerned_person": "Asso. Dean (R&C)",
+      "duration": "27th March 2024"
+    },
+    {
+      "sl_no": 26,
+      "department": "Mathematics",
+      "event": "Inaugural function of LaTeX 2024",
+      "concerned_person": "Dr. Sumit Kr. Debnath",
+      "duration": "01st April 24"
+    },
+    {
+      "sl_no": 27,
+      "department": "Deputy Librarian ",
+      "event": "NCC unit raising ",
+      "concerned_person": "Mr. Munish Kumar",
+      "duration": "01st April 24"
+    },
+    {
+      "sl_no": 28,
+      "department": "Dean SW",
+      "event": "OJAS 2024",
+      "concerned_person": "President Student Coucil",
+      "duration": "05 -07 April 2024"
+    },
+    {
+      "sl_no": 29,
+      "department": "Mathematics",
+      "event": "LATEX 2024",
+      "concerned_person": "Dr. Sumit Kumar Debnath",
+      "duration": "01 - 05 April 2024"
+    },
+    {
+      "sl_no": 30,
+      "department": "Production and Industrial Engineering",
+      "event": "One-Month SERB Sponsored VRITIKA PROGRAM, A Training and Skill Internship on “Blockchain-enabled Electronic Medical Record System and Privacy Protection using Ethereum, IPFS and Hyperledger”",
+      "concerned_person": "Dr. Dinesh Kumar",
+      "duration": "01-30 April 24"
+    },
+    {
+      "sl_no": 31,
+      "department": "Civil Engineering",
+      "event": "National Workshop on Design of Bridges(DOB 2024)",
+      "concerned_person": "Dr. Virendra Kumar",
+      "duration": "19-23, April 2024"
+    },
+    {
+      "sl_no": 32,
+      "department": "Production and Industrial Engineering",
+      "event": "Prodyog 2024",
+      "concerned_person": "Dr. Shubham Tripathi",
+      "duration": "19 - 21 April"
+    },
+    {
+      "sl_no": 33,
+      "department": "Electronics and Communication Engineering",
+      "event": "Cloth donation drive organised by NSS Unit",
+      "concerned_person": "Dr. Jayendra Kumar",
+      "duration": "20th, April 2024"
+    },
+    {
+      "sl_no": 34,
+      "department": "HSSM",
+      "event": "'A- One Day Seminar on Creating Awareness on Criminal Law Reforms 2023",
+      "concerned_person": "Dr. Swati Sudha",
+      "duration": "23th April, 2024"
+    },
+    {
+      "sl_no": 35,
+      "department": "Dean R&C",
+      "event": "One-day workshop on “Prospective Ecosystem of Women Entrepreneurship and Start-up",
+      "concerned_person": "Dr. M. K. Sinha",
+      "duration": "24th April 2024"
+    },
+    {
+      "sl_no": 36,
+      "department": "Civil Engineering",
+      "event": "‘Energy Efficiency in Buildings & Energy Conservation Building Codes applicable in India' to be conducted on 10th May 2024 at 03.00 PM – 04.30 PM",
+      "concerned_person": "Dr. Virendra Kumar",
+      "duration": "10th May 2024"
+    },
+    {
+      "sl_no": 37,
+      "department": "Mechanical Engineering",
+      "event": "One Day Workshop on Curriculum Development in Design",
+      "concerned_person": "Dr. Ashok Kumar Mandal",
+      "duration": "15th May, 2024"
+    },
+    {
+      "sl_no": 38,
+      "department": "HSSM",
+      "event": "One Day Workshop by Centre of Indian Knowledge System",
+      "concerned_person": "Dr. Manish Jha",
+      "duration": "17th May, 2024"
+    },
+    {
+      "sl_no": 39,
+      "department": "Civil Engineering",
+      "event": "LSDSS 2024",
+      "concerned_person": "Dr Virendra Kumar",
+      "duration": "17th - 21th May-24"
+    },
+    {
+      "sl_no": 40,
+      "department": "Mathematics",
+      "event": "Numerical and Machine Learning Techniques for Fluid Dynamics (NM-Fluids 2024)",
+      "concerned_person": "Dr. Raj Nandkeyolar",
+      "duration": "19th May 2024"
+    },
+    {
+      "sl_no": 41,
+      "department": "Electrical Engineering",
+      "event": "EPREC - 2024",
+      "concerned_person": "Dr. Om Hari Gupta",
+      "duration": "24th May 2024"
+    },
+    {
+      "sl_no": 42,
+      "department": "Production and Industrial Engineering",
+      "event": "Smart Manufacturing towards industry 4.0",
+      "concerned_person": "Dr. Kuntal Maji",
+      "duration": "27th  - 31th May-24"
+    },
+    {
+      "sl_no": 43,
+      "department": "Computer Science Engineering",
+      "event": "One Week Online Short Term Course on “Machine Learning and its Applications in IoT, Computer Vision and Cloud Computing” MICC-2024.",
+      "concerned_person": "Dr. Chandrasekhar Azad",
+      "duration": "27 - 31 May-24"
+    },
+    {
+      "sl_no": 44,
+      "department": "Civil Engineering",
+      "event": "Inauguration for development of Horticulture & Landscape",
+      "concerned_person": "Dr. Nigam Prakash",
+      "duration": "5th June, 2024"
+    },
+    {
+      "sl_no": 45,
+      "department": "Dean SW",
+      "event": "Inauguration of GYM",
+      "concerned_person": "Sri Provat, office of Dean, SW",
+      "duration": "6th June 2024"
+    },
+    {
+      "sl_no": 46,
+      "department": "Civil Engineering",
+      "event": "SIPcivil - 2024",
+      "concerned_person": "Dr. Awdhesh Kumar Choudhary",
+      "duration": "10th June 2024"
+    },
+    {
+      "sl_no": 47,
+      "department": "Mechanical Engineering",
+      "event": "DST - Innovation Camp",
+      "concerned_person": "Prof. Satish Kumar",
+      "duration": ""
+    },
+    {
+      "sl_no": 48,
+      "department": "Dean SW",
+      "event": "Yoga Day",
+      "concerned_person": "Sri Provat, office of Dean, SW",
+      "duration": "21th June, 2024"
+    },
+    {
+      "sl_no": 49,
+      "department": "Mathematics",
+      "event": "Short-term course on `An Introduction to Number Theory and Cryptography' (ONLINE MODE)",
+      "concerned_person": "Dr. Subha Sarkar (Coordinator), Dr. Sumit Kumar Debnath (Joint Convenor), Dr. Sourav Das (Joint Convenor)",
+      "duration": "05th to 09th August 2024"
+    },
+    {
+      "sl_no": 50,
+      "department": "Civil Engineering",
+      "event": "Field Oriented Challenges in Civil Engineering (FOCCE-2024)",
+      "concerned_person": "Dr J.Jayapal, Dr S.K.Raja, Dr Somnath Mandal, Dr Subhadeep Metya",
+      "duration": "05th to 09th August 2024"
+    },
+    {
+      "sl_no": 51,
+      "department": "Production and Industrial Engineering",
+      "event": "Brief Report on the Guest Lecture by Dr. Anup K Keshri",
+      "concerned_person": "Dr. Tushar Banerjee",
+      "duration": "7th August, 2024"
+    },
+    {
+      "sl_no": 52,
+      "department": "HSSM",
+      "event": "Importance of Nadi Parikshan and Ayurveda for healthy Life",
+      "concerned_person": "Dr Manish Kr. Jha Convener IKS",
+      "duration": "10th August 2024"
+    },
+    {
+      "sl_no": 53,
+      "department": "Mechanical Engineering",
+      "event": "Inauguration of Design and Innovation Centre",
+      "concerned_person": "Dr. Ashok Kumar Mandal",
+      "duration": "12th August 2024"
+    },
+    {
+      "sl_no": 54,
+      "department": "O/o the Registrar & Computer Centre",
+      "event": "Independence Day Celebration",
+      "concerned_person": "O/o the Registrar & Computer Centre",
+      "duration": "15th August 2024"
+    },
+    {
+      "sl_no": 55,
+      "department": "Mechanical Engineering",
+      "event": "Workshop on Basic Robotics to Underwater Exploration using AUVs and ROVs",
+      "concerned_person": "Dr. V. K. Dalla, Dr. A. K. Barik, and Dr. P. Kumar",
+      "duration": "30th August to 03rd September 2024"
+    },
+    {
+      "sl_no": 56,
+      "department": "Civil Engineering",
+      "event": "Workshop on Urban Water Modelling using MIKE+ Software (in Hybrid Mode)",
+      "concerned_person": "Dr. Sunil Kumar Murmu (Coordinator), Dr. Sangeeta Kumari (Coordinator), Sajid Alam (DHI India) (Coordinator), Dr. Chintalacheruvu Madhusudana Rao (Convener), Mr. Nigam Prakash (Convener)",
+      "duration": "31st August to 04th September 2024"
+    },
+    {
+      "sl_no": 57,
+      "department": "Electrical Engineering",
+      "event": "Swachhata Pakhwada",
+      "concerned_person": "Dr. Naveen Kumar Veldurthi",
+      "duration": "01st to 15th September 2024"
+    },
+    {
+      "sl_no": 58,
+      "department": "Mechanical Engineering",
+      "event": "Internal Hackathon for Smart India Hackathon (SIH) 2024",
+      "concerned_person": "Dr. Vishesh Ranjan Kar",
+      "duration": "09th September 2024"
+    },
+    {
+      "sl_no": 59,
+      "department": "Civil Engineering",
+      "event": "Research trends and future scope in civil engineering (RTFSCE-2024)",
+      "concerned_person": "Dr. Brajkishor Prasad, Dr J.Jayapal, Dr Sriram Karthick Raja, Dr Debshri Swargiary, Dr Suravi Pal",
+      "duration": "09th  to 13th September 2024"
+    },
+    {
+      "sl_no": 60,
+      "department": "Electrical Engineering",
+      "event": "Hindi Pakhwada",
+      "concerned_person": "Prof Niranjan Kumar",
+      "duration": "14th  to 29th September 2024"
+    },
+    {
+      "sl_no": 61,
+      "department": "Electrical Engineering",
+      "event": "Research Oriented Technical Writing (ROTW-2024)",
+      "concerned_person": "Co-Ordinator(s): Dr. Ravi Bhushan; Dr. Arvind Kumar Prajapati & Dr. Supriyo Das; Convener(s): Dr. Om Hari Gupta & Dr. Jitendra Kumar",
+      "duration": "18-11-2024 to 22-11-2024"
+    },
+    {
+      "sl_no": 62,
+      "department": "Mathematics",
+      "event": "3rd International Conference on Security and Privacy (ICSP 2024)",
+      "concerned_person": "Dr. Sumit Kumar Debnath",
+      "duration": "20th to 21st November 2024"
+    },
+    {
+      "sl_no": 63,
+      "department": "Production and Industrial Engineering",
+      "event": "Advanced Entrepreneurship Skill Development Program on Rooftop solar installation to meet diverse and varying electricity demand in urban and rural environments, Sponsored by Micro, Small and Medium Enterprises (MSME)",
+      "concerned_person": "Dr. Kanika Prasad",
+      "duration": "3-7 December 2024"
+    },
+    {
+      "sl_no": 64,
+      "department": "Mechanical Engineering",
+      "event": "IPRoMM 2024",
+      "concerned_person": "Dr. Ashok Kumar Mandal, Dr. Vineet Sahoo, Dr. Deepak Kumar",
+      "duration": "19th - 21th, December 2024"
+    }
+  
+
+
+  ]
+}
