@@ -20,17 +20,6 @@ const Patent = () => {
           </div>
 
           <div className="w-full  mt-8 space-y-4">
-            {/* {PatentData.sheet1.map((item, index) => (
-              <PatentDataComponent
-                key={item.s_no}
-                index={index}
-                Name={item.name}
-                Department={item.department}
-                Patent_application_number={item.patent_application_number}
-                Status={item.status}
-                Date={item.date.split(" ")[0]}
-              />
-            ))} */}
 
             <DynamicTable data={PatentData.sheet1} />
           </div>

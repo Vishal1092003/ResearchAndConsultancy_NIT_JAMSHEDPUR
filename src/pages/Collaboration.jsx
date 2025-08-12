@@ -105,24 +105,8 @@ const Collaboration = () => {
           <Tab />
         </div>
 
-        <div className="relative overflow-hidden bg-gradient-to-r from-blue-600 via-blue-700 to-orange-600 text-white mt-16">
-          <div className="absolute inset-0 bg-black opacity-10"></div>
-          <div className="relative container mx-auto px-4 sm:px-6 py-12 sm:py-16 text-center">
-            <div className="animate-fade-in-down">
-              <Building2 className="mx-auto mb-4 mt-20 sm:mb-6 h-12 w-12 sm:h-16 sm:w-16 text-white opacity-90" />
-              <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent">
-                Our Collaborations with Academia
-              </h1>
-            </div>
-
-            {/* Floating Elements Mobile me hidden hai */}
-            <div className="hidden sm:block absolute bottom-20 left-10">
-              <Award className="h-8 w-8 text-white opacity-30 animate-float" />
-            </div>
-            <div className="hidden sm:block absolute bottom-20 right-10">
-              <Users className="h-10 w-10 text-white opacity-30 animate-float-delayed" />
-            </div>
-          </div>
+        <div className="w-full  h-16 mt-5 rounded-lg shadow-lg flex justify-center items-center bg-sky-300">
+            <h1 className="font-bold text-2xl">Collaboration</h1>
         </div>
 
         {/* Stats Section */}
