@@ -1,0 +1,175 @@
+{
+    "Sheet":[
+  {
+    "sl_no": 1,
+    "name_of_pi": "Dr. Seeram Madhuri",
+    "name_of_project": "Low cost flood proof house applicable to rural flood prone areas",
+    "department": "Civil Engineering",
+    "sanctioned_amount": 3006960,
+    "sponsoring_agency": "SERB",
+    "year_of_sanction": 2023
+  },
+  {
+    "sl_no": 2,
+    "name_of_pi": "Dr. Deepak Kumar",
+    "name_of_project": "National Technical Textiles Mission (NTTM)",
+    "department": "Mechanical Engineering",
+    "sanctioned_amount": 16600000,
+    "sponsoring_agency": "Ministry of Textiles",
+    "year_of_sanction": 2023
+  },
+  {
+    "sl_no": 3,
+    "name_of_pi": "Dr. Vineet Sahoo",
+    "name_of_project": "Development of zero backlash power transmission mechanism for anthropomorphic robots",
+    "department": "Mechanical Engineering",
+    "sanctioned_amount": 1215000,
+    "sponsoring_agency": "SERB",
+    "year_of_sanction": 2023
+  },
+  {
+    "sl_no": 4,
+    "name_of_pi": "Dr. Shashank Pandey",
+    "name_of_project": "Thermal shock analysis of porous functionally graded pre twisted rotating blade",
+    "department": "Mechanical Engineering",
+    "sanctioned_amount": 1900000,
+    "sponsoring_agency": "SERB",
+    "year_of_sanction": 2023
+  },
+  {
+    "sl_no": 5,
+    "name_of_pi": "Dr. Omhari Gupta",
+    "name_of_project": "Conversion of food/bio waste to energy and joint implementation at one of the DVC field stations",
+    "department": "Electrical Engineering",
+    "sanctioned_amount": 826000,
+    "sponsoring_agency": "DVC",
+    "year_of_sanction": 2023
+  },
+  {
+    "sl_no": 6,
+    "name_of_pi": "Dr. Amit Prakash",
+    "name_of_project": "Design and development of System on Chip based next generation IoT System for Industry 4.0 with Functional Safety and Security Features",
+    "department": "Electronics and Communication Engineering",
+    "sanctioned_amount": 9600000,
+    "sponsoring_agency": "MEITY",
+    "year_of_sanction": 2023
+  },
+  {
+    "sl_no": 7,
+    "name_of_pi": "Dr. Surajit Kundu",
+    "name_of_project": "Affordable Cognitive Radio ‘Antenna-FSS’ Development at 5G/beyond 5G and UWB/SWB Spectrums",
+    "department": "Electronics and Communication Engineering",
+    "sanctioned_amount": 1980264,
+    "sponsoring_agency": "SERB",
+    "year_of_sanction": 2023
+  },
+  {
+    "sl_no": 8,
+    "name_of_pi": "Dr. Surajit Kundu",
+    "name_of_project": "Development of handheld/ drone-compatible, affordable ‘Microwave Scanner-GNSS Station’ (MSGS) for buried object detection with centimeter-level precision",
+    "department": "Electronics and Communication Engineering",
+    "sanctioned_amount": 2095712,
+    "sponsoring_agency": "TEXMIN, IIT (ISM), DST",
+    "year_of_sanction": 2023
+  },
+  {
+    "sl_no": 9,
+    "name_of_pi": "Dr. Ram Krishna",
+    "name_of_project": "Revitalizing the sacred art of ancient ironmaking: Documentation, recommendations, and future directions",
+    "department": "Metallurgical and Materials Engineering",
+    "sanctioned_amount": 950000,
+    "sponsoring_agency": "IKS",
+    "year_of_sanction": 2023
+  },
+  {
+    "sl_no": 10,
+    "name_of_pi": "Dr. Tushar Banerjee",
+    "name_of_project": "Development of a novel and indigenous process chain for fabrication of low-cost, high-performance, super-abrasive, micro-grinding tools",
+    "department": "Production and Industrial Engineering",
+    "sanctioned_amount": 3531264,
+    "sponsoring_agency": "SERB",
+    "year_of_sanction": 2023
+  },
+  {
+    "sl_no": 11,
+    "name_of_pi": "Dr. Sumit Kumar Debnath",
+    "name_of_project": "Development of Advanced Cryptographic Primitives using Multivariate Public Key Cryptography as an Aid to IoT and Blockchain Technology",
+    "department": "Mathematics",
+    "sanctioned_amount": 9000000,
+    "sponsoring_agency": "CEFIPRA",
+    "year_of_sanction": 2023
+  },
+  {
+    "sl_no": 12,
+    "name_of_pi": "Dr. Tapas Das",
+    "name_of_project": "Introduction of Silicon into cyanine scaffolds: towards novel NIR-II fluorophores for cancer cell imaging",
+    "department": "Chemistry",
+    "sanctioned_amount": 1795798,
+    "sponsoring_agency": "SERB",
+    "year_of_sanction": 2023
+  },
+  {
+    "sl_no": 13,
+    "name_of_pi": "Dr. Vijay Kumar Dalla",
+    "name_of_project": "Design and Development of Remotely Operated Underwater Vehicle",
+    "department": "Mechanical Engineering",
+    "sanctioned_amount": 1000000,
+    "sponsoring_agency": "TiHAN IIT Guwahati",
+    "year_of_sanction": 2024
+  },
+  {
+    "sl_no": 14,
+    "name_of_pi": "Dr. Vijay Kumar Dalla",
+    "name_of_project": "Design and Development of a bio-inspired, remotely operated underwater vehicle",
+    "department": "Mechanical Engineering",
+    "sanctioned_amount": 2000000,
+    "sponsoring_agency": "TiHAN IIT Hyderabad",
+    "year_of_sanction": 2024
+  },
+  {
+    "sl_no": 15,
+    "name_of_pi": "Dr. Dinesh Kumar",
+    "name_of_project": "ROLE OF PM GATI-SHAKTI MISSION ON REVAMPING AGRI- PRODUCTS SUPPLY CHAIN IN TRIBAL AREAS OF JHARKHAND STATE",
+    "department": "Production and Industrial Engineering",
+    "sanctioned_amount": 500000,
+    "sponsoring_agency": "ICSSR",
+    "year_of_sanction": 2023
+  },
+  {
+    "sl_no": 16,
+    "name_of_pi": "Dr. Shwati Sudha",
+    "name_of_project": "Identification of factors for productivity enhancement and performance excellence in SSAL",
+    "department": "HSSM",
+    "sanctioned_amount": 123900,
+    "sponsoring_agency": "Industry (SSAL)",
+    "year_of_sanction": 2023
+  },
+  {
+    "sl_no": 17,
+    "name_of_pi": "Dr. Akanksha Shukla",
+    "name_of_project": "Impact assessment of entrepreneurship schemes of the Government of India on Tribal women of Jharkhand",
+    "department": "HSSM",
+    "sanctioned_amount": 1300000,
+    "sponsoring_agency": "ICSSR",
+    "year_of_sanction": 2024
+  },
+  {
+    "sl_no": 18,
+    "name_of_pi": "Dr. Subrata Dutta",
+    "name_of_project": "The Data Driven Agriculture Model to Mitigate Climate Change Impact on The Rice Crop in Indo- ASEAN Countries",
+    "department": "Computer Science Engineering",
+    "sanctioned_amount": 2880000,
+    "sponsoring_agency": "SERB",
+    "year_of_sanction": 2024
+  },
+  {
+    "sl_no": 19,
+    "name_of_pi": "Dr. Balram Ambade",
+    "name_of_project": "Microplastic pollution in freshwater ecosystems: Identifying the Sources, Effects, and Solutions",
+    "department": "Chemistry",
+    "sanctioned_amount": 4356244,
+    "sponsoring_agency": "SERB",
+    "year_of_sanction": 2024
+  }
+]
+}
