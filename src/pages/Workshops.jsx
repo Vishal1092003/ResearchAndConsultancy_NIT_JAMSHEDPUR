@@ -2,7 +2,6 @@ import DynamicTable from '@/components/dynamicTable/dynamicTable';
 import Navbar from '@/components/Navbar/Navbar';
 import Tab from '@/components/Tab/Tab';
 import workshopData from '@/Data/WorkshopData.json';
-import { CalendarDays, Users, Award } from 'lucide-react';
 
 const Workshops = () => {
   return (
@@ -39,14 +38,6 @@ const Workshops = () => {
           <DynamicTable data={workshopData.Sheet1} />
         </div>
         
-
-        {/* Floating Icons */}
-        <div className="hidden md:block fixed bottom-10 left-10 opacity-20 animate-bounce-slow">
-          <Award className="h-10 w-10 text-orange-500" />
-        </div>
-        <div className="hidden md:block fixed bottom-10 right-10 opacity-20 animate-bounce-slower">
-          <Users className="h-10 w-10 text-blue-500" />
-        </div>
 
       </div>
     </div>

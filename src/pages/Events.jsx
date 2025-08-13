@@ -34,7 +34,7 @@ const Events = () => {
       {/* ✅ Padding to avoid overlap */}
       <div className="pt-[195px] px-4 sm:px-6 lg:px-8">
         {/* Title */}
-        <h1 className="text-4xl font-extrabold text-center mb-10 bg-gradient-to-r from-indigo-600  to-orange-500 text-transparent bg-clip-text">
+        <h1 className="text-4xl font-extrabold text-center mb-12 bg-gradient-to-r from-indigo-600  to-orange-500 text-transparent bg-clip-text">
           Stay Updated with Our Events
         </h1>
 
@@ -70,7 +70,7 @@ const Events = () => {
         </div>
 
         {/* Pagination */}
-        <div className="flex justify-center mt-10 space-x-2">
+        <div className="flex justify-center mt-10 space-x-2 pb-4">
           {Array.from({ length: maxPages }, (_, index) => (
             <button
               key={index + 1}
