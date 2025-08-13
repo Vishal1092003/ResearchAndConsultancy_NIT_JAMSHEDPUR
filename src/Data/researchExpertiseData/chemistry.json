@@ -1,0 +1,23 @@
+{"chemistry":[
+    {
+        "name": "Dr. Titas Kumar Mukhopadhyay",
+        "designation": "Assistant Professor",
+        "area_of_research": "Computational chemistry, Molecular Dynamics Simulations and Density Functional Theory",
+        "email": "titas.chem@nitjsr.ac.in",
+        "mobile": "8697917424"
+    },
+    {
+        "name": "Dr. Ananta Kumar Atta",
+        "designation": "Associate Professor",
+        "area_of_research": "Fluorometric organic sensing materials, Photosensitizers for PDT",
+        "email": "attaananta.chem@nitjsr.ac.in",
+        "mobile": "9436288612"
+    },
+    {
+        "name": "Dr Mounita Mondal",
+        "designation": "Assistant Professor",
+        "area_of_research": "Organometallic Chemistry, Catalysis",
+        "email": "mounita.chem@nitjsr.ac.in",
+        "mobile": "7541013198"
+    }
+]}

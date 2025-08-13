@@ -1,0 +1,24 @@
+{"physics":[
+    {
+        "name": "Abhishek Majhi",
+        "designation": "Assistant Professor",
+        "area_of_research": "Foundations of mathematical science",
+        "email": "abhishek.phy@nitjsr.ac.in",
+        "mobile": "6290671477"
+    },
+    {
+        "name": "Neha Agnihotri",
+        "designation": "Assistant Professor",
+        "area_of_research": "Condensed Matter Physics",
+        "email": "neha.phy@nitjsr.ac.in",
+        "mobile": "8933873665"
+    },
+    {
+        "name": "Uday Kumar",
+        "designation": "Assistant Professor",
+        "area_of_research": "Green hydrogen system design and development, Machine Learning based Material design",
+        "email": "uday.phy@nitjsr.ac.in",
+        "mobile": "8969148580"
+    }
+]
+}

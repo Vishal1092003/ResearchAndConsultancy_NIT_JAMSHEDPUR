@@ -1,12 +1,12 @@
+
 import CarouselComponents from "../components/Carousel/CarouselComponents";
 import Footer from "../components/Footer/Footer";
 import Message from "../components/Message/Message";
 import Navbar from "../components/Navbar/Navbar";
 import Tab from "../components/Tab/Tab";
 import messages from "../pages/dean&directorMsg.json";
-// import { useState } from "react";
 import React, { useState } from "react";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import {
   AbhishekSir,
   AakashSir,
@@ -17,14 +17,39 @@ import {
   DirectorSir,
   DeanSir,
   SatishSir,
-  SuraviMam
+  SuraviMam,
+  Subhash,
 } from "../assets/index";
 
-// dean&directorMsg.json contains the messages for Dean and Director
+// Theme Constants
+const theme = {
+  colors: {
+    primary: "#3A8DCC", // premiumBlue
+    secondary: "#2C3E50",
+    accent: "#E74C3C",
+    lightBg: "#F8F9FA",
+    darkText: "#2D3748",
+    mediumText: "#4A5568",
+    lightText: "#718096",
+    border: "#E2E8F0",
+    white: "#FFFFFF",
+  },
+  shadows: {
+    card: "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+    hover:
+      "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+  },
+  borderRadius: {
+    small: "0.375rem",
+    medium: "0.5rem",
+    large: "0.75rem",
+    full: "9999px",
+  },
+};
 
 const imageMap = {
   DirectorSir,
-  DeanSir: SatishSir ,
+  DeanSir: SatishSir,
 };
 
 const MessageTile = ({ data, reverse }) => {
@@ -35,54 +60,76 @@ const MessageTile = ({ data, reverse }) => {
     <div
       className={`flex flex-col md:flex-row ${
         reverse ? "md:flex-row-reverse" : ""
-      } shadow-lg rounded-lg bg-white overflow-hidden w-full border border-gray-200`}
+      } shadow-lg rounded-${theme.borderRadius.medium} bg-${
+        theme.colors.white
+      } overflow-hidden w-full border border-${theme.colors.border}`}
     >
       {/* Image & Details */}
-      <div className="flex flex-col items-center justify-center min-w-[20rem] p-6 border-b md:border-b-0 md:border-r border-gray-200">
+      <div
+        className={`flex flex-col items-center justify-center min-w-[20rem] p-6 border-b md:border-b-0 ${
+          reverse ? "md:border-l" : "md:border-r"
+        } border-${theme.colors.border}`}
+      >
         <img
           src={imgSrc}
           alt={data.name}
-          className="rounded-xl w-full max-w-[15rem] md:max-w-[18rem] object-cover aspect-square"
+          className={`rounded-${theme.borderRadius.medium} w-full max-w-[15rem] md:max-w-[18rem] object-cover aspect-square`}
         />
         <div className="text-center mt-4 space-y-1">
-          <h3 className="font-semibold text-lg text-gray-800">{data.name}</h3>
-          <p className="text-gray-600 text-sm">{data.designation}</p>
-          <p className="text-gray-600 text-sm">{data.department}</p>
+          <h3 className={`font-semibold text-lg text-${theme.colors.darkText}`}>
+            {data.name}
+          </h3>
+          <p className={`text-${theme.colors.mediumText} text-sm`}>
+            {data.designation}
+          </p>
+          <p className={`text-${theme.colors.mediumText} text-sm`}>
+            {data.department}
+          </p>
           {data.phone_office && (
-            <p className="text-gray-600 text-sm">
+            <p className={`text-${theme.colors.mediumText} text-sm`}>
               Ph. (O): {data.phone_office}
             </p>
           )}
           {data.mobile && (
-            <p className="text-gray-600 text-sm">Mob: {data.mobile}</p>
+            <p className={`text-${theme.colors.mediumText} text-sm`}>
+              Mob: {data.mobile}
+            </p>
           )}
-          <p className="text-blue-600 text-sm hover:underline">
+          <p className={`text-${theme.colors.primary} text-sm hover:underline`}>
             <a href={`mailto:${data.email}`}>{data.email}</a>
           </p>
         </div>
       </div>
 
       {/* Message */}
-      <div className="flex-1 p-6 flex flex-col justify-center bg-gray-50">
-        <h2 className="font-serif text-2xl font-semibold text-gray-800 mb-4 text-center">
+      <div
+        className={`flex-1 p-6 flex flex-col justify-center bg-${theme.colors.lightBg}`}
+      >
+        <h2
+          className={`font-serif text-2xl font-semibold text-${theme.colors.darkText} mb-4 text-center`}
+        >
           {reverse ? "Director's Message" : "Dean's Message"}
         </h2>
-        <div className="border-t border-gray-200 pt-4">
+        <div className={`border-t border-${theme.colors.border} pt-4`}>
           <div
             className="relative overflow-hidden transition-all duration-700 ease-in-out"
-            style={{ maxHeight: expanded ? "1000px" : "10rem" }} // Adjust height as needed
+            style={{ maxHeight: expanded ? "1000px" : "10rem" }}
           >
-            <p className="text-gray-700 text-justify leading-relaxed">
+            <p
+              className={`text-${theme.colors.mediumText} text-justify leading-relaxed`}
+            >
               {data.message}
             </p>
             {!expanded && data.message.length > 350 && (
-              <div className="absolute bottom-0 left-0 w-full h-12 bg-gradient-to-t from-gray-50 to-transparent"></div>
+              <div
+                className={`absolute bottom-0 left-0 w-full h-12 bg-gradient-to-t from-${theme.colors.lightBg} to-transparent`}
+              ></div>
             )}
           </div>
           {data.message.length > 350 && (
             <button
               onClick={() => setExpanded(!expanded)}
-              className="mt-4 text-blue-600 hover:text-blue-800 font-medium transition-colors"
+              className={`mt-4 text-${theme.colors.primary} hover:text-${theme.colors.accent} font-medium transition-colors`}
             >
               {expanded ? "Read Less" : "Read More"}
             </button>
@@ -93,8 +140,7 @@ const MessageTile = ({ data, reverse }) => {
   );
 };
 
-//different teams component
-
+// Teams data remains the same
 const teams = {
   "Associate Deans": [
     {
@@ -125,9 +171,9 @@ const teams = {
       linkedin: "#",
     },
     {
-      name: "Aakash",
+      name: "Subhash kumar",
       role: "Senior Assistant",
-      img: AakashSir,
+      img: Subhash,
       linkedin: "#",
     },
     {
@@ -139,49 +185,100 @@ const teams = {
   ],
   "Web Team": [
     {
-      name: "Alice Johnson",
-      role: "Frontend Developer",
-      img: "https://via.placeholder.com/120",
-      linkedin: "#",
+      name: "Aditya Raj",
+      role: "Web Team Member",
+      img: "./adityaRaj.jpg",
+      linkedin: "https://www.linkedin.com/aditraj24",
+      email: "adityarajykme24@gmail.com",
     },
     {
-      name: "David Wilson",
-      role: "Backend Developer",
-      img: "https://via.placeholder.com/120",
-      linkedin: "#",
+      name: "Anoop Kumar Burnwal",
+      role: "Web Developer",
+      img: "./anoop.jpg",
+      linkedin: "https://www.linkedin.com/in/anoop-kumar-burnwal-aa0b10318/",
+      email: "2024ugcm013@nitjsr.ac.in",
+    },
+    {
+      name: "Rishav Kashyap",
+      role: "Web Team Member",
+      img: "./rishav.jpg",
+      linkedin: "https://www.linkedin.com/in/y0rishav",
+      email: "rishavkashyap7120@gmail.com",
+    },
+    {
+      name: "Swayam Agarwal",
+      role: "Web Team Member",
+      img: "./swayam.jpg",
+      linkedin:
+        "https://www.linkedin.com/in/swayam-agarwal-2b941b323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      email: "itzswayam890@gmail.com",
+    },
+    {
+      name: "Yogesh Kumar Meena",
+      role: "Web Team Member",
+      img: "./yogesh.png",
+      linkedin: "https://www.linkedin.com/in/yogesh-meena-",
+      email: "yogeshchhandhwal2005@gmail.com",
+    },
+    {
+      name: "MINU KUMARI",
+      role: "Web Team Member",
+      img: "./minuKumari.jpg",
+      linkedin: "https://www.linkedin.com/in/minu-kumari-8a492033a",
+      email: "2024ugcs022@nitjsr.ac.in",
+    },
+    {
+      name: "Ishika Gupta",
+      role: "Web Team Member",
+      img: "./ishika.jpg",
+      linkedin:
+        "https://www.linkedin.com/in/ishika-gupta-88104a229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      email: "2024ugme051@nitjsr.ac.in",
     },
   ],
   "Research Bulletin Team": [
     {
-      name: "Sophia Lee",
+      name: "Nihal Sahay",
       role: "Research Analyst",
-      img: "https://via.placeholder.com/120",
+      img: "./nihalSahay.jpg",
+      linkedin: "#",
+    },
+    {
+      name: "Harshit Raj",
+      role: "Research Analyst",
+      img: "./harshitRaj.jpg",
+      linkedin: "#",
+    },
+    {
+      name: "Mrinal Ayush Raj",
+      role: "Research Analyst",
+      img: "mrinalAyushRaj.jpg",
       linkedin: "#",
     },
   ],
 };
 
-const premiumBlue = "#3A8DCC";
-const accentColor = premiumBlue;
-
-export function TeamSection() {
+const TeamSection = () => {
   const [activeTab, setActiveTab] = useState("Associate Deans");
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-4 py-12">
+    <div className={`w-full max-w-6xl mx-auto px-4 py-12`}>
       {/* Tabs */}
       <div className="flex flex-wrap justify-center gap-3 mb-12">
         {Object.keys(teams).map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`px-6 py-3 rounded-full font-medium transition-all duration-300 text-lg ${
+            className={`px-6 py-3 rounded-${
+              theme.borderRadius.full
+            } font-medium transition-all duration-300 text-lg ${
               activeTab === tab
-                ? "text-white shadow-lg"
-                : "text-gray-600 hover:text-gray-800 bg-gray-100 hover:bg-gray-200"
+                ? `text-${theme.colors.white} shadow-lg`
+                : `text-${theme.colors.mediumText} hover:text-${theme.colors.darkText} bg-${theme.colors.lightBg} hover:bg-${theme.colors.border}`
             }`}
             style={{
-              backgroundColor: activeTab === tab ? accentColor : undefined,
+              backgroundColor:
+                activeTab === tab ? theme.colors.primary : undefined,
             }}
           >
             {tab}
@@ -189,15 +286,15 @@ export function TeamSection() {
         ))}
       </div>
 
-      {/* Team Members Grid - 2 columns */}
+      {/* Team Members Grid */}
       <div className="grid gap-8 md:grid-cols-2">
         {teams[activeTab].map((member, index) => (
           <div
             key={index}
-            className="flex bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden"
+            className={`flex bg-${theme.colors.white} rounded-${theme.borderRadius.medium} shadow-${theme.shadows.card} hover:shadow-${theme.shadows.hover} transition-all duration-300 overflow-hidden h-full`}
           >
-            {/* Image on left - larger size */}
-            <div className="w-1/3 min-w-[120px] relative">
+            {/* Image section */}
+            <div className="w-1/3 min-w-[120px] relative aspect-[4/5] overflow-hidden">
               <img
                 src={member.img}
                 alt={member.name}
@@ -208,53 +305,44 @@ export function TeamSection() {
                 href={member.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="absolute bottom-2 right-2 bg-white p-2 rounded-full shadow hover:bg-gray-100 transition-colors"
-                style={{ color: accentColor }}
+                className={`absolute bottom-2 right-2 bg-${theme.colors.white} p-2 rounded-${theme.borderRadius.full} shadow hover:bg-${theme.colors.lightBg} transition-colors`}
+                style={{ color: theme.colors.primary }}
               >
                 <FaLinkedin className="text-xl" />
               </a>
             </div>
 
-            {/* Content on right */}
-            <div className="w-2/3 p-5 flex flex-col justify-center">
-              <h3 className="text-xl font-bold text-gray-800 mb-1">
+            {/* Content section */}
+            <div className="w-2/3 p-5 flex flex-col">
+              <h3
+                className={`text-xl font-bold text-${theme.colors.darkText} mb-1`}
+              >
                 {member.name}
               </h3>
-              <p className="text-gray-600 mb-3 text-sm">{member.role}</p>
+              <p className={`text-${theme.colors.mediumText} mb-3 text-sm`}>
+                {member.role}
+              </p>
 
-              {/* Additional info could go here */}
-              <div className="flex items-center text-sm text-gray-500 mt-2">
-                <svg
-                  className="w-4 h-4 mr-2"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                  />
-                </svg>
-                <span>{member.email || "email@example.com"}</span>
-              </div>
-
-              <div className="flex items-center text-sm text-gray-500 mt-1">
-                <svg
-                  className="w-4 h-4 mr-2"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                  />
-                </svg>
-                <span>{member.phone || "+91 XXXXX XXXXX"}</span>
+              {/* Contact info */}
+              <div className="mt-auto space-y-2">
+                {member.email && (
+                  <div
+                    className={`flex items-center text-sm text-${theme.colors.mediumText}`}
+                  >
+                    <FaEnvelope className="w-4 h-4 mr-2" />
+                    <span>{member.email}</span>
+                  </div>
+                )}
+                {(member.phone || member.mobile) && (
+                  <div
+                    className={`flex items-center text-sm text-${theme.colors.mediumText}`}
+                  >
+                    <FaPhone className="w-4 h-4 mr-2" />
+                    <span>
+                      {member.phone || member.mobile || "+91 XXXXX XXXXX"}
+                    </span>
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -262,43 +350,42 @@ export function TeamSection() {
       </div>
     </div>
   );
-}
+};
 
 const Home = () => {
   return (
-    <>
-      <div className="min-h-screen w-full">
-        <div className="overflow-x-hidden">
-          <Navbar />
-        </div>
-
-        <div className="sticky top-0 z-10 bg-white shadow-md">
-          <Tab />
-        </div>
-
-        <div className="overflow-x-hidden">
-          {/* carouselSection */}
-          <CarouselComponents />
-
-          {/* messageSection */}
-          <div className="pt-5 px-4 w-full bg-yellow-50/50">
-            <div className="min-h-[50vh] flex flex-col justify-start items-center py-8 max-w-7xl mx-auto space-y-12">
-              {Object.entries(messages).map(([key, data], index) => (
-                <MessageTile key={key} data={data} reverse={index % 2 === 0} />
-              ))}
-            </div>
-          </div>
-
-          {/* profileCardsSection*/}
-          <div>
-            <TeamSection />
-          </div>
-
-          {/* footer */}
-          <Footer />
-        </div>
+    <div className={`min-h-screen w-full bg-${theme.colors.lightBg}`}>
+      <div className="overflow-x-hidden">
+        <Navbar theme={theme} />
       </div>
-    </>
+
+      <div className={`sticky top-0 z-10 bg-${theme.colors.white} shadow-md`}>
+        <Tab theme={theme} />
+      </div>
+
+      <div className="overflow-x-hidden">
+        {/* Carousel Section */}
+        <CarouselComponents theme={theme} />
+
+        {/* Message Section */}
+        <div className={`pt-5 px-4 w-full bg-${theme.colors.lightBg}`}>
+          <div className="min-h-[50vh] flex flex-col justify-start items-center py-8 max-w-7xl mx-auto space-y-12">
+            {Object.entries(messages).map(([key, data], index) => (
+              <MessageTile key={key} data={data} reverse={index % 2 === 0} />
+            ))}
+          </div>
+        </div>
+
+        {/* Team Section */}
+        <div className={`py-12 bg-${theme.colors.white}`}>
+          <TeamSection />
+        </div>
+
+        {/* Footer */}
+        <Footer theme={theme} />
+      </div>
+    </div>
   );
 };
+
 export default Home;

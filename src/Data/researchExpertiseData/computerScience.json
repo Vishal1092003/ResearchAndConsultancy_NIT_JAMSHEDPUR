@@ -1,0 +1,73 @@
+{"cse":[
+    {
+        "name": "Dr. Jitesh Pradhan",
+        "designation": "Assistant Professor",
+        "area_of_research": "Artificial Intelligence, Machine and Deep Learning",
+        "email": "jiteshpradhan.cse@nitjsr.ac.in",
+        "mobile": "9589633179"
+    },
+    {
+        "name": "Dr. Diwakar Tripathi",
+        "designation": "Assistant Professor",
+        "area_of_research": "Machine learning, Computer vision",
+        "email": "diwakar.cse@nitjsr.ac.in",
+        "mobile": "9993335916"
+    },
+    {
+        "name": "Gopa Bhaumik",
+        "designation": "Assistant Professor",
+        "area_of_research": "Computer vision and Image processing, Artificial Intelligence",
+        "email": "gopabhaumik.cse@nitjsr.ac.in",
+        "mobile": "9002578826"
+    },
+    {
+        "name": "Dr. Chandrashekhar Azad",
+        "designation": "Assistant Professor",
+        "area_of_research": "Machine Learning, Deep Learning",
+        "email": "csazad.cse@nitjsr.ac.in",
+        "mobile": "7909058321"
+    },
+    {
+        "name": "Dr. Mayukh Sarkar",
+        "designation": "Assistant Professor",
+        "area_of_research": "Quantum Computing",
+        "email": "mayukhsarkar.cse@nitjsr.ac.in",
+        "mobile": "9432803004"
+    },
+    {
+        "name": "Dr. Deepak Rai",
+        "designation": "Assistant Professor",
+        "area_of_research": "Image processing, Software defined network",
+        "email": "deepak.cse@nitjsr.ac.in",
+        "mobile": "8527862038"
+    },
+    {
+        "name": "Dr. Pampa Howladar",
+        "designation": "Assistant Professor",
+        "area_of_research": "Biomedical AI (ECG/Physiological Signals), Machine Learning in Healthcare",
+        "email": "pampa.cse@nitjsr.ac.in",
+        "mobile": "9635379537"
+    },
+    {
+        "name": "Dr. Dinesh Kumar",
+        "designation": "Assistant Professor",
+        "area_of_research": "Blockchain Technology, Optimization, Internet of Things",
+        "email": "dineshkumar.cse@nitjsr.ac.in",
+        "mobile": "9990742787"
+    },
+    {
+        "name": "Dr. Arijit Das",
+        "designation": "Assistant Professor",
+        "area_of_research": "Artificial Intelligence, Machine Learning, Deep Learning",
+        "email": "arijit.cse@nitjsr.ac.in",
+        "mobile": "6291030388"
+    },
+    {
+        "name": "Dr. B Ramachandra Reddy",
+        "designation": "Assistant Professor",
+        "area_of_research": "Software Engineering, Machine Learning",
+        "email": "brcreddy.cse@nitjsr.ac.in",
+        "mobile": "9479639634"
+    }
+]
+}
