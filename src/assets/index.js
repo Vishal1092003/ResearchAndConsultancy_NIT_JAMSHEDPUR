@@ -11,6 +11,8 @@ import ArunPandit from "./ArunPandit.png";
 import AkanshaMam from "./AkanshaMam.png";
 import AakashSir from "./AakashSir.png";
 import vikashMeena from "./vikashMeena.jpg";
+import SatishSir from "./SatishSirDean.jpg"
+import SuraviMam from "./SuraviMam.jpg"
 export {
   DirectorSir,
   DeanSir,
@@ -25,4 +27,6 @@ export {
   RahulMahato,
   ArunPandit,
   vikashMeena,
+  SatishSir,
+  SuraviMam
 };
