@@ -151,7 +151,7 @@ const Footer = () => {
                 </div>
               </a>
               <p className={`text-${theme.colors.lightText} text-sm mt-2`}>
-                We'll respond to your inquiry within 24 hours
+                We will respond to your inquiry within 24 hours
               </p>
             </div>
           </div>
