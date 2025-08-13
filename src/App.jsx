@@ -13,6 +13,9 @@ import SideNavbar from "./components/sideNavbar/SideNavbar";
 import Collaboration from "./pages/Collaboration";
 import Workshops from "./pages/Workshops";
 import Events from "./pages/Events";
+import Achievements from "./pages/Achievements";
+import RNCdetails from "./pages/RNCdetails";
+import InformationCircularsNotices from "./pages/informationCircularsNotices";
 // import Events from "./pages/Events"
 function App() {
   return (
@@ -32,6 +35,9 @@ function App() {
           <Route path="/interdisciplinary" element={<Interdisciplinary />} />
           <Route path="/workshops" element={<Workshops />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/informationCirculars" element={<InformationCircularsNotices />} />
+          <Route path="/achievements" element={<Achievements />} />
+          <Route path="/rncDetails" element={<RNCdetails />} />
           <Route path="/sidenavbar" element={<SideNavbar />} />
         </Routes>
       </Router>
