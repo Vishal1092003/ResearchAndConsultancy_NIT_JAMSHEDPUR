@@ -151,7 +151,7 @@ const teams = {
       linkedin: "#",
     },
   ],
-  "Research Team": [
+  "Research Bulletin Team": [
     {
       name: "Sophia Lee",
       role: "Research Analyst",
