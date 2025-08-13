@@ -16,13 +16,15 @@ import {
   AshokSir,
   DirectorSir,
   DeanSir,
+  SatishSir,
+  SuraviMam
 } from "../assets/index";
 
 // dean&directorMsg.json contains the messages for Dean and Director
 
 const imageMap = {
   DirectorSir,
-  DeanSir,
+  DeanSir: SatishSir ,
 };
 
 const MessageTile = ({ data, reverse }) => {
@@ -96,9 +98,9 @@ const MessageTile = ({ data, reverse }) => {
 const teams = {
   "Associate Deans": [
     {
-      name: "Dr. Kanika Prashad",
+      name: "Dr. Surabhi Pal",
       role: "Associate Dean-IPR Cell",
-      img: DrKanika,
+      img: SuraviMam,
       linkedin: "#",
     },
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { DeanSir } from "@/assets";
+import { SatishSir } from "@/assets";
 const DeanMessage = () => {
   return (
     <motion.div
@@ -56,13 +56,13 @@ const DeanMessage = () => {
           <div className="h-auto flex justify-center items-center flex-col min-w-[22rem] md:min-w-[25rem] lg:min-w-[28rem] py-4 px-2 rounded-md md:border-l border-gray-300">
             <img
               className=" rounded-xl max-w-[15rem] md:max-w-[20rem]"
-              src={DeanSir}
+              src={SatishSir}
               width={1000}
               height={1000}
               alt=""
             />
             <div className="w-full flex-col text-center flex py-2 justify-center font-semibold text-lg">
-              <div>{"Prof.MK Sinha"}</div>
+              <div>{"Prof. Satish Kumar"}</div>
             </div>
             
             <p className="font-md"> Professor
