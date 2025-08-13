@@ -2,91 +2,31 @@ import React, { useState } from "react";
 import eventsData from "../data/Events.json";
 import Navbar from "@/components/Navbar/Navbar";
 import Tab from "@/components/Tab/Tab";
+import DynamicTable from "@/components/dynamicTable/dynamicTable";
+
 
 const Events = () => {
-  const maxPages = 4;
-
-  // ✅ Sort events by sl_no
-  const sortedEvents = [...eventsData.Sheet].sort(
-    (a, b) => Number(a.sl_no) - Number(b.sl_no)
-  );
-
-  const totalItems = sortedEvents.length;
-  const itemsPerPage = Math.ceil(totalItems / maxPages);
-  const [currentPage, setCurrentPage] = useState(1);
-
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const currentEvents = sortedEvents.slice(
-    startIndex,
-    startIndex + itemsPerPage
-  );
-
   return (
-    <div className="bg-gradient-to-b from-indigo-50 via-white to-purple-50 min-h-screen">
-      {/* ✅ Fixed Navbar + Tab */}
-      <div className="fixed top-0 left-0 w-full z-50">
-        <Navbar />
-        <div className="bg-white shadow-md sticky top-[64px] z-40">
+    <>
+      <div className="min-h-screen w-full">
+        <div className="overflow-x-hidden">
+          <Navbar />
+        </div>
+        <div className="sticky top-0 z-10 bg-white shadow-md">
           <Tab />
         </div>
-      </div>
+        <div className="flex flex-col items-center p-4 w-full">
+          <div className="w-full  h-16 mt-5 rounded-lg shadow-lg flex justify-center items-center bg-sky-300">
+            <h1 className="font-bold text-2xl">Stay Updated With Events</h1>
+          </div>
 
-      {/* ✅ Padding to avoid overlap */}
-      <div className="pt-[195px] px-4 sm:px-6 lg:px-8">
-        {/* Title */}
-        <h1 className="text-4xl font-extrabold text-center mb-12 bg-gradient-to-r from-indigo-600  to-orange-500 text-transparent bg-clip-text">
-          Stay Updated with Our Events
-        </h1>
+          <div className="w-full  mt-8 space-y-4">
 
-        {/* Events Grid */}
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {currentEvents.map((event) => (
-            <div
-              key={event.sl_no}
-              className="bg-white rounded-2xl shadow-lg border border-gray-100 p-5 hover:shadow-xl hover:border-indigo-400 hover:scale-105 transition-all duration-300"
-            >
-              {/* ✅ Serial Number */}
-              <span className="text-xs font-bold text-orange-500 bg-orange-100 px-2 py-1 rounded-md">
-                #{event.sl_no}
-              </span>
-
-              <h2 className="text-lg font-semibold text-gray-800 mt-2 mb-3">
-                {event.event}
-              </h2>
-              <p className="text-sm text-gray-600 mb-1">
-                <span className="font-semibold">Department:</span>{" "}
-                {event.department || "N/A"}
-              </p>
-              <p className="text-sm text-gray-600 mb-1">
-                <span className="font-semibold">Concerned Person:</span>{" "}
-                {event.concerned_person}
-              </p>
-              <p className="text-sm text-gray-600">
-                <span className="font-semibold">Duration:</span>{" "}
-                {event.duration || "Not specified"}
-              </p>
-            </div>
-          ))}
-        </div>
-
-        {/* Pagination */}
-        <div className="flex justify-center mt-10 space-x-2 pb-4">
-          {Array.from({ length: maxPages }, (_, index) => (
-            <button
-              key={index + 1}
-              onClick={() => setCurrentPage(index + 1)}
-              className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 ${
-                currentPage === index + 1
-                  ? "bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 text-white shadow-md"
-                  : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-              }`}
-            >
-              {index + 1}
-            </button>
-          ))}
+            <DynamicTable data={eventsData.Sheet1} />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

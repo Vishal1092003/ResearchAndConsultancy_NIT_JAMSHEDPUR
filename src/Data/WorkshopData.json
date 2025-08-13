@@ -2,7 +2,7 @@
     "Sheet1": [
       {
         "sl_no": 1,
-        "department": "DEE",
+        "department": "Electrical Engineering",
         "subject": "Online FDP on Recent Advancement in EMobillity for Developing Power Utility",
         "coordinators": "Dr. Mrinal K. Sarkar & Dr. Simanta Kr. Samal",
         "date": "06/01/25 To 25/01/25"
@@ -16,56 +16,56 @@
       },
       {
         "sl_no": 3,
-        "department": "DEE",
+        "department":  "Electrical Engineering",
         "subject": "Online FDP on Electric Vehicle & Charging Station Technology for Sustainable Development",
         "coordinators": "Dr. Mrinal K. Sarkar",
         "date": "13/01/25 To 18/01/25"
       },
       {
         "sl_no": 4,
-        "department": "DME",
+        "department": "Mechanical Engineering",
         "subject": "Workshop on Advanced heat transfer technologies for enhancing energy, efficiency & reducing carbon emission globally",
         "coordinators": "Dr. Rinku Kr. Gouda",
         "date": "13/01/25 To 17/01/25"
       },
       {
         "sl_no": 5,
-        "department": "DEE",
+        "department":  "Electrical Engineering",
         "subject": "Workshop online on Distributed Energy Resources: Transforming grids with renewable technologies",
         "coordinators": "Dr Veer Pratap Meena and Dr Suryaprakash",
         "date": "15/01/25 To 19/01/25"
       },
       {
         "sl_no": 6,
-        "department": "CIVIL",
+        "department": "Civil Engineering",
         "subject": "Hands-on Workshop on MATLAB application",
         "coordinators": "Dr. S.K. Murmu, Dr. Sangeeta Kumari, Dr. D. Swargiary, Dr. Suravi Pal",
         "date": "16/01/25 To 20/01/25"
       },
       {
         "sl_no": 7,
-        "department": "DME",
+        "department": "Mechanical Engineering",
         "subject": "Workshop on \"Taming Turbulence: Advancement in flow and Acoustic\"",
         "coordinators": "Dr. Shailesh Jha",
         "date": "20/01/25 To 24/01/25"
       },
       {
         "sl_no": 8,
-        "department": "DPIE",
+        "department": "Production and Industrial Engineering",
         "subject": "AICTE-ATAL sponsored 6 days Online FDP on Artificial Intelligence for Digital Manufacturing (AIDM 2025)",
         "coordinators": "Dr. Kuntal Maji",
         "date": "20/01/25 To 25/01/25"
       },
       {
-              "sl_no": 9,
-        "department": "DME",
+        "sl_no": 9,
+        "department": "Mechanical Engineering",
         "subject": "One week STTP on Advanced Composite Materials for Next-Gen Technologies",
         "coordinators": "Dr. Vishesh Ranjan Kar",
         "date": "20/01/25 To 24/01/25"
       },
       {
         "sl_no": 10,
-        "department": "DEE",
+        "department":  "Electrical Engineering",
         "subject": "Short Term Course - AI applications to microgrid",
         "coordinators": "(Dr. Kethavath R. Naik, Dr. Sanjay Kr., Prof. U.K. Sinha)",
         "date": "25/01/25 To 29/01/25"
@@ -88,42 +88,42 @@
   "sl_no": 13,
   "subject": "National Seminar on Academic Social Responsibility and Orientation Programme ",
   "coordinators": "Dr. Shakti Prasad, DMTH & Dr. Kanika Prasad, DPIE",
-  "department": "UBA",
+  "department": "Unnat Bharat Abhiyan",
   "date": "01/02/25 To 02/02/25"
  },
  {
   "sl_no": 14,
   "subject": "Two Week Online FDP on Next-Generation Wireless Sensor Networks (NGWSN-2025)",
   "coordinators": "Dr. Jayendra Kumar, Dr. Prashant Kumar, Dr. Mrutyunjay Rout",
-  "department": "DECE",
+  "department": "Electronics and Communication Engineering",
   "date": "17/02/25 To 28/02/25"
  },
  {
   "sl_no": 15,
   "subject": "Two Week Online FDP on AI-based Image Processing for Bio-medical Applications (AIIPBM-2025)",
   "coordinators": "Dr. Jayendra Kumar, Dr. Prashant Kumar, Dr. Mrutyunjay Rout",
-  "department": "DECE",
+  "department": "Electronics and Communication Engineering",
   "date": "17/02/25 To 28/02/25"
  },
  {
   "sl_no": 16,
   "subject": "1st International conference on modern manufacturing and management intelligence (ICMMMI) 2024",
   "coordinators": "Dr. Kanika Prasad",
-  "department": "DPIE",
+  "department": "Production and Industrial Engineering",
   "date": "27/02/25 To 01/03/25"
  },
  {
   "sl_no": 17,
   "subject": "STTP on Industry 4.0: A Journey towards Modern Manufacturing",
   "coordinators": "Dr. Abhijit Dey ",
-  "department": "DME",
+  "department": "Mechanical Engineering",
   "date": "10/03/25 To 14/03/25"
  },
        {
   "sl_no": 18,
   "subject": "6 Days Workshop on Effective Report and Presentation Formatting using LATEX",
   "coordinators": "Dr. Alekha Kumar Mishra, Dr. Mayukh Sarkar",
-  "department": "DCSE",
+  "department": "Computer Science and Engineering",
   "date": "17/03/25 To 22/03/25"
  },
  {
@@ -137,28 +137,28 @@
   "sl_no": 20,
   "subject": "STTP on Machine Maintenance and Occupational Hazards & Safety for Foundry and Forging Shop Workforce at Adityapyur Auto Component Cluster, Jamshedpur funded by SIDBI",
   "coordinators": "Dr. KSK Sudhamshu",
-  "department": "DME",
+  "department": "Mechanical Engineering",
   "date": "31/03/25 To 04/04/25  &  12/05/25 To 16/05/25"
  },
  {
   "sl_no": 21,
   "subject": "Workshop on VLSI design and verification ",
   "coordinators": "Dr. Basanta Bhowmik",
-  "department": "ECE",
+  "department": "Electronics and Communication Engineering",
   "date": "01/04/25 To 06/04/25"
  },
        {
   "sl_no": 22,
   "subject": "Workshop on AL and Iot enabled sensor Technology ",
   "coordinators": "Dr. Swagatadeb Sahoo",
-  "department": "ECE",
+  "department": "Electronics and Communication Engineering",
   "date": "21/04/25 To 25/04/25"
  },
  {
   "sl_no": 23,
   "subject": "Approval of the STC Next generation Power grid",
   "coordinators": "Dr Veer Pratap Meena\nDr Suryaprakash \nDr. Ananyo Bhattercharya\n",
-  "department": "DEE",
+  "department":  "Electrical Engineering",
   "date": "21/4/25 to 25/4/25"
  },
  {
@@ -172,21 +172,21 @@
   "sl_no": 25,
   "subject": "One week online short term course (STC) on \"Machine learning and its applications in IoT, Computer Vision and Cloud Computing\"",
   "coordinators": "Dr. Jitesh Pradhan ",
-  "department": "CSE",
+  "department": "Computer Science and Engineering",
   "date": "26/05/25 To 30/05/25"
  },
        {
   "sl_no": 26,
   "subject": "One week online short term course (STC) on \"Blockchain and its applications\"",
   "coordinators": "Dr. Dinesh Kumar",
-  "department": "CSE",
+  "department": "Computer Science and Engineering",
   "date": "02/06/25 To 06/06/25"
  },
  {
   "sl_no": 27,
   "subject": "International Conference on \"Energy Climate Governance\" ",
   "coordinators": "Dr. K. Namrata",
-  "department": "DEE",
+  "department":  "Electrical Engineering",
   "date": "18/06/25 To 20/06/25"
  },
  {
@@ -207,21 +207,21 @@
     "sl_no": 30, 
   "subject": "IEEE GIEST 2025",
   "coordinators": "Dr. Kundan Kumar",
-  "department": "DEE",
+  "department":  "Electrical Engineering",
    "date": "09/10/25 To 11/10/25"
  },
  {
   "sl_no": 31,
   "subject": "IEEE Conference: International Conference on Electrical. Electronics and Computer Science with Advance Power Technologies - A Future Trends (ICE2CPT2025)`",
   "coordinators": "Dr. Veerpratap Meena",
-  "department": "DEE",
+  "department": "Electrical Engineering",
    "date": "29/10/25 To 31/10/25"
  },
  {
   "sl_no": 32,
   "subject": "One week online STTP\n( self finance)",
 "coordinators"  : "Dr Abhishek Sharma & Dr Suryaprakash",
-  "department": "DME",
+  "department": "Mechanical Engineering",
    "date": "23/05/25 to 27/05/25"
  },
  {
@@ -235,21 +235,21 @@
         "sl_no": 34,
   "subject": "1st International Conference on Innovations and Research in Mechanical Engineering (ICIRME-2025)",
   "coordinators": "Dr. Pranab Kumar Kundu",
-  "department": "DME",
+  "department": "Mechanical Engineering",
   "date": "15/12/25 To 17/12/25"
  },
  {
   "sl_no": 35,
   "subject": "International Conference on Innovations in Mechanical Engineering for Sustainable Trawnsformation (InnoMEST)",
   "coordinators": "Dr. R.K. Gouda",
-  "department": "DME",
+  "department": "Mechanical Engineering",
   "date": "28/11/25 To 30/11/25"
  },
  {
   "sl_no": 36,
   "subject": "7th International Conference on \"Distributed Computing and Machine Learning (ICADCML-2026)",
   "coordinators": "Dr. Jitesh Pradhan ",
-  "department": "CSE",
+  "department": "Computer Science and Engineering",
   "date": "15/01/26 To 16/01/26"
  }
     ]
