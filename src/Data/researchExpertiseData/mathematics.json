@@ -1,0 +1,17 @@
+{"mathematics":[
+  {
+    "name": "Dr. Hari Shankar Prasad",
+    "designation": "Assistant Professor",
+    "area_of_research": "Numerical Analysis, Singularly Perturbed Differential and Integral Equations",
+    "email": "hsprasad.math@nitjsr.ac.in",
+    "mobile": "6203724557"
+  },
+  {
+    "name": "Dr. Y Ramu Naidu",
+    "designation": "Assistant Professor",
+    "area_of_research": "Optimization (Evolutionary Algorithms)",
+    "email": "ramunaidu.math@nitjsr.ac.in",
+    "mobile": "7978812189"
+  }
+]
+}

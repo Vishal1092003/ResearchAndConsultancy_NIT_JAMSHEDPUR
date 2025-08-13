@@ -1,19 +1,14 @@
 {
-    "resarchArea" : [
-        { "RA": "Robotics" },
-        { "RA": "Energy" },
-        { "RA": "Material Scince" },
-        { "RA": "Biological science" },
-        { "RA": "Engineering" },
-        { "RA": "Chemistry" },
-        { "RA": "Psycology" },
-        { "RA": "Artificial Inteligence" },
-        { "RA": "Computer Science" },
-        { "RA": "Micro biology" },
-        { "RA": "Data science" },
-        { "RA": "Earth science" },
-        { "RA": "Technology" },
-        { "RA": "Microbiology" }
-    ]
-
+  "resarchArea": [
+    { "RA": "Civil Engineering" },
+    { "RA": "Computer Science and Engineering" },
+    { "RA": "Electrical Engineering" },
+    { "RA": "Electronics and Communication Engineering" },
+    { "RA": "Production and Industrial Engineering" },
+    { "RA": "Metallurgical and Materials Engineering" },
+    { "RA": "Physics" },
+    { "RA": "Chemistry" },
+    { "RA": "Mathematics" },
+    { "RA": "Mechanical Engineering" }
+  ]
 }

@@ -1,0 +1,102 @@
+{
+  "mechanical": [
+    {
+      "name": "Prof. Satish Kumar",
+      "designation": "Professor",
+      "area_of_research": "CFD, Rheology of Multiphase Flow, Erosion Wear",
+      "email": "satish.me@nitjsr.ac.in",
+      "mobile": "9417923801"
+    },
+    {
+      "name": "Dr. Arvind Kumar Patel",
+      "designation": "Assistant Professor",
+      "area_of_research": "Refrigeration and Air Conditioning, Human Thermal Comfort, PV Cell Recycling",
+      "email": "arvind.me@nitjsr.ac.in",
+      "mobile": "8887834337"
+    },
+    {
+      "name": "Dr. M A Hassan",
+      "designation": "Associate Professor",
+      "area_of_research": "Material Characterization, Heat Transfer, Piping and CFD",
+      "email": "hassan.me@nitjsr.ac.in",
+      "mobile": "9801082645"
+    },
+    {
+      "name": "Dr. Vijay Kumar Dalla",
+      "designation": "Assistant Professor",
+      "area_of_research": "Robotics, Failure Analysis of Machines/Materials, Drones",
+      "email": "vijaydalla.me@nitjsr.ac.in",
+      "mobile": "8126084443"
+    },
+    {
+      "name": "Dr. Saikat Ranjan Maity",
+      "designation": "Associate Professor",
+      "area_of_research": "Laser Based Additive Manufacturing, Digital Twin",
+      "email": "srmaity.me@nitjsr.ac.in",
+      "mobile": "9733544513"
+    },
+    {
+      "name": "Dr. Sankar Kumar Roy",
+      "designation": "Assistant Professor",
+      "area_of_research": "Experimental Mechanics, Machine Vibrations and Health Monitoring",
+      "email": "sankarroy.me@nitjsr.ac.in",
+      "mobile": "8910961429"
+    },
+    {
+      "name": "Dr. Pranab Kumar Kundu",
+      "designation": "Associate Professor",
+      "area_of_research": "Microfluidics and Its Applications on Biomedical, Thermal Management",
+      "email": "pranab.me@nitjsr.ac.in",
+      "mobile": "9433887770"
+    },
+    {
+      "name": "Dr. Ashok Kumar Mandal",
+      "designation": "Assistant Professor",
+      "area_of_research": "Non Linear Mechanics, Mechanics of Musical Instruments",
+      "email": "ashok.me@nitjsr.ac.in",
+      "mobile": "9559754134"
+    },
+    {
+      "name": "Dr. Alok Kumar Ray",
+      "designation": "Assistant Professor",
+      "area_of_research": "Thermofluidic Analysis, Thermal Energy Storage, Waste Heat Recovery",
+      "email": "alok.me@nitjsr.ac.in",
+      "mobile": "8249099693"
+    },
+    {
+      "name": "Dr. Abhijit Dey",
+      "designation": "Assistant Professor",
+      "area_of_research": "Thin Film and Coating, Machining of MMC",
+      "email": "abhijit.me@nitjsr.ac.in",
+      "mobile": "8899778875"
+    },
+    {
+      "name": "Prof. Prabha Chand",
+      "designation": "Professor",
+      "area_of_research": "Thermal Engg., Solar Energy, Space Engg.",
+      "email": "p.chand.me@nitjsr.ac.in",
+      "mobile": "7903285868"
+    },
+    {
+      "name": "Dr. Shashank Pandey",
+      "designation": "Assistant Professor",
+      "area_of_research": "Plates and Shell Theories, Finite Element Method",
+      "email": "shashankpandey.me@nitjsr.ac.in",
+      "mobile": "9555755980"
+    },
+    {
+      "name": "Dr. Vishesh Ranjan Kar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Thermo Mechanics, Vibrations and Stability",
+      "email": "vishesh.me@nitjsr.ac.in",
+      "mobile": "9439569975"
+    },
+    {
+      "name": "Dr. Rinku Kumar Gouda",
+      "designation": "Assistant Professor",
+      "area_of_research": "Surface Wettability, Micro/Nano Scale Fluid and Heat Transport",
+      "email": "rinkugouda.me@nitjsr.ac.in",
+      "mobile": "8895642312"
+    }
+  ]
+}
