@@ -349,7 +349,7 @@ const Tab = () => {
             to={"/workshops"}
             className="transition duration-200 py-2 px-3 hover:text-black/80 hover:bg-slate-200 rounded-md cursor-pointer text-slate-700/80 font-medium whitespace-nowrap"
           >
-            Events
+            Workshops and Conferences
           </Link>
         </motion.div>
 
