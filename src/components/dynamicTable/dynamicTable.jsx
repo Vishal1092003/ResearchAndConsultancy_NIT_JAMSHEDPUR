@@ -97,7 +97,3 @@ const DynamicTable = ({ data }) => {
 };
 
 export default DynamicTable;
-
-
-
-
