@@ -59,7 +59,7 @@ const Consultancy = () => {
                 </svg>
               </div>
               <div className="text-4xl font-bold text-gray-800 mb-2">
-                {SponseredResearchData.Sheet.length}
+                {SponseredResearchData.Sheet1.length}
               </div>
               <div className="text-gray-600 font-medium">Active Projects</div>
             </div>
@@ -78,7 +78,7 @@ const Consultancy = () => {
               <div className="text-4xl font-bold text-gray-800 mb-2">
                 {
                   new Set(
-                    SponseredResearchData.Sheet.map(
+                    SponseredResearchData.Sheet1.map(
                       (item) => item.Sponsoring_Agency
                     )
                   ).size
@@ -105,7 +105,7 @@ const Consultancy = () => {
       {/* Projects List - Matching Partnership Theme */}
       <div className="pb-10 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 space-y-6">
-          {SponseredResearchData.Sheet.map((item, index) => (
+          {SponseredResearchData.Sheet1.map((item, index) => (
             <div
               key={index}
               className="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-6"
