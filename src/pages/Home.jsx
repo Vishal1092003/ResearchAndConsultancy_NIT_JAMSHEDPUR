@@ -9,14 +9,14 @@ import React, { useState } from "react";
 import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import {
   AbhishekSir,
-  AakashSir,
+  // AakashSir,
   AkanshaMam,
-  DrKanika,
+  // DrKanika,
   SwagatadebSir,
   AshokSir,
   DirectorSir,
   DeanSir,
-  SatishSir,
+  // SatishSir,
   SuraviMam,
   Subhash,
 } from "../assets/index";
