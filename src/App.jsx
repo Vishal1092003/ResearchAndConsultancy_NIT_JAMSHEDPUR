@@ -16,6 +16,7 @@ import Events from "./pages/Events";
 import Achievements from "./pages/Achievements";
 import RNCdetails from "./pages/RNCdetails";
 import InformationCircularsNotices from "./pages/InformationCircularsNotices";
+import ResearchBulletin from "./pages/ResearchBulletin";
 // import Events from "./pages/Events"
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path="/events" element={<Events />} />
           <Route path="/informationCirculars" element={<InformationCircularsNotices />} />
           <Route path="/achievements" element={<Achievements />} />
+          <Route path="/researchBulletin" element={<ResearchBulletin />} />
           <Route path="/rncDetails" element={<RNCdetails />} />
           <Route path="/sidenavbar" element={<SideNavbar />} />
         </Routes>
