@@ -1,9 +1,9 @@
 
-import CarouselComponents from "../components/Carousel/CarouselComponents";
-import Footer from "../components/Footer/Footer";
+import CarouselComponents from "../components/Carousel/CarouselComponents.jsx";
+import Footer from "../components/Footer/Footer.jsx";
 // import Message from "../components/Message/Message";
-import Navbar from "../components/Navbar/Navbar";
-import Tab from "../components/Tab/Tab";
+import Navbar from "../components/Navbar/Navbar.jsx";
+import Tab from "../components/Tab/Tab.jsx";
 import messages from "../pages/dean&directorMsg.json";
 import React, { useState } from "react";
 import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
@@ -19,7 +19,7 @@ import {
   // SatishSir,
   SuraviMam,
   Subhash,
-} from "../assets/index";
+} from "../assets/index.js";
 
 // Theme Constants
 const theme = {
