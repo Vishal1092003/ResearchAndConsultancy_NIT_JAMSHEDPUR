@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar/Navbar";
 import Tab from "../components/Tab/Tab";
+import DynamicTable from "../components/dynamicTable/dynamicTable";
 import SponseredResearchData from "../Data/SponseredResearchData.json";
 
 const Consultancy = () => {
@@ -79,7 +80,7 @@ const Consultancy = () => {
                 {
                   new Set(
                     SponseredResearchData.Sheet1.map(
-                      (item) => item.Sponsoring_Agency
+                      (item) => item["Sponsoring Agency"]
                     )
                   ).size
                 }
@@ -95,93 +96,15 @@ const Consultancy = () => {
             <h2 className="text-3xl font-bold mb-2">
               <span className="text-gray-800">Our </span>
               <span className="text-blue-600">Consultancy </span>
-              <span className="text-orange-500">Network</span>
+              <span className="text-orange-500">Projects</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-orange-500 mx-auto"></div>
           </div>
-        </div>
-      </div>
 
-      {/* Projects List - Matching Partnership Theme */}
-      <div className="pb-10 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 space-y-6">
-          {SponseredResearchData.Sheet1.map((item, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-6"
-            >
-              <div className="flex items-start justify-between">
-                {/* Left side with number circle and project info */}
-                <div className="flex items-start space-x-4">
-                  {/* Numbered Circle */}
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center">
-                    <span className="text-white font-bold text-lg">
-                      {index + 1}
-                    </span>
-                  </div>
-
-                  {/* Project Details */}
-                  <div className="flex-1">
-                    <h3 className="text-xl font-bold text-gray-800 mb-2">
-                      {item.Name_of_Project}
-                    </h3>
-
-                    <div className="flex items-center space-x-2 mb-2">
-                      <svg
-                        className="w-4 h-4 text-gray-500"
-                        fill="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-                      </svg>
-                      <span className="text-gray-600 font-medium">
-                        {item.Sponsoring_Agency}
-                      </span>
-                    </div>
-
-                    <div className="space-y-1 text-sm text-gray-600">
-                      <p>
-                        <span className="font-medium">Department:</span>{" "}
-                        {item.Department}
-                      </p>
-                      <p>
-                        <span className="font-medium">
-                          Principal Investigator:
-                        </span>{" "}
-                        {item.Name_of_PI}
-                      </p>
-                      <p>
-                        <span className="font-medium">Sanctioned Amount:</span>{" "}
-                        ₹{item.Sanctioned_Amount}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Right side with date */}
-                <div className="flex flex-col items-center space-y-1">
-                  {/* Date Label */}
-                  <div className="flex items-center space-x-2 text-gray-600">
-                    <svg
-                      className="w-4 h-4"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z" />
-                    </svg>
-                    <span className="text-sm font-medium">Sanctioned</span>
-                  </div>
-                  <div className="text-gray-600">
-                    <span className="text-sm font-medium">Date</span>
-                  </div>
-                  {/* Date Value */}
-                  <div className="text-2xl font-bold text-gray-800">
-                    {item.Year_of_Sanction}
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
+          {/* Dynamic Table Section */}
+          <div className="mt-8">
+            <DynamicTable data={SponseredResearchData.Sheet1} />
+          </div>
         </div>
       </div>
     </div>
