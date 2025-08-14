@@ -101,11 +101,81 @@
 
 
 
-import React, { useRef } from "react";
+// import React, { useRef } from "react";
+
+// const DynamicTable = ({ data }) => {
+//   const tableScrollRef = useRef(null);
+
+//   if (!data || data.length === 0) {
+//     return (
+//       <div className="text-center py-12 text-gray-500">
+//         No data to display.
+//       </div>
+//     );
+//   }
+
+//   const columns = Object.keys(data[0]);
+
+//   return (
+//     <div className="w-full bg-white shadow-lg rounded-xl overflow-hidden border border-gray-200">
+//       {/* Table Container - Made scrollable vertically with max height */}
+//       <div 
+//         ref={tableScrollRef}
+//         className="overflow-x-auto overflow-y-auto max-h-[600px]"
+//       >
+//         <table className="w-full table-auto">
+//           <thead className="bg-gray-100 border-b border-gray-300 sticky top-0 z-10">
+//             <tr>
+//               {columns.map((col) => (
+//                 <th
+//                   key={col}
+//                   className="px-6 py-4 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider bg-gray-100"
+//                 >
+//                   {col.replace(/_/g, " ")}
+//                 </th>
+//               ))}
+//             </tr>
+//           </thead>
+//           <tbody className="divide-y divide-gray-200">
+//             {data.map((row, ridx) => (
+//               <tr
+//                 key={ridx}
+//                 className="hover:bg-gray-50 transition-colors duration-200"
+//               >
+//                 {columns.map((col) => (
+//                   <td
+//                     key={col}
+//                     className="px-6 py-4 whitespace-nowrap text-sm text-gray-600"
+//                     title={row[col]}
+//                   >
+//                     {row[col] != null ? String(row[col]) : ""}
+//                   </td>
+//                 ))}
+//               </tr>
+//             ))}
+//           </tbody>
+//         </table>
+//       </div>
+
+//       {/* Footer with total count */}
+//       <div className="flex items-center justify-between px-6 py-4 border-t border-gray-200 bg-gray-50">
+//         <div className="text-sm text-gray-600">
+//           Total <span className="font-semibold">{data.length}</span> records
+//         </div>
+//         <div className="text-sm text-gray-500">
+//           Scroll to view more data
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default DynamicTable;
+
+
+import React from "react";
 
 const DynamicTable = ({ data }) => {
-  const tableScrollRef = useRef(null);
-
   if (!data || data.length === 0) {
     return (
       <div className="text-center py-12 text-gray-500">
@@ -118,20 +188,19 @@ const DynamicTable = ({ data }) => {
 
   return (
     <div className="w-full bg-white shadow-lg rounded-xl overflow-hidden border border-gray-200">
-      {/* Table Container - Made scrollable vertically with max height */}
-      <div 
-        ref={tableScrollRef}
-        className="overflow-x-auto overflow-y-auto max-h-[600px]"
-      >
-        <table className="w-full table-auto">
-          <thead className="bg-gray-100 border-b border-gray-300 sticky top-0 z-10">
+      {/* Table Container - Static, no scrolling */}
+      <div className="overflow-x-auto">
+        <table className="w-full table-fixed">
+          <thead className="bg-gray-100 border-b border-gray-300">
             <tr>
               {columns.map((col) => (
                 <th
                   key={col}
-                  className="px-6 py-4 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider bg-gray-100"
+                  className="w-64 px-6 py-4 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider bg-gray-100"
                 >
-                  {col.replace(/_/g, " ")}
+                  <div className="break-words">
+                    {col.replace(/_/g, " ")}
+                  </div>
                 </th>
               ))}
             </tr>
@@ -145,10 +214,11 @@ const DynamicTable = ({ data }) => {
                 {columns.map((col) => (
                   <td
                     key={col}
-                    className="px-6 py-4 whitespace-nowrap text-sm text-gray-600"
-                    title={row[col]}
+                    className="w-64 px-6 py-4 text-sm text-gray-600"
                   >
-                    {row[col] != null ? String(row[col]) : ""}
+                    <div className="break-words whitespace-normal leading-relaxed">
+                      {row[col] != null ? String(row[col]) : ""}
+                    </div>
                   </td>
                 ))}
               </tr>
@@ -163,7 +233,7 @@ const DynamicTable = ({ data }) => {
           Total <span className="font-semibold">{data.length}</span> records
         </div>
         <div className="text-sm text-gray-500">
-          Scroll to view more data
+          All data displayed
         </div>
       </div>
     </div>
