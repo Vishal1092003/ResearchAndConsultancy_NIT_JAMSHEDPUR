@@ -183,6 +183,26 @@ const teams = {
       linkedin: "#",
     },
   ],
+  "Research Bulletin Team": [
+    {
+      name: "Nihal Sahay",
+      role: "Research Analyst",
+      img: "./nihalSahay.jpg",
+      linkedin: "#",
+    },
+    {
+      name: "Harshit Raj",
+      role: "Research Analyst",
+      img: "./harshitRaj.jpg",
+      linkedin: "#",
+    },
+    {
+      name: "Mrinal Ayush Raj",
+      role: "Research Analyst",
+      img: "mrinalAyushRaj.jpg",
+      linkedin: "#",
+    },
+  ],
   "Web Team": [
     {
       name: "Aditya Raj",
@@ -236,26 +256,7 @@ const teams = {
       email: "2024ugme051@nitjsr.ac.in",
     },
   ],
-  "Research Bulletin Team": [
-    {
-      name: "Nihal Sahay",
-      role: "Research Analyst",
-      img: "./nihalSahay.jpg",
-      linkedin: "#",
-    },
-    {
-      name: "Harshit Raj",
-      role: "Research Analyst",
-      img: "./harshitRaj.jpg",
-      linkedin: "#",
-    },
-    {
-      name: "Mrinal Ayush Raj",
-      role: "Research Analyst",
-      img: "mrinalAyushRaj.jpg",
-      linkedin: "#",
-    },
-  ],
+  
 };
 
 const TeamSection = () => {

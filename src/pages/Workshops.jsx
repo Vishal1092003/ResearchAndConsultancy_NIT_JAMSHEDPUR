@@ -23,15 +23,7 @@ const Workshops = () => {
       {/* ✅ Adjusted padding-top to avoid overlap (190px + header height ~64px = ~254px) */}
       <div className="pb-20">
         
-        {/* Title Section */}
-        <div className="text-center py-10">
-          <h1 className="text-3xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-700 to-orange-500 bg-clip-text text-transparent mb-4">
-            Workshops & Conferences held previously
-          </h1>
-          <p className="text-gray-700 text-sm sm:text-base">
-            An overview of Workshops and Conferences
-          </p>
-        </div>
+       
 
         {/* Cards Section */}
         <div className="px-4 w-full mx-auto flex flex-col gap-6">
