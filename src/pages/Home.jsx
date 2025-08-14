@@ -1,7 +1,5 @@
-
 import CarouselComponents from "../components/Carousel/CarouselComponents.jsx";
 import Footer from "../components/Footer/Footer.jsx";
-// import Message from "../components/Message/Message";
 import Navbar from "../components/Navbar/Navbar.jsx";
 import Tab from "../components/Tab/Tab.jsx";
 import messages from "../pages/dean&directorMsg.json";
@@ -9,43 +7,14 @@ import React, { useState } from "react";
 import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import {
   AbhishekSir,
-  // AakashSir,
   AkanshaMam,
-  // DrKanika,
   SwagatadebSir,
   AshokSir,
   DirectorSir,
   DeanSir,
-  // SatishSir,
   SuraviMam,
   Subhash,
 } from "../assets/index.js";
-
-// Theme Constants
-const theme = {
-  colors: {
-    primary: "#3A8DCC", // premiumBlue
-    secondary: "#2C3E50",
-    accent: "#E74C3C",
-    lightBg: "#F8F9FA",
-    darkText: "#2D3748",
-    mediumText: "#4A5568",
-    lightText: "#718096",
-    border: "#E2E8F0",
-    white: "#FFFFFF",
-  },
-  shadows: {
-    card: "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-    hover:
-      "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-  },
-  borderRadius: {
-    small: "0.375rem",
-    medium: "0.5rem",
-    large: "0.75rem",
-    full: "9999px",
-  },
-};
 
 const imageMap = {
   DirectorSir,
@@ -60,76 +29,75 @@ const MessageTile = ({ data, reverse }) => {
     <div
       className={`flex flex-col md:flex-row ${
         reverse ? "md:flex-row-reverse" : ""
-      } shadow-lg rounded-${theme.borderRadius.medium} bg-${
-        theme.colors.white
-      } overflow-hidden w-full border border-${theme.colors.border}`}
+      } shadow-lg rounded-lg bg-white overflow-hidden w-full border border-gray-200`}
     >
-      {/* Image & Details */}
       <div
         className={`flex flex-col items-center justify-center min-w-[20rem] p-6 border-b md:border-b-0 ${
           reverse ? "md:border-l" : "md:border-r"
-        } border-${theme.colors.border}`}
+        } border-gray-200`}
       >
         <img
           src={imgSrc}
           alt={data.name}
-          className={`rounded-${theme.borderRadius.medium} w-full max-w-[15rem] md:max-w-[18rem] object-cover aspect-square`}
+          className="rounded-lg w-full max-w-[15rem] md:max-w-[18rem] object-cover aspect-square"
         />
         <div className="text-center mt-4 space-y-1">
-          <h3 className={`font-semibold text-lg text-${theme.colors.darkText}`}>
+          <h3 className="font-semibold text-lg text-gray-700">
             {data.name}
           </h3>
-          <p className={`text-${theme.colors.mediumText} text-sm`}>
+          <p className="text-gray-600 text-sm">
             {data.designation}
           </p>
-          <p className={`text-${theme.colors.mediumText} text-sm`}>
+          <p className="text-gray-600 text-sm">
             {data.department}
           </p>
           {data.phone_office && (
-            <p className={`text-${theme.colors.mediumText} text-sm`}>
+            <p className="text-gray-600 text-sm">
               Ph. (O): {data.phone_office}
             </p>
           )}
           {data.mobile && (
-            <p className={`text-${theme.colors.mediumText} text-sm`}>
+            <p className="text-gray-600 text-sm">
               Mob: {data.mobile}
             </p>
           )}
-          <p className={`text-${theme.colors.primary} text-sm hover:underline`}>
+          <p className="text-blue-600 text-sm hover:underline">
             <a href={`mailto:${data.email}`}>{data.email}</a>
           </p>
         </div>
       </div>
 
-      {/* Message */}
       <div
-        className={`flex-1 p-6 flex flex-col justify-center bg-${theme.colors.lightBg}`}
+        className="flex-1 p-6 flex flex-col justify-center bg-gray-50"
       >
         <h2
-          className={`font-serif text-2xl font-semibold text-${theme.colors.darkText} mb-4 text-center`}
+          className="font-serif text-2xl font-semibold text-gray-700 mb-4 text-center"
         >
           {reverse ? "Director's Message" : "Dean's Message"}
         </h2>
-        <div className={`border-t border-${theme.colors.border} pt-4`}>
+        <div className="border-t border-gray-200 pt-4">
           <div
             className="relative overflow-hidden transition-all duration-700 ease-in-out"
             style={{ maxHeight: expanded ? "1000px" : "10rem" }}
           >
             <p
-              className={`text-${theme.colors.mediumText} text-justify leading-relaxed`}
+              className="text-gray-600 text-justify leading-relaxed"
             >
               {data.message}
             </p>
             {!expanded && data.message.length > 350 && (
               <div
-                className={`absolute bottom-0 left-0 w-full h-12 bg-gradient-to-t from-${theme.colors.lightBg} to-transparent`}
+                className="absolute bottom-0 left-0 w-full h-12"
+                style={{
+                  background: "linear-gradient(to top, #f9fafb, transparent)"
+                }}
               ></div>
             )}
           </div>
           {data.message.length > 350 && (
             <button
               onClick={() => setExpanded(!expanded)}
-              className={`mt-4 text-${theme.colors.primary} hover:text-${theme.colors.accent} font-medium transition-colors`}
+              className="mt-4 text-blue-600 hover:text-red-600 font-medium transition-colors"
             >
               {expanded ? "Read Less" : "Read More"}
             </button>
@@ -140,7 +108,6 @@ const MessageTile = ({ data, reverse }) => {
   );
 };
 
-// Teams data remains the same
 const teams = {
   "Associate Deans": [
     {
@@ -149,7 +116,6 @@ const teams = {
       img: SuraviMam,
       linkedin: "#",
     },
-
     {
       name: "Dr. Swagatadeb Sahoo",
       role: "Associate Dean",
@@ -276,79 +242,65 @@ const teams = {
       email: "2024ugme051@nitjsr.ac.in",
     },
   ],
-  
 };
 
 const TeamSection = () => {
   const [activeTab, setActiveTab] = useState("Associate Deans");
 
   return (
-    <div className={`w-full max-w-6xl mx-auto px-4 py-12`}>
-      {/* Tabs */}
+    <div className="w-full max-w-6xl mx-auto px-4 py-12">
       <div className="flex flex-wrap justify-center gap-3 mb-12">
         {Object.keys(teams).map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`px-6 py-3 rounded-${
-              theme.borderRadius.full
-            } font-medium transition-all duration-300 text-lg ${
+            className={`px-6 py-3 rounded-full font-medium transition-all duration-300 text-lg ${
               activeTab === tab
-                ? `text-${theme.colors.white} shadow-lg`
-                : `text-${theme.colors.mediumText} hover:text-${theme.colors.darkText} bg-${theme.colors.lightBg} hover:bg-${theme.colors.border}`
+                ? "text-white bg-blue-600 shadow-lg"
+                : "text-gray-600 hover:text-gray-700 bg-gray-50 hover:bg-gray-200"
             }`}
-            style={{
-              backgroundColor:
-                activeTab === tab ? theme.colors.primary : undefined,
-            }}
           >
             {tab}
           </button>
         ))}
       </div>
 
-      {/* Team Members Grid */}
       <div className="grid gap-8 md:grid-cols-2">
         {teams[activeTab].map((member, index) => (
           <div
             key={index}
-            className={`flex bg-${theme.colors.white} rounded-${theme.borderRadius.medium} shadow-${theme.shadows.card} hover:shadow-${theme.shadows.hover} transition-all duration-300 overflow-hidden h-full`}
+            className="flex bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden h-full"
           >
-            {/* Image section */}
             <div className="w-1/3 min-w-[120px] relative aspect-[4/5] overflow-hidden">
               <img
                 src={member.img}
                 alt={member.name}
                 className="w-full h-full object-cover"
               />
-              {/* LinkedIn button */}
               <a
                 href={member.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`absolute bottom-2 right-2 bg-${theme.colors.white} p-2 rounded-${theme.borderRadius.full} shadow hover:bg-${theme.colors.lightBg} transition-colors`}
-                style={{ color: theme.colors.primary }}
+                className="absolute bottom-2 right-2 bg-white p-2 rounded-full shadow hover:bg-gray-50 transition-colors text-blue-600"
               >
                 <FaLinkedin className="text-xl" />
               </a>
             </div>
 
-            {/* Content section */}
             <div className="w-2/3 p-5 flex flex-col">
               <h3
-                className={`text-xl font-bold text-${theme.colors.darkText} mb-1`}
+                className="text-xl font-bold text-gray-700 mb-1"
               >
                 {member.name}
               </h3>
-              <p className={`text-${theme.colors.mediumText} mb-3 text-sm`}>
+              <p className="text-gray-600 mb-3 text-sm">
                 {member.role}
               </p>
 
-              {/* Contact info */}
               <div className="mt-auto space-y-2">
                 {member.email && (
                   <div
-                    className={`flex items-center text-sm text-${theme.colors.mediumText}`}
+                    className="flex items-center text-sm text-gray-600"
                   >
                     <FaEnvelope className="w-4 h-4 mr-2" />
                     <span>{member.email}</span>
@@ -356,7 +308,7 @@ const TeamSection = () => {
                 )}
                 {(member.phone || member.mobile) && (
                   <div
-                    className={`flex items-center text-sm text-${theme.colors.mediumText}`}
+                    className="flex items-center text-sm text-gray-600"
                   >
                     <FaPhone className="w-4 h-4 mr-2" />
                     <span>
@@ -375,21 +327,19 @@ const TeamSection = () => {
 
 const Home = () => {
   return (
-    <div className={`min-h-screen w-full bg-${theme.colors.lightBg}`}>
+    <div className="min-h-screen w-full bg-gray-50">
       <div className="overflow-x-hidden">
-        <Navbar theme={theme} />
+        <Navbar />
       </div>
 
-      <div className={`sticky top-0 z-10 bg-${theme.colors.white} shadow-md`}>
-        <Tab theme={theme} />
+      <div className="sticky top-0 z-10 bg-white shadow-md">
+        <Tab />
       </div>
 
       <div className="overflow-x-hidden">
-        {/* Carousel Section */}
-        <CarouselComponents theme={theme} />
+        <CarouselComponents />
 
-        {/* Message Section */}
-        <div className={`pt-5 px-4 w-full bg-${theme.colors.lightBg}`}>
+        <div className="pt-5 px-4 w-full bg-gray-50">
           <div className="min-h-[50vh] flex flex-col justify-start items-center py-8 max-w-7xl mx-auto space-y-12">
             {Object.entries(messages).map(([key, data], index) => (
               <MessageTile key={key} data={data} reverse={index % 2 === 0} />
@@ -397,13 +347,11 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Team Section */}
-        <div className={`py-12 bg-${theme.colors.white}`}>
+        <div className="py-12 bg-white">
           <TeamSection />
         </div>
 
-        {/* Footer */}
-        <Footer theme={theme} />
+        <Footer />
       </div>
     </div>
   );

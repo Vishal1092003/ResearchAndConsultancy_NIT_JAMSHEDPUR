@@ -15,8 +15,11 @@ const Interdisciplinary = () => {
         </div>
         <div className=" text-4xl p-14 font-bold">Coming Soon...</div>
       </div>
+
+      <Footer />
     </div>
   );
 };
 
+import Footer from "@/components/Footer/Footer";
 export default Interdisciplinary;

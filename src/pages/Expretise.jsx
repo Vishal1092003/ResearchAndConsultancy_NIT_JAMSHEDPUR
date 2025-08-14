@@ -1,91 +1,3 @@
-// import { useState } from "react";
-// import ReserchAreaData from "../Data/ReserchAreaData.json";
-// import Physics from "../Data/researchExpertiseData/physics.json";
-// import Mathematics from "../Data/researchExpertiseData/mathematics.json";
-// import Chemistry from "../Data/researchExpertiseData/chemistry.json";
-// import Mechanical from "../Data/researchExpertiseData/mechanicalEngineering.json";
-// import Metallurgy from "../Data/researchExpertiseData/metallurgy.json";
-// import Ece from "../Data/researchExpertiseData/ece.json";
-// import Civil from "../Data/researchExpertiseData/civilEngineering.json";
-// import Cse from "../Data/researchExpertiseData/computerScience.json";
-// import Footer from "@/components/Footer/Footer";
-// import Navbar from "../components/Navbar/Navbar";
-// import Tab from "../components/Tab/Tab";
-
-// const Expertise = () => {
-//   const [selectedArea, setSelectedArea] = useState(0);
-//   const researchAreas = ReserchAreaData.resarchArea || [];
-
-//   return (
-//     <>
-//       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
-//         <div className="overflow-x-hidden">
-//           <Navbar />
-//         </div>
-//         <div className="sticky top-0 z-10 bg-white shadow-md">
-//           <Tab />
-//         </div>
-
-//         {/* Main Content */}
-//         <div className="container mx-auto px-4 py-8">
-//           {/* Heading */}
-//           <div className="text-center mb-8">
-//             <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">
-//               Research Expertise
-//             </h1>
-//             <hr className="w-20 mx-auto border-t-2 border-blue-500" />
-//           </div>
-
-//           {/* Research Area Tiles */}
-//           <div className="mb-8">
-//             <h2 className="text-xl font-semibold text-gray-700 mb-4">
-//               Research Areas
-//             </h2>
-//             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-//               {researchAreas.map((area, index) => (
-//                 <button
-//                   key={index}
-//                   onClick={() => setSelectedArea(index)}
-//                   className={`p-4 rounded-lg shadow-md transition-all duration-300 ${
-//                     selectedArea === index
-//                       ? "bg-blue-600 text-white transform scale-105"
-//                       : "bg-white hover:bg-blue-50 hover:shadow-lg"
-//                   }`}
-//                 >
-//                   <span className="font-medium">{area.RA}</span>
-//                 </button>
-//               ))}
-//             </div>
-//           </div>
-
-//           {/* Selected Research Area Content */}
-//           <div className="bg-white rounded-xl shadow-lg p-6">
-//             <h2 className="text-2xl font-bold text-gray-800 mb-4">
-//               {researchAreas[selectedArea]?.RA || "Research Area"}
-//             </h2>
-//             <div className="text-gray-600">
-//               {selectedArea === 0 && (
-//                 <p>Content about Robotics research would appear here...</p>
-//               )}
-//               {selectedArea === 1 && (
-//                 <p>Content about Energy research would appear here...</p>
-//               )}
-//               {/* Add more conditionals for other areas */}
-//               <p className="mt-4 text-blue-600">
-//                 This is a placeholder. Replace with actual content for each
-//                 research area.
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-
-//         <Footer />
-//       </div>
-//     </>
-//   );
-// };
-
-// export default Expertise;
 import { useState } from "react";
 import ReserchAreaData from "../Data/ReserchAreaData.json";
 import Physics from "../Data/researchExpertiseData/physics.json";
@@ -103,7 +15,6 @@ import Navbar from "../components/Navbar/Navbar";
 import Tab from "../components/Tab/Tab";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 
-// Map research area names to their corresponding data files
 const researchDataMap = {
   "Physics": Physics.physics,
   "Mathematics": Mathematics.mathematics,
@@ -116,31 +27,17 @@ const researchDataMap = {
   "Production and Industrial Engineering": Production.production,
   "Electrical Engineering": Electrical.electrical,
 };
-// // Update your researchDataMap like this:
-// const researchDataMap = {
-//   "Physics": Physics.physics || [],
-//   "Mathematics": Mathematics.mathematics || [],
-//   "Chemistry": Chemistry.chemistry || [],
-//   "Mechanical Engineering": Mechanical.mechanicalEngineering || [], // Changed key
-//   "Metallurgical and Materials Engineering": Metallurgy.metallurgy || [],
-//   "Electronics and Communication Engineering": Ece.ece || [], // Fixed typo in key
-//   "Civil Engineering": Civil.civilEngineering || [],
-//   "Computer Science and Engineering": Cse.computerScience || [],
-//   "Production and Industrial Engineering": Production.production || [],
-//   "Electrical Engineering": Electrical.electricalEngineering || []
-// };
 
 const Expertise = () => {
   const [selectedArea, setSelectedArea] = useState(0);
   const researchAreas = ReserchAreaData.resarchArea || [];
 
-  // Get the current research area data based on selection
   const currentAreaName = researchAreas[selectedArea]?.RA || "";
   const currentAreaData = researchDataMap[currentAreaName] || [];
 
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
+      <div className="min-h-screen bg-gray-50">
         <div className="overflow-x-hidden">
           <Navbar />
         </div>
@@ -148,17 +45,14 @@ const Expertise = () => {
           <Tab />
         </div>
 
-        {/* Main Content */}
         <div className="container mx-auto px-4 py-8">
-          {/* Heading */}
           <div className="text-center mb-8">
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-700 mb-2">
               Research Expertise
             </h1>
-            <hr className="w-20 mx-auto border-t-2 border-blue-500" />
+            <hr className="w-20 mx-auto border-t-2 border-blue-600" />
           </div>
 
-          {/* Research Area Tiles */}
           <div className="mb-8">
             <h2 className="text-xl font-semibold text-gray-700 mb-4">
               Research Areas
@@ -171,7 +65,7 @@ const Expertise = () => {
                   className={`p-4 rounded-lg shadow-md transition-all duration-300 ${
                     selectedArea === index
                       ? "bg-blue-600 text-white transform scale-105"
-                      : "bg-white hover:bg-blue-50 hover:shadow-lg"
+                      : "bg-white hover:bg-blue-50 hover:shadow-lg text-gray-700"
                   }`}
                 >
                   <span className="font-medium">{area.RA}</span>
@@ -180,9 +74,8 @@ const Expertise = () => {
             </div>
           </div>
 
-          {/* Selected Research Area Content */}
           <div className="bg-white rounded-xl shadow-lg p-6">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6">
+            <h2 className="text-2xl font-bold text-gray-700 mb-6">
               {currentAreaName || "Research Area"}
             </h2>
 
@@ -191,16 +84,16 @@ const Expertise = () => {
                 <table className="min-w-full divide-y divide-gray-200">
                   <thead className="bg-gray-50">
                     <tr>
-                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">
                         Name
                       </th>
-                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">
                         Designation
                       </th>
-                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">
                         Area of Research
                       </th>
-                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">
                         Contact
                       </th>
                     </tr>
@@ -208,19 +101,19 @@ const Expertise = () => {
                   <tbody className="bg-white divide-y divide-gray-200">
                     {currentAreaData.map((expert, index) => (
                       <tr key={index} className="hover:bg-gray-50">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-700">
                           {expert.name}
                         </td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
                           {expert.designation}
                         </td>
-                        <td className="px-6 py-4 text-sm text-gray-500">
+                        <td className="px-6 py-4 text-sm text-gray-600">
                           {expert.area_of_research || expert.area_of_research}
                         </td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
                           <div className="flex flex-col space-y-1">
                             <div className="flex items-center">
-                              <FaEnvelope className="mr-2 text-blue-500" />
+                              <FaEnvelope className="mr-2 text-blue-600" />
                               <a
                                 href={`mailto:${expert.email}`}
                                 className="text-blue-600 hover:underline"
@@ -230,7 +123,7 @@ const Expertise = () => {
                             </div>
                             {expert.mobile && (
                               <div className="flex items-center">
-                                <FaPhone className="mr-2 text-green-500" />
+                                <FaPhone className="mr-2 text-green-600" />
                                 <span>{expert.mobile}</span>
                               </div>
                             )}
@@ -243,7 +136,7 @@ const Expertise = () => {
               </div>
             ) : (
               <div className="text-center py-8">
-                <p className="text-gray-500">
+                <p className="text-gray-600">
                   No research expertise data available for this area.
                 </p>
               </div>

@@ -10,9 +10,8 @@ const Navbar = () => {
   const isSmallScreen = useMediaQuery("(max-width: 768px)");
 
   return (
-    <div className="w-full sticky top-0 z-10 shadow-lg bg-yellow-50">
+    <div className="w-full sticky top-0 z-10 shadow-lg bg-white">
       <div className="max-w-[2520px] mx-auto xl:px-20 md:px-10 sm:px-2 px-4">
-        {/* Top part of navbar (logo, name) - will scroll away */}
         <motion.div
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
