@@ -24,7 +24,7 @@ const Notices = () => {
     return {
       id: idx + 1,
       title,
-      pdfPath: `/src/assets/notices/${file}`
+      pdfPath: `/notices/${file}`
     };
   });
 

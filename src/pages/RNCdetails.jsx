@@ -17,7 +17,7 @@ const RncDetails = () => {
     return {
       id: idx + 1,
       title,
-      pdfPath: `/src/assets/rncDetails/${file}`
+      pdfPath: `/rncDetails/${file}`
     };
   });
 
