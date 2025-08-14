@@ -1,24 +1,102 @@
-{"production":[
+{
+  "production": [
     {
-        "name": "Dr. Dinesh Kumar",
-        "designation": "Assistant Professor",
-        "area_of_research": "Supply chain management, Optimization",
-        "email": "dinesh.prod@nitjsr.ac.in",
-        "mobile": "9084932611"
+      "name": "Prof Amresh Kumar",
+      "designation": "Professor",
+      "area_of_research": "Manufacturing, CAD CAM",
+      "email": "akumar.prod@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Mayuri Baruah",
-        "designation": "Assistant Professor",
-        "area_of_research": "Welding, Additive manufacturing",
-        "email": "mayuri.prod@nitjsr.ac.in",
-        "mobile": "9678434603"
+      "name": "Prof Raj Ballav",
+      "designation": "Professor",
+      "area_of_research": "Reverse Engineering, Rapid prototyping",
+      "email": "rballav.prod@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Tushar Banerjee",
-        "designation": "Assistant Professor",
-        "area_of_research": "Materials Characterization, pipelines, special alloys, polymers etc.",
-        "email": "tbanerjee.prod@nitjsr.ac.in",
-        "mobile": "9903431894"
+      "name": "Prof Shashi Bhushan Prasad",
+      "designation": "Professor",
+      "area_of_research": "Production Engineering, Composite Materials",
+      "email": "sbprasad.prod@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Ashok Kumar Jha",
+      "designation": "Associate Professor",
+      "area_of_research": "Manufacturing Engineering, CAD/CAM/Robotics",
+      "email": "ashokjha.prod@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Kamal Pal",
+      "designation": "Associate Professor",
+      "area_of_research": "Wire Arc Additive Manufacturing, Multi-objective optimization",
+      "email": "kamal.prod@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Dinesh Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Supply chain management, Optimization",
+      "email": "dinesh.prod@nitjsr.ac.in",
+      "mobile": "9084932611"
+    },
+    {
+      "name": "Dr Mayuri Baruah",
+      "designation": "Assistant Professor",
+      "area_of_research": "Welding, Additive manufacturing",
+      "email": "mayuri.prod@nitjsr.ac.in",
+      "mobile": "9678434603"
+    },
+    {
+      "name": "Dr Tushar Banerjee",
+      "designation": "Assistant Professor",
+      "area_of_research": "Materials Characterization, pipelines, special alloys, polymers etc.",
+      "email": "tbanerjee.prod@nitjsr.ac.in",
+      "mobile": "9903431894"
+    },
+    {
+      "name": "Dr Dharmendra Patel",
+      "designation": "Assistant Professor",
+      "area_of_research": "",
+      "email": "dpatel.prod@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Gunda Yoganjaneyulu",
+      "designation": "Assistant Professor",
+      "area_of_research": "Incremental Sheet Metal Forming, Cryorolling",
+      "email": "yogi.prod@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Kanika Prasad",
+      "designation": "Assistant Professor",
+      "area_of_research": "Waste management, multi criteria decision making",
+      "email": "kprasad.prod@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Kuntal Maji",
+      "designation": "Assistant Professor",
+      "area_of_research": "Metal forming, Additive Manufacturing",
+      "email": "kuntalmaji.prod@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Shubham Tripathi",
+      "designation": "Assistant Professor",
+      "area_of_research": "Industry 4.0, Operations Research",
+      "email": "shubham.prod@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Susmita Datta",
+      "designation": "Assistant Professor",
+      "area_of_research": "",
+      "email": "susmita.prod@nitjsr.ac.in",
+      "mobile": ""
     }
-]
+  ]
 }

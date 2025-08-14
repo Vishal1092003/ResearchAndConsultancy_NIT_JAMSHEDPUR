@@ -1,25 +1,25 @@
 
-import CarouselComponents from "../components/Carousel/CarouselComponents";
-import Footer from "../components/Footer/Footer";
-import Message from "../components/Message/Message";
-import Navbar from "../components/Navbar/Navbar";
-import Tab from "../components/Tab/Tab";
+import CarouselComponents from "../components/Carousel/CarouselComponents.jsx";
+import Footer from "../components/Footer/Footer.jsx";
+// import Message from "../components/Message/Message";
+import Navbar from "../components/Navbar/Navbar.jsx";
+import Tab from "../components/Tab/Tab.jsx";
 import messages from "../pages/dean&directorMsg.json";
 import React, { useState } from "react";
 import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import {
   AbhishekSir,
-  AakashSir,
+  // AakashSir,
   AkanshaMam,
-  DrKanika,
+  // DrKanika,
   SwagatadebSir,
   AshokSir,
   DirectorSir,
   DeanSir,
-  SatishSir,
+  // SatishSir,
   SuraviMam,
   Subhash,
-} from "../assets/index";
+} from "../assets/index.js";
 
 // Theme Constants
 const theme = {
@@ -49,7 +49,7 @@ const theme = {
 
 const imageMap = {
   DirectorSir,
-  DeanSir: SatishSir,
+  DeanSir,
 };
 
 const MessageTile = ({ data, reverse }) => {
@@ -185,6 +185,18 @@ const teams = {
   ],
   "Research Bulletin Team": [
     {
+      name: "Dr. Abhishek Sharma",
+      role: "Research Faculty",
+      img: "./abhishekSharma.jpeg",
+      linkedin: "#",
+    },
+    {
+      name: "Dr. Neha Jaiswal",
+      role: "Research Faculty",
+      img: "./nehaJaiswal.jpeg",
+      linkedin: "#",
+    },
+    {
       name: "Nihal Sahay",
       role: "Research Analyst",
       img: "./nihalSahay.jpg",
@@ -213,7 +225,7 @@ const teams = {
     },
     {
       name: "Anoop Kumar Burnwal",
-      role: "Web Developer",
+      role: "Web Team Member",
       img: "./anoop.jpg",
       linkedin: "https://www.linkedin.com/in/anoop-kumar-burnwal-aa0b10318/",
       email: "2024ugcm013@nitjsr.ac.in",
@@ -232,6 +244,14 @@ const teams = {
       linkedin:
         "https://www.linkedin.com/in/swayam-agarwal-2b941b323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       email: "itzswayam890@gmail.com",
+    },
+    {
+      name: "Awaish Ehsan",
+      role: "Web Team Member",
+      img: "./awaish.png",
+      linkedin:
+        "https://www.linkedin.com/in/awaish-ehsan-90639b323/",
+      email: "2024ugcs042@nitjsr.ac.in",
     },
     {
       name: "Yogesh Kumar Meena",

@@ -1,23 +1,81 @@
-{"chemistry":[
+{
+  "chemistry": [
     {
-        "name": "Dr. Titas Kumar Mukhopadhyay",
-        "designation": "Assistant Professor",
-        "area_of_research": "Computational chemistry, Molecular Dynamics Simulations and Density Functional Theory",
-        "email": "titas.chem@nitjsr.ac.in",
-        "mobile": "8697917424"
+      "name": "Dr. Ananta Kumar Atta",
+      "designation": "Associate Professor",
+      "area_of_research": "Fluorometric organic sensing materials, Photosensitizers for PDT",
+      "email": "attaananta.chem@nitjsr.ac.in",
+      "mobile": "9436288612"
     },
     {
-        "name": "Dr. Ananta Kumar Atta",
-        "designation": "Associate Professor",
-        "area_of_research": "Fluorometric organic sensing materials, Photosensitizers for PDT",
-        "email": "attaananta.chem@nitjsr.ac.in",
-        "mobile": "9436288612"
+      "name": "Dr Balram Ambade",
+      "designation": "Associate Professor",
+      "area_of_research": "Water and Air quality, Environmental Chemistry",
+      "email": "bambade.chem@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr Mounita Mondal",
-        "designation": "Assistant Professor",
-        "area_of_research": "Organometallic Chemistry, Catalysis",
-        "email": "mounita.chem@nitjsr.ac.in",
-        "mobile": "7541013198"
+      "name": "Dr Shailesh Kumar Prasad",
+      "designation": "Associate Professor",
+      "area_of_research": "",
+      "email": "skprasad.chem@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Titas Kumar Mukhopadhyay",
+      "designation": "Assistant Professor",
+      "area_of_research": "Computational chemistry, Molecular Dynamics Simulations and Density Functional Theory",
+      "email": "titas.chem@nitjsr.ac.in",
+      "mobile": "8697917424"
+    },
+    {
+      "name": "Dr Moumtia Mondal",
+      "designation": "Assistant Professor",
+      "area_of_research": "Organomettalic Chemistry, Catalysis",
+      "email": "moumita.chem@nitjsr.ac.in",
+      "mobile": "7541013198"
+    },
+    {
+      "name": "Dr Naveen Kumar Veldurthi",
+      "designation": "Assistant Professor",
+      "area_of_research": "Clean Energy Research, Heterogeneous catalysis and photocatalysis for environmental purification",
+      "email": "naveen.chem@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Prabhat Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "",
+      "email": "prabhat.chem@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Sakthivel S",
+      "designation": "Assistant Professor",
+      "area_of_research": "",
+      "email": "sakthi.chem@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Subrata Mahanta",
+      "designation": "Assistant Professor",
+      "area_of_research": "",
+      "email": "smahanta.chem@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Sudhanshu Shekhar Pati",
+      "designation": "Assistant Professor",
+      "area_of_research": "Removal of Dye and Heavy metal ions from Waste Water, Magnetic Nanomaterials Synthesis",
+      "email": "sspati.chem@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Tapas Das",
+      "designation": "Assistant Professor",
+      "area_of_research": "Synthesis of Flourescent Probes and Cell Imaging, Development of New methodology Asymmetric Organic Synthesis",
+      "email": "tapas.chem@nitjsr.ac.in",
+      "mobile": ""
     }
-]}
+  ]
+}

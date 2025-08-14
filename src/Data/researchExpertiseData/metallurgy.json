@@ -1,45 +1,130 @@
-{"metallurgy":[
+{
+  "metallurgy": [
     {
-        "name": "Dr. Renu Kumari",
-        "designation": "Assistant Professor",
-        "area_of_research": "Corrosion, Surface engineering",
-        "email": "renu.met@nitjsr.ac.in",
-        "mobile": "7488056863"
+      "name": "Ashok Kumar",
+      "designation": "Professor",
+      "area_of_research": "Microstructural Characterization, Testing of Materials",
+      "email": "akumar.met@nitjsr.ac.in",
+      "mobile": "9470525571"
     },
     {
-        "name": "Ashok Kumar",
-        "designation": "Professor",
-        "area_of_research": "Microstructural Characterization, Testing of Materials",
-        "email": "akumar.met@nitjsr.ac.in",
-        "mobile": "9470525571"
+      "name": "Dr. Rina Sahu",
+      "designation": "Associate Professor",
+      "area_of_research": "Recycling process, e-waste, coal & mineral benificiation, Manufacturing process",
+      "email": "reenasahu.met@nitjsr.ac.in",
+      "mobile": "9771420866"
     },
     {
-        "name": "Dr. Ram Krishna",
-        "designation": "Assistant Professor",
-        "area_of_research": "High-Temperature Alloys for Tooling and Furnace, Applications and Failure Analysis",
-        "email": "krishna.met@nitjsr.ac.in",
-        "mobile": "6207429787"
+      "name": "Dr. Kamal Pal",
+      "designation": "Associate Professor",
+      "area_of_research": "Wire Arc Additive Manufacturing, Multi-objective optimization",
+      "email": "kamal.prod@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Rina Sahu",
-        "designation": "Associate Professor",
-        "area_of_research": "Recycling process, e-waste, coal & mineral beneficiation, Manufacturing process",
-        "email": "reenasahu.met@nitjsr.ac.in",
-        "mobile": "9771420866"
+      "name": "Mr. Chandra Shekhar Chowdhary",
+      "designation": "Associate Professor",
+      "area_of_research": "",
+      "email": "cschowdhary.met@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Monalisa Mandal",
-        "designation": "Assistant Professor",
-        "area_of_research": "Structure-Property correlation in light metal alloys, composite and steel",
-        "email": "monalisamet@nitjsr.ac.in",
-        "mobile": "9832085835"
+      "name": "Dr. Renu Kumari",
+      "designation": "Assistant Professor",
+      "area_of_research": "Corrosion, Surface engineering",
+      "email": "renu.met@nitjsr.ac.in",
+      "mobile": "7488056863"
     },
     {
-        "name": "Dr. Binay Kumar",
-        "designation": "Assistant Professor",
-        "area_of_research": "Alternate route of iron and steelmaking, Process Optimisation, Energy",
-        "email": "binay.met@nitjsr.ac.in",
-        "mobile": "8293812519"
+      "name": "Dr. Ram Krishna",
+      "designation": "Assistant Professor",
+      "area_of_research": "High-Temperature Alloys for Tooling and Furnace, Applications and Failure Analysis",
+      "email": "krishna.met@nitjsr.ac.in",
+      "mobile": "6207429787"
+    },
+    {
+      "name": "Monalisa Mandal",
+      "designation": "Assistant Professor",
+      "area_of_research": "Structure-Property correlation in light metal alloys, composite and steel",
+      "email": "monalisamet@nitjsr.ac.in",
+      "mobile": "9832085835"
+    },
+    {
+      "name": "Dr. Binay Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Alternate route of iron and steelmaking, Process Optimisation, Energy",
+      "email": "binay.met@nitjsr.ac.in",
+      "mobile": "8293812519"
+    },
+    {
+      "name": "Dr. Amit Patel",
+      "designation": "Assistant Professor",
+      "area_of_research": "Characterization, Corrosion, Fatigue and fracture",
+      "email": "amitpatel.met@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Anushree Dutta",
+      "designation": "Assistant Professor",
+      "area_of_research": "Eutectic Alloys, Steel making",
+      "email": "anushreedutta.met@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Aravind Gali",
+      "designation": "Assistant Professor",
+      "area_of_research": "Refractory Metals and Alloys, Bulk Metallic Glasses",
+      "email": "aravind.met@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Ashwinee Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "DFT, Molecular Dynamics",
+      "email": "ashwinee.met@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Binay Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Decarbonization in Steel Making, Mineral Benificiation",
+      "email": "inay.met@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Jichil Majhi",
+      "designation": "Assistant Professor",
+      "area_of_research": "Materials Characterization, Magnesium Alloys",
+      "email": "jichilmajhi.met@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Partha Duley",
+      "designation": "Assistant Professor",
+      "area_of_research": "Corrosion studies, Deformation behaviour of Materials",
+      "email": "partha.met@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Poulami Maji",
+      "designation": "Assistant Professor",
+      "area_of_research": "Wear Characteristics, High Temperature Materials",
+      "email": "poulami.met@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Prakash Sarkar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Polymer-nanocomposites, Glassy Polymers",
+      "email": "prakash.met@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Sanjay Vajpai",
+      "designation": "Assistant Professor",
+      "area_of_research": "Powder Metallurgy Processing, Materials and Microstructural Designing",
+      "email": "skvajpai.met@nitjsr.ac.in",
+      "mobile": ""
     }
-]
+  ]
 }

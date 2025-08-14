@@ -1,73 +1,165 @@
-{"cse":[
+{
+  "cse": [
     {
-        "name": "Dr. Jitesh Pradhan",
-        "designation": "Assistant Professor",
-        "area_of_research": "Artificial Intelligence, Machine and Deep Learning",
-        "email": "jiteshpradhan.cse@nitjsr.ac.in",
-        "mobile": "9589633179"
+      "name": "Prof Danish Ali Khan",
+      "designation": "Professor",
+      "area_of_research": "Machine Learning, Information Security",
+      "email": "dakhan.ca@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Diwakar Tripathi",
-        "designation": "Assistant Professor",
-        "area_of_research": "Machine learning, Computer vision",
-        "email": "diwakar.cse@nitjsr.ac.in",
-        "mobile": "9993335916"
+      "name": "Prof DK Yadav",
+      "designation": "Professor",
+      "area_of_research": "Software Reliability, Machine Learning",
+      "email": "dkyadav.ca@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Gopa Bhaumik",
-        "designation": "Assistant Professor",
-        "area_of_research": "Computer vision and Image processing, Artificial Intelligence",
-        "email": "gopabhaumik.cse@nitjsr.ac.in",
-        "mobile": "9002578826"
+      "name": "Mr Rajiv Ranjan Suman",
+      "designation": "Associate Professor",
+      "area_of_research": "",
+      "email": "rrsuman.cse@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Chandrashekhar Azad",
-        "designation": "Assistant Professor",
-        "area_of_research": "Machine Learning, Deep Learning",
-        "email": "csazad.cse@nitjsr.ac.in",
-        "mobile": "7909058321"
+      "name": "Dr Binod Kumar Singh",
+      "designation": "Associate Professor",
+      "area_of_research": "Network Security, Image Processing, Cloud Security",
+      "email": "bksingh.cse@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Mayukh Sarkar",
-        "designation": "Assistant Professor",
-        "area_of_research": "Quantum Computing",
-        "email": "mayukhsarkar.cse@nitjsr.ac.in",
-        "mobile": "9432803004"
+      "name": "Dr Dilip Kumar Shaw",
+      "designation": "Associate Professor",
+      "area_of_research": "Data Mining, Network Optimization, Data Science",
+      "email": "dkshaw.ca@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Deepak Rai",
-        "designation": "Assistant Professor",
-        "area_of_research": "Image processing, Software defined network",
-        "email": "deepak.cse@nitjsr.ac.in",
-        "mobile": "8527862038"
+      "name": "Dr Sanjay Kumar",
+      "designation": "Associate Professor",
+      "area_of_research": "",
+      "email": "sanjay.cse@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Pampa Howladar",
-        "designation": "Assistant Professor",
-        "area_of_research": "Biomedical AI (ECG/Physiological Signals), Machine Learning in Healthcare",
-        "email": "pampa.cse@nitjsr.ac.in",
-        "mobile": "9635379537"
+      "name": "Dr Jitesh Pradhan",
+      "designation": "Assistant Professor",
+      "area_of_research": "Artificial Intelligence, Machine and Deep Learning",
+      "email": "jiteshpradhan.cse@nitjsr.ac.in",
+      "mobile": "9589633179"
     },
     {
-        "name": "Dr. Dinesh Kumar",
-        "designation": "Assistant Professor",
-        "area_of_research": "Blockchain Technology, Optimization, Internet of Things",
-        "email": "dineshkumar.cse@nitjsr.ac.in",
-        "mobile": "9990742787"
+      "name": "Dr Diwakar Tripathi",
+      "designation": "Assistant Professor",
+      "area_of_research": "Machine Learning, Computer Vision",
+      "email": "diwakar.cse@nitjsr.ac.in",
+      "mobile": "9993335916"
     },
     {
-        "name": "Dr. Arijit Das",
-        "designation": "Assistant Professor",
-        "area_of_research": "Artificial Intelligence, Machine Learning, Deep Learning",
-        "email": "arijit.cse@nitjsr.ac.in",
-        "mobile": "6291030388"
+      "name": "Gopa Bhaumik",
+      "designation": "Assistant Professor",
+      "area_of_research": "Computer Vision and Image Processing, Artificial Intelligence",
+      "email": "gopabhaumik.cse@nitjsr.ac.in",
+      "mobile": "9002578826"
     },
     {
-        "name": "Dr. B Ramachandra Reddy",
-        "designation": "Assistant Professor",
-        "area_of_research": "Software Engineering, Machine Learning",
-        "email": "brcreddy.cse@nitjsr.ac.in",
-        "mobile": "9479639634"
+      "name": "Dr Chandrashekhar Azad",
+      "designation": "Assistant Professor",
+      "area_of_research": "Machine Learning, Deep Learning",
+      "email": "csazad.cse@nitjsr.ac.in",
+      "mobile": "7909058321"
+    },
+    {
+      "name": "Dr Mayukh Sarkar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Quantum Computing",
+      "email": "mayukhsarkar.cse@nitjsr.ac.in",
+      "mobile": "9432803004"
+    },
+    {
+      "name": "Dr Deepak Rai",
+      "designation": "Assistant Professor",
+      "area_of_research": "Image Processing, Software Defined Network",
+      "email": "deepak.cse@nitjsr.ac.in",
+      "mobile": "8527862038"
+    },
+    {
+      "name": "Dr Pampa Howladar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Biomedical AI (ECG/Physiological Signals), Machine Learning in Healthcare",
+      "email": "pampa.cse@nitjsr.ac.in",
+      "mobile": "9635379537"
+    },
+    {
+      "name": "Dr Dinesh Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Blockchain Technology, Optimization, Internet of Things",
+      "email": "dineshkumar.cse@nitjsr.ac.in",
+      "mobile": "9990742787"
+    },
+    {
+      "name": "Dr Arjit Das",
+      "designation": "Assistant Professor",
+      "area_of_research": "Artificial Intelligence, Machine Learning, Deep Learning",
+      "email": "arijit.cse@nitjsr.ac.in",
+      "mobile": "6291030388"
+    },
+    {
+      "name": "Dr B Ramachandra Reddy",
+      "designation": "Assistant Professor",
+      "area_of_research": "Software Engineering, Machine Learning",
+      "email": "brcreddy.cse@nitjsr.ac.in",
+      "mobile": "9479639634"
+    },
+    {
+      "name": "Dr Alekha Kumar Mishra",
+      "designation": "Assistant Professor",
+      "area_of_research": "Sustainable IoT, Threat Modelling and Analysis",
+      "email": "alekha.ca@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Amit Majumder",
+      "designation": "Assistant Professor",
+      "area_of_research": "Computer Vision, Deep Learning",
+      "email": "amit.cse@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Dilip Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Heuristic Techniques, Machine Learning",
+      "email": "dilip.cse@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Koushlendra Kumar Singh",
+      "designation": "Assistant Professor",
+      "area_of_research": "Digital Heritage Preservation, Medical Imaging",
+      "email": "koushlendra.cse@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Subrata Dutta",
+      "designation": "Assistant Professor",
+      "area_of_research": "Smart City, Smart Agriculture, AI, Machine Learning",
+      "email": "sdutta.cse@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Rakesh Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "",
+      "email": "rakesh.cse@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Suchismita Mahato",
+      "designation": "Assistant Professor",
+      "area_of_research": "AI/ML in Healthcare, Cheminformatics",
+      "email": "suchismita.cse@nitjsr.ac.in",
+      "mobile": ""
     }
-]
+  ]
 }

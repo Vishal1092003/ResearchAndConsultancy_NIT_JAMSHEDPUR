@@ -1,66 +1,158 @@
-{"ece":[
+{
+  "ece": [
     {
-        "name": "Dr. Kunal Singh",
-        "designation": "Assistant Professor",
-        "area_of_research": "VLSI Design, FPGA Design and ASIC Design for Digital and Analog ICs",
-        "email": "kunalsingh.ece@nitjsr.ac.in",
-        "mobile": "7985201453"
+      "name": "Dr Akhilesh Kumar",
+      "designation": "Associate Professor",
+      "area_of_research": "Broad band antennas, Machine learning",
+      "email": "akumar.ece@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Surajit Kundu",
-        "designation": "Assistant Professor",
-        "area_of_research": "Antenna Engineering/RF Microwave Engineering, Wireless Communication",
-        "email": "surajitkundu.ece@nitjsr.ac.in",
-        "mobile": "9832271039"
+      "name": "Dr Amit Prakash",
+      "designation": "Associate Professor",
+      "area_of_research": "Parallel Processing; Network Reliability",
+      "email": "amitprakash.ece@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Basudeba Behera",
-        "designation": "Assistant Professor",
-        "area_of_research": "Wireless Communication, Embedded Systems, Internet of Things (IoT)",
-        "email": "basudeb.ece@nitjsr.ac.in",
-        "mobile": "8812016250"
+      "name": "Mr Bhut Nath Singh Munda",
+      "designation": "Associate Professor",
+      "area_of_research": "",
+      "email": "bsmunda.ece@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Arjun Kumar",
-        "designation": "Assistant Professor",
-        "area_of_research": "High Power Microwave Devices and Components, Antenna and Metamaterial Assisted Devices",
-        "email": "arjunkumar.ece@nitjsr.ac.in",
-        "mobile": "8127059284"
+      "name": "Dr Dilip Kumar",
+      "designation": "Associate Professor",
+      "area_of_research": "Communication System, Microwave Engineering",
+      "email": "dkumar.ece@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Nagendra Kumar",
-        "designation": "Assistant Professor",
-        "area_of_research": "Wireless and Mobile Communications, Tera-Hertz (THz) Communications",
-        "email": "nagendrakumar.ece@nitjsr.ac.in",
-        "mobile": "9304389026"
+      "name": "Dr Rashmi Sinha",
+      "designation": "Associate Professor",
+      "area_of_research": "Filtenna Design and Analysis, MIMO Antennas",
+      "email": "rsinha.ece@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Mayank Srivastava",
-        "designation": "Assistant Professor",
-        "area_of_research": "Analog Integrated Circuits, Analog signal processing",
-        "email": "mayank.ece@nitjsr.ac.in",
-        "mobile": "9990289528"
+      "name": "Dr Kunal Singh",
+      "designation": "Assistant Professor",
+      "area_of_research": "VLSI Design, FPGA Design and ASIC Design for Digital and Analog ICs",
+      "email": "kunalsingh.ece@nitjsr.ac.in",
+      "mobile": "7985201453"
     },
     {
-        "name": "Chandradeep Singh",
-        "designation": "Assistant Professor",
-        "area_of_research": "Wireless Communication, Quantum Communication",
-        "email": "chandradeep.ece@nitjsr.ac.in",
-        "mobile": "8218693645"
+      "name": "Dr Surajit Kundu",
+      "designation": "Assistant Professor",
+      "area_of_research": "Antenna Engineering/RF Microwave Engineering, Wireless Communication",
+      "email": "surajitkundu.ece@nitjsr.ac.in",
+      "mobile": "9832271039"
     },
     {
-        "name": "Dr. Rajashree Nayak",
-        "designation": "Assistant Professor",
-        "area_of_research": "Artificial Intelligence and Deep Learning, Bio-medical Image Processing",
-        "email": "rajashree.ece@nitjsr.ac.in",
-        "mobile": "7978218017"
+      "name": "Basudeba Behera",
+      "designation": "Assistant Professor",
+      "area_of_research": "Wireless Communication, Embedded Systems, Internet of Things(IoT)",
+      "email": "basudeb.ece@nitjsr.ac.in",
+      "mobile": "8812016250"
     },
     {
-        "name": "Munendra Singh",
-        "designation": "Assistant Professor",
-        "area_of_research": "Artificial Intelligence, Image Processing",
-        "email": "munendra.ece@nitjsr.ac.in",
-        "mobile": "9634398499"
+      "name": "Dr Arjun Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "High Power Microwave Devices and Components, Antenna and Metamaterial Assisted Devices",
+      "email": "arjunkumar.ece@nitjsr.ac.in",
+      "mobile": "8127059284"
+    },
+    {
+      "name": "Dr Nagendra Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Wireless and Mobile Communications, Tera-Hertz (THz) Communications",
+      "email": "nagendrakumar.ece@nitjsr.ac.in",
+      "mobile": "9304389026"
+    },
+    {
+      "name": "Dr Mayank Srivastava",
+      "designation": "Assistant Professor",
+      "area_of_research": "Analog Integrated Circuits, Analog signal processing",
+      "email": "mayank.ece@nitjsr.ac.in",
+      "mobile": "9990289528"
+    },
+    {
+      "name": "Chandradeep Singh",
+      "designation": "Assistant Professor",
+      "area_of_research": "Wireless Communication, Quantum Communication",
+      "email": "chandradeep.ece@nitjsr.ac.in",
+      "mobile": "8218693645"
+    },
+    {
+      "name": "Dr Rajashree Nayak",
+      "designation": "Assistant Professor",
+      "area_of_research": "Artificial Intelligence and Deep Learning, Bio-medical Image Processing",
+      "email": "rajashree.ece@nitjsr.ac.in",
+      "mobile": "7978218017"
+    },
+    {
+      "name": "Munendra Singh",
+      "designation": "Assistant Professor",
+      "area_of_research": "Artificial Intelligence, Image Processing",
+      "email": "munendra.ece@nitjsr.ac.in",
+      "mobile": "9634398499"
+    },
+    {
+      "name": "Dr Amit Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "",
+      "email": "amitkumar.ece@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Basanta Bhowmik",
+      "designation": "Assistant Professor",
+      "area_of_research": "Photovoltaics, Nanomaterials",
+      "email": "bhowmik.ece@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Jayendra Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Humanoid Robotics, Industrial Sensors",
+      "email": "jkumar.ece@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Kaushik Das",
+      "designation": "Assistant Professor",
+      "area_of_research": "FPGA and ASIC-Based Designs, VLSI Signal Processing",
+      "email": "kaushik.ece@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Mrutyunjay Rout",
+      "designation": "Assistant Professor",
+      "area_of_research": "Instrumentation, IoT, Digital Signal Processing",
+      "email": "mrutyunjay.ece@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Nagendra Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Wireless and Mobile Communications, Cooperative Relaying systems",
+      "email": "nagendrakumar.ece@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Prashant Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "FPGA Prototype Development, MODEM Design",
+      "email": "prashant.ece@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Swagatadeb Sahoo",
+      "designation": "Assistant Professor",
+      "area_of_research": "Metamaterial, Microwave Sensor",
+      "email": "swagatadeb.ece@nitjsr.ac.in",
+      "mobile": ""
     }
-]
+  ]
 }
