@@ -1,5 +1,5 @@
 import DirectorSir from "./DirectorSir.jpg";
-import DeanSir from "./DeanSir.png";
+import DeanSir from "./satishKumarSir.jpeg";
 import DrKanika from "./Dr.Kanika.jpeg";
 // import OmSir from "./Om-Gupta-10.jpg";
 import SwagatadebSir from "./SwagatadebSir.png";

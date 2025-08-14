@@ -1,17 +1,95 @@
-{"mathematics":[
-  {
-    "name": "Dr. Hari Shankar Prasad",
-    "designation": "Assistant Professor",
-    "area_of_research": "Numerical Analysis, Singularly Perturbed Differential and Integral Equations",
-    "email": "hsprasad.math@nitjsr.ac.in",
-    "mobile": "6203724557"
-  },
-  {
-    "name": "Dr. Y Ramu Naidu",
-    "designation": "Assistant Professor",
-    "area_of_research": "Optimization (Evolutionary Algorithms)",
-    "email": "ramunaidu.math@nitjsr.ac.in",
-    "mobile": "7978812189"
-  }
-]
+{
+  "mathematics": [
+    {
+      "name": "Prof Ramayan Singh",
+      "designation": "Professor",
+      "area_of_research": "Fluid Mechanics, MHD, Heat and Mass Transfer",
+      "email": "rsingh.math@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Raj Nandkeolyar",
+      "designation": "Associate Professor",
+      "area_of_research": "Numerical Analysis, Nanofluid Flow",
+      "email": "nandkeolyar.math@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Shakti Prasad",
+      "designation": "Associate Professor",
+      "area_of_research": "Missing Data Analysis, Machine Learning Techniques",
+      "email": "sprasad.math@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Sunil Kumar",
+      "designation": "Associate Professor",
+      "area_of_research": "Numerical Analysis, Disease Dynamics",
+      "email": "skumar.math@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Hari Shankar Prasad",
+      "designation": "Assistant Professor",
+      "area_of_research": "Numerical Analysis, Singularly Perturbed Differential and Integral Equations",
+      "email": "hsprasad.math@nitjsr.ac.in",
+      "mobile": "6203724557"
+    },
+    {
+      "name": "Dr. Y Ramu Naidu",
+      "designation": "Assistant Professor",
+      "area_of_research": "Optimization (Evolutionary Algorithms)",
+      "email": "ramunaidu.math@nitjsr.ac.in",
+      "mobile": "7978812189"
+    },
+    {
+      "name": "Dr Rajat Tripathi",
+      "designation": "Assistant Professor",
+      "area_of_research": "Bubble Dynamics, Magnetohydrodynamics",
+      "email": "rtripathi.math@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Ratnesh Kumar Mishra",
+      "designation": "Assistant Professor",
+      "area_of_research": "Algebraic geometry, Computational algebra, Commutative algebra",
+      "email": "ratnesh.math@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Samiran Chakraborty",
+      "designation": "Assistant Professor",
+      "area_of_research": "",
+      "email": "samiran.math@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Snehasis Kundu",
+      "designation": "Assistant Professor",
+      "area_of_research": "Sediment Transport, Entropy based Modelling",
+      "email": "snehasis.math@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Sourav Das",
+      "designation": "Assistant Professor",
+      "area_of_research": "Special Functions, Complex Analysis",
+      "email": "souravdas.math@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Subha Sarkar",
+      "designation": "Assistant Professor",
+      "area_of_research": "",
+      "email": "subha.math@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Sumit Kumar Debnath",
+      "designation": "Assistant Professor",
+      "area_of_research": "Cryptography, Fuzzy, Operational Research",
+      "email": "sdebnath.math@nitjsr.ac.in",
+      "mobile": ""
+    }
+  ]
 }

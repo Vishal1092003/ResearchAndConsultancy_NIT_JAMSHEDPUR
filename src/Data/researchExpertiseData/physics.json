@@ -1,24 +1,60 @@
-{"physics":[
+{
+  "physics": [
     {
-        "name": "Abhishek Majhi",
-        "designation": "Assistant Professor",
-        "area_of_research": "Foundations of mathematical science",
-        "email": "abhishek.phy@nitjsr.ac.in",
-        "mobile": "6290671477"
+      "name": "Prof. Hira Lal Yadav",
+      "designation": "Professor",
+      "area_of_research": "",
+      "email": "hlyadav.phy@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Neha Agnihotri",
-        "designation": "Assistant Professor",
-        "area_of_research": "Condensed Matter Physics",
-        "email": "neha.phy@nitjsr.ac.in",
-        "mobile": "8933873665"
+      "name": "Prof. Ujjwal Laha",
+      "designation": "Professor",
+      "area_of_research": "Nuclear Physics",
+      "email": "ulaha.phy@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Uday Kumar",
-        "designation": "Assistant Professor",
-        "area_of_research": "Green hydrogen system design and development, Machine Learning based Material design",
-        "email": "uday.phy@nitjsr.ac.in",
-        "mobile": "8969148580"
+      "name": "Mr Ajay Kumar Singh",
+      "designation": "Associate Professor",
+      "area_of_research": "Holography, Uses of Holographic optical elements",
+      "email": "aksingh.phy@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Rajeev Ranjan",
+      "designation": "Associate Professor",
+      "area_of_research": "",
+      "email": "rranjan.phy@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Abhishek Majhi",
+      "designation": "Assistant Professor",
+      "area_of_research": "Foundations of mathematical science",
+      "email": "abhishek.phy@nitjsr.ac.in",
+      "mobile": "6290671477"
+    },
+    {
+      "name": "Neha Agnihotri",
+      "designation": "Assistant Professor",
+      "area_of_research": "Condensed Matter Physics",
+      "email": "neha.phy@nitjsr.ac.in",
+      "mobile": "8933873665"
+    },
+    {
+      "name": "Uday Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Green hydrogen system design and development, Machine Learning based Material design",
+      "email": "uday.phy@nitjsr.ac.in",
+      "mobile": "8969148580"
+    },
+    {
+      "name": "Mr. Bibekananda Kundu",
+      "designation": "Assistant Professor",
+      "area_of_research": "",
+      "email": "bkundu.phy@nitjsr.ac.in",
+      "mobile": ""
     }
-]
+  ]
 }

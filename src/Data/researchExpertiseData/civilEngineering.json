@@ -1,93 +1,221 @@
-{"civil":[
+{
+  "civil": [
     {
-        "name": "Dr. Anil Kumar Choudhary",
-        "designation": "Professor",
-        "area_of_research": "Soil-Structure interaction & pavement geotechnique, Geo-Environmental Engineering",
-        "email": "akchoudhary.ce@nitjsr.ac.in",
-        "mobile": "9431161850"
+      "name": "Dr. Anil Kumar Choudhary",
+      "designation": "Professor",
+      "area_of_research": "Soil-Structure interaction & pavement geotechnique, Geo-Environmental Engineering",
+      "email": "akchoudhary.ce@nitjsr.ac.in",
+      "mobile": "9431161850"
     },
     {
-        "name": "Dr. Akhileshwar Kumar Singh",
-        "designation": "Associate Professor",
-        "area_of_research": "Geotechnical Engg., Road and Rail Structure",
-        "email": "aksingh.civil@nitjsr.ac.in",
-        "mobile": "9430746532"
+      "name": "Prof Arvind Kumar Lal Srivastava",
+      "designation": "Professor",
+      "area_of_research": "",
+      "email": "aklsriv.civil@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Ambika Kuity",
-        "designation": "Assistant Professor",
-        "area_of_research": "Road materials, mix design of bituminous mix",
-        "email": "ambika.civil@nitjsr.ac.in",
-        "mobile": "8250826564"
+      "name": "Prof Virebdra Kumar",
+      "designation": "Professor",
+      "area_of_research": "Geophysics, Durability of structures",
+      "email": "virendrakumar.ce@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Arnab Kumar Sinha",
-        "designation": "Assistant Professor",
-        "area_of_research": "Sustainable Building material, Structural Design",
-        "email": "arnab.ce@nitjsr.ac.in",
-        "mobile": "8876741966"
+      "name": "Dr. Akhileshwar Kumar Singh",
+      "designation": "Associate Professor",
+      "area_of_research": "Geotechnical Engg., Road and Rail Structure",
+      "email": "aksingh.civil@nitjsr.ac.in",
+      "mobile": "9430746532"
     },
     {
-        "name": "Dr. Awdhesh Kumar Choudhary",
-        "designation": "Assistant Professor",
-        "area_of_research": "Structural Behaviour Built on Soil and Rock Strata, Analysis of NDT Tests on Several Civil Engineering Structures",
-        "email": "awdhesh.ce@nitjsr.ac.in",
-        "mobile": "8436240573"
+      "name": "Dr. Brajkishor Prasad",
+      "designation": "Associate Professor",
+      "area_of_research": "Construction materials, Properties of Concrete",
+      "email": "bkprasad.civil@nitjsr.ac.in",
+      "mobile": "9693086892"
     },
     {
-        "name": "Dr. Brajkishor Prasad",
-        "designation": "Associate Professor",
-        "area_of_research": "Construction materials, Properties of Concrete",
-        "email": "bkprasad.civil@nitjsr.ac.in",
-        "mobile": "9693086892"
+      "name": "Dr Abdhesh Kumar Sinha",
+      "designation": "Associate Professor",
+      "area_of_research": "",
+      "email": "aksinha.ce@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. K. K. Sharma",
-        "designation": "Assistant Professor",
-        "area_of_research": "Geophysics, Seismic Hazards",
-        "email": "kksharma.ce@nitjsr.ac.in",
-        "mobile": "9793377801"
+      "name": "Dr Chintalacheruvu Madhusudana Rao",
+      "designation": "Associate Professor",
+      "area_of_research": "",
+      "email": "cmrao.civil@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Sangeeta Kumari",
-        "designation": "Assistant Professor",
-        "area_of_research": "Water Resources Engineering, Water Resources System Analysis and Management",
-        "email": "sangeet.ca@nitjsr.ac.in",
-        "mobile": "8971492831"
+      "name": "Mr Nigam Prakash",
+      "designation": "Associate Professor",
+      "area_of_research": "",
+      "email": "nigamprakash.civil@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Debshri Swargiary",
-        "designation": "Assistant Professor",
-        "area_of_research": "Open channel Hydraulics, Hydrology, Ground Water Hydrology",
-        "email": "sdebshri.civil@nitjsr.ac.in",
-        "mobile": "9064849473"
+      "name": "Dr Prahlad Prasad",
+      "designation": "Associate Professor",
+      "area_of_research": "Energy based seismic design, Seismic Hazards Innovation in Indian Context",
+      "email": "ppd.civil@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Sriram Karthick Raja P.",
-        "designation": "Assistant Professor",
-        "area_of_research": "Geotechnical Engineering, Unsaturated soil behaviour, Ground Improvement",
-        "email": "skarthick.civil@nitjsr.ac.in",
-        "mobile": "9003281833"
+      "name": "Dr Rakesh Pratap Singh",
+      "designation": "Associate Professor",
+      "area_of_research": "",
+      "email": "rpsingh.ce@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Seeram Madhuri",
-        "designation": "Associate Professor",
-        "area_of_research": "Offshore Structures, Structural Engineering",
-        "email": "smadhuri.ce@nitjsr.ac.in",
-        "mobile": "8309942434"
+      "name": "Dr Sanjay Kumar",
+      "designation": "Associate Professor",
+      "area_of_research": "",
+      "email": "sanjaykumar.civil@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Subhadeep Metya",
-        "designation": "Assistant Professor",
-        "area_of_research": "Stability Analysis of Earth Slopes, Foundations and Retaining Structures",
-        "email": "smetya.ce@nitjsr.ac.in",
-        "mobile": "8910690990"
+      "name": "Dr. Seeram Madhuri",
+      "designation": "Associate Professor",
+      "area_of_research": "Offshore Structures, Structural Engineering",
+      "email": "smadhuri.ce@nitjsr.ac.in",
+      "mobile": "8309942434"
     },
     {
-        "name": "Dr. Sounak Kabasi",
-        "designation": "Assistant Professor",
-        "area_of_research": "Tensile membrane structures, Machine learning in engineering",
-        "email": "sounak.ce@nitjsr.ac.in",
-        "mobile": "9062031783"
+      "name": "Dr. Sunil Kumar Murmu",
+      "designation": "Associate Professor",
+      "area_of_research": "",
+      "email": "skmurmu.ce@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Ambika Kuity",
+      "designation": "Assistant Professor",
+      "area_of_research": "Road materials, mix design of bituminous mix",
+      "email": "ambika.civil@nitjsr.ac.in",
+      "mobile": "8250826564"
+    },
+    {
+      "name": "Dr. Arnab Kumar Sinha",
+      "designation": "Assistant Professor",
+      "area_of_research": "Sustainable Building material, Structural Design",
+      "email": "arnab.ce@nitjsr.ac.in",
+      "mobile": "8876741966"
+    },
+    {
+      "name": "Dr. Awdhesh Kumar Choudhary",
+      "designation": "Assistant Professor",
+      "area_of_research": "Structural Behaviour Built on Soil and Rock Strata, Analysis of NDT Tests on Several Civil Engineering Structures",
+      "email": "awdhesh.ce@nitjsr.ac.in",
+      "mobile": "8436240573"
+    },
+    {
+      "name": "Dr. K. K. Sharma",
+      "designation": "Assistant Professor",
+      "area_of_research": "Geophysics, Seismic Hazards",
+      "email": "kksharma.ce@nitjsr.ac.in",
+      "mobile": "9793377801"
+    },
+    {
+      "name": "Dr. Sangeeta Kumari",
+      "designation": "Assistant Professor",
+      "area_of_research": "Water Resources Engineering, Water Resources System Analysis and Management",
+      "email": "sangeeta.ce@nitjsr.ac.in",
+      "mobile": "8971492831"
+    },
+    {
+      "name": "Dr. Debshri Swargiary",
+      "designation": "Assistant Professor",
+      "area_of_research": "Open channel Hydraulics, Hydrology, Ground Water Hydrology",
+      "email": "sdebshri.civil@nitjsr.ac.in",
+      "mobile": "9064849473"
+    },
+    {
+      "name": "Dr. Sriram Karthick Raja P.",
+      "designation": "Assistant Professor",
+      "area_of_research": "Geotechnical Engineering, Unsaturated soil behaviour, Ground Improvement",
+      "email": "skarthick.civil@nitjsr.ac.in",
+      "mobile": "9003281833"
+    },
+    {
+      "name": "Dr. Subhadeep Metya",
+      "designation": "Assistant Professor",
+      "area_of_research": "Stability Analysis of Earth Slopes, Foundations and Retaining Structures",
+      "email": "smetya.ce@nitjsr.ac.in",
+      "mobile": "8910690990"
+    },
+    {
+      "name": "Dr. Sounak Kabasi",
+      "designation": "Assistant Professor",
+      "area_of_research": "Tensile membrane structures, Machine learning in engineering",
+      "email": "sounak.ce@nitjsr.ac.in",
+      "mobile": "9062013783"
+    },
+    {
+      "name": "Dr Ashok Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "",
+      "email": "ashokkumar.civil@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Bhupali Dutta",
+      "designation": "Assistant Professor",
+      "area_of_research": "Road user behavior, traffic safety",
+      "email": "bhupali.civil@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr J Jayapal",
+      "designation": "Assistant Professor",
+      "area_of_research": "Innovative Civil Engineering, Materials Geo-naturals",
+      "email": "jayapal.civil@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Manthirikul Sandeep",
+      "designation": "Assistant Professor",
+      "area_of_research": "Pedestrian safety, Road user behaviour",
+      "email": "manthirikul.ce@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Mr. Sajjan Kumar Paswan",
+      "designation": "Assistant Professor",
+      "area_of_research": "",
+      "email": "skpaswan.civil@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Sangeeta Kumari",
+      "designation": "Assistant Professor",
+      "area_of_research": "Water Resources, Engineering Hydrology",
+      "email": "sangeeta.ce@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Somenath Mondal",
+      "designation": "Assistant Professor",
+      "area_of_research": "Sustainable Geotechnics, Environmental Geotechnogy",
+      "email": "smondal.ce@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Suravi Pal",
+      "designation": "Assistant Professor",
+      "area_of_research": "",
+      "email": "suravipal.civil@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr Utpal Ghosh",
+      "designation": "Assistant Professor",
+      "area_of_research": "Water and Wastewater Treatment, Photocatalysis",
+      "email": "utpal.ce@nitjsr.ac.in",
+      "mobile": ""
     }
-]}
+  ]
+}

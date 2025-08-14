@@ -1,52 +1,158 @@
-{"electrical":[
+{
+  "electrical": [
     {
-        "name": "Dr. Mrinal Kanti Sarkar",
-        "designation": "Assistant Professor",
-        "area_of_research": "Power Electronics Converters and Control",
-        "email": "mrinalkanti.ee@nitjsr.ac.in",
-        "mobile": "8837458727"
+      "name": "Prof. R. N. Mahanty",
+      "designation": "Professor",
+      "area_of_research": "Application of ANN in Power System Protection, Grid integration of the Electric vehicles",
+      "email": "rnmahanty.ee@nitjsr.ac.in",
+      "mobile": "9431940110"
     },
     {
-        "name": "Dr. Madhu Singh",
-        "designation": "Associate Professor",
-        "area_of_research": "Power electronics & drives, Renewable energy technology",
-        "email": "madhu.ee@nitjsr.ac.in",
-        "mobile": "9431724528"
+      "name": "Prof. Krishna Bihari Yadav",
+      "designation": "Professor",
+      "area_of_research": "Power System, Smart Grid, Renewable Energy",
+      "email": "kbyadav.ee@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Omhari Gupta",
-        "designation": "Assistant Professor",
-        "area_of_research": "Transmission Line Protection, Renewable-based Microgrid Operation, Control",
-        "email": "omhari.ee@nitjsr.ac.in",
-        "mobile": "9455414453"
+      "name": "Prof. Kumari Namrata",
+      "designation": "Professor",
+      "area_of_research": "Solar radiation estimation, Modeling and simulation of the energy-based system",
+      "email": "namrata.ee@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Kundan Kumar",
-        "designation": "Assistant Professor",
-        "area_of_research": "Offshore Wind Energy, System Multi-port Converters",
-        "email": "kundan.ee@nitjsr.ac.in",
-        "mobile": "9006058445"
+      "name": "Prof. Niranjan Kumar",
+      "designation": "Professor",
+      "area_of_research": "",
+      "email": "nkumar.ee@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Prof. R. N. Mahanty",
-        "designation": "Professor",
-        "area_of_research": "Application of ANN in Power System Protection, Grid integration of the Electric vehicles",
-        "email": "rnmahanty.ee@nitjsr.ac.in",
-        "mobile": "9431940110"
+      "name": "Prof. Umesh Kumar Sinha",
+      "designation": "Professor",
+      "area_of_research": "",
+      "email": "uksinha.ee@nitjsr.ac.in",
+      "mobile": ""
     },
     {
-        "name": "Dr. Simanta Kumar Samal",
-        "designation": "Assistant Professor",
-        "area_of_research": "Modelling, Simulation, and Control of different Power Electronics based Power Processors",
-        "email": "simanta.ee@nitjsr.ac.in",
-        "mobile": "8280295647"
+      "name": "Dr. Madhu Singh",
+      "designation": "Associate Professor",
+      "area_of_research": "Power electronics & drives, Renewable energy technology",
+      "email": "madhu.ee@nitjsr.ac.in",
+      "mobile": "9431724528"
     },
     {
-        "name": "Dr. Ravi Bhushan",
-        "designation": "Assistant Professor",
-        "area_of_research": "Design and Development of Switched-mode Power Supply, Power System Stability and Control",
-        "email": "ravibhushan.ee@nitjsr.ac.in",
-        "mobile": "8862950216"
+      "name": "Prof. Kumari Namrata",
+      "designation": "Associate Professor",
+      "area_of_research": "Solar radiation estimation, Modeling and simulation of the energy-based system",
+      "email": "namrata.ee@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Sushil Kumar Gupta",
+      "designation": "Associate Professor",
+      "area_of_research": "Power Quality, Flexible AC Transmission System",
+      "email": "skgupta.ee@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Mrinal Kanti Sarkar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Power Electronics Converters and Control",
+      "email": "mrinalkanti.ee@nitjsr.ac.in",
+      "mobile": "8837458727"
+    },
+    {
+      "name": "Dr. Omhari Gupta",
+      "designation": "Assistant Professor",
+      "area_of_research": "Transmission Line Protection, Renewable-based Microgrid Operation, Control",
+      "email": "omhari.ee@nitjsr.ac.in",
+      "mobile": "9455414453"
+    },
+    {
+      "name": "Dr. Kundan Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Offshore Wind Energy, System Multi-port Converters",
+      "email": "kundan.ee@nitjsr.ac.in",
+      "mobile": "9006058445"
+    },
+    {
+      "name": "Dr. Simanta Kumar Samal",
+      "designation": "Assistant Professor",
+      "area_of_research": "Modelling, Simulation, and Control of different Power Electronics based Power Processors",
+      "email": "simanta.ee@nitjsr.ac.in",
+      "mobile": "8280295647"
+    },
+    {
+      "name": "Dr. Ravi Bhushan",
+      "designation": "Assistant Professor",
+      "area_of_research": "Design and Development of Switched-mode Power Supply, Power System Stability and Control",
+      "email": "ravibhushan.ee@nitjsr.ac.in",
+      "mobile": "8862950216"
+    },
+    {
+      "name": "Dr. Alok Priyadarshi",
+      "designation": "Assistant Professor",
+      "area_of_research": "",
+      "email": "apriyadarshi.ee@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Ananyo Bhattacharya",
+      "designation": "Assistant Professor",
+      "area_of_research": "Power Electronic Converters, Renewable Energy",
+      "email": "ananyo.ee@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Jitendra Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Electrical Vehicle (in future) ATC calculation deregulated electricity market",
+      "email": "jitendra.ee@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Kethavath Raghavendra Naik",
+      "designation": "Assistant Professor",
+      "area_of_research": "Intelligent Power Management of DC Microgrid under highly stochastic load conditions",
+      "email": "raghavendra.ee@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Reactive power planning, FACTS, Smart Grid",
+      "email": "skumar.ee@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Shubhranshu Kumar Tiwary",
+      "designation": "Assistant Professor",
+      "area_of_research": "Power System Security, Heuristics Analysis",
+      "email": "shubhranshu.ee@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Supriyo Das",
+      "designation": "Assistant Professor",
+      "area_of_research": "Power System, Condition assessment of Power apparatus",
+      "email": "supriyodas.ee@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Surya Prakash",
+      "designation": "Assistant Professor",
+      "area_of_research": "Grid synchronization, Renewable Energy Integration",
+      "email": "suryaprakash.ee@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Dr. Veerpratap Meena",
+      "designation": "Assistant Professor",
+      "area_of_research": "Control Systems, Electric Vehicle, Optimization",
+      "email": "veerpratap.ee@nitjsr.ac.in",
+      "mobile": ""
     }
-]
+  ]
 }
