@@ -289,6 +289,14 @@ const Tab = () => {
             Home
           </HashLink>
         </motion.div>
+        <motion.div whileHover={{ scale: 1.05 }}>
+          <HashLink
+            to={"/achievements"}
+            className="transition duration-200 py-2 px-3 hover:text-black/80 hover:bg-slate-200 rounded-md cursor-pointer text-slate-700/80 font-medium whitespace-nowrap"
+          >
+            Achievements
+          </HashLink>
+        </motion.div>
 
         <motion.div whileHover={{ scale: 1.05 }}>
           <Link
@@ -304,7 +312,7 @@ const Tab = () => {
             to={"/sponsoredresearch"}
             className="transition duration-200 py-2 px-3 hover:text-black/80 hover:bg-slate-200 rounded-md cursor-pointer text-slate-700/80 font-medium whitespace-nowrap"
           >
-            Research
+            Research Projects
           </Link>
         </motion.div>
 
@@ -331,7 +339,7 @@ const Tab = () => {
             to={"/patent"}
             className="transition duration-200 py-2 px-3 hover:text-black/80 hover:bg-slate-200 rounded-md cursor-pointer text-slate-700/80 font-medium whitespace-nowrap"
           >
-            IPR Cell
+            IPR 
           </Link>
         </motion.div>
 
@@ -340,7 +348,7 @@ const Tab = () => {
             to={"/collaboration"}
             className="transition duration-200 py-2 px-3 hover:text-black/80 hover:bg-slate-200 rounded-md cursor-pointer text-slate-700/80 font-medium whitespace-nowrap"
           >
-            Collaboration
+            MOUs
           </Link>
         </motion.div>
 
@@ -349,7 +357,7 @@ const Tab = () => {
             to={"/workshops"}
             className="transition duration-200 py-2 px-3 hover:text-black/80 hover:bg-slate-200 rounded-md cursor-pointer text-slate-700/80 font-medium whitespace-nowrap"
           >
-            Workshops and Conferences
+            Events
           </Link>
         </motion.div>
 
@@ -383,11 +391,11 @@ const Tab = () => {
                 Notices & Circulars
               </Link>
               <Link
-                to={"/achievements"}
+                to={"/researchBulletin"}
                 className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-100 hover:text-black transition duration-200"
                 onClick={() => setDropdownOpen(false)}
               >
-                Achievements
+                Research Bulletin
               </Link>
             </div>
           )}
