@@ -15,7 +15,7 @@ import Workshops from "./pages/Workshops";
 import Events from "./pages/Events";
 import Achievements from "./pages/Achievements";
 import RNCdetails from "./pages/RNCdetails";
-import InformationCircularsNotices from "./pages/informationCircularsNotices";
+import InformationCircularsNotices from "./pages/InformationCircularsNotices";
 // import Events from "./pages/Events"
 function App() {
   return (

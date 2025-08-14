@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import eventsData from "../data/Events.json";
+import eventsData from "../Data/Events.json";
 import Navbar from "@/components/Navbar/Navbar";
 import Tab from "@/components/Tab/Tab";
 import DynamicTable from "@/components/dynamicTable/dynamicTable";
