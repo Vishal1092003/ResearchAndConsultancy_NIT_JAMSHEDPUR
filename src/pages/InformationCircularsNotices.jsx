@@ -6,6 +6,7 @@ const pdfFiles = [
   "Expenditure on Filling the Patent.pdf",
   "Procurment Rule 08-07-2025.pdf",
   "RC_Rule.pdf",
+  "Annexure III.pdf",
   "Research Bulletin Comitee.pdf",
   "SOP for Functioning of R&C Division -09-08-2021.pdf",
   "SOP for Start Up Grant.pdf",
