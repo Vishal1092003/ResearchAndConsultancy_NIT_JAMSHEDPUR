@@ -1,51 +1,16 @@
-// import Navbar from "../components/Navbar/Navbar";
-// import Tab from "../components/Tab/Tab";
-
-// import SponseredResearchData from "../Data/SponseredResearchData.json";
-// import DynamicTable from "@/components/dynamicTable/dynamicTable";
-// const SponsoredResearch = () => {
-//   return (
-//     <div>
-//       <div className="">
-//         <div className="overflow-x-hidden">
-//           <Navbar />
-//         </div>
-//         <div className="sticky top-0 z-10 bg-white shadow-md">
-//           <Tab />
-//         </div>
-
-//         <div className="w-full  h-16 mt-5 mb-5 rounded-lg shadow-lg flex justify-center items-center bg-sky-300">
-//             <h1 className="font-bold text-2xl">Sponsored Research Projects</h1>
-//         </div>
-
-//         <div className="pb-12 px-12">
-//           <DynamicTable data={SponseredResearchData.Sheet} />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default SponsoredResearch;
-
-
-
 import { useState } from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Tab from "../components/Tab/Tab";
-
 import SponseredResearchData from "../Data/SponseredResearchData.json";
 import DynamicTable from "@/components/dynamicTable/dynamicTable";
 
 const SponsoredResearch = () => {
   const [activeTab, setActiveTab] = useState("ongoing");
 
-  // You'll need to organize your data into these three categories
-  // For now, I'm using the same data - you should replace with actual data
   const tabData = {
-    ongoing: SponseredResearchData.Sheet1, // Replace with actual ongoing projects data
-    "2024-25": SponseredResearchData.Sheet2, // Replace with 2024-25 data
-    "2023-24": SponseredResearchData.Sheet3, // Replace with 2023-24 data
+    ongoing: SponseredResearchData.Sheet1,
+    "2024-25": SponseredResearchData.Sheet2,
+    "2023-24": SponseredResearchData.Sheet3,
   };
 
   const tabs = [
@@ -55,47 +20,48 @@ const SponsoredResearch = () => {
   ];
 
   return (
-    <div>
-      <div className="">
-        <div className="overflow-x-hidden">
-          <Navbar />
+    <div className="min-h-screen bg-gray-50">
+      <div className="overflow-x-hidden">
+        <Navbar />
+      </div>
+      <div className="sticky top-0 z-10 bg-white shadow-md">
+        <Tab />
+      </div>
+      <div className="container mx-auto px-4 py-8">
+        <div className="bg-blue-600 rounded-lg shadow-lg p-6 mb-8">
+          <h1 className="font-bold text-2xl md:text-3xl text-white text-center">
+            Sponsored Research Projects
+          </h1>
         </div>
-        <div className="sticky top-0 z-10 bg-white shadow-md">
-          <Tab />
-        </div>
-
-        <div className="w-full h-16 mt-5 mb-5 rounded-lg shadow-lg flex justify-center items-center bg-sky-300">
-          <h1 className="font-bold text-2xl">Sponsored Research Projects</h1>
-        </div>
-
-        {/* Tab Navigation */}
-        <div className="px-12 mb-6">
-          <div className="flex justify-between border-b border-gray-200">
-            {tabs.map((tab) => (
-              <button
-                key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
-                className={`px-6 py-3 font-medium text-sm transition-colors duration-200 border-b-2 rounded-t-lg ${
-                  activeTab === tab.id
-                    ? "border-blue-500 text-blue-600 bg-blue-50"
-                    : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
-                }`}
-              >
-                {tab.label}
-              </button>
-            ))}
+        <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div className="border-b border-gray-200">
+            <div className="flex flex-wrap">
+              {tabs.map((tab) => (
+                <button
+                  key={tab.id}
+                  onClick={() => setActiveTab(tab.id)}
+                  className={`px-6 py-4 font-medium text-sm transition-colors duration-200 border-b-2 flex-1 md:flex-none ${
+                    activeTab === tab.id
+                      ? "border-blue-600 text-blue-600 bg-blue-50"
+                      : "border-transparent text-gray-600 hover:text-gray-700 hover:bg-gray-50"
+                  }`}
+                >
+                  {tab.label}
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
-
-        {/* Table Content */}
-        <div className="pb-12 px-12">
-          <div className="transition-all duration-300 ease-in-out">
-            <DynamicTable data={tabData[activeTab]} />
+          <div className="p-6">
+            <div className="transition-all duration-300 ease-in-out">
+              <DynamicTable data={tabData[activeTab]} />
+            </div>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
 
+import Footer from "@/components/Footer/Footer";
 export default SponsoredResearch;

@@ -4,6 +4,8 @@ import Tab from '@/components/Tab/Tab';
 
 const pdfFiles = [
   "DPC_R&C.pdf",
+  "Innovation cell.pdf",
+  "BIS Commitee.pdf",
   "Filling of patent.pdf",
   "Format for assistant to technical team.pdf",
   "Guidelines for Air ticket booking with format.pdf",
@@ -20,11 +22,11 @@ const Notices = () => {
   const [searchTerm, setSearchTerm] = useState("");
   
   const noticesData = pdfFiles.map((file, idx) => {
-    const title = file.replace(/\.pdf$/i, "");
+    const title = file.replace(/\.[^/.]+$/, "");
     return {
       id: idx + 1,
       title,
-      pdfPath: `/src/assets/notices/${file}`
+      pdfPath: `/notices/${file}`
     };
   });
 
@@ -37,7 +39,7 @@ const Notices = () => {
   };
 
   return (
-    <div className="w-full min-h-screen bg-gradient-to-br from-sky-50 via-white to-slate-50">
+    <div className="w-full min-h-screen bg-gray-50">
       
       <div className="overflow-x-hidden">
         <Navbar />
@@ -46,8 +48,8 @@ const Notices = () => {
         <Tab />
       </div>
 
-      <div className="md:top-[190px] z-40 bg-sky-300 text-black py-6 text-center shadow-lg">
-        <h2 className="text-xl md:text-2xl font-semibold tracking-wide text-black">
+      <div className="md:top-[190px] z-40 bg-blue-600 text-white py-6 text-center shadow-lg">
+        <h2 className="text-xl md:text-2xl font-semibold tracking-wide">
           Official Notices & Documents
         </h2>
       </div>
@@ -55,11 +57,11 @@ const Notices = () => {
       <div className="pb-20">
         
         <div className="text-center py-12">
-          <h1 className="text-3xl md:text-4xl font-bold text-slate-700 mb-3">
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-700 mb-3">
             Important Notices
           </h1>
-          <div className="w-24 h-1 bg-sky-300 mx-auto mb-4"></div>
-          <p className="text-slate-600 text-base max-w-2xl mx-auto">
+          <div className="w-24 h-1 bg-blue-600 mx-auto mb-4"></div>
+          <p className="text-gray-600 text-base max-w-2xl mx-auto">
             Access official announcements, guidelines, and important documents
           </p>
         </div>
@@ -71,10 +73,10 @@ const Notices = () => {
               placeholder="Search notices and documents..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-5 py-3 pl-12 border-2 border-slate-200 rounded-lg focus:ring-2 focus:ring-sky-300 focus:border-sky-300 outline-none transition-all duration-200 text-slate-700"
+              className="w-full px-5 py-3 pl-12 border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition-all duration-200 text-gray-700"
             />
             <svg 
-              className="w-5 h-5 text-slate-400 absolute left-4 top-1/2 transform -translate-y-1/2" 
+              className="w-5 h-5 text-gray-400 absolute left-4 top-1/2 transform -translate-y-1/2" 
               fill="none" 
               stroke="currentColor" 
               viewBox="0 0 24 24"
@@ -90,21 +92,21 @@ const Notices = () => {
               filteredNotices.map((notice, index) => (
                 <div
                   key={notice.id}
-                  className="bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 border border-slate-200 overflow-hidden"
+                  className="bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 border border-gray-200 overflow-hidden"
                 >
                   <div className="p-6">
                     <div className="flex items-center justify-between">
                       
                       <div className="flex-grow pr-4">
                         <div className="flex items-center mb-2">
-                          <span className="bg-sky-300 text-black text-xs font-medium px-2 py-1 rounded-full mr-3">
+                          <span className="bg-blue-600 text-white text-xs font-medium px-2 py-1 rounded-full mr-3">
                             Notice #{String(index + 1).padStart(2, '0')}
                           </span>
                         </div>
-                        <h3 className="text-lg font-semibold text-slate-700 mb-1 leading-tight">
+                        <h3 className="text-lg font-semibold text-gray-700 mb-1 leading-tight">
                           {notice.title}
                         </h3>
-                        <p className="text-sm text-slate-500">
+                        <p className="text-sm text-gray-600">
                           Official Document • PDF Format
                         </p>
                       </div>
@@ -112,7 +114,7 @@ const Notices = () => {
                       <div className="flex-shrink-0">
                         <button
                           onClick={() => handleViewPDF(notice.pdfPath)}
-                          className="bg-sky-300 hover:bg-sky-400 text-black px-6 py-2.5 rounded-md font-medium transition-all duration-200 flex items-center gap-2 shadow-sm hover:shadow-md focus:ring-2 focus:ring-sky-300 focus:ring-offset-2 outline-none"
+                          className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-md font-medium transition-all duration-200 flex items-center gap-2 shadow-sm hover:shadow-md focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 outline-none"
                         >
                           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -126,14 +128,14 @@ const Notices = () => {
               ))
             ) : (
               <div className="text-center py-16">
-                <div className="bg-slate-50 rounded-lg p-8 max-w-md mx-auto">
-                  <svg className="w-16 h-16 text-slate-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-white rounded-lg p-8 max-w-md mx-auto border border-gray-200">
+                  <svg className="w-16 h-16 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
-                  <h3 className="text-lg font-medium text-slate-600 mb-2">
+                  <h3 className="text-lg font-medium text-gray-600 mb-2">
                     No Notices Found
                   </h3>
-                  <p className="text-slate-500 text-sm">
+                  <p className="text-gray-600 text-sm">
                     {searchTerm ? 'Try adjusting your search terms.' : 'No notices available at the moment.'}
                   </p>
                 </div>
@@ -142,8 +144,10 @@ const Notices = () => {
           </div>
         </div>
       </div>
+       <Footer />
     </div>
   );
 };
 
 export default Notices;
+import Footer from "@/components/Footer/Footer";
