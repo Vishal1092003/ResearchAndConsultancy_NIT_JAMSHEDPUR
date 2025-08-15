@@ -117,21 +117,7 @@ const Facilities = () => {
           ></div>
         </div>
       )}
-      <div className="bg-white py-12">
-        <div className="max-w-5xl mx-auto px-6">
-          <div className="text-center">
-            <h3 className="text-2xl md:text-3xl font-bold text-gray-700 mb-4">
-              World-Class Infrastructure
-            </h3>
-            <p className="text-base md:text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
-              Our facilities are designed to support groundbreaking research and foster innovation. 
-              From advanced laboratories to cutting-edge computing infrastructure, we provide 
-              researchers with the tools they need to push the boundaries of knowledge and 
-              create solutions for tomorrow's challenges.
-            </p>
-          </div>
-        </div>
-      </div>
+    
       <Footer />
     </div>
   );
