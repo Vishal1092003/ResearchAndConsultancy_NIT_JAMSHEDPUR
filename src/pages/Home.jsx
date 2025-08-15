@@ -42,24 +42,16 @@ const MessageTile = ({ data, reverse }) => {
           className="rounded-lg w-full max-w-[15rem] md:max-w-[18rem] object-cover aspect-square"
         />
         <div className="text-center mt-4 space-y-1">
-          <h3 className="font-semibold text-lg text-gray-700">
-            {data.name}
-          </h3>
-          <p className="text-gray-600 text-sm">
-            {data.designation}
-          </p>
-          <p className="text-gray-600 text-sm">
-            {data.department}
-          </p>
+          <h3 className="font-semibold text-lg text-gray-700">{data.name}</h3>
+          <p className="text-gray-600 text-sm">{data.designation}</p>
+          <p className="text-gray-600 text-sm">{data.department}</p>
           {data.phone_office && (
             <p className="text-gray-600 text-sm">
               Ph. (O): {data.phone_office}
             </p>
           )}
           {data.mobile && (
-            <p className="text-gray-600 text-sm">
-              Mob: {data.mobile}
-            </p>
+            <p className="text-gray-600 text-sm">Mob: {data.mobile}</p>
           )}
           <p className="text-blue-600 text-sm hover:underline">
             <a href={`mailto:${data.email}`}>{data.email}</a>
@@ -67,12 +59,8 @@ const MessageTile = ({ data, reverse }) => {
         </div>
       </div>
 
-      <div
-        className="flex-1 p-6 flex flex-col justify-center bg-gray-50"
-      >
-        <h2
-          className="font-serif text-2xl font-semibold text-gray-700 mb-4 text-center"
-        >
+      <div className="flex-1 p-6 flex flex-col justify-center bg-gray-50">
+        <h2 className="font-serif text-2xl font-semibold text-gray-700 mb-4 text-center">
           {reverse ? "Director's Message" : "Dean's Message"}
         </h2>
         <div className="border-t border-gray-200 pt-4">
@@ -80,16 +68,14 @@ const MessageTile = ({ data, reverse }) => {
             className="relative overflow-hidden transition-all duration-700 ease-in-out"
             style={{ maxHeight: expanded ? "1000px" : "10rem" }}
           >
-            <p
-              className="text-gray-600 text-justify leading-relaxed"
-            >
+            <p className="text-gray-600 text-justify leading-relaxed">
               {data.message}
             </p>
             {!expanded && data.message.length > 350 && (
               <div
                 className="absolute bottom-0 left-0 w-full h-12"
                 style={{
-                  background: "linear-gradient(to top, #f9fafb, transparent)"
+                  background: "linear-gradient(to top, #f9fafb, transparent)",
                 }}
               ></div>
             )}
@@ -150,18 +136,20 @@ const teams = {
     },
   ],
   "Research Bulletin Team": [
+    //Faculty
     {
       name: "Dr. Abhishek Sharma",
-      role: "Research Faculty",
+      role: "Assistant Professor Mechanical Engineering",
       img: "./abhishekSharma.jpeg",
       linkedin: "#",
     },
     {
       name: "Dr. Neha Jaiswal",
-      role: "Research Faculty",
+      role: "Assistant Professor Humanities",
       img: "./nehaJaiswal.jpeg",
       linkedin: "#",
     },
+    //Student Volunteer
     {
       name: "Nihal Sahay",
       role: "Research Analyst",
@@ -211,14 +199,13 @@ const teams = {
         "https://www.linkedin.com/in/swayam-agarwal-2b941b323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       email: "itzswayam890@gmail.com",
     },
-    {
-      name: "Awaish Ehsan",
-      role: "Web Team Member",
-      img: "./awaish.png",
-      linkedin:
-        "https://www.linkedin.com/in/awaish-ehsan-90639b323/",
-      email: "2024ugcs042@nitjsr.ac.in",
-    },
+    // {
+    //   name: "Awaish Ehsan",
+    //   role: "Web Team Member",
+    //   img: "./awaish.png",
+    //   linkedin: "https://www.linkedin.com/in/awaish-ehsan-90639b323/",
+    //   email: "2024ugcs042@nitjsr.ac.in",
+    // },
     {
       name: "Yogesh Kumar Meena",
       role: "Web Team Member",
@@ -233,19 +220,103 @@ const teams = {
       linkedin: "https://www.linkedin.com/in/minu-kumari-8a492033a",
       email: "2024ugcs022@nitjsr.ac.in",
     },
-    {
-      name: "Ishika Gupta",
-      role: "Web Team Member",
-      img: "./ishika.jpg",
-      linkedin:
-        "https://www.linkedin.com/in/ishika-gupta-88104a229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      email: "2024ugme051@nitjsr.ac.in",
-    },
+    // {
+    //   name: "Ishika Gupta",
+    //   role: "Web Team Member",
+    //   img: "./ishika.jpg",
+    //   linkedin:
+    //     "https://www.linkedin.com/in/ishika-gupta-88104a229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    //   email: "2024ugme051@nitjsr.ac.in",
+    // },
   ],
+};
+
+const TeamMemberCard = ({ member }) => {
+  return (
+    <div className="flex bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden h-full">
+      <div className="w-1/3 min-w-[120px] relative aspect-[4/5] overflow-hidden">
+        <img
+          src={member.img}
+          alt={member.name}
+          className="w-full h-full object-cover"
+        />
+        <a
+          href={member.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute bottom-2 right-2 bg-white p-2 rounded-full shadow hover:bg-gray-50 transition-colors text-blue-600"
+        >
+          <FaLinkedin className="text-xl" />
+        </a>
+      </div>
+
+      <div className="w-2/3 p-5 flex flex-col">
+        <h3 className="text-xl font-bold text-gray-700 mb-1">{member.name}</h3>
+        <p className="text-gray-600 mb-3 text-sm">{member.role}</p>
+
+        <div className="mt-auto space-y-2">
+          {member.email && (
+            <div className="flex items-center text-sm text-gray-600">
+              <FaEnvelope className="w-4 h-4 mr-2" />
+              <span>{member.email}</span>
+            </div>
+          )}
+          {(member.phone || member.mobile) && (
+            <div className="flex items-center text-sm text-gray-600">
+              <FaPhone className="w-4 h-4 mr-2" />
+              <span>{member.phone || member.mobile || "+91 XXXXX XXXXX"}</span>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
 };
 
 const TeamSection = () => {
   const [activeTab, setActiveTab] = useState("Associate Deans");
+
+  const renderTeamMembers = () => {
+    if (activeTab !== "Research Bulletin Team") {
+      return teams[activeTab].map((member, index) => (
+        <TeamMemberCard key={index} member={member} />
+      ));
+    }
+
+    const faculty = teams[activeTab].filter(
+      (member) =>
+        member.role.includes("Professor") || member.role.includes("Faculty")
+    );
+    const students = teams[activeTab].filter(
+      (member) =>
+        member.role.includes("Research Analyst") ||
+        member.role.includes("Volunteer")
+    );
+
+    return (
+      <>
+        {/* Faculty Section */}
+        <div className="md:col-span-2">
+          <h3 className="text-2xl font-bold text-gray-700 mb-4 border-b pb-2">
+            Faculty
+          </h3>
+        </div>
+        {faculty.map((member, index) => (
+          <TeamMemberCard key={`faculty-${index}`} member={member} />
+        ))}
+
+        {/* Student Volunteer Section */}
+        <div className="md:col-span-2 mt-8">
+          <h3 className="text-2xl font-bold text-gray-700 mb-4 border-b pb-2">
+            Student Volunteers
+          </h3>
+        </div>
+        {students.map((member, index) => (
+          <TeamMemberCard key={`student-${index}`} member={member} />
+        ))}
+      </>
+    );
+  };
 
   return (
     <div className="w-full max-w-6xl mx-auto px-4 py-12">
@@ -265,62 +336,7 @@ const TeamSection = () => {
         ))}
       </div>
 
-      <div className="grid gap-8 md:grid-cols-2">
-        {teams[activeTab].map((member, index) => (
-          <div
-            key={index}
-            className="flex bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden h-full"
-          >
-            <div className="w-1/3 min-w-[120px] relative aspect-[4/5] overflow-hidden">
-              <img
-                src={member.img}
-                alt={member.name}
-                className="w-full h-full object-cover"
-              />
-              <a
-                href={member.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="absolute bottom-2 right-2 bg-white p-2 rounded-full shadow hover:bg-gray-50 transition-colors text-blue-600"
-              >
-                <FaLinkedin className="text-xl" />
-              </a>
-            </div>
-
-            <div className="w-2/3 p-5 flex flex-col">
-              <h3
-                className="text-xl font-bold text-gray-700 mb-1"
-              >
-                {member.name}
-              </h3>
-              <p className="text-gray-600 mb-3 text-sm">
-                {member.role}
-              </p>
-
-              <div className="mt-auto space-y-2">
-                {member.email && (
-                  <div
-                    className="flex items-center text-sm text-gray-600"
-                  >
-                    <FaEnvelope className="w-4 h-4 mr-2" />
-                    <span>{member.email}</span>
-                  </div>
-                )}
-                {(member.phone || member.mobile) && (
-                  <div
-                    className="flex items-center text-sm text-gray-600"
-                  >
-                    <FaPhone className="w-4 h-4 mr-2" />
-                    <span>
-                      {member.phone || member.mobile || "+91 XXXXX XXXXX"}
-                    </span>
-                  </div>
-                )}
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
+      <div className="grid gap-8 md:grid-cols-2">{renderTeamMembers()}</div>
     </div>
   );
 };

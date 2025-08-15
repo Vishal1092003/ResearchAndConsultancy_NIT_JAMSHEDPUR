@@ -8,9 +8,44 @@
       "designation": "Professor"
     },
     {
+      "name": "Prof. Satish Kumar",
+      "area_of_research": "CFD, Rheology of Multiphase Flow, Erosion Wear",
+      "email": "satish.me@nitjsr.ac.in",
+      "mobile": "9417923801",
+      "designation": "Professor"
+    },
+    {
       "name": "Prof. Ram Vinoy Sharma",
       "area_of_research": "Heat Transfer, CFD And Renewable Energy",
       "email": "rvsharma.me@nitjsr.ac.in",
+      "mobile": "",
+      "designation": "Professor"
+    },
+    {
+      "name": "Prof Mrityunjay Kumar Sinha",
+      "area_of_research": "CFD",
+      "email": "mksinha.me@nitjsr.ac.in",
+      "mobile": "",
+      "designation": "Professor"
+    },
+    {
+      "name": "Prof. Prabha Chand",
+      "area_of_research": "Thermal Engg., Solar Energy, Space Engg.",
+      "email": "pchand.me@nitjsr.ac.in",
+      "mobile": "7903825868",
+      "designation": "Professor"
+    },
+    {
+      "name": "Prof Sanjay",
+      "area_of_research": "Gas Turbine, Fuel Cell",
+      "email": "sanjay.me@nitjsr.ac.in",
+      "mobile": "",
+      "designation": "Professor"
+    },
+    {
+      "name": "Prof Saroj Kumar Sarangi",
+      "area_of_research": "Design Smart Composite Structures, Functionally Graded Materials",
+      "email": "saroj.me@nitjsr.ac.in",
       "mobile": "",
       "designation": "Professor"
     },
@@ -21,20 +56,7 @@
       "mobile": "",
       "designation": "Associate Professor"
     },
-    {
-      "name": "Prof Mrityunjay Kumar Sinha",
-      "area_of_research": "CFD",
-      "email": "mksinha.me@nitjsr.ac.in",
-      "mobile": "",
-      "designation": "Professor"
-    },
-    {
-      "name": "Prof. Satish Kumar",
-      "area_of_research": "CFD, Rheology of Multiphase Flow, Erosion Wear",
-      "email": "satish.me@nitjsr.ac.in",
-      "mobile": "9417923801",
-      "designation": "Professor"
-    },
+
     {
       "name": "Dr. Arvind Kumar Patel",
       "area_of_research": "Refrigeration and Air Conditioning, Human Thermal Comfort, PV Cell Recycling",
@@ -98,13 +120,7 @@
       "mobile": "8899778875",
       "designation": "Assistant Professor"
     },
-    {
-      "name": "Prof. Prabha Chand",
-      "area_of_research": "Thermal Engg., Solar Energy, Space Engg.",
-      "email": "pchand.me@nitjsr.ac.in",
-      "mobile": "7903825868",
-      "designation": "Professor"
-    },
+
     {
       "name": "Dr. Shashank Pandey",
       "area_of_research": "Plates and Shell Theories, Finite Element Method",
@@ -196,13 +212,7 @@
       "mobile": "",
       "designation": "Assistant Professor"
     },
-    {
-      "name": "Prof Sanjay",
-      "area_of_research": "Gas Turbine, Fuel Cell",
-      "email": "sanjay.me@nitjsr.ac.in",
-      "mobile": "",
-      "designation": "Professor"
-    },
+
     {
       "name": "Dr Sankar Kumar Roy",
       "area_of_research": "Experimental Mechanics, Machine Vibration & Health Monitoring, Structural Vibration",
@@ -210,13 +220,7 @@
       "mobile": "",
       "designation": "Assistant Professor"
     },
-    {
-      "name": "Prof Saroj Kumar Sarangi",
-      "area_of_research": "Design Smart Composite Structures, Functionally Graded Materials",
-      "email": "saroj.me@nitjsr.ac.in",
-      "mobile": "",
-      "designation": "Professor"
-    },
+
     {
       "name": "Dr S K S Kambhammettu",
       "area_of_research": "Design",
