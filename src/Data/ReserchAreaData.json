@@ -1,14 +1,14 @@
 {
   "resarchArea": [
+    { "RA": "Chemistry" },
     { "RA": "Civil Engineering" },
     { "RA": "Computer Science and Engineering" },
     { "RA": "Electrical Engineering" },
     { "RA": "Electronics and Communication Engineering" },
-    { "RA": "Production and Industrial Engineering" },
+    { "RA": "Mathematics" },
+    { "RA": "Mechanical Engineering" },
     { "RA": "Metallurgical and Materials Engineering" },
     { "RA": "Physics" },
-    { "RA": "Chemistry" },
-    { "RA": "Mathematics" },
-    { "RA": "Mechanical Engineering" }
+    { "RA": "Production and Industrial Engineering" }
   ]
 }

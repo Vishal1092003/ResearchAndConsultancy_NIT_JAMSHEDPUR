@@ -33,17 +33,23 @@ const CarouselComponents = () => {
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="w-full bg-gradient-to-b from-sky-50 via-white to-yellow-50 py-6"
     >
-      <div className="max-w-4xl mx-auto px-4"> {/* Reduced from max-w-7xl to max-w-4xl */}
-        <div className="overflow-hidden rounded-xl shadow-md"> {/* Reduced shadow-lg to shadow-md */}
-          <div className="aspect-w-16 aspect-h-9 w-full"> {/* 16:9 aspect ratio container */}
+      <div className="max-w-4xl mx-auto px-4">
+        {" "}
+        {/* Reduced from max-w-7xl to max-w-4xl */}
+        <div className="overflow-hidden rounded-xl shadow-md">
+          {" "}
+          {/* Reduced shadow-lg to shadow-md */}
+          <div className="aspect-w-16 aspect-h-9 w-full">
+            {" "}
+            {/* 16:9 aspect ratio container */}
             <Carousel
               useKeyboardArrows
               showArrows={true}
               showStatus={false}
               swipeable
-              transitionTime={800}
+              transitionTime={700}
               autoPlay
-              interval={2200}
+              interval={1200}
               showThumbs={false}
               infiniteLoop
               emulateTouch
