@@ -231,10 +231,51 @@ const teams = {
   ],
 };
 
+const TeamMemberCard = ({ member }) => {
+  return (
+    <div className="flex bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden h-full">
+      <div className="w-1/3 min-w-[120px] relative aspect-[4/5] overflow-hidden">
+        <img
+          src={member.img}
+          alt={member.name}
+          className="w-full h-full object-cover"
+        />
+        <a
+          href={member.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute bottom-2 right-2 bg-white p-2 rounded-full shadow hover:bg-gray-50 transition-colors text-blue-600"
+        >
+          <FaLinkedin className="text-xl" />
+        </a>
+      </div>
+
+      <div className="w-2/3 p-5 flex flex-col">
+        <h3 className="text-xl font-bold text-gray-700 mb-1">{member.name}</h3>
+        <p className="text-gray-600 mb-3 text-sm">{member.role}</p>
+
+        <div className="mt-auto space-y-2">
+          {member.email && (
+            <div className="flex items-center text-sm text-gray-600">
+              <FaEnvelope className="w-4 h-4 mr-2" />
+              <span>{member.email}</span>
+            </div>
+          )}
+          {(member.phone || member.mobile) && (
+            <div className="flex items-center text-sm text-gray-600">
+              <FaPhone className="w-4 h-4 mr-2" />
+              <span>{member.phone || member.mobile || "+91 XXXXX XXXXX"}</span>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const TeamSection = () => {
   const [activeTab, setActiveTab] = useState("Associate Deans");
 
-  // Function to render team members with optional section headings
   const renderTeamMembers = () => {
     if (activeTab !== "Research Bulletin Team") {
       return teams[activeTab].map((member, index) => (
@@ -242,7 +283,6 @@ const TeamSection = () => {
       ));
     }
 
-    // For Research Bulletin Team, split into faculty and students
     const faculty = teams[activeTab].filter(
       (member) =>
         member.role.includes("Professor") || member.role.includes("Faculty")
@@ -300,47 +340,6 @@ const TeamSection = () => {
     </div>
   );
 };
-
-// Extracted Team Member Card component for reusability
-const TeamMemberCard = ({ member }) => (
-  <div className="flex bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden h-full">
-    <div className="w-1/3 min-w-[120px] relative aspect-[4/5] overflow-hidden">
-      <img
-        src={member.img}
-        alt={member.name}
-        className="w-full h-full object-cover"
-      />
-      <a
-        href={member.linkedin}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="absolute bottom-2 right-2 bg-white p-2 rounded-full shadow hover:bg-gray-50 transition-colors text-blue-600"
-      >
-        <FaLinkedin className="text-xl" />
-      </a>
-    </div>
-
-    <div className="w-2/3 p-5 flex flex-col">
-      <h3 className="text-xl font-bold text-gray-700 mb-1">{member.name}</h3>
-      <p className="text-gray-600 mb-3 text-sm">{member.role}</p>
-
-      <div className="mt-auto space-y-2">
-        {member.email && (
-          <div className="flex items-center text-sm text-gray-600">
-            <FaEnvelope className="w-4 h-4 mr-2" />
-            <span>{member.email}</span>
-          </div>
-        )}
-        {(member.phone || member.mobile) && (
-          <div className="flex items-center text-sm text-gray-600">
-            <FaPhone className="w-4 h-4 mr-2" />
-            <span>{member.phone || member.mobile || "+91 XXXXX XXXXX"}</span>
-          </div>
-        )}
-      </div>
-    </div>
-  </div>
-);
 
 const Home = () => {
   return (
