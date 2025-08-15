@@ -173,6 +173,75 @@
 // export default DynamicTable;
 
 
+// import React from "react";
+
+// const DynamicTable = ({ data }) => {
+//   if (!data || data.length === 0) {
+//     return (
+//       <div className="text-center py-12 text-gray-500">
+//         No data to display.
+//       </div>
+//     );
+//   }
+
+//   const columns = Object.keys(data[0]);
+
+//   return (
+//     <div className="w-full bg-white shadow-lg rounded-xl overflow-hidden border border-gray-200">
+//       {/* Table Container - Static, no scrolling */}
+//       <div className="overflow-x-auto">
+//         <table className="w-full table-fixed">
+//           <thead className="bg-gray-100 border-b border-gray-300">
+//             <tr>
+//               {columns.map((col) => (
+//                 <th
+//                   key={col}
+//                   className="w-64 px-6 py-4 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider bg-gray-100"
+//                 >
+//                   <div className="break-words">
+//                     {col.replace(/_/g, " ")}
+//                   </div>
+//                 </th>
+//               ))}
+//             </tr>
+//           </thead>
+//           <tbody className="divide-y divide-gray-200">
+//             {data.map((row, ridx) => (
+//               <tr
+//                 key={ridx}
+//                 className="hover:bg-gray-50 transition-colors duration-200"
+//               >
+//                 {columns.map((col) => (
+//                   <td
+//                     key={col}
+//                     className="w-64 px-6 py-4 text-sm text-gray-600"
+//                   >
+//                     <div className="break-words whitespace-normal leading-relaxed">
+//                       {row[col] != null ? String(row[col]) : ""}
+//                     </div>
+//                   </td>
+//                 ))}
+//               </tr>
+//             ))}
+//           </tbody>
+//         </table>
+//       </div>
+
+//       {/* Footer with total count */}
+//       <div className="flex items-center justify-between px-6 py-4 border-t border-gray-200 bg-gray-50">
+//         <div className="text-sm text-gray-600">
+//           Total <span className="font-semibold">{data.length}</span> records
+//         </div>
+//         <div className="text-sm text-gray-500">
+//           All data displayed
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default DynamicTable;
+
 import React from "react";
 
 const DynamicTable = ({ data }) => {
@@ -190,13 +259,16 @@ const DynamicTable = ({ data }) => {
     <div className="w-full bg-white shadow-lg rounded-xl overflow-hidden border border-gray-200">
       {/* Table Container - Static, no scrolling */}
       <div className="overflow-x-auto">
-        <table className="w-full table-fixed">
+        <table className="w-full table-auto">
           <thead className="bg-gray-100 border-b border-gray-300">
             <tr>
-              {columns.map((col) => (
+              {columns.map((col, index) => (
                 <th
                   key={col}
-                  className="w-64 px-6 py-4 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider bg-gray-100"
+                  className="px-4 py-4 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider bg-gray-100"
+                  style={{ 
+                    width: index === 0 ? '10%' : `${90 / (columns.length - 1)}%` 
+                  }}
                 >
                   <div className="break-words">
                     {col.replace(/_/g, " ")}
@@ -211,12 +283,15 @@ const DynamicTable = ({ data }) => {
                 key={ridx}
                 className="hover:bg-gray-50 transition-colors duration-200"
               >
-                {columns.map((col) => (
+                {columns.map((col, index) => (
                   <td
                     key={col}
-                    className="w-64 px-6 py-4 text-sm text-gray-600"
+                    className="px-4 py-4 text-md text-gray-600"
+                    style={{ 
+                      width: index === 0 ? '5%' : `${95 / (columns.length - 1)}%` 
+                    }}
                   >
-                    <div className="break-words whitespace-normal leading-relaxed">
+                    <div className="break-words whitespace-normal leading-relaxed text-sm">
                       {row[col] != null ? String(row[col]) : ""}
                     </div>
                   </td>
