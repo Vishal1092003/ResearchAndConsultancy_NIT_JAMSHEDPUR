@@ -3,6 +3,18 @@ import Navbar from '@/components/Navbar/Navbar';
 import Tab from '@/components/Tab/Tab';
 
 const pdfFiles = [
+  "Expenditure on Filling the Patent.pdf",
+  "Procurment Rule 08-07-2025.pdf",
+  "RC_Rule.pdf",
+  "Annexure III.pdf",
+  "Research Bulletin Comitee.pdf",
+  "SOP for Functioning of R&C Division -09-08-2021.pdf",
+  "SOP for Start Up Grant.pdf",
+  "SOP for Student Innovation Project.pdf",
+  "SOP R & C 2019.pdf",
+  "Summary report of Workshop.pdf",
+  "TA Rule-2024.pdf",
+  "TA Rule.pdf",
   "DPC_R&C.pdf",
   "Innovation cell.pdf",
   "BIS Commitee.pdf",
@@ -12,10 +24,11 @@ const pdfFiles = [
   "IPR CELL.pdf",
   "Minutes Innovation project.pdf",
   "NIT Act, 2007.pdf",
-  "format for IIPA.pdf",
-  "format for financial assistant for conference.pdf",
-  "format.pdf",
-  "order.pdf"
+  "Format for IIPA.pdf",
+  "Format for financial assistant for conference.pdf",
+  "Format for Proposals.pdf",
+  "Office order for financial.pdf"
+
 ];
 
 const Notices = () => {

@@ -17,6 +17,7 @@ import Achievements from "./pages/Achievements";
 import RNCdetails from "./pages/RNCdetails";
 import InformationCircularsNotices from "./pages/InformationCircularsNotices";
 import ResearchBulletin from "./pages/ResearchBulletin";
+import FundOpportunities from "./pages/FundOpportunities";
 // import Events from "./pages/Events"
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       
       <Router>
         <Routes>
+          <Route path="/FundOpportunities" element={<FundOpportunities />} />
           <Route path="/" element={<LogoPage />} />
           <Route path="/home" element={<Home />} />
           <Route path="/teacher" element={<Profile />} />

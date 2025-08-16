@@ -3,6 +3,10 @@ import Navbar from '@/components/Navbar/Navbar';
 import Tab from '@/components/Tab/Tab';
 
 const pdfFiles = [
+  "AICTE MANDATE.pdf",
+  "DST  MANDATE.pdf",
+  "Mandate Form 441 Institute Account.pdf",
+  "SERB MANDATE.pdf",
   "Account detail of Research & Consultancy.pdf",
   "AICTE.pdf",
   "GST.pdf",
