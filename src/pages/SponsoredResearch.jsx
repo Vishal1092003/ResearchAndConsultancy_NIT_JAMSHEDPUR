@@ -34,7 +34,9 @@ const SponsoredResearch = () => {
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        {/* Three boxes showing data length */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          {/* Ongoing Projects Box */}
           <div className="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300">
             <div className="mb-4">
               <svg
@@ -44,35 +46,45 @@ const SponsoredResearch = () => {
               >
                 <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm-1 16H9V7h9v14z" />
               </svg>
-                      </div>
-                      <div className="text-4xl font-bold text-gray-700 mb-2">
-                        {SponseredResearchData.Sheet1.length}
-                      </div>
-                      <div className="text-gray-600 font-medium">Active Projects</div>
             </div>
-        
-            <div className="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300">
-              <div className="mb-4">
-                        <svg
-                          className="w-16 h-16 text-orange-600 mx-auto"
-                          fill="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm-1 16H9V7h9v14z" />
-                        </svg>
-              </div>
-              <div className="text-4xl font-bold text-gray-700 mb-2">
-                        {
-                          new Set(
-                            SponseredResearchData.Sheet1.map(
-                              (item) => item["Sponsoring Agency"]
-                            )
-                          ).size
-                        }
-              </div>
-              <div className="text-gray-600 font-medium">
-                Partner Institutions
+            <div className="text-4xl font-bold text-gray-700 mb-2">
+              {SponseredResearchData.Sheet1.length}
             </div>
+            <div className="text-gray-600 font-medium">Ongoing Projects</div>
+          </div>
+
+          {/* 2024-25 Projects Box */}
+          <div className="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300">
+            <div className="mb-4">
+              <svg
+                className="w-16 h-16 text-green-600 mx-auto"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm-1 16H9V7h9v14z" />
+              </svg>
+            </div>
+            <div className="text-4xl font-bold text-gray-700 mb-2">
+              {SponseredResearchData.Sheet2.length}
+            </div>
+            <div className="text-gray-600 font-medium">Projects Received during 2024-25</div>
+          </div>
+
+          {/* 2023-24 Projects Box */}
+          <div className="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300">
+            <div className="mb-4">
+              <svg
+                className="w-16 h-16 text-orange-600 mx-auto"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm-1 16H9V7h9v14z" />
+              </svg>
+            </div>
+            <div className="text-4xl font-bold text-gray-700 mb-2">
+              {SponseredResearchData.Sheet3.length}
+            </div>
+            <div className="text-gray-600 font-medium">Projects Received during 2023-24</div>
           </div>
         </div>
 
