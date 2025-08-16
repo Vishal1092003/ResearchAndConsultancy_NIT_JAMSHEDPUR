@@ -106,7 +106,7 @@ const FundOpportunities = () => {
           }}>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-2 relative z-10">Research Funding Opportunities</h1>
-          <p className="text-xl opacity-90 relative z-10">Comprehensive Guide for Funding at NIT JAMAHEDPUR</p>
+          <p className="text-xl opacity-90 relative z-10">Comprehensive Guide for Funding at NIT JAMSHEDPUR</p>
         </div>
 
         {/* Video Section - Full Width */}
