@@ -58,26 +58,13 @@
     },
 
     {
-      "name": "Dr. Arvind Kumar Patel",
-      "area_of_research": "Refrigeration and Air Conditioning, Human Thermal Comfort, PV Cell Recycling",
-      "email": "arvind.me@nitjsr.ac.in",
-      "mobile": "8878734337",
-      "designation": "Assistant Professor"
-    },
-    {
       "name": "Dr M A Hassan",
       "area_of_research": "Material Characterization, Heat Transfer, Piping And CFD",
       "email": "hassan.me@nitjsr.ac.in",
       "mobile": "9801082645",
       "designation": "Associate Professor"
     },
-    {
-      "name": "Dr. Vijay Kumar Dalla",
-      "area_of_research": "Robotics, Failure Analysis of Machines/Materials, Drones",
-      "email": "vijaydalla.me@nitjsr.ac.in",
-      "mobile": "8126084443",
-      "designation": "Assistant Professor"
-    },
+
     {
       "name": "Dr. Saikat Ranjan Maity",
       "area_of_research": "Laser Based Additive Manufacturing, Digital Twin",
@@ -85,18 +72,35 @@
       "mobile": "9733544513",
       "designation": "Associate Professor"
     },
-    {
-      "name": "Dr. Sankar Kumar Roy",
-      "area_of_research": "Experimental Mechanics, Machine Vibrations and Health Monitoring",
-      "email": "sankarroy.me@nitjsr.ac.in",
-      "mobile": "8910961429",
-      "designation": "Assistant Professor"
-    },
+
     {
       "name": "Dr. Pranab Kumar Kundu",
       "area_of_research": "Microfluidics And Its Applications On: Biomedical, Thermal Management",
       "email": "pranab.me@nitjsr.ac.in",
       "mobile": "94338877700",
+      "designation": "Associate Professor"
+    },
+
+    {
+      "name": "Dr Anil Prasad",
+      "area_of_research": "Energy and Water Conservation in Energy Extensive Plant, Modelling and Simulation",
+      "email": "akprasad.me@nitjsr.ac.in",
+      "mobile": "",
+      "designation": "Associate Professor"
+    },
+
+    {
+      "name": "Dr K D P Singh",
+      "area_of_research": "Heat Transfer, Thermal Engineering and Solar Energy",
+      "email": "kdpsingh.me@nitjsr.ac.in",
+      "mobile": "",
+      "designation": "Associate Professor"
+    },
+    {
+      "name": "Dr Malay Niraj",
+      "area_of_research": "Total Productivity Maintenance, TQM",
+      "email": "malay.me@nitjsr.ac.in",
+      "mobile": "",
       "designation": "Associate Professor"
     },
     {
@@ -120,7 +124,13 @@
       "mobile": "8899778875",
       "designation": "Assistant Professor"
     },
-
+    {
+      "name": "Dr. Sankar Kumar Roy",
+      "area_of_research": "Experimental Mechanics, Machine Vibrations and Health Monitoring",
+      "email": "sankarroy.me@nitjsr.ac.in",
+      "mobile": "8910961429",
+      "designation": "Assistant Professor"
+    },
     {
       "name": "Dr. Shashank Pandey",
       "area_of_research": "Plates and Shell Theories, Finite Element Method",
@@ -150,17 +160,24 @@
       "designation": "Assistant Professor"
     },
     {
-      "name": "Dr Anil Prasad",
-      "area_of_research": "Energy and Water Conservation in Energy Extensive Plant, Modelling and Simulation",
-      "email": "akprasad.me@nitjsr.ac.in",
+      "name": "Dr Dulari Hansdah",
+      "area_of_research": "Hydrogen Engine, Engine Emissions and Control Methods",
+      "email": "dhansdah.me@nitjsr.ac.in",
       "mobile": "",
-      "designation": "Associate Professor"
+      "designation": "Assistant Professor"
     },
     {
-      "name": "Dr Ashok Kumar Barik",
-      "area_of_research": "Constructal Theory and Its Applications in Engineering Perspectives",
-      "email": "ashokbarik.me@nitjsr.ac.in",
+      "name": "Dr Laljee Prasad",
+      "area_of_research": "Thermal",
+      "email": "lprasad.me@nitjsr.ac.in",
       "mobile": "",
+      "designation": "Assistant Professor"
+    },
+    {
+      "name": "Dr. Vijay Kumar Dalla",
+      "area_of_research": "Robotics, Failure Analysis of Machines/Materials, Drones",
+      "email": "vijaydalla.me@nitjsr.ac.in",
+      "mobile": "8126084443",
       "designation": "Assistant Professor"
     },
     {
@@ -178,41 +195,19 @@
       "designation": "Assistant Professor"
     },
     {
-      "name": "Dr Dulari Hansdah",
-      "area_of_research": "Hydrogen Engine, Engine Emissions and Control Methods",
-      "email": "dhansdah.me@nitjsr.ac.in",
-      "mobile": "",
-      "designation": "Assistant Professor"
-    },
-    {
-      "name": "Dr K D P Singh",
-      "area_of_research": "Heat Transfer, Thermal Engineering and Solar Energy",
-      "email": "kdpsingh.me@nitjsr.ac.in",
-      "mobile": "",
-      "designation": "Associate Professor"
-    },
-    {
-      "name": "Dr Laljee Prasad",
-      "area_of_research": "Thermal",
-      "email": "lprasad.me@nitjsr.ac.in",
-      "mobile": "",
-      "designation": "Assistant Professor"
-    },
-    {
-      "name": "Dr Malay Niraj",
-      "area_of_research": "Total Productivity Maintenance, TQM",
-      "email": "malay.me@nitjsr.ac.in",
-      "mobile": "",
-      "designation": "Associate Professor"
-    },
-    {
       "name": "Dr Naresh Prasad",
       "area_of_research": "Composite Materials",
       "email": "nprasad.me@nitjsr.ac.in",
       "mobile": "",
       "designation": "Assistant Professor"
     },
-
+    {
+      "name": "Dr Ashok Kumar Barik",
+      "area_of_research": "Constructal Theory and Its Applications in Engineering Perspectives",
+      "email": "ashokbarik.me@nitjsr.ac.in",
+      "mobile": "",
+      "designation": "Assistant Professor"
+    },
     {
       "name": "Dr Sankar Kumar Roy",
       "area_of_research": "Experimental Mechanics, Machine Vibration & Health Monitoring, Structural Vibration",
@@ -240,6 +235,13 @@
       "area_of_research": "CAD, Design of Mechanical Power Transmitting Devices",
       "email": "vsahoo.me@nitjsr.ac.in",
       "mobile": "",
+      "designation": "Assistant Professor"
+    },
+    {
+      "name": "Dr. Arvind Kumar Patel",
+      "area_of_research": "Refrigeration and Air Conditioning, Human Thermal Comfort, PV Cell Recycling",
+      "email": "arvind.me@nitjsr.ac.in",
+      "mobile": "8878734337",
       "designation": "Assistant Professor"
     }
   ]
