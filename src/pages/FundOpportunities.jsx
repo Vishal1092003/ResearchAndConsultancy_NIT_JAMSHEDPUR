@@ -269,7 +269,7 @@ const FundOpportunities = () => {
               borderLeftColor: '#38b2ac'
             }}>
               <p className="text-lg text-gray-800 mb-4">
-                <strong>Welcome to the Research Funding Portal!</strong> Regular faculty of NIT Calicut can approach or submit research proposals to any of the funding agencies listed below in their respective formats.
+                <strong>Welcome to the Research Funding Portal!</strong> Regular faculty of NIT Jamshedpur can approach or submit research proposals to any of the funding agencies listed below in their respective formats.
               </p>
               <p className="text-lg text-gray-800">
                 Some funding agencies invite proposals through e-tender systems (e.g., NHPC, NTPC) which involve competitive selection processes. Faculty can also submit proposals for collaborative research with industries, reputed universities (with higher NIRF rank or good QS ranking), or research institutions.
