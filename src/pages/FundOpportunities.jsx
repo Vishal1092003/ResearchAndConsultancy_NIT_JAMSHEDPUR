@@ -317,7 +317,7 @@ const FundOpportunities = () => {
                     "Ministry of New and Renewable Energy (MNRE)",
                     "Central Power Research Institute (CPRI)",
                     "Indian National Academy of Engineering (INAE)",
-                    "Kerala State Council for Science, Technology and Environment (KSCSTE)"
+                    "Jharkhand Council On Science, Technology and Innovation (JCSTI)"
                   ]
                 }
               ].map((agency, index) => (
