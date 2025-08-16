@@ -468,6 +468,14 @@ const Tab = () => {
       </motion.div>
       <motion.div whileHover={{ scale: 1.05 }}>
         <Link
+          to={"/FundOpportunities"}
+          className={`transition duration-200 py-2 px-3 rounded-md cursor-pointer font-medium whitespace-nowrap ${isActive("/sponsoredresearch") ? "bg-slate-200 text-black" : "text-slate-700/80 hover:text-black/80 hover:bg-slate-200"}`}
+        >
+          Fund Opportunities
+        </Link>
+      </motion.div>
+      <motion.div whileHover={{ scale: 1.05 }}>
+        <Link
           to={"/consultancy"}
           className={`transition duration-200 py-2 px-3 rounded-md cursor-pointer font-medium whitespace-nowrap ${isActive("/consultancy") ? "bg-slate-200 text-black" : "text-slate-700/80 hover:text-black/80 hover:bg-slate-200"}`}
         >
