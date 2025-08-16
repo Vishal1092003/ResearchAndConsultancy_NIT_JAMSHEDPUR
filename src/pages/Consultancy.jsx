@@ -15,7 +15,7 @@ const Consultancy = () => {
 
       <div className="w-full py-12 bg-blue-600 flex flex-col justify-center items-center relative">
         <h1 className="text-white text-3xl md:text-5xl font-bold text-center drop-shadow-lg">
-          Our Consultancy with Academia
+          Consultancy Projects
         </h1>
       </div>
 
