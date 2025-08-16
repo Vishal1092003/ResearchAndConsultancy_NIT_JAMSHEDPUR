@@ -244,19 +244,19 @@ const teams = {
     //Student Volunteer
     {
       name: "Nihal Sahay",
-      role: "Research Analyst",
+      role: "2023UGME007",
       img: "./nihalSahay.jpg",
       linkedin: "#",
     },
     {
       name: "Harshit Raj",
-      role: "Research Analyst",
+      role: "2022UGPI032",
       img: "./harshitRaj.jpg",
       linkedin: "#",
     },
     {
       name: "Mrinal Ayush Raj",
-      role: "Research Analyst",
+      role: "2023UGME052",
       img: "mrinalAyushRaj.jpg",
       linkedin: "#",
     },
@@ -382,7 +382,9 @@ const TeamSection = () => {
     );
     const students = teams[activeTab].filter(
       (member) =>
-        member.role.includes("Research Analyst") ||
+        member.role.includes("2023UGME007") ||
+        member.role.includes("2022UGPI032") ||
+        member.role.includes("2023UGME052") ||
         member.role.includes("Volunteer")
     );
 
