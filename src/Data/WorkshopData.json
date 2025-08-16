@@ -11,692 +11,566 @@
         },
         {
             "sl_no": 2,
-            "subject": "Blood Donation Camp by NSS",
-            "coordinators": "Dr. Jayendra Kumar",
-            "department": "Electronics and Communication Engineering",
-            "date": "07/01/2024"
-        },
-        {
-            "sl_no": 3,
             "subject": "MSME A-ESDP course on Smart and Effective Agriculture using IoT and Global Navigation Satellite Systems",
             "coordinators": "Dr. Suarajit Kundu",
             "department": "Electronics and Communication Engineering",
             "date": "09/01/2024 To 13/01/2024"
         },
         {
-            "sl_no": 4,
+            "sl_no": 3,
             "subject": "Sky Soar Festival by Think India in association with UBA",
             "coordinators": "Dr. Kanika Prasad",
             "department": "Production and Industrial Engineering",
             "date": "14/01/2024"
         },
         {
-            "sl_no": 5,
+            "sl_no": 4,
             "subject": "Cognitio’24 Annual fest of Mechanical Engineering Department",
             "coordinators": "Dr. Bipin Kumar",
-            "department": "Mechanical Engineering",
+            "department": "Department of Mechanical Engineering",
             "date": "19/01/2024 To 21/01/2024"
         },
         {
-            "sl_no": 6,
-            "subject": "75th Republic Day Celebration",
-            "coordinators": "Dean (SW)",
-            "department": " ",
-            "date": "26/01/2024"
-        },
-        {
-            "sl_no": 7,
-            "subject": "Technica’24 Annual fest of MME Department",
-            "coordinators": "HOD, MME",
-            "department": "Metallurgical and Materials Engineering",
-            "date": "25/01/2024 To 27/01/2024"
-        },
-        {
-            "sl_no": 8,
-            "subject": "Annual Alumni Meet",
-            "coordinators": "Dr. Akansha Shukla",
-            "department": "HSSM",
-            "date": "27/01/2024"
-        },
-        {
-            "sl_no": 9,
-            "subject": "All India Inter NIT Sports Meet",
-            "coordinators": "Sri Provat, office of Dean, SW",
-            "department": "Dean SW",
-            "date": "02/02/2024 To 04/02/2024"
-        },
-        {
-            "sl_no": 10,
+            "sl_no": 5,
             "subject": "Workshop cum Seminar on NEP-2020",
             "coordinators": "Dr. Satish Kumar",
             "department": "Mechanical Engineering",
             "date": "03/02/2024"
         },
         {
-            "sl_no": 11,
-            "subject": "Culfest’24",
-            "coordinators": "Dr. Prahlad Prasad, Dean SW",
-            "department": "Dean SW",
-            "date": "09/01/2024 To 11/02/2024"
-        },
-        {
-            "sl_no": 12,
+            "sl_no": 6,
             "subject": "Workshop on RISC-V & VLSI design flow using EDA tools",
             "coordinators": "Dr. Kunal Singh, ",
             "department": "Electronics and Communication Engineering",
             "date": "16/02/2024 To 20/01/2024"
         },
         {
-            "sl_no": 13,
+            "sl_no": 7,
             "subject": "Workshop on Educational Outreach Program of Bureau of Indian Standards",
             "coordinators": "Dr. Ashok Mandal",
             "department": "Mechanical Engineering",
             "date": "21/02/2024"
         },
         {
-            "sl_no": 14,
+            "sl_no": 8,
             "subject": "MSME Advanced Management Development Programme for Agripreneurs",
             "coordinators": "Dr. Swati Sudha, HSSM, Dr. Tushar Banerjee, PIE",
-            "department": "HSSM & Production and Industrial Engineering",
+            "department": "Humanities and Social Sciences & Production and Industrial Engineering",
             "date": "24/02/2024 To 28/02/2024"
         },
         {
-            "sl_no": 15,
-            "subject": "subject on Academic Excellence and Industry Collaboration organised by Soft Skill Club of NIT Jamshedpur With support of RSB Group",
-            "coordinators": "Dr. Rajiv Bhusan",
-            "department": "HSSM",
-            "date": "02/03/2024"
-        },
-        {
-            "sl_no": 16,
-            "subject": "Visit to Pindrabera, Rapcha by Student Volunteers of UBA",
-            "coordinators": "Dr. Kanika Prasad",
-            "department": "Production and Industrial Engineering",
-            "date": "03/03/2024"
-        },
-        {
-            "sl_no": 17,
-            "subject": "Mera Pahla Vote",
-            "coordinators": "Dr. Jayendra Kumar",
-            "department": "Electronics and Communication Engineering",
-            "date": "05/03/2024 To 07/03/2024"
-        },
-        {
-            "sl_no": 18,
+            "sl_no": 9,
             "subject": "Women Day celebrations",
             "coordinators": "Dr. Prabha Chand",
             "department": "Mechanical Engineering",
             "date": "08/03/2024"
         },
         {
-            "sl_no": 19,
-            "subject": "Visit of Addl Secy Sh Sunil Barnwal",
-            "coordinators": "Mr. Saikat",
-            "department": "Finance & Accounts Division",
-            "date": "09/03/2024"
-        },
-        {
-            "sl_no": 20,
+            "sl_no": 10,
             "subject": "VRITIKA Programme",
             "coordinators": "Dr. Satish Kumar, ME",
             "department": "Mechanical Engineering",
             "date": "12/03/2024 To 11/04/2024"
         },
         {
-            "sl_no": 21,
+            "sl_no": 11,
             "subject": "INDIA’S TECHADE- CHIPS FOR VIKSIT BHARAT@2047",
             "coordinators": "Dr. Kunal Singh ECE",
             "department": "Electronics and Communication Engineering",
             "date": "13/03/2024"
         },
         {
-            "sl_no": 22,
+            "sl_no": 12,
             "subject": "SERB Sponsored Karyashala high end workshop held from 15th - 21st March 2024 on Nano-Robots",
             "coordinators": "Dr. Rinku Gowda",
             "department": "Electrical Engineering",
             "date": "15/03/2024 To 21/03/2024"
         },
         {
-            "sl_no": 23,
+            "sl_no": 13,
             "subject": "Advanced Control Techniques for Switched- Mode Power Supply for Electric Vehicle Application",
             "coordinators": "Dr. Mrinal K Sarkar",
             "department": "Electrical Engineering",
             "date": "17/03/2024"
         },
         {
-            "sl_no": 24,
+            "sl_no": 14,
             "subject": "Faculty presentation who have attended workshops/STTPs/FDPs etc. in India/Abroad and presented paper in conference abroad",
             "coordinators": "Dr. Dinesh Kumar",
             "department": "Production and Industrial Engineering",
             "date": "27/03/2024"
         },
         {
-            "sl_no": 25,
-            "subject": "guest lecture by Dr. Krishna Dev Kumar, Professor of Aerospace Engineering, Department of Aerospace Engineering at Toronto Metropolitan University, Canada",
-            "coordinators": "Asso. Dean (R&C)",
-            "department": "R&C Section ",
-            "date": "27/03/2024"
-        },
-        {
-            "sl_no": 26,
-            "subject": "Inaugural function of LaTeX 2024",
-            "coordinators": "Dr. Sumit Kr. Debnath",
-            "department": "Mathematics",
-            "date": "01/04/24"
-        },
-        {
-            "sl_no": 27,
-            "subject": "NCC unit raising ",
-            "coordinators": "Mr. Munish Kumar",
-            "department": "Deputy Librarian ",
-            "date": "01/04/24"
-        },
-        {
-            "sl_no": 28,
-            "subject": "OJAS 2024",
-            "coordinators": "President Student Coucil",
-            "department": "Dean SW",
-            "date": "05/04/2024 To 07/04/2024"
-        },
-        {
-            "sl_no": 29,
+            "sl_no": 15,
             "subject": "LATEX 2024",
             "coordinators": "Dr. Sumit Kumar Debnath",
-            "department": "Mathematics",
+            "department": "Department of Mathematics",
             "date": "01/04/2024 To 05/04/2024"
         },
         {
-            "sl_no": 30,
+            "sl_no": 16,
             "subject": "One-Month SERB Sponsored VRITIKA PROGRAM, A Training and \nSkill Internship on “Blockchain-enabled Electronic Medical Record System \nand Privacy Protection using Ethereum, IPFS and Hyperledger” ",
             "coordinators": "Dr. Dinesh Kumar",
             "department": "Production and Industrial Engineering",
             "date": "01/04/2024 To 30/04/2024"
         },
         {
-            "sl_no": 31,
+            "sl_no": 17,
             "subject": "National Workshop on Design of Bridges(DOB 2024) ",
             "coordinators": "Dr. Virendra Kumar",
             "department": "Civil Engineering",
             "date": "19/04/2024 To 23/04/2024"
         },
         {
-            "sl_no": 32,
+            "sl_no": 18,
             "subject": "Prodyog 2024",
             "coordinators": "Dr. Shubham Tripathi",
             "department": "Production and Industrial Engineering",
             "date": "19/04/2024 To 21/04/2024"
         },
         {
-            "sl_no": 33,
+            "sl_no": 19,
             "subject": "Cloth donation drive organised by NSS Unit",
             "coordinators": "Dr. Jayendra Kumar",
             "department": "Electronics and Communication Engineering",
             "date": "20/04/2024"
         },
         {
-            "sl_no": 34,
+            "sl_no": 20,
             "subject": "'A- One Day Seminar on Creating Awareness on Criminal Law Reforms 2023",
             "coordinators": "Dr. Swati Sudha ",
-            "department": "HSSM",
+            "department": "Humanities and Social Sciences",
             "date": "23/04/2024"
         },
         {
-            "sl_no": 35,
+            "sl_no": 21,
             "subject": "One-day workshop on “Prospective Ecosystem of Women Entrepreneurship and Start-up",
             "coordinators": "Dr. M. K. Sinha",
             "department": "Dean R&C",
             "date": "24/04/2024"
         },
         {
-            "sl_no": 36,
+            "sl_no": 22,
             "subject": "‘Energy Efficiency in Buildings & Energy Conservation Building Codes applicable in India' to be conducted on 10th May 2024 at 03.00 PM – 04.30 PM",
             "coordinators": "Dr. Virendra Kumar",
             "department": "Civil Engineering",
             "date": "10/05/2024"
         },
         {
-            "sl_no": 37,
+            "sl_no": 23,
             "subject": "One Day Workshop on Curriculum Development in Design",
             "coordinators": "Dr. Ashok Kumar Mandal",
             "department": "Mechanical Engineering",
             "date": "15/05/2024"
         },
         {
-            "sl_no": 38,
+            "sl_no": 24,
             "subject": "One Day Workshop by Centre of Indian Knowledge System",
             "coordinators": "Dr. Manish Jha",
-            "department": "HSSM",
+            "department": "Humanities and Social Sciences",
             "date": "17/05/2024"
         },
         {
-            "sl_no": 39,
+            "sl_no": 25,
             "subject": "LSDSS 2024",
             "coordinators": "Dr Virendra Kumar",
             "department": "Civil Engineering",
             "date": "17/05/2024 To 21/05/2024"
         },
         {
-            "sl_no": 40,
+            "sl_no": 26,
             "subject": "Numerical and Machine Learning Techniques for Fluid Dynamics\n(NM-Fluids 2024)",
             "coordinators": "Dr. Raj Nandkeyolar",
-            "department": "Mathematics",
+            "department": "Department of Mathematics",
             "date": "19/05/2024"
         },
         {
-            "sl_no": 41,
+            "sl_no": 27,
             "subject": "EPREC - 2024",
             "coordinators": "Dr. Om Hari Gupta",
             "department": "Electrical Engineering",
             "date": "24/05/2024"
         },
         {
-            "sl_no": 42,
+            "sl_no": 28,
             "subject": "Smart Manufacturing towards industry 4.0",
             "coordinators": "Dr. Kuntal Maji",
             "department": "Production and Industrial Engineering",
             "date": "27/05/2024 To 31/05/2024"
         },
         {
-            "sl_no": 43,
+            "sl_no": 29,
             "subject": "One Week Online Short Term Course on “Machine Learning and its Applications in IoT, Computer Vision and Cloud Computing” MICC-2024.",
             "coordinators": "Dr. Chandrasekhar Azad",
             "department": "Computer Science Engineering",
             "date": "27/05/2024 To 31/05/2024"
         },
         {
-            "sl_no": 44,
-            "subject": "Inauguration for development of Horticulture & Landscape",
+            "sl_no": 30,
+            "subject": "Development of Horticulture & Landscape",
             "coordinators": "Dr. Nigam Prakash",
             "department": "Civil Engineering",
             "date": "05/06/2024"
         },
         {
-            "sl_no": 45,
-            "subject": "Inauguration of GYM",
-            "coordinators": "Sri Provat, office of Dean, SW",
-            "department": "Dean SW",
-            "date": "06/06/2024"
-        },
-        {
-            "sl_no": 46,
+            "sl_no": 31,
             "subject": "SIPcivil - 2024",
             "coordinators": "Dr. Awdhesh Kumar Choudhary",
             "department": "Civil Engineering",
             "date": "10/06/2024"
         },
         {
-            "sl_no": 47,
+            "sl_no": 32,
             "subject": "DST - Innovation Camp",
             "coordinators": "Prof. Satish Kumar",
             "department": "Mechanical Engineering",
             "date": ""
         },
         {
-            "sl_no": 48,
-            "subject": "Yoga Day",
-            "coordinators": "Sri Provat, office of Dean, SW",
-            "department": "Dean SW",
-            "date": "21/06/2024"
-        },
-        {
-            "sl_no": 49,
+            "sl_no": 33,
             "subject": "Short-term course on `An Introduction to Number Theory and Cryptography' (ONLINE MODE)",
             "coordinators": "Dr. Subha Sarkar (Coordinator), Dr. Sumit Kumar Debnath (Joint Convenor), Dr. Sourav Das (Joint Convenor)",
-            "department": "Mathematics",
+            "department": "Department of Mathematics",
             "date": "05/08/2024 To 09/08/2024"
         },
         {
-            "sl_no": 50,
+            "sl_no": 34,
             "subject": "Field Oriented Challenges in Civil Engineering (FOCCE-2024)",
             "coordinators": "Dr J.Jayapal, Dr S.K.Raja, Dr Somnath Mandal, Dr Subhadeep Metya",
             "department": "Civil Engineering",
             "date": "05th to 09th August 2024"
         },
         {
-            "sl_no": 51,
+            "sl_no": 35,
             "subject": "Brief Report on the Guest Lecture by Dr. Anup K Keshri",
             "coordinators": "Dr. Tushar Banerjee",
             "department": "Production and Industrial Engineering",
             "date": "07/08/2024"
         },
         {
-            "sl_no": 52,
+            "sl_no": 36,
             "subject": "Importance of Nadi Parikshan and Ayurveda for healthy Life",
             "coordinators": "Dr Manish Kr. Jha Convener IKS ",
-            "department": "HSSM",
+            "department": "Humanities and Social Sciences",
             "date": "10/08/2024"
         },
         {
-            "sl_no": 53,
-            "subject": "Inauguration of Design and Innovation Centre",
+            "sl_no": 37,
+            "subject": "Design and Innovation Centre",
             "coordinators": "Dr. Ashok Kumar Mandal",
             "department": "Mechanical Engineering",
             "date": "12/08/2024"
         },
         {
-            "sl_no": 54,
-            "subject": "Independence Day Celebration",
-            "coordinators": "O/o the Registrar & Computer Centre",
-            "department": "O/o the Registrar & Computer Centre",
-            "date": "15/08/2024"
-        },
-        {
-            "sl_no": 55,
+            "sl_no": 38,
             "subject": "Workshop on Basic Robotics to Underwater Exploration using AUVs and ROVs",
             "coordinators": "Dr. V. K. Dalla, Dr. A. K. Barik, and Dr. P. Kumar",
             "department": "Mechanical Engineering",
             "date": "30/08/2024 To 03/09/2024"
         },
         {
-            "sl_no": 56,
+            "sl_no": 39,
             "subject": "Workshop on Urban Water Modelling using MIKE+ Software (in Hybrid Mode)",
             "coordinators": "Dr. Sunil Kumar Murmu (Coordinator), Dr. Sangeeta Kumari(Coordinator), Sajid Alam (DHI India) (Coordinator), Dr. Chintalacheruvu Madhusudana Rao (Convener), Mr. Nigam Prakash (Convener)",
             "department": "Civil Engineering",
             "date": "31/08/2024 To 04/09/2024"
         },
         {
-            "sl_no": 57,
-            "subject": "Swachhata Pakhwada",
-            "coordinators": "Dr. Naveen Kumar Veldurthi",
-            "department": "Electrical Engineering",
-            "date": "01/09/2024 To 15/09/2024"
-        },
-        {
-            "sl_no": 58,
+            "sl_no": 40,
             "subject": "Internal Hackathon for Smart India Hackathon (SIH) 2024",
             "coordinators": "Dr. Vishesh Ranjan Kar",
             "department": "Mechanical Engineering",
             "date": "09/09/2024"
         },
         {
-            "sl_no": 59,
+            "sl_no": 41,
             "subject": "Research trends and future scope in civil engineering (RTFSCE-2024)",
             "coordinators": "Dr. Brajkishor Prasad, Dr J.Jayapal, Dr Sriram Karthick Raja, Dr Debshri Swargiary, Dr Suravi Pal",
             "department": "Civil Engineering",
             "date": "09/09/2024 To 13/09/2024"
         },
         {
-            "sl_no": 60,
+            "sl_no": 42,
             "subject": "Hindi Pakhwada",
             "coordinators": "Prof Niranjan Kumar",
             "department": "Electrical Engineering",
             "date": "14/09/2024 To 29/09/2024"
         },
         {
-            "sl_no": 61,
+            "sl_no": 43,
             "subject": "Research Oriented Technical Writing (ROTW-2024)",
             "coordinators": "Co-Ordinator(s): Dr. Ravi Bhushan; Dr. Arvind Kumar Prajapati & Dr. Supriyo Das; Convener(s): Dr. Om Hari Gupta & Dr. Jitendra Kumar",
             "department": "Electrical Engineering",
             "date": "18/11/2024 To 22/11/2024"
         },
         {
-            "sl_no": 62,
+            "sl_no": 44,
             "subject": "3rd International Conference on Security and Privacy (ICSP 2024)",
             "coordinators": "Dr. Sumit Kumar Debnath",
             "department": "Mathematics",
             "date": "20/11/2024 To 21/11/2024"
         },
         {
-            "sl_no": 63,
+            "sl_no": 45,
             "subject": "Advanced Entrepreneurship Skill Development Program on Rooftop solar installation to meet diverse and varying electricity demand in urban and rural environments, Sponsored by Micro, Small and Medium Enterprises (MSME) ",
             "coordinators": "Dr. Kanika Prasad",
             "department": "Production and Industrial Engineering",
             "date": "03/12/2024 To 07/12/2024"
         },
         {
-            "sl_no": 64,
+            "sl_no": 46,
             "department": "Mechanical Engineering",
             "subject": "IPRoMM 2024",
             "coordinators": "Dr. Ashok Kumar Mandal, Dr. Vineet Sahoo, Dr. Deepak Kumar",
             "date": "19/12/2024 To 21/12/2024"
         },
       {
-        "sl_no": 65,
+        "sl_no": 47,
         "department": "Electrical Engineering",
         "subject": "Online FDP on Recent Advancement in EMobillity for Developing Power Utility",
         "coordinators": "Dr. Mrinal K. Sarkar & Dr. Simanta Kr. Samal",
         "date": "06/01/25 To 25/01/25"
       },
       {
-        "sl_no": 66,
-        "department": "CHM",
+        "sl_no": 48,
+        "department": "Department of Chemical Engineering",
         "subject": "MSME training programme (pickle making)",
         "coordinators": "Dr. Ananta Kumar Atta",
         "date": "09/01/25 To 13/02/25"
       },
       {
-        "sl_no": 67,
+        "sl_no": 49,
         "department":  "Electrical Engineering",
         "subject": "Online FDP on Electric Vehicle & Charging Station Technology for Sustainable Development",
         "coordinators": "Dr. Mrinal K. Sarkar",
         "date": "13/01/25 To 18/01/25"
       },
       {
-        "sl_no": 68,
+        "sl_no": 50,
         "department": "Mechanical Engineering",
         "subject": "Workshop on Advanced heat transfer technologies for enhancing energy, efficiency & reducing carbon emission globally",
         "coordinators": "Dr. Rinku Kr. Gouda",
         "date": "13/01/25 To 17/01/25"
       },
       {
-        "sl_no": 69,
+        "sl_no": 51,
         "department":  "Electrical Engineering",
         "subject": "Workshop online on Distributed Energy Resources: Transforming grids with renewable technologies",
         "coordinators": "Dr Veer Pratap Meena and Dr Suryaprakash",
         "date": "15/01/25 To 19/01/25"
       },
       {
-        "sl_no": 70,
+        "sl_no": 52,
         "department": "Civil Engineering",
         "subject": "Hands-on Workshop on MATLAB application",
         "coordinators": "Dr. S.K. Murmu, Dr. Sangeeta Kumari, Dr. D. Swargiary, Dr. Suravi Pal",
         "date": "16/01/25 To 20/01/25"
       },
       {
-        "sl_no": 71,
+        "sl_no": 53,
         "department": "Mechanical Engineering",
         "subject": "Workshop on \"Taming Turbulence: Advancement in flow and Acoustic\"",
         "coordinators": "Dr. Shailesh Jha",
         "date": "20/01/25 To 24/01/25"
       },
       {
-        "sl_no": 72,
+        "sl_no": 54,
         "department": "Production and Industrial Engineering",
         "subject": "AICTE-ATAL sponsored 6 days Online FDP on Artificial Intelligence for Digital Manufacturing (AIDM 2025)",
         "coordinators": "Dr. Kuntal Maji",
         "date": "20/01/25 To 25/01/25"
       },
       {
-        "sl_no": 73,
+        "sl_no": 55,
         "department": "Mechanical Engineering",
         "subject": "One week STTP on Advanced Composite Materials for Next-Gen Technologies",
         "coordinators": "Dr. Vishesh Ranjan Kar",
         "date": "20/01/25 To 24/01/25"
       },
       {
-        "sl_no": 74,
+        "sl_no": 56,
         "department":  "Electrical Engineering",
         "subject": "Short Term Course - AI applications to microgrid",
         "coordinators": "(Dr. Kethavath R. Naik, Dr. Sanjay Kr., Prof. U.K. Sinha)",
         "date": "25/01/25 To 29/01/25"
       },
        {
-  "sl_no": 75,
+  "sl_no": 57,
   "subject": "MSME sponsored training on Cultivation of Mushroom",
   "coordinators": "Dr. Ananta Kumar Atta",
-  "department": "DCH",
+  "department": "Department of Chemical Engineering",
   "date": "28/01/25 To 10/03/25"
  },
  {
-  "sl_no": 76,
+  "sl_no": 58,
   "subject": "MSME sponsored training on Sewing, tailoring and embroidery for the people of Jharkhand",
   "coordinators": "Dr. Ananta Kumar Atta",
-  "department": "DCH",
+  "department": "Department of Chemical Engineering",
   "date": "31/01/25 To 13/03/25"
  },
  {
-  "sl_no": 77,
+  "sl_no": 59,
   "subject": "National Seminar on Academic Social Responsibility and Orientation Programme ",
   "coordinators": "Dr. Shakti Prasad, DMTH & Dr. Kanika Prasad, DPIE",
   "department": "Unnat Bharat Abhiyan",
   "date": "01/02/25 To 02/02/25"
  },
  {
-  "sl_no": 78,
+  "sl_no": 60,
   "subject": "Two Week Online FDP on Next-Generation Wireless Sensor Networks (NGWSN-2025)",
   "coordinators": "Dr. Jayendra Kumar, Dr. Prashant Kumar, Dr. Mrutyunjay Rout",
   "department": "Electronics and Communication Engineering",
   "date": "17/02/25 To 28/02/25"
  },
  {
-  "sl_no": 79,
+  "sl_no": 61,
   "subject": "Two Week Online FDP on AI-based Image Processing for Bio-medical Applications (AIIPBM-2025)",
   "coordinators": "Dr. Jayendra Kumar, Dr. Prashant Kumar, Dr. Mrutyunjay Rout",
   "department": "Electronics and Communication Engineering",
   "date": "17/02/25 To 28/02/25"
  },
  {
-  "sl_no": 80,
+  "sl_no": 62,
   "subject": "1st International conference on modern manufacturing and management intelligence (ICMMMI) 2024",
   "coordinators": "Dr. Kanika Prasad",
   "department": "Production and Industrial Engineering",
   "date": "27/02/25 To 01/03/25"
  },
  {
-  "sl_no": 81,
+  "sl_no": 63,
   "subject": "STTP on Industry 4.0: A Journey towards Modern Manufacturing",
   "coordinators": "Dr. Abhijit Dey ",
   "department": "Mechanical Engineering",
   "date": "10/03/25 To 14/03/25"
  },
        {
-  "sl_no": 82,
+  "sl_no": 64,
   "subject": "6 Days Workshop on Effective Report and Presentation Formatting using LATEX",
   "coordinators": "Dr. Alekha Kumar Mishra, Dr. Mayukh Sarkar",
   "department": "Computer Science and Engineering",
   "date": "17/03/25 To 22/03/25"
  },
  {
-  "sl_no": 83,
+  "sl_no": 65,
   "subject": "RAMPC",
   "coordinators": "Dr. Ram Krishna",
-  "department": "DMME",
+  "department": "Department of Metallurgical and Materials Engineering",
   "date": "28/03/25 To 30/03/25"
  },
  {
-  "sl_no": 84,
+  "sl_no": 66,
   "subject": "STTP on Machine Maintenance and Occupational Hazards & Safety for Foundry and Forging Shop Workforce at Adityapyur Auto Component Cluster, Jamshedpur funded by SIDBI",
   "coordinators": "Dr. KSK Sudhamshu",
   "department": "Mechanical Engineering",
   "date": "31/03/25 To 04/04/25  &  12/05/25 To 16/05/25"
  },
  {
-  "sl_no": 85,
+  "sl_no": 67,
   "subject": "Workshop on VLSI design and verification ",
   "coordinators": "Dr. Basanta Bhowmik",
   "department": "Electronics and Communication Engineering",
   "date": "01/04/25 To 06/04/25"
  },
        {
-  "sl_no": 86,
+  "sl_no": 68,
   "subject": "Workshop on AL and Iot enabled sensor Technology ",
   "coordinators": "Dr. Swagatadeb Sahoo",
   "department": "Electronics and Communication Engineering",
   "date": "21/04/25 To 25/04/25"
  },
  {
-  "sl_no": 87,
+  "sl_no": 69,
   "subject": "Approval of the STC Next generation Power grid",
   "coordinators": "Dr Veer Pratap Meena\nDr Suryaprakash \nDr. Ananyo Bhattercharya\n",
   "department":  "Electrical Engineering",
   "date": "21/4/25 to 25/4/25"
  },
  {
-  "sl_no": 88,
+  "sl_no": 70,
   "subject": "Workshop on MATLAB and Python Programming (WMPP 2025)",
   "coordinators": "Dr. Sourav Das",
-  "department": "DMA",
+  "department": "Department of Mathematics",
   "date": "19/05/25 To 23/05/25"
  },
  {
-  "sl_no": 90,
+  "sl_no": 71,
   "subject": "One week online short term course (STC) on \"Machine learning and its applications in IoT, Computer Vision and Cloud Computing\"",
   "coordinators": "Dr. Jitesh Pradhan ",
   "department": "Computer Science and Engineering",
   "date": "26/05/25 To 30/05/25"
  },
        {
-  "sl_no": 91,
+  "sl_no": 72,
   "subject": "One week online short term course (STC) on \"Blockchain and its applications\"",
   "coordinators": "Dr. Dinesh Kumar",
   "department": "Computer Science and Engineering",
   "date": "02/06/25 To 06/06/25"
  },
  {
-  "sl_no": 92,
+  "sl_no": 73,
   "subject": "International Conference on \"Energy Climate Governance\" ",
   "coordinators": "Dr. K. Namrata",
   "department":  "Electrical Engineering",
   "date": "18/06/25 To 20/06/25"
  },
  {
-  "sl_no": 93,
+  "sl_no": 74,
   "subject": "5-Day Workshop on Numnerical and machine learning technuques for applied mathematics(NM-AM 2025)",
   "coordinators": "Dr. Rajat Tripathi\nDr. Raj Nandkeolyar",
-  "department": "MTH",
+  "department": "Department of Mathematics",
   "date": "10/07/2025 to 14/07/2025"
  },
  {
-  "sl_no": 94,
+  "sl_no": 75,
   "subject": "2nd International Conference on Mathematical Analysis and Applications (MAA 2025)",
   "coordinators": "Dr. Sourav Das",
-  "department": "DMA",
+  "department": "Deoartment of Mathematics",
   "date": "06/08/25 To 07/08/25"
  },
    {  
-    "sl_no": 95, 
+    "sl_no": 76, 
   "subject": "IEEE GIEST 2025",
   "coordinators": "Dr. Kundan Kumar",
   "department":  "Electrical Engineering",
    "date": "09/10/25 To 11/10/25"
  },
  {
-  "sl_no": 96,
+  "sl_no": 77,
   "subject": "IEEE Conference: International Conference on Electrical. Electronics and Computer Science with Advance Power Technologies - A Future Trends (ICE2CPT2025)`",
   "coordinators": "Dr. Veerpratap Meena",
   "department": "Electrical Engineering",
    "date": "29/10/25 To 31/10/25"
  },
  {
-  "sl_no": 97,
+  "sl_no": 78,
   "subject": "One week online STTP\n( self finance)",
 "coordinators"  : "Dr Abhishek Sharma & Dr Suryaprakash",
   "department": "Mechanical Engineering",
    "date": "23/05/25 to 27/05/25"
  },
  {
-  "sl_no": 98,
+  "sl_no": 79,
   "subject": "IAC 2025",
   "coordinators": "Dr. Swagatadeb Sahoo",
-  "department": "DRC",
-  "date": "45962"
+  "department": "Departmental Research Committee",
+  "date": ""
 },
        {
-        "sl_no": 99,
+        "sl_no": 80,
   "subject": "1st International Conference on Innovations and Research in Mechanical Engineering (ICIRME-2025)",
   "coordinators": "Dr. Pranab Kumar Kundu",
   "department": "Mechanical Engineering",
   "date": "15/12/25 To 17/12/25"
  },
  {
-  "sl_no": 100,
+  "sl_no": 81,
   "subject": "International Conference on Innovations in Mechanical Engineering for Sustainable Trawnsformation (InnoMEST)",
   "coordinators": "Dr. R.K. Gouda",
   "department": "Mechanical Engineering",
   "date": "28/11/25 To 30/11/25"
  },
  {
-  "sl_no": 101,
+  "sl_no": 82,
   "subject": "7th International Conference on \"Distributed Computing and Machine Learning (ICADCML-2026)",
   "coordinators": "Dr. Jitesh Pradhan ",
   "department": "Computer Science and Engineering",
