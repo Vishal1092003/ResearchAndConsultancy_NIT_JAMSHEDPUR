@@ -3,7 +3,7 @@ import Footer from "../components/Footer/Footer.jsx";
 import Navbar from "../components/Navbar/Navbar.jsx";
 import Tab from "../components/Tab/Tab.jsx";
 import messages from "../pages/dean&directorMsg.json";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import {
   AbhishekSir,
@@ -23,7 +23,16 @@ const imageMap = {
 
 const MessageTile = ({ data, reverse }) => {
   const [expanded, setExpanded] = useState(false);
+  const msgRef = useRef(null);
   const imgSrc = imageMap[data.image];
+
+  const toggleExpand = () => {
+    if (expanded && msgRef.current) {
+      // When collapsing, scroll message box back to top
+      msgRef.current.scrollTop = 0;
+    }
+    setExpanded(!expanded);
+  };
 
   return (
     <div
@@ -31,6 +40,7 @@ const MessageTile = ({ data, reverse }) => {
         reverse ? "md:flex-row-reverse" : ""
       } shadow-lg rounded-lg bg-white overflow-hidden w-full border border-gray-200`}
     >
+      {/* Left Side */}
       <div
         className={`flex flex-col items-center justify-center min-w-[20rem] p-6 border-b md:border-b-0 ${
           reverse ? "md:border-l" : "md:border-r"
@@ -59,14 +69,19 @@ const MessageTile = ({ data, reverse }) => {
         </div>
       </div>
 
+      {/* Right Side */}
       <div className="flex-1 p-6 flex flex-col justify-center bg-gray-50">
         <h2 className="font-serif text-2xl font-semibold text-gray-700 mb-4 text-center">
           {reverse ? "Director's Message" : "Dean's Message"}
         </h2>
         <div className="border-t border-gray-200 pt-4">
           <div
-            className="relative overflow-hidden transition-all duration-700 ease-in-out"
-            style={{ maxHeight: expanded ? "1000px" : "10rem" }}
+            ref={msgRef}
+            className={`relative transition-all duration-700 ease-in-out ${
+              expanded
+                ? "max-h-60 md:max-h-screen overflow-y-auto"
+                : "max-h-40 overflow-hidden"
+            }`}
           >
             <p className="text-gray-600 text-justify leading-relaxed">
               {data.message}
@@ -82,7 +97,7 @@ const MessageTile = ({ data, reverse }) => {
           </div>
           {data.message.length > 350 && (
             <button
-              onClick={() => setExpanded(!expanded)}
+              onClick={toggleExpand}
               className="mt-4 text-blue-600 hover:text-red-600 font-medium transition-colors"
             >
               {expanded ? "Read Less" : "Read More"}
@@ -93,6 +108,83 @@ const MessageTile = ({ data, reverse }) => {
     </div>
   );
 };
+
+// const MessageTile = ({ data, reverse }) => {
+//   const [expanded, setExpanded] = useState(false);
+//   const imgSrc = imageMap[data.image];
+
+//   return (
+//     <div
+//       className={`flex flex-col md:flex-row ${
+//         reverse ? "md:flex-row-reverse" : ""
+//       } shadow-lg rounded-lg bg-white overflow-hidden w-full border border-gray-200`}
+//     >
+//       <div
+//         className={`flex flex-col items-center justify-center min-w-[20rem] p-6 border-b md:border-b-0 ${
+//           reverse ? "md:border-l" : "md:border-r"
+//         } border-gray-200`}
+//       >
+//         <img
+//           src={imgSrc}
+//           alt={data.name}
+//           className="rounded-lg w-full max-w-[15rem] md:max-w-[18rem] object-cover aspect-square"
+//         />
+//         <div className="text-center mt-4 space-y-1">
+//           <h3 className="font-semibold text-lg text-gray-700">{data.name}</h3>
+//           <p className="text-gray-600 text-sm">{data.designation}</p>
+//           <p className="text-gray-600 text-sm">{data.department}</p>
+//           {data.phone_office && (
+//             <p className="text-gray-600 text-sm">
+//               Ph. (O): {data.phone_office}
+//             </p>
+//           )}
+//           {data.mobile && (
+//             <p className="text-gray-600 text-sm">Mob: {data.mobile}</p>
+//           )}
+//           <p className="text-blue-600 text-sm hover:underline">
+//             <a href={`mailto:${data.email}`}>{data.email}</a>
+//           </p>
+//         </div>
+//       </div>
+
+//       <div className="flex-1 p-6 flex flex-col justify-center bg-gray-50">
+//         <h2 className="font-serif text-2xl font-semibold text-gray-700 mb-4 text-center">
+//           {reverse ? "Director's Message" : "Dean's Message"}
+//         </h2>
+//         <div className="border-t border-gray-200 pt-4">
+//           <div
+//             className={`relative transition-all duration-700 ease-in-out ${
+//               expanded
+//                 ? "max-h-60 md:max-h-screen overflow-y-auto"
+//                 : "max-h-40 overflow-hidden"
+//             }`}
+//           >
+//             <p className="text-gray-600 text-justify leading-relaxed">
+//               {data.message}
+//             </p>
+//             {!expanded && data.message.length > 350 && (
+//               <div
+//                 className="absolute bottom-0 left-0 w-full h-12"
+//                 style={{
+//                   background: "linear-gradient(to top, #f9fafb, transparent)",
+//                 }}
+//               ></div>
+//             )}
+//           </div>
+
+//           {data.message.length > 350 && (
+//             <button
+//               onClick={() => setExpanded(!expanded)}
+//               className="mt-4 text-blue-600 hover:text-red-600 font-medium transition-colors"
+//             >
+//               {expanded ? "Read Less" : "Read More"}
+//             </button>
+//           )}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
 const teams = {
   "Associate Deans": [
@@ -175,7 +267,7 @@ const teams = {
       role: "Web Team Member",
       img: "./adityaRaj.jpg",
       linkedin: "https://www.linkedin.com/aditraj24",
-      email: "adityarajykme24@gmail.com",
+      email: "2024ugcs012@nitjsr.ac.in",
     },
     {
       name: "Anoop Kumar Burnwal",
@@ -189,7 +281,14 @@ const teams = {
       role: "Web Team Member",
       img: "./rishav.jpg",
       linkedin: "https://www.linkedin.com/in/y0rishav",
-      email: "rishavkashyap7120@gmail.com",
+      email: "2024ugcs017@nitjsr.ac.in",
+    },
+    {
+      name: "MINU KUMARI",
+      role: "Web Team Member",
+      img: "./minuKumari.jpg",
+      linkedin: "https://www.linkedin.com/in/minu-kumari-8a492033a",
+      email: "2024ugcs022@nitjsr.ac.in",
     },
     {
       name: "Swayam Agarwal",
@@ -197,7 +296,7 @@ const teams = {
       img: "./swayam.jpg",
       linkedin:
         "https://www.linkedin.com/in/swayam-agarwal-2b941b323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      email: "itzswayam890@gmail.com",
+      email: "2024ugcs066@nitjsr.ac.in",
     },
     // {
     //   name: "Awaish Ehsan",
@@ -211,15 +310,9 @@ const teams = {
       role: "Web Team Member",
       img: "./yogesh.png",
       linkedin: "https://www.linkedin.com/in/yogesh-meena-",
-      email: "yogeshchhandhwal2005@gmail.com",
+      email: "2024ugcm015@nitjsr.ac.in",
     },
-    {
-      name: "MINU KUMARI",
-      role: "Web Team Member",
-      img: "./minuKumari.jpg",
-      linkedin: "https://www.linkedin.com/in/minu-kumari-8a492033a",
-      email: "2024ugcs022@nitjsr.ac.in",
-    },
+
     // {
     //   name: "Ishika Gupta",
     //   role: "Web Team Member",
