@@ -15,7 +15,7 @@ const Workshops = () => {
       </div>
 
       <div className="md:top-[190px] z-40 bg-blue-600 text-white py-4 text-center text-xl md:text-2xl font-bold shadow-md">
-        Workshops / Conferences / STC / STTP / FDP - 2025
+        Workshops / Conferences / STC / STTP / FDP 
       </div>
 
       <div className="pb-20">
