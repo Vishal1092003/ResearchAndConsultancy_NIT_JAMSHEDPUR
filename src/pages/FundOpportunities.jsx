@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Navbar from '@/components/Navbar/Navbar';
 import Tab from '@/components/Tab/Tab';
-import {  Play, Pause, Volume2, VolumeX, Maximize2, Minimize2, X, Mail, Phone, MapPin, Globe, Facebook, Twitter, Linkedin, Youtube, Instagram } from 'lucide-react';
 import Footer from '@/components/Footer/Footer';
+import {  Play, Pause, Volume2, VolumeX, Maximize2, Minimize2, X, Mail, Phone, MapPin, Globe, Facebook, Twitter, Linkedin, Youtube, Instagram } from 'lucide-react';
+
 const SectionHeader = ({ title, subtitle }) => (
   <div className="w-full px-2 sm:px-4">
     <div className="bg-blue-600 text-white rounded-xl shadow-lg px-4 sm:px-6 py-4 sm:py-5 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-2">
@@ -67,6 +68,7 @@ const TableSection = ({ title, data, columns }) => (
 );
 
 
+
 const FundOpportunities = () => {
   const sectionsRef = useRef([]);
   const [showVideo, setShowVideo] = useState(true);
@@ -75,7 +77,27 @@ const FundOpportunities = () => {
   const [isMinimized, setIsMinimized] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
+  const [showControls, setShowControls] = useState(true);
   const videoRef = useRef(null);
+  const controlsTimeoutRef = useRef(null);
+
+  // Auto-hide controls functionality
+  const resetControlsTimeout = () => {
+    if (controlsTimeoutRef.current) {
+      clearTimeout(controlsTimeoutRef.current);
+    }
+    
+    if (isPlaying && !isMinimized) {
+      controlsTimeoutRef.current = setTimeout(() => {
+        setShowControls(false);
+      }, 3000);
+    }
+  };
+
+  const showControlsTemporarily = () => {
+    setShowControls(true);
+    resetControlsTimeout();
+  };
 
   useEffect(() => {
     const observerOptions = {
@@ -137,6 +159,24 @@ const FundOpportunities = () => {
     }
   }, [showVideo]);
 
+  // Effect to handle auto-hide controls when playing state changes
+  useEffect(() => {
+    if (isPlaying && !isMinimized) {
+      resetControlsTimeout();
+    } else {
+      if (controlsTimeoutRef.current) {
+        clearTimeout(controlsTimeoutRef.current);
+      }
+      setShowControls(true);
+    }
+
+    return () => {
+      if (controlsTimeoutRef.current) {
+        clearTimeout(controlsTimeoutRef.current);
+      }
+    };
+  }, [isPlaying, isMinimized]);
+
   const togglePlayPause = () => {
     if (videoRef.current) {
       if (isPlaying) {
@@ -173,6 +213,11 @@ const FundOpportunities = () => {
 
   const handleVideoClick = () => {
     togglePlayPause();
+    showControlsTemporarily();
+  };
+
+  const handleMouseMove = () => {
+    showControlsTemporarily();
   };
 
   const addToRefs = (el) => {
@@ -278,14 +323,14 @@ const FundOpportunities = () => {
       </div>
 
       {/* Video Section */}
-      <div className="w-full mt-4 sm:mt-6 mb-6 sm:mb-8 px-2 sm:px-4">
-        <div className={`relative mx-auto rounded-xl overflow-hidden bg-black transition-all duration-500 shadow-xl border-4 border-blue-600 ${
+      <div className="w-full mt-2 sm:mt-4 mb-4 sm:mb-6 px-2 sm:px-4">
+        <div className={`relative mx-auto rounded-lg overflow-hidden bg-black transition-all duration-500 shadow-lg border-2 border-blue-600 ${
           isMinimized 
             ? 'w-80 h-48 fixed bottom-4 right-4 z-50' 
-            : 'w-full max-w-6xl aspect-video'
+            : 'w-full max-w-4xl h-48 sm:h-64 md:aspect-video md:h-auto'
         }`}>
           {showVideo ? (
-            <div className="relative w-full h-full">
+            <div className="relative w-full h-full" onMouseMove={handleMouseMove}>
               <video
                 ref={videoRef}
                 className="w-full h-full object-cover cursor-pointer"
@@ -299,41 +344,23 @@ const FundOpportunities = () => {
               />
               
               {/* Video Controls */}
-              <div className={`absolute bottom-4 left-4 right-4 bg-black bg-opacity-70 rounded-lg ${
-                isMinimized ? 'p-2' : 'p-3'
-              }`}>
-                {/* Progress Bar */}
-                {!isMinimized && duration > 0 && (
-                  <div className="mb-3">
-                    <div 
-                      className="w-full bg-gray-600 rounded-full h-1 cursor-pointer hover:h-2 transition-all duration-200"
-                      onClick={handleProgressClick}
-                    >
-                      <div 
-                        className="bg-blue-500 h-full rounded-full transition-all duration-200"
-                        style={{ width: `${(currentTime / duration) * 100}%` }}
-                      />
-                    </div>
-                    <div className="flex justify-between text-xs text-white mt-1">
-                      <span>{formatTime(currentTime)}</span>
-                      <span>{formatTime(duration)}</span>
-                    </div>
-                  </div>
-                )}
-
-                <div className="flex justify-between items-center">
-                  <div className={`flex ${isMinimized ? 'space-x-2' : 'space-x-3'}`}>
+              <div className={`absolute bottom-2 left-2 right-2 bg-black bg-opacity-70 rounded-md transition-opacity duration-300 ${
+                showControls ? 'opacity-100' : 'opacity-0'
+              } ${isMinimized ? 'p-1.5' : 'p-2'}`}>
+                <div className="flex items-center justify-between">
+                  {/* Left Controls */}
+                  <div className={`flex ${isMinimized ? 'space-x-1.5' : 'space-x-2'}`}>
                     <button
                       onClick={toggleMinimize}
                       className={`bg-white bg-opacity-90 rounded-full flex items-center justify-center cursor-pointer transition-all duration-300 hover:bg-white hover:scale-110 ${
-                        isMinimized ? 'w-8 h-8' : 'w-10 h-10'
+                        isMinimized ? 'w-7 h-7' : 'w-8 h-8'
                       }`}
                       title={isMinimized ? "Maximize" : "Minimize"}
                     >
                       {isMinimized ? (
-                        <Maximize2 className="w-4 h-4 text-gray-800" />
+                        <Maximize2 className="w-3.5 h-3.5 text-gray-800" />
                       ) : (
-                        <Minimize2 className="w-5 h-5 text-gray-800" />
+                        <Minimize2 className="w-4 h-4 text-gray-800" />
                       )}
                     </button>
 
@@ -341,23 +368,23 @@ const FundOpportunities = () => {
                       <>
                         <button
                           onClick={togglePlayPause}
-                          className="w-10 h-10 bg-white bg-opacity-90 rounded-full flex items-center justify-center cursor-pointer transition-all duration-300 hover:bg-white hover:scale-110"
+                          className="w-8 h-8 bg-white bg-opacity-90 rounded-full flex items-center justify-center cursor-pointer transition-all duration-300 hover:bg-white hover:scale-110"
                         >
                           {isPlaying ? (
-                            <Pause className="w-5 h-5 text-gray-800" />
+                            <Pause className="w-4 h-4 text-gray-800" />
                           ) : (
-                            <Play className="w-5 h-5 text-gray-800 ml-1" />
+                            <Play className="w-4 h-4 text-gray-800 ml-0.5" />
                           )}
                         </button>
 
                         <button
                           onClick={toggleMute}
-                          className="w-10 h-10 bg-white bg-opacity-90 rounded-full flex items-center justify-center cursor-pointer transition-all duration-300 hover:bg-white hover:scale-110"
+                          className="w-8 h-8 bg-white bg-opacity-90 rounded-full flex items-center justify-center cursor-pointer transition-all duration-300 hover:bg-white hover:scale-110"
                         >
                           {isMuted ? (
-                            <VolumeX className="w-5 h-5 text-gray-800" />
+                            <VolumeX className="w-4 h-4 text-gray-800" />
                           ) : (
-                            <Volume2 className="w-5 h-5 text-gray-800" />
+                            <Volume2 className="w-4 h-4 text-gray-800" />
                           )}
                         </button>
                       </>
@@ -366,17 +393,28 @@ const FundOpportunities = () => {
                     {isMinimized && (
                       <button
                         onClick={() => setShowVideo(false)}
-                        className="w-8 h-8 bg-red-500 bg-opacity-90 rounded-full flex items-center justify-center cursor-pointer transition-all duration-300 hover:bg-red-600 hover:scale-110"
+                        className="w-7 h-7 bg-red-500 bg-opacity-90 rounded-full flex items-center justify-center cursor-pointer transition-all duration-300 hover:bg-red-600 hover:scale-110"
                         title="Close Video"
                       >
-                        <X className="w-4 h-4 text-white" />
+                        <X className="w-3.5 h-3.5 text-white" />
                       </button>
                     )}
                   </div>
                   
-                  {!isMinimized && (
-                    <div className="text-white text-sm">
-                      Research Funding Overview
+                  {/* Progress Bar and Time - Inline */}
+                  {!isMinimized && duration > 0 && (
+                    <div className="flex items-center space-x-2 flex-1 mx-3">
+                      <span className="text-xs text-white whitespace-nowrap">{formatTime(currentTime)}</span>
+                      <div 
+                        className="flex-1 bg-gray-600 rounded-full h-1 cursor-pointer hover:h-1.5 transition-all duration-200"
+                        onClick={handleProgressClick}
+                      >
+                        <div 
+                          className="bg-blue-500 h-full rounded-full transition-all duration-200"
+                          style={{ width: `${(currentTime / duration) * 100}%` }}
+                        />
+                      </div>
+                      <span className="text-xs text-white whitespace-nowrap">{formatTime(duration)}</span>
                     </div>
                   )}
                 </div>
@@ -386,18 +424,18 @@ const FundOpportunities = () => {
             <div className="w-full h-full flex items-center justify-center bg-gray-800">
               <button 
                 onClick={() => setShowVideo(true)}
-                className="w-20 h-20 bg-white bg-opacity-90 rounded-full flex items-center justify-center cursor-pointer transition-all duration-300 hover:bg-white hover:scale-110"
+                className="w-16 h-16 bg-white bg-opacity-90 rounded-full flex items-center justify-center cursor-pointer transition-all duration-300 hover:bg-white hover:scale-110"
               >
-                <Play className="w-8 h-8 text-gray-800 ml-1" />
+                <Play className="w-6 h-6 text-gray-800 ml-1" />
               </button>
             </div>
           )}
         </div>
         
         {!isMinimized && (
-          <div className="text-center mt-6">
-            <h3 className="text-xl sm:text-2xl font-bold text-gray-800">Research Funding: A Complete Overview</h3>
-            <p className="mt-2 text-gray-600 text-base sm:text-lg">Learn about various funding opportunities and application processes for research projects</p>
+          <div className="text-center mt-3 sm:mt-4">
+            <h3 className="text-lg sm:text-xl font-bold text-gray-800">Research Funding: A Complete Overview</h3>
+            <p className="mt-1 text-gray-600 text-sm sm:text-base">Learn about various funding opportunities and application processes for research projects</p>
           </div>
         )}
       </div>
@@ -409,7 +447,7 @@ const FundOpportunities = () => {
             Research Funding Opportunities
           </h1>
           <p className="mt-2 text-base sm:text-lg lg:text-xl font-medium">
-            Comprehensive Guide for Faculty at NIT JAMSHEDPUR
+            Comprehensive Guide for Funding at NIT JAMSHEDPUR
           </p>
         </div>
       </header>
@@ -587,7 +625,7 @@ const FundOpportunities = () => {
       </main>
 
       {/* Footer */}
-      <Footer/>
+      <Footer />
     </div>
   );
 };
