@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar/Navbar';
 import Tab from '@/components/Tab/Tab';
 
 const pdfFiles = [
-  "Expenditure on Filling the Patent.pdf",
+  "Expenditure on Filing the Patent.pdf",
   "Procurment Rule 08-07-2025.pdf",
   "RC_Rule.pdf",
   "Annexure III.pdf",
