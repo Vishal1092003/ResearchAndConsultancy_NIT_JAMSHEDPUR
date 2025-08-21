@@ -22,13 +22,6 @@
       "mobile": ""
     },
     {
-      "name": "Dr. Titas Kumar Mukhopadhyay",
-      "designation": "Assistant Professor",
-      "area_of_research": "Computational chemistry, Molecular Dynamics Simulations and Density Functional Theory",
-      "email": "titas.chem@nitjsr.ac.in",
-      "mobile": "8697917424"
-    },
-    {
       "name": "Dr Moumtia Mondal",
       "designation": "Assistant Professor",
       "area_of_research": "Organomettalic Chemistry, Catalysis",
@@ -76,6 +69,13 @@
       "area_of_research": "Synthesis of Flourescent Probes and Cell Imaging, Development of New methodology Asymmetric Organic Synthesis",
       "email": "tapas.chem@nitjsr.ac.in",
       "mobile": ""
+    },
+    {
+      "name": "Dr. Titas Kumar Mukhopadhyay",
+      "designation": "Assistant Professor",
+      "area_of_research": "Computational chemistry, Molecular Dynamics Simulations and Density Functional Theory",
+      "email": "titas.chem@nitjsr.ac.in",
+      "mobile": "8697917424"
     }
   ]
 }

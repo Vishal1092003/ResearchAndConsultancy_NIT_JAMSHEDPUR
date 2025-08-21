@@ -36,13 +36,6 @@
       "mobile": "6203724557"
     },
     {
-      "name": "Dr. Y Ramu Naidu",
-      "designation": "Assistant Professor",
-      "area_of_research": "Optimization (Evolutionary Algorithms)",
-      "email": "ramunaidu.math@nitjsr.ac.in",
-      "mobile": "7978812189"
-    },
-    {
       "name": "Dr Rajat Tripathi",
       "designation": "Assistant Professor",
       "area_of_research": "Bubble Dynamics, Magnetohydrodynamics",
@@ -90,6 +83,13 @@
       "area_of_research": "Cryptography, Fuzzy, Operational Research",
       "email": "sdebnath.math@nitjsr.ac.in",
       "mobile": ""
+    },
+    {
+      "name": "Dr. Y Ramu Naidu",
+      "designation": "Assistant Professor",
+      "area_of_research": "Optimization (Evolutionary Algorithms)",
+      "email": "ramunaidu.math@nitjsr.ac.in",
+      "mobile": "7978812189"
     }
   ]
 }

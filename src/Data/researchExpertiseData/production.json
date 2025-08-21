@@ -36,32 +36,18 @@
       "mobile": ""
     },
     {
-      "name": "Dr Dinesh Kumar",
-      "designation": "Assistant Professor",
-      "area_of_research": "Supply chain management, Optimization",
-      "email": "dinesh.prod@nitjsr.ac.in",
-      "mobile": "9084932611"
-    },
-    {
-      "name": "Dr Mayuri Baruah",
-      "designation": "Assistant Professor",
-      "area_of_research": "Welding, Additive manufacturing",
-      "email": "mayuri.prod@nitjsr.ac.in",
-      "mobile": "9678434603"
-    },
-    {
-      "name": "Dr Tushar Banerjee",
-      "designation": "Assistant Professor",
-      "area_of_research": "Materials Characterization, pipelines, special alloys, polymers etc.",
-      "email": "tbanerjee.prod@nitjsr.ac.in",
-      "mobile": "9903431894"
-    },
-    {
       "name": "Dr Dharmendra Patel",
       "designation": "Assistant Professor",
       "area_of_research": "",
       "email": "dpatel.prod@nitjsr.ac.in",
       "mobile": ""
+    },
+    {
+      "name": "Dr Dinesh Kumar",
+      "designation": "Assistant Professor",
+      "area_of_research": "Supply chain management, Optimization",
+      "email": "dinesh.prod@nitjsr.ac.in",
+      "mobile": "9084932611"
     },
     {
       "name": "Dr Gunda Yoganjaneyulu",
@@ -85,6 +71,13 @@
       "mobile": ""
     },
     {
+      "name": "Dr Mayuri Baruah",
+      "designation": "Assistant Professor",
+      "area_of_research": "Welding, Additive manufacturing",
+      "email": "mayuri.prod@nitjsr.ac.in",
+      "mobile": "9678434603"
+    },
+    {
       "name": "Dr Shubham Tripathi",
       "designation": "Assistant Professor",
       "area_of_research": "Industry 4.0, Operations Research",
@@ -97,6 +90,13 @@
       "area_of_research": "",
       "email": "susmita.prod@nitjsr.ac.in",
       "mobile": ""
+    },
+    {
+      "name": "Dr Tushar Banerjee",
+      "designation": "Assistant Professor",
+      "area_of_research": "Materials Characterization, pipelines, special alloys, polymers etc.",
+      "email": "tbanerjee.prod@nitjsr.ac.in",
+      "mobile": "9903431894"
     }
   ]
 }

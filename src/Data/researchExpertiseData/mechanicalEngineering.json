@@ -8,20 +8,6 @@
       "designation": "Professor"
     },
     {
-      "name": "Prof. Satish Kumar",
-      "area_of_research": "CFD, Rheology of Multiphase Flow, Erosion Wear",
-      "email": "satish.me@nitjsr.ac.in",
-      "mobile": "9417923801",
-      "designation": "Professor"
-    },
-    {
-      "name": "Prof. Ram Vinoy Sharma",
-      "area_of_research": "Heat Transfer, CFD And Renewable Energy",
-      "email": "rvsharma.me@nitjsr.ac.in",
-      "mobile": "",
-      "designation": "Professor"
-    },
-    {
       "name": "Prof Mrityunjay Kumar Sinha",
       "area_of_research": "CFD",
       "email": "mksinha.me@nitjsr.ac.in",
@@ -33,6 +19,13 @@
       "area_of_research": "Thermal Engg., Solar Energy, Space Engg.",
       "email": "pchand.me@nitjsr.ac.in",
       "mobile": "7903825868",
+      "designation": "Professor"
+    },
+    {
+      "name": "Prof. Ram Vinoy Sharma",
+      "area_of_research": "Heat Transfer, CFD And Renewable Energy",
+      "email": "rvsharma.me@nitjsr.ac.in",
+      "mobile": "",
       "designation": "Professor"
     },
     {
@@ -50,37 +43,12 @@
       "designation": "Professor"
     },
     {
-      "name": "Dr Parmanand Kumar",
-      "area_of_research": "Thermal",
-      "email": "pkumar.me@nitjsr.ac.in",
-      "mobile": "",
-      "designation": "Associate Professor"
+      "name": "Prof. Satish Kumar",
+      "area_of_research": "CFD, Rheology of Multiphase Flow, Erosion Wear",
+      "email": "satish.me@nitjsr.ac.in",
+      "mobile": "9417923801",
+      "designation": "Professor"
     },
-
-    {
-      "name": "Dr M A Hassan",
-      "area_of_research": "Material Characterization, Heat Transfer, Piping And CFD",
-      "email": "hassan.me@nitjsr.ac.in",
-      "mobile": "9801082645",
-      "designation": "Associate Professor"
-    },
-
-    {
-      "name": "Dr. Saikat Ranjan Maity",
-      "area_of_research": "Laser Based Additive Manufacturing, Digital Twin",
-      "email": "srmaity.me@nitjsr.ac.in",
-      "mobile": "9733544513",
-      "designation": "Associate Professor"
-    },
-
-    {
-      "name": "Dr. Pranab Kumar Kundu",
-      "area_of_research": "Microfluidics And Its Applications On: Biomedical, Thermal Management",
-      "email": "pranab.me@nitjsr.ac.in",
-      "mobile": "94338877700",
-      "designation": "Associate Professor"
-    },
-
     {
       "name": "Dr Anil Prasad",
       "area_of_research": "Energy and Water Conservation in Energy Extensive Plant, Modelling and Simulation",
@@ -88,7 +56,6 @@
       "mobile": "",
       "designation": "Associate Professor"
     },
-
     {
       "name": "Dr K D P Singh",
       "area_of_research": "Heat Transfer, Thermal Engineering and Solar Energy",
@@ -104,10 +71,45 @@
       "designation": "Associate Professor"
     },
     {
-      "name": "Dr. Ashok Kumar Mandal",
-      "area_of_research": "Non Linear Mechanics, Mechanics of Musical Instruments",
-      "email": "ashok.me@nitjsr.ac.in",
-      "mobile": "9559754134",
+      "name": "Dr M A Hassan",
+      "area_of_research": "Material Characterization, Heat Transfer, Piping And CFD",
+      "email": "hassan.me@nitjsr.ac.in",
+      "mobile": "9801082645",
+      "designation": "Associate Professor"
+    },
+    {
+      "name": "Dr. Pranab Kumar Kundu",
+      "area_of_research": "Microfluidics And Its Applications On: Biomedical, Thermal Management",
+      "email": "pranab.me@nitjsr.ac.in",
+      "mobile": "94338877700",
+      "designation": "Associate Professor"
+    },
+    {
+      "name": "Dr Parmanand Kumar",
+      "area_of_research": "Thermal",
+      "email": "pkumar.me@nitjsr.ac.in",
+      "mobile": "",
+      "designation": "Associate Professor"
+    },
+    {
+      "name": "Dr. Saikat Ranjan Maity",
+      "area_of_research": "Laser Based Additive Manufacturing, Digital Twin",
+      "email": "srmaity.me@nitjsr.ac.in",
+      "mobile": "9733544513",
+      "designation": "Associate Professor"
+    },
+    {
+      "name": "Dr. Abhijit Dey",
+      "area_of_research": "Thin film and Coating, Machining of MMC",
+      "email": "abhijit.me@nitjsr.ac.in",
+      "mobile": "8899778875",
+      "designation": "Assistant Professor"
+    },
+    {
+      "name": "Dr Abhishek Sharma",
+      "area_of_research": "Biomaterials, Metal Matrix Nanocomposites",
+      "email": "abhishek.me@nitjsr.ac.in",
+      "mobile": "",
       "designation": "Assistant Professor"
     },
     {
@@ -118,44 +120,37 @@
       "designation": "Assistant Professor"
     },
     {
-      "name": "Dr. Abhijit Dey",
-      "area_of_research": "Thin film and Coating, Machining of MMC",
-      "email": "abhijit.me@nitjsr.ac.in",
-      "mobile": "8899778875",
+      "name": "Dr. Arvind Kumar Patel",
+      "area_of_research": "Refrigeration and Air Conditioning, Human Thermal Comfort, PV Cell Recycling",
+      "email": "arvind.me@nitjsr.ac.in",
+      "mobile": "8878734337",
       "designation": "Assistant Professor"
     },
     {
-      "name": "Dr. Sankar Kumar Roy",
-      "area_of_research": "Experimental Mechanics, Machine Vibrations and Health Monitoring",
-      "email": "sankarroy.me@nitjsr.ac.in",
-      "mobile": "8910961429",
+      "name": "Dr Ashok Kumar Barik",
+      "area_of_research": "Constructal Theory and Its Applications in Engineering Perspectives",
+      "email": "ashokbarik.me@nitjsr.ac.in",
+      "mobile": "",
       "designation": "Assistant Professor"
     },
     {
-      "name": "Dr. Shashank Pandey",
-      "area_of_research": "Plates and Shell Theories, Finite Element Method",
-      "email": "shashankpandey.me@nitjsr.ac.in",
-      "mobile": "9555755980",
+      "name": "Dr. Ashok Kumar Mandal",
+      "area_of_research": "Non Linear Mechanics, Mechanics of Musical Instruments",
+      "email": "ashok.me@nitjsr.ac.in",
+      "mobile": "9559754134",
       "designation": "Assistant Professor"
     },
     {
-      "name": "Dr. Vishesh Ranjan Kar",
-      "area_of_research": "Thermo Mechanics, Vibrations and Stability",
-      "email": "vishesh.me@nitjsr.ac.in",
-      "mobile": "9439569975",
+      "name": "Dr Bipin Kumar",
+      "area_of_research": "Design",
+      "email": "bipinkumar.me@nitjsr.ac.in",
+      "mobile": "",
       "designation": "Assistant Professor"
     },
     {
-      "name": "Dr. Rinku Kumar Gouda",
-      "area_of_research": "Surface Wettability, Micro/Nano Scale Fluid and Heat Transport",
-      "email": "rinkugouda.me@nitjsr.ac.in",
-      "mobile": "8895642312",
-      "designation": "Assistant Professor"
-    },
-    {
-      "name": "Dr Abhishek Sharma",
-      "area_of_research": "Biomaterials, Metal Matrix Nanocomposites",
-      "email": "abhishek.me@nitjsr.ac.in",
+      "name": "Dr Deepak Kumar",
+      "area_of_research": "Natural/Forced Convection",
+      "email": "deepak.me@nitjsr.ac.in",
       "mobile": "",
       "designation": "Assistant Professor"
     },
@@ -174,27 +169,6 @@
       "designation": "Assistant Professor"
     },
     {
-      "name": "Dr. Vijay Kumar Dalla",
-      "area_of_research": "Robotics, Failure Analysis of Machines/Materials, Drones",
-      "email": "vijaydalla.me@nitjsr.ac.in",
-      "mobile": "8126084443",
-      "designation": "Assistant Professor"
-    },
-    {
-      "name": "Dr Bipin Kumar",
-      "area_of_research": "Design",
-      "email": "bipinkumar.me@nitjsr.ac.in",
-      "mobile": "",
-      "designation": "Assistant Professor"
-    },
-    {
-      "name": "Dr Deepak Kumar",
-      "area_of_research": "Natural/Forced Convection",
-      "email": "deepak.me@nitjsr.ac.in",
-      "mobile": "",
-      "designation": "Assistant Professor"
-    },
-    {
       "name": "Dr Naresh Prasad",
       "area_of_research": "Composite Materials",
       "email": "nprasad.me@nitjsr.ac.in",
@@ -202,9 +176,16 @@
       "designation": "Assistant Professor"
     },
     {
-      "name": "Dr Ashok Kumar Barik",
-      "area_of_research": "Constructal Theory and Its Applications in Engineering Perspectives",
-      "email": "ashokbarik.me@nitjsr.ac.in",
+      "name": "Dr Rinku Kumar Gouda",
+      "area_of_research": "Surface Wettability, Micro/Nano Scale Fluid and Heat Transport",
+      "email": "rinkugouda.me@nitjsr.ac.in",
+      "mobile": "8895642312",
+      "designation": "Assistant Professor"
+    },
+    {
+      "name": "Dr S K S Kambhammettu",
+      "area_of_research": "Design",
+      "email": "ksksudhamsu.me@nitjsr.ac.in",
       "mobile": "",
       "designation": "Assistant Professor"
     },
@@ -212,15 +193,7 @@
       "name": "Dr Sankar Kumar Roy",
       "area_of_research": "Experimental Mechanics, Machine Vibration & Health Monitoring, Structural Vibration",
       "email": "sankarroy.me@nitjsr.ac.in",
-      "mobile": "",
-      "designation": "Assistant Professor"
-    },
-
-    {
-      "name": "Dr S K S Kambhammettu",
-      "area_of_research": "Design",
-      "email": "ksksudhamsu.me@nitjsr.ac.in",
-      "mobile": "",
+      "mobile": "8910961429",
       "designation": "Assistant Professor"
     },
     {
@@ -231,6 +204,13 @@
       "designation": "Assistant Professor"
     },
     {
+      "name": "Dr. Shashank Pandey",
+      "area_of_research": "Plates and Shell Theories, Finite Element Method",
+      "email": "shashankpandey.me@nitjsr.ac.in",
+      "mobile": "9555755980",
+      "designation": "Assistant Professor"
+    },
+    {
       "name": "Dr Vineet Sahoo",
       "area_of_research": "CAD, Design of Mechanical Power Transmitting Devices",
       "email": "vsahoo.me@nitjsr.ac.in",
@@ -238,10 +218,17 @@
       "designation": "Assistant Professor"
     },
     {
-      "name": "Dr. Arvind Kumar Patel",
-      "area_of_research": "Refrigeration and Air Conditioning, Human Thermal Comfort, PV Cell Recycling",
-      "email": "arvind.me@nitjsr.ac.in",
-      "mobile": "8878734337",
+      "name": "Dr. Vijay Kumar Dalla",
+      "area_of_research": "Robotics, Failure Analysis of Machines/Materials, Drones",
+      "email": "vijaydalla.me@nitjsr.ac.in",
+      "mobile": "8126084443",
+      "designation": "Assistant Professor"
+    },
+    {
+      "name": "Dr. Vishesh Ranjan Kar",
+      "area_of_research": "Thermo Mechanics, Vibrations and Stability",
+      "email": "vishesh.me@nitjsr.ac.in",
+      "mobile": "9439569975",
       "designation": "Assistant Professor"
     }
   ]

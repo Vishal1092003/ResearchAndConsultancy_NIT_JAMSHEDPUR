@@ -15,17 +15,17 @@
       "mobile": ""
     },
     {
-      "name": "Mr Ajay Kumar Singh",
-      "designation": "Associate Professor",
-      "area_of_research": "Holography, Uses of Holographic optical elements",
-      "email": "aksingh.phy@nitjsr.ac.in",
-      "mobile": ""
-    },
-    {
       "name": "Dr Rajeev Ranjan",
       "designation": "Associate Professor",
       "area_of_research": "",
       "email": "rranjan.phy@nitjsr.ac.in",
+      "mobile": ""
+    },
+    {
+      "name": "Mr Ajay Kumar Singh",
+      "designation": "Associate Professor",
+      "area_of_research": "Holography, Uses of Holographic optical elements",
+      "email": "aksingh.phy@nitjsr.ac.in",
       "mobile": ""
     },
     {
@@ -34,6 +34,13 @@
       "area_of_research": "Foundations of mathematical science",
       "email": "abhishek.phy@nitjsr.ac.in",
       "mobile": "6290671477"
+    },
+    {
+      "name": "Mr. Bibekananda Kundu",
+      "designation": "Assistant Professor",
+      "area_of_research": "",
+      "email": "bkundu.phy@nitjsr.ac.in",
+      "mobile": ""
     },
     {
       "name": "Neha Agnihotri",
@@ -48,13 +55,6 @@
       "area_of_research": "Green hydrogen system design and development, Machine Learning based Material design",
       "email": "uday.phy@nitjsr.ac.in",
       "mobile": "8969148580"
-    },
-    {
-      "name": "Mr. Bibekananda Kundu",
-      "designation": "Assistant Professor",
-      "area_of_research": "",
-      "email": "bkundu.phy@nitjsr.ac.in",
-      "mobile": ""
     }
   ]
 }
