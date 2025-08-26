@@ -1,548 +1,1096 @@
 {
-    "sheet1":[
-        {
-          "s_no": 1,
-          "name": "Abdhesh Kumar sinha",
-          "department": "Civil Engineering",
-          "patent_application_number": "406989-001",
-          "status": "Published",
-          "date": "2024-04-25"
-        },
-        {
-          "s_no": 2,
-          "name": "AJAY KUMAR",
-          "department": "Electronics and Communication Engineering",
-          "patent_application_number": "202331056079 A",
-          "status": "Published",
-          "date": "2023-10-06"
-        },
-        {
-          "s_no": 3,
-          "name": "AJAY KUMAR",
-          "department": "Electronics and Communication Engineering",
-          "patent_application_number": "202331043849 A",
-          "status": "Published",
-          "date": "2023-08-18"
-        },
-        {
-          "s_no": 4,
-          "name": "PRABHA CHAND",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "202231051822",
-          "status": "Published",
-          "date": "2022-09-16"
-        },
-        {
-          "s_no": 5,
-          "name": "PRABHA CHAND",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "202231051879",
-          "status": "Published",
-          "date": "2022-09-23"
-        },
-        {
-          "s_no": 6,
-          "name": "PRABHA CHAND",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "6338051",
-          "status": "Granted",
-          "date": "2024-01-06"
-        },
-        {
-          "s_no": 7,
-          "name": "Dr. Kanika Prasad",
-          "department": "Production and Industrial Engineering",
-          "patent_application_number": "202431020871 A",
-          "status": "Published",
-          "date": "2024-04-05"
-        },
-        {
-          "s_no": 8,
-          "name": "Dr KRISHNA DEO PRASAD SINGH",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "409778-001",
-          "status": "Applied",
-          "date": "2024-03-08"
-        },
-        {
-          "s_no": 9,
-          "name": "Omhari Gupta",
-          "department": "Electrical Engineering",
-          "patent_application_number": "202231054850",
-          "status": "Granted",
-          "date": "2023-11-15"
-        },
-        {
-          "s_no": 10,
-          "name": "Dr. Rashmi Sinha",
-          "department": "Electronics and Communication Engineering",
-          "patent_application_number": "202431030949",
-          "status": "Applied",
-          "date": "2024-04-18"
-        },
-        {
-          "s_no": 11,
-          "name": "Dr. Rashmi Sinha",
-          "department": "Electronics and Communication Engineering",
-          "patent_application_number": "202431018381",
-          "status": "Applied",
-          "date": "2024-03-13"
-        },
-        {
-          "s_no": 12,
-          "name": "Dr. Rashmi Sinha",
-          "department": "Electronics and Communication Engineering",
-          "patent_application_number": "202231060699",
-          "status": "Granted",
-          "date": "2023-05-12"
-        },
-        {
-          "s_no": 13,
-          "name": "Dr. Rashmi Sinha",
-          "department": "Electronics and Communication Engineering",
-          "patent_application_number": "EMP/E-1/29503/2020-KOL. 2020",
-          "status": "Published",
-          "date": "2021-12-31"
-        },
-        {
-          "s_no": 14,
-          "name": "Kunal Singh",
-          "department": "Electronics and Communication Engineering",
-          "patent_application_number": "202431034004",
-          "status": "Applied",
-          "date": "2024-05-10"
-        },
-        {
-          "s_no": 15,
-          "name": "Dr. SURAJIT KUNDU",
-          "department": "Electronics and Communication Engineering",
-          "patent_application_number": "202331066374",
-          "status": "Published",
-          "date": "2023-10-13"
-        },
-        {
-          "s_no": 16,
-          "name": "Dr. SURAJIT KUNDU",
-          "department": "Electronics and Communication Engineering",
-          "patent_application_number": "202431036854",
-          "status": "Applied",
-          "date": "2024-05-09"
-        },
-        {
-          "s_no": 17,
-          "name": "Dr. Subhadeep Metya",
-          "department": "Civil Engineering",
-          "patent_application_number": "202431015608",
-          "status": "Published",
-          "date": "2024-03-22"
-        },
-        {
-          "s_no": 18,
-          "name": "Dr. Subhadeep Metya",
-          "department": "Civil Engineering",
-          "patent_application_number": "202431027378",
-          "status": "Published",
-          "date": "2024-04-19"
-        },
-        {
-          "s_no": 19,
-          "name": "Deepak Kumar",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "202431008660",
-          "status": "Published",
-          "date": "2024-02-16"
-        },
-        {
-          "s_no": 20,
-          "name": "Deepak Kumar",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "202431015448",
-          "status": "Published",
-          "date": "2024-03-22"
-        },
-        {
-          "s_no": 21,
-          "name": "Deepak Kumar",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "202431027740",
-          "status": "Published",
-          "date": "2024-04-19"
-        },
-        {
-          "s_no": 22,
-          "name": "Deepak Kumar",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "202431028861",
-          "status": "Published",
-          "date": "2024-04-19"
-        },
-        {
-          "s_no": 23,
-          "name": "Deepak Kumar",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "202431027741",
-          "status": "Published",
-          "date": "2024-04-19"
-        },
-        {
-          "s_no": 24,
-          "name": "Dr.Mrinal Kanti Sarkar",
-          "department": "Electrical Engineering",
-          "patent_application_number": "‭202431012596‬",
-          "status": "Published",
-          "date": "2024-03-08"
-        },
-        {
-          "s_no": 25,
-          "name": "Dr.Mrinal Kanti Sarkar",
-          "department": "Electrical Engineering",
-          "patent_application_number": "408957-001",
-          "status": "Granted",
-          "date": "2024-02-28"
-        },
-        {
-          "s_no": 26,
-          "name": "Dr. Swagatadeb Sahoo",
-          "department": "Electronics and Communication Engineering",
-          "patent_application_number": "2020104029",
-          "status": "Granted",
-          "date": "2021-12-10"
-        },
-        {
-          "s_no": 27,
-          "name": "Dr. Swagatadeb Sahoo",
-          "department": "Electronics and Communication Engineering",
-          "patent_application_number": "2021104490",
-          "status": "Granted",
-          "date": "2022-03-30"
-        },
-        {
-          "s_no": 28,
-          "name": "Dr. B Ramachandra Reddy",
-          "department": "Computer Science and Engineering",
-          "patent_application_number": "202241044457",
-          "status": "Granted",
-          "date": "2024-04-24"
-        },
-        {
-          "s_no": 29,
-          "name": "Dr. B Ramachandra Reddy",
-          "department": "Computer Science and Engineering",
-          "patent_application_number": "202341026013",
-          "status": "Published",
-          "date": "2023-05-05"
-        },
-        {
-          "s_no": 30,
-          "name": "Dr. B Ramachandra Reddy",
-          "department": "Computer Science and Engineering",
-          "patent_application_number": "202431028980",
-          "status": "Published",
-          "date": "2024-04-19"
-        },
-        {
-          "s_no": 31,
-          "name": "Prof Sanjay",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "415189-001",
-          "status": "Granted",
-          "date": "2024-06-06"
-        },
-        {
-          "s_no": 32,
-          "name": "Prof. Mrityunjay Kumar Sinha",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "168686",
-          "status": "Granted",
-          "date": "2024-03-07"
-        },
-        {
-          "s_no": 33,
-          "name": "Dr Ram Krishna",
-          "department": "Metallurgical and Materials Engineering",
-          "patent_application_number": "202431037668",
-          "status": "Published",
-          "date": "2024-05-31"
-        },
-        {
-          "s_no": 34,
-          "name": "Dr Ram Krishna",
-          "department": "Metallurgical and Materials Engineering",
-          "patent_application_number": "202431037669",
-          "status": "Published",
-          "date": "2024-05-31"
-        },
-        {
-          "s_no": 35,
-          "name": "Prof M K Sinha",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "202431015375",
-          "status": "Published",
-          "date": "2024-06-07"
-        },
-        {
-          "s_no": 36,
-          "name": "Dr. Kuntal Maji",
-          "department": "Production and Industrial Engineering",
-          "patent_application_number": "202431027937A",
-          "status": "Published",
-          "date": "2024-04-19"
-        },
-        {
-          "s_no": 37,
-          "name": "Dinesh Kumar",
-          "department": "Production and Industrial Engineering",
-          "patent_application_number": "202131052146",
-          "status": "First examination report submitted",
-          "date": "2021-11-13"
-        },
-        {
-          "s_no": 38,
-          "name": "Vineet Sahoo",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "202431028752",
-          "status": "Published",
-          "date": "2024-05-10"
-        },
-        {
-          "s_no": 39,
-          "name": "Vineet Sahoo",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "202431029943",
-          "status": "Published",
-          "date": "2024-04-26"
-        },
-        {
-          "s_no": 40,
-          "name": "R. N. Mahanty",
-          "department": "Electrical Engineering",
-          "patent_application_number": "202431062281",
-          "status": "Published",
-          "date": "2024-09-06"
-        },
-        {
-          "s_no": 41,
-          "name": "Shailesh Kumar Jha",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "202231068071",
-          "status": "Published",
-          "date": "2024-02-08"
-        },
-        {
-          "s_no": 42,
-          "name": "Dr. Pashant Kumar",
-          "department": "Electronics and Communication Engineering",
-          "patent_application_number": "427468-001 with CBR no. 214798",
-          "status": "Applied",
-          "date": "2024-08-20"
-        },
-        {
-          "s_no": 43,
-          "name": "Dr. Kunal Singh",
-          "department": "Electronics and Communication Engineering",
-          "patent_application_number": "202431034004",
-          "status": "Applied",
-          "date": "2024-05-10"
-        },
-        {
-          "s_no": 44,
-          "name": "Gunda Yoganjaneyulu",
-          "department": "Production and Industrial Engineering",
-          "patent_application_number": "415104-001",
-          "status": "Published",
-          "date": "2024-04-26"
-        },
-        {
-          "s_no": 45,
-          "name": "Dr. Amit Majumder",
-          "department": "Computer Science and Engineering",
-          "patent_application_number": "202431062556",
-          "status": "Published",
-          "date": "2024-08-23"
-        },
-        {
-          "s_no": 46,
-          "name": "Dr. Kuntal Maji",
-          "department": "Production and Industrial Engineering",
-          "patent_application_number": "407833-001 (Design)",
-          "status": "Granted",
-          "date": "2024-02-16 "
-        },
-        {
-          "s_no": 47,
-          "name": "Dr. Kuntal Maji",
-          "department": "Production and Industrial Engineering",
-          "patent_application_number": "202431027937A",
-          "status": "Published",
-          "date": "2024-04-19"
-        },
-        {
-          "s_no": 48,
-          "name": "Dr Rashmi Sinha",
-          "department": "Electronics & Communication Engineering",
-          "patent_application_number": "202431030949",
-          "status": "Published",
-          "date": "2024-07-12"
-        },
-        {
-          "s_no": 49,
-          "name": "Dr Rashmi Sinha",
-          "department": "Electronics & Communication Engineering",
-          "patent_application_number": "202431067375",
-          "status": "Applied",
-          "date": "2024-09-03"
-        },
-        {
-          "s_no": 50,
-          "name": "Dr. Ananta Kumar Atta",
-          "department": "Chemistry",
-          "patent_application_number": "202431067756",
-          "status": "Applied",
-          "date": "2024-09-09"
-        },
-        {
-          "s_no": 51,
-          "name": "M A Hassan",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "E-106/1438/2024/KOL",
-          "status": "Published",
-          "date": "2024-08-28"
-        },
-        {
-          "s_no": 52,
-          "name": "M A Hassan",
-          "department": "Mechanical Engineering",
-          "patent_application_number": "410740-001",
-          "status": "Granted",
-          "date": "2024-03-16"
-        },
-        {
-          "s_no": 53,
-          "name": "Dr. Ravi Bhushan",
-          "department": "Electrical Engineering",
-          "patent_application_number": "202411069170",
-          "status": "Published",
-          "date": "2024-10-04"
-        },
-        {
-          "s_no": 54,
-          "name": "Dr.Mrinal Kanti Sarkar",
-          "department": "Electrical Engineering",
-          "patent_application_number": "202431012596",
-          "status": "Granted",
-          "date": "2024-10-24"
-        },
-        {
-          "s_no": 55,
-          "name": "Dr. Simanta Kumar Samal",
-          "department": "Electrical Engineering",
-          "patent_application_number": "408957-001",
-          "status": "Granted",
-          "date": "2024-04-18"
-        },
-        {
-          "s_no": 56,
-          "name": "Dr. Simanta Kumar Samal",
-          "department": "Electrical Engineering",
-          "patent_application_number": "202431060295",
-          "status": "Published",
-          "date": "2024-08-16"
-        },
-        {
-          "s_no": 57,
-          "name": "Dr. Supriyo Das",
-          "department": "Electrical Engineering",
-          "patent_application_number": "202411069170",
-          "status": "Published",
-          "date": "2024-10-04"
-        },
-        {
-          "s_no": 58,
-          "name": "Dr. Dinesh Kumar",
-          "department": "Computer Science and Engineering",
-          "patent_application_number": "433397- 001",
-          "status": "Applied",
-          "date": "2024-10-09"
-        },
-        {
-          "s_no": 59,
-          "name": "Ananyo Bhattacharya",
-          "department": "Electrical Engineering",
-          "patent_application_number": "202431097136",
-          "status": "Applied",
-          "date": "2024-12-09"
-        },
-        {
-          "s_no": 60,
-          "name": "Dr Rashmi Sinha",
-          "department": "Electronics and Communication Engineering",
-          "patent_application_number": "202431030949",
-          "status": "Published",
-          "date": "2024-07-12"
-        },
-        {
-          "s_no": 61,
-          "name": "Dr Rashmi Sinha",
-          "department": "Electronics and Communication Engineering",
-          "patent_application_number": "202431067375",
-          "status": "Published",
-          "date": "2024-11-01"
-        },
-        {
-          "s_no": 62,
-          "name": "Basanta Bhowmik",
-          "department": "Electronics and Communication Engineering",
-          "patent_application_number": "202431087937",
-          "status": "Published",
-          "date": "2024-11-22"
-        },
-        {
-          "s_no": 63,
-          "name": "Dr. Binod Kumar Singh",
-          "department": "Computer Science & Engineering",
-          "patent_application_number": "440612-001 (Design)",
-          "status": "Applied",
-          "date": "2024-12-14"
-        },
-        {
-          "s_no": 64,
-          "name": "Dr. Binod Kumar Singh",
-          "department": "Computer Science & Engineering",
-          "patent_application_number": "440613-001 (Design)",
-          "status": "Applied",
-          "date": "2024-12-14"
-        },
-        {
-          "s_no": 65,
-          "name": "Dr. Binod Kumar Singh",
-          "department": "Computer Science and Engineering",
-          "patent_application_number": "440639-001 (Design)",
-          "status": "Applied",
-          "date": "2024-12-14"
-        },
-        {
-          "s_no": 66,
-          "name": "Dr. Binod Kumar Singh",
-          "department": "Computer Science and Engineering",
-          "patent_application_number": "202331047887",
-          "status": "Applied",
-          "date": "2024-03-14"
-        },
-        {
-          "s_no": 67,
-          "name": "Dr. Binod Kumar Singh",
-          "department": "Computer Science & Engineering",
-          "patent_application_number": "442206-001",
-          "status": "Applied",
-          "date": "2024-12-27"
-        },
-        {
-          "s_no": 68,
-          "name": "Dr. B Ramachandra Reddy",
-          "department": "Computer Science & Engineering",
-          "patent_application_number": "202441036543",
-          "status": "Published",
-          "date": "2024-05-17"
-        }
-      ]
+  "sheet1": [
+    {
+      "sl_no": 1,
+      "title": "Design an automated guided vehicle for real time railway track inspection and fault finding",
+      "inventors": [
+        "Arvind Kumar",
+        "Ram Krishna",
+        "M K Sinha"
+      ],
+      "status": "Published",
+      "publish_date": null,
+      "patent_no": "202431037669"
+    },
+    {
+      "sl_no": 2,
+      "title": "Agricultural Robotic Equipment",
+      "inventors": [
+        "Anubhav Sharma",
+        "Pulkit Singh",
+        "Vishesh Goyal",
+        "Aditya Sharma",
+        "Akshay Singh",
+        "Ramendra Singh",
+        "Meenakshi Sharma",
+        "Dr. Mayank Srivastava",
+        "Ajay Chauhan",
+        "Pooja Phatak"
+      ],
+      "status": "Published",
+      "publish_date": "03-09-2021",
+      "patent_no": "202111038596A"
+    },
+    {
+      "sl_no": 3,
+      "title": "Vibration assisted casting setup for synthesis of functionally graded materials",
+      "inventors": [
+        "Dr. Dinesh Kumar",
+        "Divyanand Kumar"
+      ],
+      "status": "Published",
+      "publish_date": "13-11-2021",
+      "patent_no": "202131052146"
+    },
+    {
+      "sl_no": 4,
+      "title": "Zeroth Order Resonator (ZOR) Antenna using Slotted Metamaterial Structure",
+      "inventors": [
+        "Arvind Choubey",
+        "Prakash Ranjan",
+        "Chetan Barde",
+        "Santosh Kumar Mahto",
+        "Rashmi Sinha"
+      ],
+      "status": "Published",
+      "publish_date": "31-12-2021",
+      "patent_no": "EMP/E-1/29503/2020-KOL.2020"
+    },
+    {
+      "sl_no": 5,
+      "title": "A modem system for user devices that provides higher throughput lower performance allows",
+      "inventors": [
+        "Dr. Prashant Kumar",
+        "S K Das",
+        "S Das",
+        "Dr. P Pattanayak",
+        "O Prakash",
+        "A Rai",
+        "S Sahoo"
+      ],
+      "status": "Published",
+      "publish_date": "24-02-2022",
+      "patent_no": "NR 20 2022 100 009.3"
+    },
+    {
+      "sl_no": 6,
+      "title": "Dynamic multistage user authentication",
+      "inventors": [
+        "Kailash Chandra Mishra",
+        "Subrata Dutta"
+      ],
+      "status": "Published",
+      "publish_date": "11-03-2022",
+      "patent_no": "202231008515"
+    },
+    {
+      "sl_no": 7,
+      "title": "Military Operation Inspired Integrated Graph Traversal Algorithm",
+      "inventors": [
+        "Padmalochan Panda",
+        "Alekha Kumar Mishra",
+        "Deepak Putha"
+      ],
+      "status": "Published",
+      "publish_date": "22-07-2022",
+      "patent_no": "202231037328"
+    },
+    {
+      "sl_no": 8,
+      "title": "Stringed musical instrument",
+      "inventors": [
+        "Aaditya Sharma",
+        "Gaurav Bisht",
+        "Meenakshi Sharma",
+        "Harsh Singh",
+        "Dr. Vijay Kumar Gupta",
+        "Mohit Kumar Pradhan",
+        "Dr. Ramendra Singh",
+        "Dr. Mayank Srivastava"
+      ],
+      "status": "Published",
+      "publish_date": "09-09-2022",
+      "patent_no": "202211050758A"
+    },
+    {
+      "sl_no": 9,
+      "title": "Artificial intelligence based technique to monitor the cold storage unit which is powered by solar energy",
+      "inventors": [
+        "Prabha Chand"
+      ],
+      "status": "Published",
+      "publish_date": "16-09-2022",
+      "patent_no": "202231051822"
+    },
+    {
+      "sl_no": 10,
+      "title": "Designing a smarter compact IOT based cold storage device powered with solar power to store agricultural yield",
+      "inventors": [
+        "Prabha Chand"
+      ],
+      "status": "Published",
+      "publish_date": "23-09-2022",
+      "patent_no": "202231051879"
+    },
+  {
+    "sl_no": 11,
+    "title": "A smart alarming system for hazardous household items",
+    "inventors": ["Dr. Alekha Kumar Mishra", "Prof. Danish Ali Khan", "Mr. Binayak Sahoo", "Mrs. Tamasa Priyadarsini"],
+    "status": "Published",
+    "publish_date": "10-02-2023",
+    "Apatent_no": "202331005460"
+  },
+  {
+    "sl_no": 12,
+    "title": "Method for measuring pinched hysteresis loop characteristics of meminductor/memcapacitor emulator using conventional measurement setup",
+    "inventors": ["Kapil Bhardwaj", "Dr. Mayank Srivastava", "Meenakshi Sharma", "D K Chauhan", "Ramendra Singh", "Bakshish Singh"],
+    "status": "Published",
+    "publish_date": "17-03-2023",
+    "Apatent_no": "202311014424A"
+  },
+  {
+    "sl_no": 13,
+    "title": "A System and A method for fog-based animal intrusion detection",
+    "inventors": ["Vemula Dinesh Reddy", "Madathil Cherukattu Nitish", "Busireddy Ramachandra Reddy"],
+    "status": "Published",
+    "publish_date": "05-05-2023",
+    "Apatent_no": "202341026013"
+  },
+  {
+    "sl_no": 14,
+    "title": "Method to resolve issues related to measurement of non-linear charge controlled elements through lissaajous patterns",
+    "inventors": ["Kapil Bhardwaj", "Dr. Mayank Srivastava", "Meenakshi Sharma", "D K Chauhan", "Ramendra Singh", "Bakshish Singh"],
+    "status": "Published",
+    "publish_date": "12-05-2023",
+    "Apatent_no": "202311018476A"
+  },
+  {
+    "sl_no": 15,
+    "title": "Method to measure transient v-i characteristics of memristor on oscilloscope without using current probes",
+    "inventors": ["Kapil Bhardwaj", "Dr. Mayank Srivastava", "Meenakshi Sharma", "D K Chauhan", "Ramendra Singh", "Bakshish Singh"],
+    "status": "Published",
+    "publish_date": "12-05-2023",
+    "Apatent_no": "202311018475A"
+  },
+  {
+    "sl_no": 16,
+    "title": "Photoelectrochemical (pec) cell system for hydrogen production",
+    "inventors": ["Ajay Yadav", "Arshad Ali Khan", "Ajay Kumar", "Amit Prakash", "Hira Lal Yadav", "Uday Kumar", "Ajay Kumar Singh", "Ayush Kumar Agarwal"],
+    "status": "Published",
+    "publish_date": "18-08-2023",
+    "Apatent_no": "202331043849A"
+  },
+  {
+    "sl_no": 17,
+    "title": "One stroke pencil",
+    "inventors": ["Basudeba Behera", "Chinmayee Behera"],
+    "status": "Published",
+    "publish_date": "02-10-2023",
+    "Apatent_no": "202331007688"
+  },
+  {
+    "sl_no": 18,
+    "title": "Optical 7 segment decoder using electro-optic effect based directional couplers",
+    "inventors": ["Ajay Yadav", "Ajay Kumar", "Amit Prakash", "Mayank Srivastava", "Basudeba Behera", "Nagendra Kumar"],
+    "status": "Published",
+    "publish_date": "06-10-2023",
+    "Apatent_no": "202331056079A"
+  },
+  {
+    "sl_no": 19,
+    "title": "Ultra-compact pentaband polarization insensitive and angularly steady metasurface",
+    "inventors": ["Surajit Kundu"],
+    "status": "Published",
+    "publish_date": "13-10-2023",
+    "Apatent_no": "202331066374"
+  },
+  {
+    "sl_no": 20,
+    "title": "An improved airfoil with dimples for noise control",
+    "inventors": ["Shailesh Kumar Jha", "S. Narayanan", "Sujit Kumar", "Sushil Kumar Singh"],
+    "status": "Published",
+    "publish_date": "08-02-2024",
+    "Apatent_no": "202231068071"
+  },
+  {
+    "sl_no": 21,
+    "title": "A bio-inspired assembly system for early warning system in assessing open-pit mine slope stability and product thereof",
+    "inventors": ["Subhadeep Metya", "Kumar Shubham"],
+    "status": "Published",
+    "publish_date": "22-03-2024",
+    "Apatent_no": "202431015608"
+  },
+  {
+    "sl_no": 22,
+    "title": "Iot based smart ecg system and method of dna encoding",
+    "inventors": ["Dr. Jitesh Pradhan", "Dr. Koushlendar Kumar Singh", "Dr. B Ramachandra Reddy", "Dr. Danish Ali Khan"],
+    "status": "Published",
+    "publish_date": "19-04-2024",
+    "Apatent_no": "202431028980"
+  },
+  {
+    "sl_no": 23,
+    "title": "Framework for defining the critical zone in foundation-cavity interaction and the method thereof",
+    "inventors": ["Kumar Shubham", "Subhadeep Metya"],
+    "status": "Published",
+    "publish_date": "19-04-2024",
+    "Apatent_no": "202431027378"
+  },
+  {
+    "sl_no": 24,
+    "title": "A process for developing polydimethylsiloxane (pdms) based conducting flexible elastomer blend reduced graphene oxide / calcium carbonate nanocomposite",
+    "inventors": ["Deepak Kumar", "Swaroop Kumar Mandal", "Rahul Kumar"],
+    "status": "Published",
+    "publish_date": "19-04-2024",
+    "Apatent_no": "202431027740"
+  },
+  {
+    "sl_no": 25,
+    "title": "Arc heating based metal additive manufacturing process using waste machining chips as feedstock material",
+    "inventors": ["Kuntal Maji", "Avishek Samanta", "Prakash Kumar", "Dr. Sharifuddin Mondal"],
+    "status": "Published",
+    "publish_date": "19-04-2024",
+    "Apatent_no": "202431027937A"
+  },
+  {
+    "sl_no": 26,
+    "title": "System and method for measuring strains at different locations of flexgear with or without loading",
+    "inventors": ["Vineet Sahoo", "Ipsita Das"],
+    "status": "Published",
+    "publish_date": "26-04-2024",
+    "Apatent_no": "202431029943"
+  },
+  {
+    "sl_no": 27,
+    "title": "A differential harmonic drive system",
+    "inventors": ["Vineet Sahoo", "Bipin Kumar", "Apoorva Verma", "Ipdita Das", "Milan Rackov"],
+    "status": "Published",
+    "publish_date": "10-05-2024",
+    "Apatent_no": "202431028752"
+  },
+  {
+    "sl_no": 28,
+    "title": "A system and method for predicting fraudulent activities within mobile banking applications",
+    "inventors": ["Sriramulu Bojjagani", "Mahesh Kumar Morampudi", "Neeraj Kumar Sharma", "Uma Sankararao Varri", "Busireedy Ramachandra Reddy"],
+    "status": "Published",
+    "publish_date": "17-05-2024",
+    "Apatent_no": "202441036543"
+  },
+  {
+    "sl_no": 29,
+    "title": "A bio-based antifreeze composition for potable water systems and method for its preparation",
+    "inventors": ["Abhishek Arya", "Ram Krishna", "Gautam Sutradhar"],
+    "status": "Published",
+    "publish_date": "31-05-2024",
+    "Apatent_no": "202431037668"
+  },
+  {
+    "sl_no": 30,
+    "title": "A butter churning device",
+    "inventors": ["M K Sinha", "Ram Krishna", "Shivam Kumar"],
+    "status": "Published",
+    "publish_date": "07-06-2024",
+    "Apatent_no": "202431015375"
+  },
+  {
+    "sl_no": 31,
+    "title": "A planar vialess implantable antenna for wireless communication enabled leadless cardiac pacemaker",
+    "inventors": ["Dr. Rashmi Sinha", "Dr. Ranjeet Kumar", "Dr. Santosh Kumar Mahto", "Dr. Praveen Kumar", "Dr. Pravesh Pal", "Dr. Ajit Kumar Singh"],
+    "status": "Published",
+    "publish_date": "12-07-2024",
+    "Apatent_no": "202431030949"
+  },
+  {
+    "sl_no": 32,
+    "title": "Collapsible portable corrugated shelter and method for assembling and disassembling the same",
+    "inventors": ["N Mahato", "V R Kar", "M K Paswan", "M Kumar", "B Kumar", "S Kumar", "P Tripathy", "V K Shukla"],
+    "status": "Published",
+    "publish_date": "26-07-2024",
+    "Apatent_no": "202431051311A"
+  },
+  {
+    "sl_no": 33,
+    "title": "A food waste recycler system",
+    "inventors": ["Deepak Kumar", "Bipin Kumar Chaurasia", "Mukul Kumar Singh"],
+    "status": "Published",
+    "publish_date": "09-08-2024",
+    "Apatent_no": "202431056648"
+  },
+  {
+    "sl_no": 34,
+    "title": "A solar water heating system for supplying hot water even during unavailability of solar radiation",
+    "inventors": ["S K Mandal", "V R Kar", "D Kumar", "M A Hassan", "S Kumar", "R Kumar", "A Kumar"],
+    "status": "Published",
+    "publish_date": "16-08-2024",
+    "Apatent_no": "202431059813A"
+  },
+  {
+    "sl_no": 35,
+    "title": "A solar water heating system for supplying hot water even during unavailability of solar radiation, application",
+    "inventors": ["Swaroop Kumar Mandal", "Vishesh Ranjan Kar", "Deepak Kumar", "Md. Ashique Hassan", "Samarjeet Kumar", "Rishikesh Kumar", "Abhishek Kumar"],
+    "status": "Published",
+    "publish_date": "16-08-2024",
+    "Apatent_no": "202431059813"
+  },
+  {
+    "sl_no": 36,
+    "title": "Compact sized wall-mount backup power processor for household appliances",
+    "inventors": ["Dr. Simanta Kumar Samal", "Prof. (Dr.) Rajeev Kumar Singh", "Mr. Rahul Raj"],
+    "status": "Published",
+    "publish_date": "16-08-2024",
+    "Apatent_no": "202431060295"
+  },
+  {
+    "sl_no": 37,
+    "title": "Air filter system to improve air filtration while maintaining optimal airflow and its method thereof",
+    "inventors": ["M A Hassan", "Md Asif Hasan"],
+    "status": "Published",
+    "publish_date": "28-08-2024",
+    "Apatent_no": "E-106/1438/2024/KOL"
+  },
+  {
+    "sl_no": 38,
+    "title": "Adjustable foot rest",
+    "inventors": ["V R Kar", "A K Rajesh", "E V Reddy", "S Potnuru", "S Kumar", "P Tripathy", "V G Krishna", "S R Borukati", "T Sudhakar"],
+    "status": "Published",
+    "publish_date": "06-09-2024",
+    "Apatent_no": "202431064971A"
+  },
+  {
+    "sl_no": 39,
+    "title": "A system and method for coordinating charging/discharging of plug-in electric vehicles at a charging station",
+    "inventors": ["Rabindra Nath Mahanty", "Durgesh Choudhary", "Niranjan Kumar"],
+    "status": "Published",
+    "publish_date": "06-09-2024",
+    "Apatent_no": "202431062281"
+  },
+  {
+    "sl_no": 40,
+    "title": "Synthesis of bis-pyrene-based fluorometric sensory molecule and method of detection of picric acid using thereof",
+    "inventors": ["Dr. Ananta Kumar Atta", "Dr. Chandi Malakar"],
+    "status": "Published",
+    "publish_date": "13-09-2024",
+    "Apatent_no": "202431067756A"
+  },
+  {
+    "sl_no": 41,
+    "title": "Adaptive intelligent controller for efficient thermoelectric power harvesting with remote monitoring",
+    "inventors": ["Amit Kumar Manocha", "Sharad Kumar Tiwari", "Neha Rani", "Jaswinder Singh", "Ved Parkash", "Ravi Bhushan", "Supriyo Das", "Deepinder Singh Wadhwa", "Jitendra Kumar", "Simerpreet Singh"],
+    "status": "Published",
+    "publish_date": "04-10-2024",
+    "Apatent_no": "202411069170"
+  },
+  {
+    "sl_no": 42,
+    "title": "Compact cpu cooling system",
+    "inventors": ["V R Kar", "B S Reddy", "K Neelam", "R G C Thipparthi", "S K Rathore", "Sanjay", "P Tripathy", "N Mahto", "C Sekhar", "S Deepthi", "D Reddy", "S Potnuru", "I Bhadri", "S S Vemuri"],
+    "status": "Published",
+    "publish_date": "18-10-2024",
+    "Apatent_no": "202431076408A"
+  },
+  {
+    "sl_no": 43,
+    "title": "A tri-band graphene-based terahertz mimo antenna for wearable devices for health monitoring and a method for fabricating the same",
+    "inventors": ["Dr. Rashmi Sinha", "Dr. Ranjeet Kumar", "Prof. Arvind Choubey", "Dr. Santosh Kumar Mahto", "Dr. Praveen Kumar"],
+    "status": "Published",
+    "publish_date": "01-11-2024",
+    "Apatent_no": "202431067375"
+  },
+  {
+    "sl_no": 44,
+    "title": "A process of manufacturing magnesium graphene nanocomposite (Mg-Gr)",
+    "inventors": ["Dr. Bipin Kumar", "Dhiman Kumar Das"],
+    "status": "Published",
+    "publish_date": "15-11-2024",
+    "Apatent_no": "202431075870"
+  },
+  {
+    "sl_no": 45,
+    "title": "Energy harvesting and management system for multi axle vehicle with real-time monitoring",
+    "inventors": ["Aman Ganesh Shelja", "Jitendra Kumar", "Ravi Bhusan", "Supriyo Das", "Amit Kumar Manocha", "Ved Prakash"],
+    "status": "Published",
+    "publish_date": "15-11-2024",
+    "Apatent_no": "202411083007"
+  },
+  {
+    "sl_no": 46,
+    "title": "Au/TiO2 Nanoparticles/Si-Al capacitive sensor for selective detection of VOCs (volatile organics compound) and method for preparation thereof",
+    "inventors": ["Basanta Bhowmik"],
+    "status": "Published",
+    "publish_date": "24-11-2024",
+    "Apatent_no": "202431087937"
+  },
+  {
+    "sl_no": 47,
+    "title": "Spill proof vessel for cooking",
+    "inventors": ["Dr. Kanika Prasad", "Dr. Priyanka Priyadarshini", "Priti Kumari", "Suraj Ojha", "Gulam Fareed Shah", "Abhishek Das", "Pratham Kumar"],
+    "status": "Published",
+    "publish_date": "29-11-2024",
+    "Apatent_no": "202431070521A"
+  },
+  {
+    "sl_no": 48,
+    "title": "A wireless power transfer system with improved efficiency and reduced voltage stress",
+    "inventors": ["Anamika Das", "Dr. Ananyo Bhattacharya"],
+    "status": "Published",
+    "publish_date": "20-12-2024",
+    "Apatent_no": "202431097136A"
+  },
+  {
+    "sl_no": 49,
+    "title": "Palmprint biometric presentation attack detection system using white light microscopy and color texture analysis",
+    "inventors": ["Dr. Amit Chattterjee", "Dr. Nagendra Kumar", "Piyush Joshi", "Dr. Vagish Dwibedi", "Dr. Nancy George"],
+    "status": "Published",
+    "publish_date": "03-01-2025",
+    "Apatent_no": "202411099777"
+  },
+  {
+    "sl_no": 50,
+    "title": "A system and method for monitoring one or more patients for communication in large-scale environments",
+    "inventors": ["Dr. Nagendra Kumar", "Soumendu Das", "Dr. Raghwendra Kishore Singh", "Khushboo Pachori", "Dr. Ajay Kumar", "Shreya Priyadarshni", "Greenisha Bala", "Ishita Dey"],
+    "status": "Published",
+    "publish_date": "17-01-2025",
+    "Apatent_no": "202531001216A"
+  },
+  {
+    "sl_no": 51,
+    "title": "A system and method for determining behavior of geocell-reinforced anchored system under different load orientations",
+    "inventors": ["Awdhesh Kumar Choudhary", "Ashutosh Kumar", "Anil Kumar Choudhary"],
+    "status": "Published",
+    "publish_date": "14-02-2025",
+    "Apatent_no": "202531008956"
+  },
+  {
+    "sl_no": 52,
+    "title": "A WEB SCRAPING ANALYSIS SYSTEM AND A METHOD THEREOF",
+    "inventors": ["Sriramulu Bojjagani", "Neeraj Kumar Sharma", "Busireddy Ramachandra Reddy", "Anup Kumar Maurya"],
+    "status": "Published",
+    "publish_date": "14-02-2025",
+    "Apatent_no": "202441036543"
+  },
+  {
+    "sl_no": 53,
+    "title": "A process of fabricating room temperature field induced titania thin film transistor 2-propanol sensor",
+    "inventors": ["Basanta Bhowmik"],
+    "status": "Published",
+    "publish_date": "21-02-2025",
+    "Apatent_no": "202431078954"
+  },
+  {
+    "sl_no": 54,
+    "title": "A connector assembly device and a system to prolong the life of LEDs",
+    "inventors": ["Abhijit Dey", "Aryan Bral", "Zahid Mukhtar", "Ayna Zahoor", "Rohit Bharti"],
+    "status": "Published",
+    "publish_date": "14-03-2025",
+    "Apatent_no": "202531019695"
+  },
+  {
+    "sl_no": 55,
+    "title": "Portable sand-oil space heater",
+    "inventors": ["Dr. Kushal Manohar Jagtap", "Dr. Ravi Bhushan", "Dr. Jitendra Kumar", "Dr. Supriyo Das", "Anirban Mishra", "Prashant Mani Tripathi", "Dr. Sankar Kumar Roy"],
+    "status": "Published",
+    "publish_date": "14-03-2025",
+    "Apatent_no": "202511015668"
+  },
+  {
+    "sl_no": 56,
+    "title": "A pendulum-operated water withdrawal mechanism for extracting water from underground resources",
+    "inventors": ["Ramesh Ch Nayak", "Saroj Kumar Sarangi", "M.K. Roul"],
+    "status": "Published",
+    "publish_date": "11-04-2025",
+    "Apatent_no": "202531006619"
+  },
+  {
+    "sl_no": 57,
+    "title": "An automatic flushing system for a mens’ urinal",
+    "inventors": ["Dr. Ashok K. Mandal", "Dr. O.H. Gupta", "Dr. Kanika Prasad", "Mr. Sumit Kumar Singh", "Prof. M.K. Sinha"],
+    "status": "Published",
+    "publish_date": "11-04-2025",
+    "Apatent_no": "202433080352"
+  },
+  {
+    "sl_no": 58,
+    "title": "IOT-enabled real-time detection and recognition of moving biological entities in smart vehicle interiors",
+    "inventors": ["Sumanta Chatterjee", "Dr. Amit Majumder", "Dr. Subrata Dutta", "Dr. Gopa Bhaumik", "Dr. Sanjay Kumar", "Dr. Binod Kumar Singh"],
+    "status": "Published",
+    "publish_date": "25-04-2025",
+    "Apatent_no": "202531024361"
+  },
+  {
+    "sl_no": 59,
+    "title": "System and method for mantra chanting assistant device with integrated edge-AI",
+    "inventors": ["Dr. Alekha Kumar Mishra", "Mr. Saptarshi Roychowdhury", "Ms. Uzra Rahman", "Dr. Binod Kumar Singh", "Prof. (Dr.) Dilip Kumar Yadav", "Prof. (Dr.) Danish Ali Khan"],
+    "status": "Published",
+    "publish_date": "02-05-2025",
+    "Apatent_no": "202531040443"
+  },
+  {
+    "sl_no": 60,
+    "title": "System and method for cloud based tamper proof storage of fundus image using handheld device for rural area applications",
+    "inventors": ["Harish Gavel", "Dr. Chandrashekhar Azad", "Mr. Saptarshi Roychowdhury", "Ms. Uzra Rahman", "Dr. Binod Kumar Singh", "Prof. (Dr.) Dilip Kumar Yadav", "Prof. (Dr.) Danish Ali Khan"],
+    "status": "Published",
+    "publish_date": "02-05-2025",
+    "Apatent_no": "202531040485"
+  },
+  {
+    "sl_no": 61,
+    "title": "Autonomous cybersecurity system using machine learning for proactive threat detection and defense",
+    "inventors": ["Arup Mallick", "Atanu Kumar Das", "Amartya Ghosh", "Raja Khara", "Dr. Jayanta Das", "Piyali De", "Namrata Kumari", "Dr. Subrata Dutta", "Dr. Vattipalli Gnana Prasuna", "Dr. Ambar Dutta", "Shreya Mandal", "Dr. Santanu Koley"],
+    "status": "Published",
+    "publish_date": "02-05-2025",
+    "Apatent_no": "202531038309"
+  },
+  {
+    "sl_no": 62,
+    "title": "A System for Multi-Depth Water Quality Measurement using IOT Sensors and a Method Thereof",
+    "inventors": ["Ms. Uzra Rahman", "Mr. Saptarshi Roychowdhury", "Prof. (Dr.) Dilip Kumar Yadav", "Dr. Binod Kumar Singh", "Dr. Subrata Dutta", "Dr. Surajit Kundu"],
+    "status": "Published",
+    "publish_date": "09-05-2025",
+    "Apatent_no": "202531042969"
+  },
+  {
+    "sl_no": 63,
+    "title": "System and Method for Smart Healthcare Communication Kiosk for Rural Deployment",
+    "inventors": ["Mr. Nayan Dutta", "Mr. Saptarshi Roychowdhury", "Ms. Uzra Rahman", "Dr. Binod Kumar Singh", "Prof. (Dr.) Dilip Kumar Yadav", "Dr. Vinay Kumar"],
+    "status": "Published",
+    "publish_date": "23-05-2025",
+    "Apatent_no": "202531040452"
+  },
+  {
+    "sl_no": 64,
+    "title": "System and Decentralized Method for Drone-Assisted Concrete Surface Crack Surveillance of Critical Infrastructure",
+    "inventors": ["Ms. Uzra Rahman", "Mr. Saptarshi Roychowdhury", "Prof. (Dr.) Dilip Kumar Yadav", "Dr. Binod Kumar Singh", "Dr. Chandrashekhar Azad", "Prof. (Dr.) Virendra Kumar"],
+    "status": "Published",
+    "publish_date": "10-06-2025",
+    "Apatent_no": "202531042970"
+  },
+  {
+    "sl_no": 65,
+    "title": "A system and a method for real-time image dehazing",
+    "inventors": ["Dr. Dilip Kumar", "M Sunderao", "Dr. Rajashree Nayak", "Dr. Munendra Singh"],
+    "status": "Published",
+    "publish_date": "13-06-2025",
+    "Apatent_no": "202531054523"
+  },
+  {
+    "sl_no": 66,
+    "title": "A system and method for personalized multi-user virtual and augmented reality collaboration using ai",
+    "inventors": ["Dr. Madhu Sudan Das", "Dr. Satyajit Das", "Dr. Subrata Dutta", "Vaibhav Parashar", "Saunak Bhattacharya", "Dr. Manoj Kumar Dutta", "Santu Mondal", "Souvik Das", "Amitesh Das", "Dr. Santanu Koley"],
+    "status": "Published",
+    "publish_date": "20-06-2025",
+    "Apatent_no": "202531055647"
+  },
+  {
+    "sl_no": 67,
+    "title": "A method and a system for a smart real-time medication dispensing and monitoring system",
+    "inventors": ["Basudeba Behera", "Chinmayee Behera", "Navita Kumari"],
+    "status": "Published",
+    "publish_date": "20-06-2025",
+    "Apatent_no": "202531056453"
+  },
+  {
+    "sl_no": 68,
+    "title": "Method and system for securing cyber-physical systems using group-based fingerprint biometric",
+    "inventors": ["Saptarshi Roychowdhury", "Dr. Binod Kumar Singh"],
+    "status": "Published",
+    "publish_date": "20-06-2025",
+    "Apatent_no": "202531056714"
+  },
+  {
+    "sl_no": 69,
+    "title": "A system for detecting alzheimer’s disease",
+    "inventors": ["Dr. Deepak Rai", "Dr. Sumit Badotra", "Mr. Omesh Kumar", "Prof. (Dr.) Danish Ali Khan"],
+    "status": "Published",
+    "publish_date": "04-07-2025",
+    "Apatent_no": "202531060274"
+  }
+  ],
+
+
+
+
+
+  "sheet2": [
+    {
+      "sl_no": 1,
+      "title": "Portable Ball Milling Machine",
+      "inventors": [
+        "Deepak Kumar",
+        "Swaroop Kumar Mandal",
+        "Bipin Kumar Chaurasia"
+      ],
+      "acceptance_date": "15-03-2022",
+      "design_no": "356784-001"
+    },
+    {
+      "sl_no": 2,
+      "title": "Circular hole embedded piezoelectric energy harvester",
+      "inventors": [
+        "Deepak Kumar",
+        "Rajiv Ranjan Singh"
+      ],
+      "acceptance_date": "09-02-2024",
+      "design_no": "362939-001"
+    },
+    {
+      "sl_no": 3,
+      "title": "Machine for arc heating based metal additive manufacturing",
+      "inventors": [
+        "Kuntal Maji",
+        "Avishek Samanta"
+      ],
+      "acceptance_date": "16-02-2024",
+      "design_no": "407833-001"
+    },
+    {
+      "sl_no": 4,
+      "title": "Borewell rescue device",
+      "inventors": [
+        "Md Ashique Hassan",
+        "Mohit Kumar",
+        "Dulari Hansdah",
+        "Amaresh Kumar"
+      ],
+      "acceptance_date": "16-03-2024",
+      "design_no": "410740-001"
+    },
+    {
+      "sl_no": 5,
+      "title": "Portable Charging Device for Electric Vehicles",
+      "inventors": [
+        "Dr. Mrinal Kanti Sarkar",
+        "Dr. Nasim Ali Khan",
+        "Dr. Simanta Kumar Samal",
+        "Dr. B. Anil Kumar"
+      ],
+      "acceptance_date": "18-04-2024",
+      "design_no": "408957-001"
+    },
+    {
+      "sl_no": 6,
+      "title": "Binding Wire Hook in Construction Industry",
+      "inventors": [
+        "Dr. Abdhesh Kumar Sinha",
+        "Dr. Anjan Kumar Dutta",
+        "Dr. M. Chittaranjan",
+        "Amruta Jagdish Killol",
+        "Dr. Hemant Suresh Avhad",
+        "Mohammad Parvej Alam",
+        "Dr. C. Venkata Siva Rama Prasad",
+        "Dr. G. Sree Lakshmi Devi"
+      ],
+      "acceptance_date": "25-04-2024",
+      "design_no": "406989-001"
+    },
+    {
+      "sl_no": 7,
+      "title": "Tablet holder",
+      "inventors": [
+        "Dr. Vinod Ayyappan",
+        "Dr. Vijay Raghunathan",
+        "Dr. S. Vigneshwaran",
+        "Dr. Gunda Yoganjaneyulu",
+        "Dr. P. Vasanthkumar"
+      ],
+      "acceptance_date": "26-04-2024",
+      "design_no": "415104-001"
+    },
+    {
+      "sl_no": 8,
+      "title": "System for studying the behaviour of plate anchors under different orientations of load",
+      "inventors": [
+        "Awdhesh Kumar Choudhary",
+        "Ashutosh Kumar",
+        "Anil Kumar Choudhary"
+      ],
+      "acceptance_date": "17-05-2024",
+      "design_no": "410743-001"
+    },
+    {
+      "sl_no": 9,
+      "title": "Swirler for microgas turbine combustion chamber",
+      "inventors": [
+        "Abhinav Anand Sinha",
+        "Dr. Tushar Choudhary",
+        "Dr. Mohd. Zahid Ansari",
+        "Dr. Sanjay",
+        "Aman Singh Rajpoot",
+        "Himanshu Pachori"
+      ],
+      "acceptance_date": "06-06-2024",
+      "design_no": "415189-001"
+    },
+    {
+      "sl_no": 10,
+      "title": "AI based monitoring system for incremental sheet metal forming",
+      "inventors": [
+        "Kuntal Maji",
+        "Pawan Kumar",
+        "Kameshwar Mahto",
+        "Raj Ballav",
+        "Gautam Kumar",
+        "Prakash Kumar"
+      ],
+      "acceptance_date": "02-12-2024",
+      "design_no": "431968-001"
+    },
+    {
+      "sl_no": 11,
+      "title": "Smart home electric power management system",
+      "inventors": [
+        "Mr. Gautam",
+        "Mr. Sandeep Kumar",
+        "Dr. Dinesh Kumar"
+      ],
+      "acceptance_date": "30-01-2025",
+      "design_no": "433397-001"
+    },
+    {
+      "sl_no": 12,
+      "title": "A multimodal biometric scanner",
+      "inventors": [
+        "National Institute Of Technology Jamshedpur",
+        "Mr. Saptarshi Roychowdhury",
+        "Mr. Ajay Yadav",
+        "Mr. Nayan Dutta",
+        "Dr. Binod Kumar Singh",
+        "Dr. Ajay Kumar",
+        "Dr. Alekha Kumar Mishra",
+        "Dr. Mayukh Sarkar"
+      ],
+      "acceptance_date": "03-02-2025",
+      "design_no": "440639-001"
+    },
+    {
+      "sl_no": 13,
+      "title": "A web camera with inbuilt fingerprint scanner",
+      "inventors": [
+        "National Institute Of Technology Jamshedpur",
+        "Mr. Saptarshi Roychowdhury",
+        "Mr. Harish Gavel",
+        "Dr. Binod Kumar Singh",
+        "Dr. Chandrashekhar Azad",
+        "Dr. Subrata Dutta"
+      ],
+      "acceptance_date": "12-02-2025",
+      "design_no": "442206-001"
+    },
+    {
+      "sl_no": 14,
+      "title": "Height-adjustable sliding biometric authentication system",
+      "inventors": [
+        "National Institute Of Technology Jamshedpur",
+        "Mr. Saptarshi Roychowdhury",
+        "Mr. Ajay Yadav",
+        "Dr. Binod Kumar Singh",
+        "Dr. Ajay Kumar",
+        "Dr. Subrata Dutta",
+        "Dr. Mayukh Sakar",
+        "Dr. Chandrashekhar Azad"
+      ],
+      "acceptance_date": "20-02-2025",
+      "design_no": "440613-001"
+    },
+    {
+      "sl_no": 15,
+      "title": "Dual biometric smart lock",
+      "inventors": [
+        "National Institute Of Technology Jamshedpur",
+        "Mr. Saptarshi Roychowdhury",
+        "Mr. Ajay Yadav",
+        "Dr. Binod Kumar Singh",
+        "Dr. Ajay Kumar",
+        "Dr. Subrata Dutta",
+        "Dr. Chandrashekhar Azad",
+        "Dr. Alekha Kumar Mishra"
+      ],
+      "acceptance_date": "27-02-2025",
+      "design_no": "440612-001"
+    },
+    {
+      "sl_no": 16,
+      "title": "Device for preparing precast alkali-activated concrete blocks with glass powder additive",
+      "inventors": [
+        "Yellanki Deepti",
+        "Dr. Sanjay Kumar"
+      ],
+      "acceptance_date": "12-03-2025",
+      "design_no": "440688-001"
+    },
+    {
+      "sl_no": 17,
+      "title": "Hand gesture controlled wheelchair",
+      "inventors": [
+        "Kamalesh Kumar Sharma",
+        "Mrutyunjay Rout",
+        "Ajay Yadav",
+        "Ajay Kumar"
+      ],
+      "acceptance_date": "24-03-2025",
+      "design_no": "441961-001"
+    },
+    {
+      "sl_no": 18,
+      "title": "Fingerprint and face biometric scanner equipped wi-fi modem",
+      "inventors": [
+        "National Institute Of Technology Jamshedpur",
+        "Mr. Saptarshi Roychowdhury",
+        "Dr. Binod Kumar Singh"
+      ],
+      "acceptance_date": "03-04-2025",
+      "design_no": "445808-001"
+    },
+    {
+      "sl_no": 19,
+      "title": "Kinetic energy harvesting device through human motion",
+      "inventors": [
+        "Dr. Sanjay Kumar",
+        "Dr. Dinesh Kumar",
+        "Dr. Mrutyunjay Rout",
+        "Dr. Manoj Kumar Kar"
+      ],
+      "acceptance_date": "30-04-2025",
+      "design_no": "443595-001"
+    },
+    {
+      "sl_no": 20,
+      "title": "Multi-biometric computer keyboard",
+      "inventors": [
+        "Mr. Saptarshi Roychowdhury",
+        "Mr. Ajay Yadav",
+        "Dr. Binod Kumar Singh",
+        "Dr. Subrata Dutta",
+        "Dr. Vinay Kumar",
+        "Dr. Sharda Bharti"
+      ],
+      "acceptance_date": "08-05-2025",
+      "design_no": "444962-001"
+    },
+    {
+      "sl_no": 21,
+      "title": "Face recognition equipped infrared thermometer",
+      "inventors": [
+        "National Institute of Technology Jamshedpur",
+        "Mr. Saptarshi Roychowdhury",
+        "Dr. Binod Kumar Singh"
+      ],
+      "acceptance_date": "15-05-2025",
+      "design_no": "445905-001"
+    },
+    {
+      "sl_no": 22,
+      "title": "Rotary evaporator for herbal drug extraction",
+      "inventors": [
+        "Ms. Sonal Chhagan Bhangale",
+        "Dr. Arijit Das",
+        "Pranali Sardare",
+        "Vijaya Kamble",
+        "Dr. P. Swathi",
+        "Dr. P. Jyotsna",
+        "Priyanka Gonnade",
+        "Dr. Abhishek Sharma"
+      ],
+      "acceptance_date": "29-05-2025",
+      "design_no": "446717-001"
+    }
+  ],
+
+
+
+
+  "sheet3":[
+  {
+    "sl_no": 1,
+    "title": "A system and a process for evaluating dielectric relaxation in dipolar liquid",
+    "inventors": ["Swagatadeb Sahoo"],
+    "status": "Granted",
+    "publish_date": "13-11-2019",
+    "patent_no": "2020104029"
+  },
+  {
+    "sl_no": 2,
+    "title": "A method for developing corn husk based microwave absorber",
+    "inventors": ["Swagatadeb Sahoo", "Soumya Sundar Pattanayak", "S.H.Laskar"],
+    "status": "Granted",
+    "publish_date": "23-07-2021",
+    "patent_no": "2021104490"
+  },
+  {
+    "sl_no": 3,
+    "title": "A ball bearing assembly with variable radial clearance for enhanced load distribution",
+    "inventors": ["Vineet Sahoo", "Ravi Sinha", "Paswan Manikant"],
+    "status": "Granted",
+    "publish_date": "24-08-2021",
+    "patent_no": "2021106954"
+  },
+  {
+    "sl_no": 4,
+    "title": "Portable Device for Making Cocktails with Voice Control",
+    "inventors": ["Biswaranjan Acharya", "Sujoy Datta", "Subrata Dutta", "Lizina Khatua", "Ipseeta Nanda", "Monideepa Roy", "Pushpanjali Singh", "Thipendra P Singh"],
+    "status": "Granted",
+    "publish_date": "14-01-2022",
+    "patent_no": "DE 20 2021 107 081 U1"
+  },
+  {
+    "sl_no": 5,
+    "title": "Resting and Floating house resistant to floods and earthquake",
+    "inventors": ["Dr. S Madhuri"],
+    "status": "Granted",
+    "publish_date": "02-02-2023",
+    "patent_no": "420319"
+  },
+  {
+    "sl_no": 6,
+    "title": "Multifunctioning metamaterial absorber used for medical applications",
+    "inventors": ["Chetan Barde", "Debolina Das", "Prakash Ranjan", "Arvind Choubey", "Rashmi Sinha", "Komal Roy", "Sanjay Kumar"],
+    "status": "Granted",
+    "publish_date": "12-05-2023",
+    "patent_no": "431694"
+  },
+  {
+    "sl_no": 7,
+    "title": "A system and method for flushing a urinal",
+    "inventors": ["Dr. Ashok K. Mandal", "Mr. Kamal Kant", "Dr. Omhari Gupta"],
+    "status": "Granted",
+    "publish_date": "15-11-2023",
+    "patent_no": "469121"
+  },
+  {
+    "sl_no": 8,
+    "title": "Rain Drop Soil Erosion Stimulator",
+    "inventors": ["Donal Nixon Dsouza", "Prof. Anil Kumar Choudhary"],
+    "status": "Granted",
+    "publish_date": "15-11-2023",
+    "patent_no": "415272"
+  },
+  {
+    "sl_no": 9,
+    "title": "Solar powered cold storage device to store agricultural yield",
+    "inventors": ["Dr. Prabha Chand"],
+    "status": "Granted",
+    "publish_date": "06-01-2024",
+    "patent_no": "6338051"
+  },
+  {
+    "sl_no": 10,
+    "title": "Adjustable Tree Fencing with Water Pipe",
+    "inventors": ["Dr. Rahul", "Dr. Mrityunjay Kumar Sinha", "Dr. Mayank Kumar Sinha", "Dr. Abhishek Singh", "Dr. Amit Kumar"],
+    "status": "Granted",
+    "publish_date": "07-03-2024",
+    "patent_no": null
+  },
+  {
+    "sl_no": 11,
+    "title": "A SYSTEM AND A METHOD FOR FAULT PREDICTION OF AN APPLICATION",
+    "inventors": ["Busireddy Ramachandra Reddy", "Kusam Sai Krishna Reddy", "Kushal Eshwar Reddy", "Valisetty Ramaneesh", "Grihith"],
+    "status": "Granted",
+    "publish_date": "24-04-2024",
+    "patent_no": "202241044457"
+  },
+  {
+    "sl_no": 12,
+    "title": "A process for preparation of functionalized reduced graphene oxide (rGO)/calcium carbonate (CaCO3) nanocomposites",
+    "inventors": ["Deepak Kumar", "Tathagata Gautham Medasetty", "Swaroop Kumar Mandal", "Rahul Kumar"],
+    "status": "Granted",
+    "publish_date": "21-10-2024",
+    "patent_no": "552679"
+  },
+  {
+    "sl_no": 13,
+    "title": "Advanced Robust Controller for Onboard Battery Charging in Electric Vehicles",
+    "inventors": ["Dr. Mrinal Kanti Sarkar", "Dr. B. Anil Kumar"],
+    "status": "Granted",
+    "publish_date": "24-10-2024",
+    "patent_no": "553085"
+  },
+  {
+    "sl_no": 14,
+    "title": "A process for preparing a hydroxyapatite/reduced graphene oxide reinforced alginate/acrylamide double network bio hydrogel",
+    "inventors": ["Deepak Kumar", "Rahul Kumar", "Swaroop Kumar Mandal"],
+    "status": "Granted",
+    "publish_date": "19-11-2024",
+    "patent_no": "554582"
+  },
+  {
+    "sl_no": 15,
+    "title": "Three layered antenna module for 5g FR-2 spectrums",
+    "inventors": ["Surajit Kundu", "Dheeraj Pandey", "Aamir Shafi Khan", "Priyanka Das"],
+    "status": "Granted",
+    "publish_date": "30-12-2024",
+    "patent_no": "557140"
+  },
+  {
+    "sl_no": 16,
+    "title": "A system and method for coordinating charging/discharging of plug-in electric vehicles at a charging station",
+    "inventors": ["Rabindra Nath Mahanty", "Durgesh Choudhary", "Niranjan Kumar"],
+    "status": "Granted",
+    "publish_date": "06-03-2025",
+    "patent_no": "562034"
+  },
+  {
+    "sl_no": 17,
+    "title": "A multi usability automated portable ball mill system",
+    "inventors": ["Deepak Kumar", "Swaroop Kumar Mandal", "Rahul Kumar"],
+    "status": "Granted",
+    "publish_date": "07-03-2025",
+    "patent_no": "562133"
+  },
+  {
+    "sl_no": 18,
+    "title": "A solar device for photoelectrochemical cell for Green Hydrogen Production",
+    "inventors": ["Nepal Sahu", "Dr. Hira Lal Yadav", "Dr. Uday Kumar"],
+    "status": "Granted",
+    "publish_date": "19-03-2025",
+    "patent_no": "562877"
+  },
+  {
+    "sl_no": 19,
+    "title": "Anti-sleep alert spectacle system for driver drowsiness detection and mitigation",
+    "inventors": ["Sumanta Chatterjee", "Dr. Amit Majumder", "Dr. Subrata Dutta", "Piyu Sarcar"],
+    "status": "Granted",
+    "publish_date": "06-05-2025",
+    "patent_no": "566016"
+  },
+  {
+    "sl_no": 20,
+    "title": "Portable ball mill machine system for homogeneously mixing distinct nanoparticles and its operating method thereof",
+    "inventors": ["Deepak Kumar", "Swaroop Kumar Mandal", "Rahul Kumar"],
+    "status": "Granted",
+    "publish_date": "08-05-2025",
+    "patent_no": "566073"
+  },
+  {
+    "sl_no": 21,
+    "title": "An emotion driven writing apparatus and a method using thereof",
+    "inventors": ["Dr. Kanika Prasad", "Dr. Priyanka Priyadarshani", "Asmit Sinha", "Nikitha Seela", "Naqueeb Ansari", "Prabhat Kumar", "Abu Backer Khan"],
+    "status": "Granted",
+    "publish_date": "14-05-2025",
+    "patent_no": "566209"
+  },
+  {
+    "sl_no": 22,
+    "title": "An AI-powered system for automatic, genre-specific, and contextual video summarization",
+    "inventors": ["Dr. Deepak Rai", "Jaya Gupta", "Dr. Sumit Badotra"],
+    "status": "Granted",
+    "publish_date": "17-06-2025",
+    "patent_no": "20 2025 102 735.6"
+  },
+  {
+    "sl_no": 23,
+    "title": "A system for patient authentication in emergency healthcare scenarios using a master iris template",
+    "inventors": ["Saptarshi Roychowdhury", "Anwesa Das", "Dr. Vinay Kumar", "Dr. Binod Kumar Singh"],
+    "status": "Granted",
+    "publish_date": "25-06-2025",
+    "patent_no": "567906"
+  },
+  {
+    "sl_no": 24,
+    "title": "Ultra-compact pentaband polarization insensitive and angularly steady metasurface",
+    "inventors": ["Dr. Surajit Kundu"],
+    "status": "Granted",
+    "publish_date": "01-07-2025",
+    "patent_no": "568263"
+  }
+]
+
 }
