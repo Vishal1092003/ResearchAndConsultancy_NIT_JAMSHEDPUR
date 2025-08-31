@@ -245,7 +245,7 @@ const teams = {
     {
       name: "Nihal Sahay",
       role: "2023UGME007",
-      img: "./nihalSahay.jpg",
+      img: "mrinalAyushRaj.jpg",
       linkedin: "#",
     },
     {
@@ -257,7 +257,7 @@ const teams = {
     {
       name: "Mrinal Ayush Raj",
       role: "2023UGME052",
-      img: "mrinalAyushRaj.jpg",
+      img: "./nihalSahay.jpg",
       linkedin: "#",
     },
   ],
