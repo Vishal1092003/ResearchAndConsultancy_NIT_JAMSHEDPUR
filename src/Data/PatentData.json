@@ -603,6 +603,22 @@
     "status": "Published",
     "publish_date": "04-07-2025",
     "Apatent_no": "202531060274"
+  },
+  {
+    "sl_no": 70,
+    "title": "Six band metamaterial absorber designed on twisted square and swastika resonator for S,C,X and Ku band frequency and sensing applications",
+    "inventors": ["Dr. Swagatadeb Sahoo", "Shashi Kumar Ranjan", "Mr. Omesh Kumar", "Prof. (Dr.) Danish Ali Khan"],
+    "status": "Published",
+    "publish_date": "24-01-2025",
+    "Apatent_no": "202531003706"
+  },
+  {
+    "sl_no": 71,
+    "title": "Square Octagon split ring resonator based metamaterial absorber",
+    "inventors": ["Dr. Swagatadeb Sahoo" , "Basanta Bhowmik", "Shashi Kumar Ranjan"],
+    "status": "Published",
+    "publish_date": "16-01-2025",
+    "Apatent_no": "202531003707"
   }
   ],
 
