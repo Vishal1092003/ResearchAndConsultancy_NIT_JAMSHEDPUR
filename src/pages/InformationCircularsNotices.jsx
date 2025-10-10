@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import Navbar from '@/components/Navbar/Navbar';
 import Tab from '@/components/Tab/Tab';
+import Footer from '@/components/Footer/Footer';
 
 const pdfFiles = [
   "Expenditure on Filing the Patent.pdf",
   "Procurment Rule 08-07-2025.pdf",
-  "RC_Rule.pdf",
   "Annexure III.pdf",
   "Internal Links.pdf",
   "Notice-001.pdf",
@@ -167,4 +167,3 @@ const Notices = () => {
 };
 
 export default Notices;
-import Footer from "@/components/Footer/Footer";
