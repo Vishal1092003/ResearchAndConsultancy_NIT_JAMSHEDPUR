@@ -14,6 +14,8 @@ import {
   DeanSir,
   SuraviMam,
   Subhash,
+  TusharSir,
+  DulariMam,
 } from "../assets/index.js";
 
 const imageMap = {
@@ -189,9 +191,9 @@ const MessageTile = ({ data, reverse }) => {
 const teams = {
   "Associate Deans": [
     {
-      name: "Dr. Surabhi Pal",
-      role: "Associate Dean-IPR Cell",
-      img: SuraviMam,
+      name: "Dr. Tushar Sharma",
+      role: "Associate Dean",
+      img: TusharSir,
       linkedin: "#",
     },
     {
@@ -201,9 +203,9 @@ const teams = {
       linkedin: "#",
     },
     {
-      name: "Dr. Ashok Mandal",
-      role: "Associate Dean-Collaboration and Entrepreneurship Development",
-      img: AshokSir,
+      name: "Dr. Dulari Hansdah",
+      role: "Associate Dean-IPR",
+      img: DulariMam,
       linkedin: "#",
     },
   ],
