@@ -12,7 +12,9 @@ import AkanshaMam from "./AkanshaMam.png";
 import AakashSir from "./AakashSir.png";
 import vikashMeena from "./vikashMeena.jpg";
 import SatishSir from "./SatishSirDean.jpg"
-import SuraviMam from "./SuraviMam.jpg"
+import SuraviMam from "./SuraviMam.jpg";
+import DulariMam from "./DulariMam.png";
+import TusharSir from "./tusharSharmaSir.png";
 export {
   DirectorSir,
   DeanSir,
@@ -28,5 +30,7 @@ export {
   ArunPandit,
   vikashMeena,
   SatishSir,
-  SuraviMam
+  SuraviMam,
+  DulariMam,
+  TusharSir
 };
