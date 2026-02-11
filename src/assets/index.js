@@ -15,6 +15,7 @@ import SatishSir from "./SatishSirDean.jpg"
 import SuraviMam from "./SuraviMam.jpg";
 import DulariMam from "./DulariMam.png";
 import TusharSir from "./tusharSharmaSir.png";
+import DeepakSir from "./DeepakSir.png";
 export {
   DirectorSir,
   DeanSir,
@@ -32,5 +33,6 @@ export {
   SatishSir,
   SuraviMam,
   DulariMam,
-  TusharSir
+  TusharSir,
+  DeepakSir
 };
