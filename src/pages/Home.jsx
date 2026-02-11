@@ -1,9 +1,10 @@
-import CarouselComponents from "../components/Carousel/CarouselComponents.jsx";
+
 import Footer from "../components/Footer/Footer.jsx";
 import Navbar from "../components/Navbar/Navbar.jsx";
 import Tab from "../components/Tab/Tab.jsx";
 import messages from "../pages/dean&directorMsg.json";
 import { useState, useRef } from "react";
+import { motion } from "framer-motion";
 import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import {
   AbhishekSir,
@@ -37,15 +38,13 @@ const MessageTile = ({ data, reverse }) => {
 
   return (
     <div
-      className={`flex flex-col md:flex-row ${
-        reverse ? "md:flex-row-reverse" : ""
-      } shadow-lg rounded-lg bg-white overflow-hidden w-full border border-gray-200`}
+      className={`flex flex-col md:flex-row ${reverse ? "md:flex-row-reverse" : ""
+        } shadow-lg rounded-lg bg-white overflow-hidden w-full border border-gray-200`}
     >
       {/* Left Side */}
       <div
-        className={`flex flex-col items-center justify-center min-w-[20rem] p-6 border-b md:border-b-0 ${
-          reverse ? "md:border-l" : "md:border-r"
-        } border-gray-200`}
+        className={`flex flex-col items-center justify-center min-w-[20rem] p-6 border-b md:border-b-0 ${reverse ? "md:border-l" : "md:border-r"
+          } border-gray-200`}
       >
         <img
           src={imgSrc}
@@ -78,11 +77,10 @@ const MessageTile = ({ data, reverse }) => {
         <div className="border-t border-gray-200 pt-4">
           <div
             ref={msgRef}
-            className={`relative transition-all duration-700 ease-in-out ${
-              expanded
-                ? "max-h-60 md:max-h-screen overflow-y-auto"
-                : "max-h-40 overflow-hidden"
-            }`}
+            className={`relative transition-all duration-700 ease-in-out ${expanded
+              ? "max-h-60 md:max-h-screen overflow-y-auto"
+              : "max-h-40 overflow-hidden"
+              }`}
           >
             <p className="text-gray-600 text-justify leading-relaxed">
               {data.message}
@@ -427,11 +425,10 @@ const TeamSection = () => {
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`px-6 py-3 rounded-full font-medium transition-all duration-300 text-lg ${
-              activeTab === tab
-                ? "text-white bg-blue-600 shadow-lg"
-                : "text-gray-600 hover:text-gray-700 bg-gray-50 hover:bg-gray-200"
-            }`}
+            className={`px-6 py-3 rounded-full font-medium transition-all duration-300 text-lg ${activeTab === tab
+              ? "text-white bg-blue-600 shadow-lg"
+              : "text-gray-600 hover:text-gray-700 bg-gray-50 hover:bg-gray-200"
+              }`}
           >
             {tab}
           </button>
@@ -455,7 +452,27 @@ const Home = () => {
       </div>
 
       <div className="overflow-x-hidden">
-        <CarouselComponents />
+        <motion.section
+          initial={{ opacity: 0, y: -40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="w-full bg-gradient-to-b from-sky-50 via-white to-yellow-50 py-6"
+        >
+          <div className="max-w-4xl mx-auto px-4">
+            <div className="overflow-hidden rounded-xl shadow-md">
+              <div className="w-full">
+                <video
+                  src="/video.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </motion.section>
 
         <div className="pt-5 px-4 w-full bg-gray-50">
           <div className="min-h-[50vh] flex flex-col justify-start items-center py-8 max-w-7xl mx-auto space-y-12">
