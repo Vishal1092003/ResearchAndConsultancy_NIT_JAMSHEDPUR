@@ -3,19 +3,18 @@ import Footer from "../components/Footer/Footer.jsx";
 import Navbar from "../components/Navbar/Navbar.jsx";
 import Tab from "../components/Tab/Tab.jsx";
 import messages from "../pages/dean&directorMsg.json";
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import {
   AbhishekSir,
   AkanshaMam,
   SwagatadebSir,
-  AshokSir,
   DirectorSir,
   DeanSir,
-  SuraviMam,
   Subhash,
   TusharSir,
   DulariMam,
+  DeepakSir,
 } from "../assets/index.js";
 
 const imageMap = {
@@ -191,6 +190,12 @@ const MessageTile = ({ data, reverse }) => {
 const teams = {
   "Associate Deans": [
     {
+      name: "Dr. Deepak Kumar",
+      role: "Associate Dean R&C- Research Facilities",
+      img: DeepakSir,
+      linkedin: "#",
+    },
+    {
       name: "Dr. Tushar Sharma",
       role: "Associate Dean",
       img: TusharSir,
@@ -212,19 +217,19 @@ const teams = {
   "Administrative Staff": [
     {
       name: "Abhishek Verma",
-      role: "Accountant",
+      role: "Accountant R&C",
       img: AbhishekSir,
       linkedin: "#",
     },
     {
       name: "Subhash kumar",
-      role: "Senior Assistant",
+      role: "Junior Assistant",
       img: Subhash,
       linkedin: "#",
     },
     {
       name: "Akansha Kumari",
-      role: "Administrative Staff",
+      role: "DEO R&C",
       img: AkanshaMam,
       linkedin: "#",
     },
