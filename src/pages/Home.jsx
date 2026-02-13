@@ -1,11 +1,11 @@
-
+import { useEffect } from "react";
 import Footer from "../components/Footer/Footer.jsx";
 import Navbar from "../components/Navbar/Navbar.jsx";
 import Tab from "../components/Tab/Tab.jsx";
 import messages from "../pages/dean&directorMsg.json";
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
-import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope, FaPhone, FaPlay, FaPause, FaExpand, FaCompress } from "react-icons/fa";
 import {
   AbhishekSir,
   AkanshaMam,
@@ -441,6 +441,45 @@ const TeamSection = () => {
 };
 
 const Home = () => {
+  const videoRef = useRef(null);
+  const containerRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(true);
+  const [isFullScreen, setIsFullScreen] = useState(false);
+
+  useEffect(() => {
+    const handleFullScreenChange = () => {
+      setIsFullScreen(!!document.fullscreenElement);
+    };
+
+    document.addEventListener("fullscreenchange", handleFullScreenChange);
+    return () => {
+      document.removeEventListener("fullscreenchange", handleFullScreenChange);
+    };
+  }, []);
+
+  const togglePlay = () => {
+    if (videoRef.current) {
+      if (isPlaying) {
+        videoRef.current.pause();
+      } else {
+        videoRef.current.play();
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
+
+  const toggleFullScreen = () => {
+    if (!document.fullscreenElement) {
+      if (containerRef.current) {
+        containerRef.current.requestFullscreen();
+      }
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      }
+    }
+  };
+
   return (
     <div className="min-h-screen w-full bg-gray-50">
       <div className="overflow-x-hidden">
@@ -459,16 +498,38 @@ const Home = () => {
           className="w-full bg-gradient-to-b from-sky-50 via-white to-yellow-50 py-6"
         >
           <div className="max-w-4xl mx-auto px-4">
-            <div className="overflow-hidden rounded-xl shadow-md">
-              <div className="w-full">
+            <div
+              ref={containerRef}
+              className="relative overflow-hidden rounded-xl shadow-md group bg-black"
+            >
+              <div className="w-full flex justify-center items-center">
                 <video
+                  ref={videoRef}
                   src="/video.mp4"
                   autoPlay
                   loop
                   muted
                   playsInline
-                  className="w-full h-full object-cover"
+                  className={`w-full h-full object-cover ${isFullScreen ? 'max-h-screen' : ''}`}
                 />
+              </div>
+
+              {/* Control Buttons */}
+              <div className="absolute bottom-4 right-4 flex gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+                <button
+                  onClick={togglePlay}
+                  className="bg-white/90 hover:bg-white text-gray-800 p-3 rounded-full shadow-lg backdrop-blur-sm transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  title={isPlaying ? "Pause" : "Play"}
+                >
+                  {isPlaying ? <FaPause size={18} /> : <FaPlay size={18} />}
+                </button>
+                <button
+                  onClick={toggleFullScreen}
+                  className="bg-white/90 hover:bg-white text-gray-800 p-3 rounded-full shadow-lg backdrop-blur-sm transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  title={isFullScreen ? "Exit Fullscreen" : "Fullscreen"}
+                >
+                  {isFullScreen ? <FaCompress size={18} /> : <FaExpand size={18} />}
+                </button>
               </div>
             </div>
           </div>
