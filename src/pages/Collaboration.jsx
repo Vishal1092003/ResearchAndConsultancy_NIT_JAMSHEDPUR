@@ -68,7 +68,7 @@ const Collaboration = () => {
             <div className="w-full sm:flex-1 sm:min-w-[220px] sm:max-w-xs mx-auto text-center p-4 sm:p-6 bg-white rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col items-center">
               <FileText className="mb-3 sm:mb-4 h-10 w-10 sm:h-12 sm:w-12 text-blue-600" />
               <div className="text-2xl sm:text-3xl font-bold text-gray-700 mb-2">
-                42+
+                50+
               </div>
               <div className="text-gray-600 font-medium">Active MoUs</div>
             </div>

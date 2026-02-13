@@ -5,10 +5,16 @@ import Tab from '@/components/Tab/Tab';
 const Achievements = () => {
   const achievements = [
     {
-      text: "Currently, 51 ongoing research projects are funded by reputed agencies such as SERB, DST, DRDO, ICMR & different industries.",
+      text: "Secured the 82nd position among all Engineering Institutes of India in the NIRF rankings.",
     },
     {
-      text: "Signed 45+ MoUs with premier institutions, industries, and government bodies to foster innovation, knowledge exchange, and skill development.",
+      text: "NIT Jamshedpur records an impressive overall placement percentage of 94.1% in the session 2024-25.",
+    },
+    {
+      text: "Currently, 58 ongoing research projects are funded by reputed agencies such as SERB, DST, DRDO, ICMR & different industries.",
+    },
+    {
+      text: "Signed 50+ MoUs with premier institutions, industries, and government bodies to foster innovation, knowledge exchange, and skill development.",
     },
     {
       text: "MoU signed between JCSTI and NIT Jamshedpur to enhance academic collaboration, faculty development, and research in line with NEP 2020.",
@@ -23,10 +29,10 @@ const Achievements = () => {
       text: "Institute participated in APAIE 2025 held at Yashobhoomi, Delhi, as part of internationalization efforts.",
     },
     {
-      text: "Eight faculty members featured among the world's top 2% scientists, as recognized by Stanford University in 2024.",
+      text: "Seven faculty members featured among the world's top 2% scientists, as recognized by Stanford University in 2025.",
     },
     {
-      text: "Over 150 of the 198 faculty members are young and dynamic, contributing actively to academic and research growth.",
+      text: "Over 150 of the 205 faculty members are young and dynamic, contributing actively to academic and research growth.",
     },
     {
       text: "Under the UG Innovation Project, ₹11.94 lakh was sanctioned in 2024, and ₹8.6 lakh in 2025 for IIPA, IATT, and ISG initiatives.",
@@ -36,6 +42,9 @@ const Achievements = () => {
     },
     {
       text: "Received 1.66 Crores for enabling technical textiles in NITJSR for Laboratory Infrastructure development as well as training on technical textiles.",
+    },
+    {
+      text: "Aligning with its Vision 2035 roadmap, NIT Jamshedpur has successfully completed a comprehensive academic audit across all 11 departments to ensure excellence and future-readiness.",
     }
   ];
 
