@@ -234,18 +234,18 @@ const teams = {
   ],
   "Research Bulletin Team": [
     //Faculty
-    {
-      name: "Dr. Abhishek Sharma",
-      role: "Assistant Professor Mechanical Engineering",
-      img: "./abhishekSharma.jpeg",
-      linkedin: "#",
-    },
-    {
-      name: "Dr. Neha Jaiswal",
-      role: "Assistant Professor Humanities",
-      img: "./nehaJaiswal.jpeg",
-      linkedin: "#",
-    },
+    // {
+    //   name: "Dr. Abhishek Sharma",
+    //   role: "Assistant Professor Mechanical Engineering",
+    //   img: "./abhishekSharma.jpeg",
+    //   linkedin: "#",
+    // },
+    // {
+    //   name: "Dr. Neha Jaiswal",
+    //   role: "Assistant Professor Humanities",
+    //   img: "./nehaJaiswal.jpeg",
+    //   linkedin: "#",
+    // },
     //Student Volunteer
     {
       name: "Nihal Sahay",
