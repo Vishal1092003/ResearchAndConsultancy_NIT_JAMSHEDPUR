@@ -253,12 +253,12 @@ const teams = {
       img: "mrinalAyushRaj.jpg",
       linkedin: "#",
     },
-    {
-      name: "Harshit Raj",
-      role: "2022UGPI032",
-      img: "./harshitRaj.jpg",
-      linkedin: "#",
-    },
+    // {
+    //   name: "Harshit Raj",
+    //   role: "2022UGPI032",
+    //   img: "./harshitRaj.jpg",
+    //   linkedin: "#",
+    // },
     {
       name: "Mrinal Ayush Raj",
       role: "2023UGME052",
