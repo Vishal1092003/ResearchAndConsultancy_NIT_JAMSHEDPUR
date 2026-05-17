@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar/Navbar';
 import Tab from '@/components/Tab/Tab';
 
 const Achievements = () => {
-  const achievements = [
+  const achievements =[
     {
       text: "Secured the 82nd position among all Engineering Institutes of India in the NIRF rankings.",
     },
@@ -11,43 +11,33 @@ const Achievements = () => {
       text: "NIT Jamshedpur records an impressive overall placement percentage of 94.1% in the session 2024-25.",
     },
     {
-      text: "Currently, 58 ongoing research projects are funded by reputed agencies such as SERB, DST, DRDO, ICMR & different industries.",
+      text: "Central Research Facility is established to bridge the gap between departmental research infrastructure and modern scientific requirements by providing centralized access to state of the art sophisticated equipments.",
     },
     {
-      text: "Signed 50+ MoUs with premier institutions, industries, and government bodies to foster innovation, knowledge exchange, and skill development.",
+      text: "Currently, 58 ongoing research projects are funded by reputed agencies such as SERB,DST, DRDO, ICMR & various industries.",
     },
     {
-      text: "MoU signed between JCSTI and NIT Jamshedpur to enhance academic collaboration, faculty development, and research in line with NEP 2020.",
+      text: "Aligning with its Vision 2035 roadmap, NIT Jamshedpur has successfully completed a comprehensive academic audit across all 11 departments to ensure excellence and future-readiness.",
     },
     {
-      text: "JCSTI sanctioned six research projects in May 2025.",
+      text: "The Ministry of MSME sanctioned ₹66.45 lakh for the conduct of 27 training programs,encompassing ESDP, A-ESDP, MDP, and A-MDP.",
     },
     {
-      text: "MSME sanctioned ₹66.45 lakh in 2025 for 27 training programs including ESDP, A-ESDP, MDP, and A-MDP.",
+      text: "Undergraduate students have successfully completed 33 innovative projects,showcasing their creativity and technical skills under the UG Innovation Project 8.64 lakhs (under IIPA) in 2025.",
     },
     {
-      text: "Institute participated in APAIE 2025 held at Yashobhoomi, Delhi, as part of internationalization efforts.",
+      text: "ICICI Foundation has given amount ₹73,98,600 for the Development of Reverse Engineering Facilities for Skill Development of youth under CSR fund.",
     },
     {
       text: "Seven faculty members featured among the world's top 2% scientists, as recognized by Stanford University in 2025.",
     },
     {
+      text: "Signed 50+ MoUs with premier institutions, industries, and government bodies to foster innovation, knowledge exchange and skill development.",
+    },
+    {
       text: "Over 150 of the 205 faculty members are young and dynamic, contributing actively to academic and research growth.",
-    },
-    {
-      text: "Under the UG Innovation Project, ₹11.94 lakh was sanctioned in 2024, and ₹8.6 lakh in 2025 for IIPA, IATT, and ISG initiatives.",
-    },
-    {
-      text: "Hosts a DST-NIDHI Inclusive Technology Business Incubator (i-TBI) established with support of 5 Cr grant from DST, GoI to support startups through mentoring, prototyping, seed funding, and entrepreneurship programs.",
-    },
-    {
-      text: "Received 1.66 Crores for enabling technical textiles in NITJSR for Laboratory Infrastructure development as well as training on technical textiles.",
-    },
-    {
-      text: "Aligning with its Vision 2035 roadmap, NIT Jamshedpur has successfully completed a comprehensive academic audit across all 11 departments to ensure excellence and future-readiness.",
     }
   ];
-
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="overflow-x-hidden">
