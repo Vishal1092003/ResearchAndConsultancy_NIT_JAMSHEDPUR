@@ -47,6 +47,15 @@
         },
         {
             "sl_no": 6,
+            "name_of_the_project": "Bamboo-Based Hybrid Housing for Rural Residency for Particularly Vulnerable Tribal Groups (Birhor Community)",
+            "sponsoring_agency": "NTPC",
+            "name_of_the_pi": "Dr. Keshav Kumar Sharma",
+            "department": "Civil Engineering",
+            "sanctioned_amount": 1045000,
+            "year_of_sanction": 2025
+        },
+        {
+            "sl_no": 7,
             "name_of_the_project": "Study on Reclamation of landfills and dump of Municipal Solid Waste Site",
             "sponsoring_agency": "Public Health Services (TSUISL)",
             "name_of_the_pi": "Dr. Awdhesh Kumar Choudhary",
@@ -55,7 +64,7 @@
             "year_of_sanction": 2025
         },
         {
-            "sl_no": 7,
+            "sl_no": 8,
             "name_of_the_project": "Possible Application of Industrial Waste as Filling Material for Sustainable Geosynthetic Reinforced Structures",
             "sponsoring_agency": "JCSTI",
             "name_of_the_pi": "Dr. Awdhesh Kumar Choudhary",
@@ -64,7 +73,7 @@
             "year_of_sanction": 2025
         },
         {
-            "sl_no": 8,
+            "sl_no": 9,
             "name_of_the_project": "Inspection of VUP/PUP/CUP for assessment of structural as well as functional condition",
             "sponsoring_agency": "MoRTH, NHAI",
             "name_of_the_pi": "Prof. Akhileshwar Kumar Singh",
@@ -73,7 +82,34 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 9,
+            "sl_no": 10,
+            "name_of_the_project": "Characterisation and Evaluation of Sustainable Concrete blended with Steel Slag",
+            "sponsoring_agency": "CARS Project",
+            "name_of_the_pi": "Dr. Virendra Kumar",
+            "department": "Civil Engineering",
+            "sanctioned_amount": 600000,
+            "year_of_sanction": 2026
+        },
+        {
+            "sl_no": 11,
+            "name_of_the_project": "Investment of Asphalt Binder Characteristics Through Multipal Ageing-Rejuvenation under Accelerated Ageing Coonditons Simulating Jharkhand's Climatic Environment",
+            "sponsoring_agency": "ANRF",
+            "name_of_the_pi": "Dr. Ambika Kuity",
+            "department": "Civil Engineering",
+            "sanctioned_amount": 7014192,
+            "year_of_sanction": 2026
+        },
+        {
+            "sl_no": 12,
+            "name_of_the_project": "Development of Novel WC-Cr3C2-Ni functionally graded composite coatings on Nickel-based C-263 super alloy for Nuclear application",
+            "sponsoring_agency": "SERB-DST",
+            "name_of_the_pi": "Dr. Abhijit Dey",
+            "department": "Mechanical Engineering",
+            "sanctioned_amount": 1350000,
+            "year_of_sanction": 2025
+        },
+        {
+            "sl_no": 13,
             "name_of_the_project": "Preparation  of  Test  Method  for  Vertical  Fatigue Testing of Suspension Fork for Bicycles",
             "sponsoring_agency": "BIS",
             "name_of_the_pi": "Dr. K SRI KRISHNA SUDHAMSU",
@@ -82,7 +118,7 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 10,
+            "sl_no": 14,
             "name_of_the_project": "National Technical Textiles Mission (NTTM)",
             "sponsoring_agency": "Ministry of Textiles",
             "name_of_the_pi": "Dr. Deepak Kumar",
@@ -91,7 +127,7 @@
             "year_of_sanction": 2023
         },
         {
-            "sl_no": 11,
+            "sl_no": 15,
             "name_of_the_project": "Development of zero backlash power transmission mechanism for anthropomorphic robots",
             "sponsoring_agency": "SERB",
             "name_of_the_pi": "Dr. Vineet Sahoo",
@@ -100,7 +136,7 @@
             "year_of_sanction": 2023
         },
         {
-            "sl_no": 12,
+            "sl_no": 16,
             "name_of_the_project": "Air entrainment and infrared suppression by hybrid and convex types of IRS devices with louvered openings: Experimental and numerical studies",
             "sponsoring_agency": "SERB",
             "name_of_the_pi": "Dr. Ashok Kumar Barik",
@@ -109,7 +145,7 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 13,
+            "sl_no": 17,
             "name_of_the_project": "Thermal shock analysis of porous functionally graded pre twisted rotating blade",
             "sponsoring_agency": "SERB",
             "name_of_the_pi": "Dr. Shashank Pandey",
@@ -118,7 +154,7 @@
             "year_of_sanction": 2023
         },
         {
-            "sl_no": 14,
+            "sl_no": 18,
             "name_of_the_project": "Design and Development of Remotely Operated Underwater Vehicle",
             "sponsoring_agency": "TiHAN IIT Guwahati",
             "name_of_the_pi": "Dr. Vijay Kumar Dalla",
@@ -127,7 +163,7 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 15,
+            "sl_no": 19,
             "name_of_the_project": "Design and Development of a bio-inspired, remotely operated underwater vehicle",
             "sponsoring_agency": "TiHAN IIT Hyderabad",
             "name_of_the_pi": "Dr. Vijay Kumar Dalla",
@@ -136,16 +172,7 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 16,
-            "name_of_the_project": "Development of self-healing composite material",
-            "sponsoring_agency": "SERB",
-            "name_of_the_pi": "Dr. Deepak Kumar",
-            "department": "Mechanical Engineering",
-            "sanctioned_amount": 945000,
-            "year_of_sanction": 2022
-        },
-        {
-            "sl_no": 17,
+            "sl_no": 20,
             "name_of_the_project": "Maximum service life of LPG cylinders (as per IS 3196-1) and reconditioned cylinders (as per IS 13258)",
             "sponsoring_agency": "BIS",
             "name_of_the_pi": "Dr. Arvind Kumar Patel",
@@ -154,16 +181,16 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 18,
-            "name_of_the_project": "Innovative Methods of Teaching to promote Science Outreach activities among students, teachers and common people in rural area of Jharkhand",
-            "sponsoring_agency": "NCSTC",
-            "name_of_the_pi": "Dr. Satish Kumar",
+            "sl_no": 21,
+            "name_of_the_project": "Design Development and Manufacturing of a Bacterial Dark Fermentation Bioreactor for Sustainable Hydrogen Generation from Restaurant Food Waste to Achieve Waste to Wealth Goals in Jharkhand",
+            "sponsoring_agency": "JCSTI",
+            "name_of_the_pi": "Dr. Dulari Hansdah",
             "department": "Mechanical Engineering",
-            "sanctioned_amount": 1609200,
-            "year_of_sanction": 2021
+            "sanctioned_amount": 661900,
+            "year_of_sanction": 2026
         },
         {
-            "sl_no": 19,
+            "sl_no": 22,
             "name_of_the_project": "Design of renewable energy system for rural and remote area under the Programme on National Mission on Power Electronics Technology Phase-III (NaMPET-III) Programme",
             "sponsoring_agency": "Ministry of Electronics & Information Technology",
             "name_of_the_pi": "Prof. R.V. Sharma",
@@ -172,25 +199,25 @@
             "year_of_sanction": 2019
         },
         {
-            "sl_no": 20,
+            "sl_no": 23,
+            "name_of_the_project": "To design a hybrid battery thermal management system for Indian driving conditions",
+            "sponsoring_agency": "JCSTI",
+            "name_of_the_pi": "Prof. Prabha Chand",
+            "department": "Mechanical Engineering",
+            "sanctioned_amount": 995000,
+            "year_of_sanction": 2026
+        },
+        {
+            "sl_no": 24,
             "name_of_the_project": "Design and development of sustainable electric mini tractor for specially challenge marginal farmers.",
-            "Unnamed: 2": "JCSTI",
+            "sponsoring_agency": "JCSTI",
             "name_of_the_pi": "Dr. K Namrata",
             "department": "Electrical Engineering",
             "sanctioned_amount": 605000,
             "year_of_sanction": 2025
         },
         {
-            "sl_no": 21,
-            "name_of_the_project": "Conversion of food/bio waste to energy and joint implementation at one of the DVC field stations",
-            "sponsoring_agency": "DVC",
-            "name_of_the_pi": "Dr. Omhari Gupta",
-            "department": "Electrical Engineering",
-            "sanctioned_amount": 826000,
-            "year_of_sanction": 2023
-        },
-        {
-            "sl_no": 22,
+            "sl_no": 25,
             "name_of_the_project": "Practical Implementation of Non-Fragile Sliding Mode Controller based Non-Isolated Universal On-Board Battery Charger for Electric Vehicle",
             "sponsoring_agency": "SERB",
             "name_of_the_pi": "Dr. Mrinal Kanti Sarkar",
@@ -199,7 +226,43 @@
             "year_of_sanction": 2022
         },
         {
-            "sl_no": 23,
+            "sl_no": 26,
+            "name_of_the_project": "Design and Experimental Evaluation of Resonant Gate Driving in High-Efficiency GaN-Based Three-Phase Propulsion Drives for E-Mobility",
+            "sponsoring_agency": "ANRF",
+            "name_of_the_pi": "Dr. Kundan Kumar",
+            "department": "Electrical Engineering",
+            "sanctioned_amount": 2789264,
+            "year_of_sanction": 2025
+        },
+         {
+            "sl_no": 27,
+            "name_of_the_project": "Design and Development of AI-Driven Portable Wireless Charging Pads for Agricultural Drones and Farm Equipment",
+            "sponsoring_agency": "JCSTI",
+            "name_of_the_pi": "Dr. Kundan Kumar",
+            "department": "Electrical Engineering",
+            "sanctioned_amount": 185000,
+            "year_of_sanction": 2026
+        },
+        {
+            "sl_no": 28,
+            "name_of_the_project": "Diagnosis and Assessment of Thermally Aged XLPE Cable Insulation using Non-destructive Test Technique in Time and Frequency Domain",
+            "sponsoring_agency": "ANRF",
+            "name_of_the_pi": "Dr. Supriyo Das",
+            "department": "Electrical Engineering",
+            "sanctioned_amount": 3970400,
+            "year_of_sanction": 2026
+        },
+        {
+            "sl_no": 29,
+            "name_of_the_project": "Antenna and Metamaterial inspired low cost non-invasive sensor for vital health (Anaemia, Diabetes,and Arrhythmia Detection) monitoring in Rural Jharkhand",
+            "sponsoring_agency": "JCSTI",
+            "name_of_the_pi": "Dr Rashmi Sinha",
+            "department": "Electronics and Communication Engineering",
+            "sanctioned_amount": 540000,
+            "year_of_sanction": 2026
+        },
+        {
+            "sl_no": 30,
             "name_of_the_project": "Design and development of FPGA based IOT system for monitoring industrial pollution.",
             "sponsoring_agency": "JCSTI",
             "name_of_the_pi": "Dr. Kunal Singh",
@@ -208,7 +271,7 @@
             "year_of_sanction": 2025
         },
         {
-            "sl_no": 24,
+            "sl_no": 31,
             "name_of_the_project": "Design and development of System on Chip based next generation IoT System for Industry 4.0 with Functional Safety and Security Features",
             "sponsoring_agency": "MEITY",
             "name_of_the_pi": "Dr. Amit Prakash",
@@ -217,16 +280,7 @@
             "year_of_sanction": 2023
         },
         {
-            "sl_no": 25,
-            "name_of_the_project": "IoMT-based Health Monitoring System for Elderly to Predict the Early Signs of Emergency Through Machine Learning",
-            "sponsoring_agency": "SERB",
-            "name_of_the_pi": "Dr. Basudeba Behera",
-            "department": "Electronics and Communication Engineering",
-            "sanctioned_amount": 2083400,
-            "year_of_sanction": 2022
-        },
-        {
-            "sl_no": 26,
+            "sl_no": 32,
             "name_of_the_project": "Smart and Effective IoT and GNSS Technology based Tea farming and Tourism for Tea Community Development",
             "sponsoring_agency": "HEFA",
             "name_of_the_pi": "Dr. Surajit Kundu",
@@ -235,7 +289,7 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 27,
+            "sl_no": 33,
             "name_of_the_project": "Affordable Cognitive Radio ‘Antenna-FSS’ Development at 5G/beyond 5G and UWB/SWB Spectrums",
             "sponsoring_agency": "SERB",
             "name_of_the_pi": "Dr. Surajit Kundu",
@@ -244,7 +298,7 @@
             "year_of_sanction": 2023
         },
         {
-            "sl_no": 28,
+            "sl_no": 34,
             "name_of_the_project": "Design and development of antennas for early detection of oral/mouth canser, lungs and breast canser.",
             "sponsoring_agency": "JCSTI",
             "name_of_the_pi": "Dr. Surajit Kundu",
@@ -253,7 +307,7 @@
             "year_of_sanction": 2025
         },
         {
-            "sl_no": 29,
+            "sl_no": 35,
             "name_of_the_project": "Development of AI enable tools for the identification of deepfake/morphed image as investigation input for the law inforsement agency.",
             "sponsoring_agency": "JCSTI",
             "name_of_the_pi": "Dr. Rajashree Nayak",
@@ -262,7 +316,16 @@
             "year_of_sanction": 2025
         },
         {
-            "sl_no": 30,
+            "sl_no": 36,
+            "name_of_the_project": "Design and Development of Online Sensor for Measurement of Moisture Content in Coal.",
+            "sponsoring_agency": "Eastman Crusher Co. P. Ltd",
+            "name_of_the_pi": "Dr. Swagatadeb Sahoo",
+            "department": "Electronics and Communication Engineering",
+            "sanctioned_amount": 660000,
+            "year_of_sanction": 2025
+        },
+        {
+            "sl_no": 37,
             "name_of_the_project": "Development of handheld/ drone-compatible, affordable ‘Microwave Scanner-GNSS Station’ (MSGS) for buried object detection with centimeter-level precision",
             "sponsoring_agency": "TEXMIN, IIT (ISM), DST",
             "name_of_the_pi": "Dr. Surajit Kundu",
@@ -271,7 +334,25 @@
             "year_of_sanction": 2023
         },
         {
-            "sl_no": 31,
+            "sl_no": 38,
+            "name_of_the_project": "Few-shot Learning for Rapid Multi-parametric MRI Reconstruction from Sparsely Sampled Weighted MRI Data",
+            "sponsoring_agency": "ANRF",
+            "name_of_the_pi": "Dr. Munendra Singh",
+            "department": "Electronics and Communication Engineering",
+            "sanctioned_amount": 3312480,
+            "year_of_sanction": 2026
+        },
+        {
+            "sl_no": 39,
+            "name_of_the_project": "Design and Development of a Low-Power, High-Speed FPGABased System for Real-Time Epileptic Seizure Detection",
+            "sponsoring_agency": "ANRF",
+            "name_of_the_pi": "Dr. Kaushik Das",
+            "department": "Electronics and Communication Engineering",
+            "sanctioned_amount": 3431340,
+            "year_of_sanction": 2026
+        },
+        {
+            "sl_no": 40,
             "name_of_the_project": "The Data Driven Agriculture Model to Mitigate Climate Change Impact on The Rice Crop in Indo- ASEAN Countries",
             "sponsoring_agency": "SERB",
             "name_of_the_pi": "Dr. Subrata Dutta",
@@ -280,7 +361,7 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 32,
+            "sl_no": 41,
             "name_of_the_project": "Design and Development of Artificial Intelligence based Model for Conversion from Santali to English",
             "sponsoring_agency": "JCSTI",
             "name_of_the_pi": "Dr. Koushlendra Kumar Singh",
@@ -289,7 +370,7 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 33,
+            "sl_no": 42,
             "name_of_the_project": "Fusion technology development of electrical tomography and machine learning for high quality waste plastic recycle",
             "sponsoring_agency": "DST",
             "name_of_the_pi": "Dr. Koushlendra Kumar Singh",
@@ -298,7 +379,16 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 34,
+            "sl_no": 43,
+            "name_of_the_project": "Study & comparative analysis of Tokenization schemes for North East (NE) Indian Languages",
+            "sponsoring_agency": "BIS",
+            "name_of_the_pi": "Dr. Koushlendra Kumar Singh",
+            "department": "Computer Science Engineering",
+            "sanctioned_amount": 738760,
+            "year_of_sanction": 2026
+        },
+        {
+            "sl_no": 44,
             "name_of_the_project": "Development of Low-Cost Artificial Intelligent System for Prediction of Bone Mineral Density (BMD) From Plain Radiographic Images in Osteoporosis Detection",
             "sponsoring_agency": "ICMR",
             "name_of_the_pi": "Dr. Jitesh Pradhan",
@@ -307,7 +397,16 @@
             "year_of_sanction": 2025
         },
         {
-            "sl_no": 35,
+            "sl_no": 45,
+            "name_of_the_project": "IoT and Image Analysis based Water QualitY Monitoring for the Tribal Villages of Jharkhand",
+            "sponsoring_agency": "JCSTI",
+            "name_of_the_pi": "Dr. Dilip Kumar Yadav",
+            "department": "Computer Science Engineering",
+            "sanctioned_amount": 500000,
+            "year_of_sanction": 2026
+        },
+        {
+            "sl_no": 46,
             "name_of_the_project": "Study of the requirements of Iron oxide powder for use in foundries",
             "sponsoring_agency": "BIS",
             "name_of_the_pi": "Dr. Binay Kumar",
@@ -316,7 +415,7 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 36,
+            "sl_no": 47,
             "name_of_the_project": "Revitalizing the sacred art of ancient ironmaking: Documentation, recommendations, and future directions",
             "sponsoring_agency": "IKS",
             "name_of_the_pi": "Dr. Ram Krishna",
@@ -325,7 +424,7 @@
             "year_of_sanction": 2023
         },
         {
-            "sl_no": 37,
+            "sl_no": 48,
             "name_of_the_project": "Study on the classification, recommended practices, requirements and test methods for chromate conversion coatings on aluminium and aluminium alloys",
             "sponsoring_agency": "BIS",
             "name_of_the_pi": "Dr. Aravind Gali",
@@ -334,7 +433,7 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 38,
+            "sl_no": 49,
             "name_of_the_project": "Study of quality requirements of carbon steel forgings for shipbuilding industry",
             "sponsoring_agency": "BIS",
             "name_of_the_pi": "Dr. Kuntal Maji",
@@ -343,7 +442,7 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 39,
+            "sl_no": 50,
             "name_of_the_project": "Study of quality requirements of grades of Hot-rolled medium and high carbon steel sheet, plate and strip used for general engineering purposes",
             "sponsoring_agency": "BIS",
             "name_of_the_pi": "Dr. Kuntal Maji",
@@ -352,7 +451,7 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 40,
+            "sl_no": 51,
             "name_of_the_project": "Use case compilation of Smart manufacturing in India ",
             "sponsoring_agency": "BIS",
             "name_of_the_pi": "Dr. Shubham Tripathi",
@@ -361,7 +460,7 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 41,
+            "sl_no": 52,
             "name_of_the_project": "Development of a novel and indigenous process chain for fabrication of low-cost, high-performance, super-abrasive, micro-grinding tools",
             "sponsoring_agency": "SERB",
             "name_of_the_pi": "Dr. Tushar Banerjee",
@@ -370,7 +469,7 @@
             "year_of_sanction": 2023
         },
         {
-            "sl_no": 42,
+            "sl_no": 53,
             "name_of_the_project": "Centre for Innovation and Incubation",
             "sponsoring_agency": "NIDHI i-TBI",
             "name_of_the_pi": "Prof. Amaresh Kumar",
@@ -379,7 +478,25 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 43,
+            "sl_no": 54,
+            "name_of_the_project": "Wire Arc Additive Manufacturing of multi-material components using submerged arc process",
+            "sponsoring_agency": "JCSTI",
+            "name_of_the_pi": "Dr. Susmita Datta",
+            "department": "Production and Industrial Engineering",
+            "sanctioned_amount": 1000000,
+            "year_of_sanction": 2026
+        },
+        {
+            "sl_no": 55,
+            "name_of_the_project": "Development of a process chain for flexible sheet metal forming using additive manufactured tooling",
+            "sponsoring_agency": "ANRF",
+            "name_of_the_pi": "Dr. Kuntal Maji",
+            "department": "Production and Industrial Engineering",
+            "sanctioned_amount": 4797132,
+            "year_of_sanction": 2026
+        },
+        {
+            "sl_no": 56,
             "name_of_the_project": "UBA",
             "sponsoring_agency": "UBA",
             "name_of_the_pi": "Dr. Shakti Prasad",
@@ -388,25 +505,34 @@
             "year_of_sanction": 2022
         },
         {
-            "sl_no": 44,
+            "sl_no": 57,
             "name_of_the_project": "Development of Advanced Cryptographic Primitives using Multivariate Public Key Cryptography as an Aid to IoT and Blockchain Technology",
             "sponsoring_agency": "CEFIPRA ",
             "name_of_the_pi": "Dr. Sumit Kumar Debnath",
             "department": "Mathematics",
-            "sanctioned_amount": "9,00,0000",
+            "sanctioned_amount": "9000000",
             "year_of_sanction": 2023
         },
         {
-            "sl_no": 45,
-            "name_of_the_project": "Graduate Assistantships in Developing Countries",
-            "sponsoring_agency": "International Mathematical Union (IMU)",
-            "name_of_the_pi": "Dr. Sumit Kumar Debnath",
-            "department": "Mathematics",
-            "sanctioned_amount": "11,25,921",
-            "year_of_sanction": 2022
+            "sl_no": 58,
+            "name_of_the_project": "Digital Inclusion and Policy Innovation for Indigenous Women Entrepreneurs in Rural Asia-Pacific: A Pathway to the SDGs,",
+            "sponsoring_agency": "AASSREC",
+            "name_of_the_pi": "Dr. Neha Jaiswal",
+            "department": "HSSM",
+            "sanctioned_amount": "5575 AUD",
+            "year_of_sanction": 2025
         },
         {
-            "sl_no": 46,
+            "sl_no": 59,
+            "name_of_the_project": "Identifying the Role of Women Leaders and Experiences of Women Beneficiaries of the Innovation-Driven Sustainable Healthcare System through PM-JAY: A study of selected districts of Jharkhand",
+            "sponsoring_agency": "ICSSR",
+            "name_of_the_pi": "Dr. Neha Jaiswal",
+            "department": "HSSM",
+            "sanctioned_amount": 500000,
+            "year_of_sanction": 2025
+        },
+        {
+            "sl_no": 60,
             "name_of_the_project": "Impact assessment of entrepreneurship schemes of the Government of India on Tribal women of Jharkhand",
             "sponsoring_agency": "ICSSR",
             "name_of_the_pi": "Dr. Akanksha Shukla",
@@ -415,7 +541,7 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 47,
+            "sl_no": 61,
             "name_of_the_project": "Nickel Catalysed Photo-Assisted Conversion of Carbon Dioxide to Formate and Carboxylic Acids in Presence of Non-Innocent Red-Ox Active Ligands",
             "sponsoring_agency": "SERB",
             "name_of_the_pi": "Dr. Moumita Mondal",
@@ -424,16 +550,7 @@
             "year_of_sanction": 2022
         },
         {
-            "sl_no": 48,
-            "name_of_the_project": "Introduction of Silicon into cyanine scaffolds: towards novel NIR-II fluorophores for cancer cell imaging ",
-            "sponsoring_agency": "SERB",
-            "name_of_the_pi": "Dr. Tapas Das",
-            "department": "Chemistry",
-            "sanctioned_amount": 1795798,
-            "year_of_sanction": 2023
-        },
-        {
-            "sl_no": 49,
+            "sl_no": 62,
             "name_of_the_project": "Synthetic strategies for the construction of fused heterocycles, distal C-H functionalization and asymmetric synthesis of furan and pyran ring fused with desymmetrized cyclopentene-1,3 dione",
             "sponsoring_agency": "SERB",
             "name_of_the_pi": "Dr. Tapas Das",
@@ -442,7 +559,16 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 50,
+            "sl_no": 63,
+            "name_of_the_project": "Integrated Mathematical and Computational Modelling for Predictive Nanotoxicology of Low-Dimensional Materials. ",
+            "sponsoring_agency": "ARG-MATRICS",
+            "name_of_the_pi": "Dr. Titas Kumar Mukhopadhyay",
+            "department": "Chemistry",
+            "sanctioned_amount": 1500000,
+            "year_of_sanction": 2026
+        },
+        {
+            "sl_no": 64,
             "name_of_the_project": "Microplastic pollution in freshwater ecosystems: Identifying the Sources, Effects, and Solutions",
             "sponsoring_agency": "SERB",
             "name_of_the_pi": "Dr. Balram Ambade",
@@ -451,12 +577,24 @@
             "year_of_sanction": 2024
         },
         {
-            "sl_no": 51,
+            "sl_no": 65,
             "name_of_the_project": "Development of low cost magnetic nano composites for purification of containment water",
             "sponsoring_agency": "JCSTI",
             "name_of_the_pi": "Dr. S.S. Pati",
             "department": "Chemistry",
             "sanctioned_amount": 495000,
+            "year_of_sanction": 2025
+        },
+        {
+            "sl_no": 66,
+            "name_of_the_project": "Delineation of molecular mechanism of interaction between the human E2 ubiquitin-conjugating enzyme and the substrate-bound bacterial effector Lpg2455/GobX, a U-Box E3 ubiquitin ligase, during Legionella infection.",
+            "sponsoring_agency": "DST",
+            "name_of_the_pi": "Dr. Pooja Kumari",
+            "department": "Chemistry",
+            "sanctioned_amount": 3500000,
+            "year_of_sanction": 2026
+        }
+    ]
             "year_of_sanction": 2025
         }
     ]
