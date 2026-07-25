@@ -312,14 +312,14 @@ const teams = {
       email: "2024ugcm015@nitjsr.ac.in",
     },
 
-    {
-      name: "Ishika Gupta",
-      role: "Web Team Member",
-      img: "./ishika.jpg",
-      linkedin:
-        "https://www.linkedin.com/in/ishika-gupta-88104a229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      email: "2024ugme051@nitjsr.ac.in",
-    },
+    // {
+    //   name: "Ishika Gupta",
+    //   role: "Web Team Member",
+    //   img: "./ishika.jpg",
+    //   linkedin:
+    //     "https://www.linkedin.com/in/ishika-gupta-88104a229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    //   email: "2024ugme051@nitjsr.ac.in",
+    // },
   ],
 };
 
