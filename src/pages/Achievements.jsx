@@ -14,16 +14,16 @@ const Achievements = () => {
       text: "Central Research Facility is established to bridge the gap between departmental research infrastructure and modern scientific requirements by providing centralized access to state of the art sophisticated equipments.",
     },
     {
-      text: "Currently, 58 ongoing research projects are funded by reputed agencies such as SERB, DST, DRDO, ICMR & various industries.",
+      text: "Currently, 58 ongoing research projects are funded by reputed agencies such as SERB,DST, DRDO, ICMR & various industries.",
     },
     {
       text: "Aligning with its Vision 2035 roadmap, NIT Jamshedpur has successfully completed a comprehensive academic audit across all 11 departments to ensure excellence and future-readiness.",
     },
     {
-      text: "The Ministry of MSME sanctioned ₹66.45 lakh for the conduct of 27 training programs, encompassing ESDP, A-ESDP, MDP, and A-MDP.",
+      text: "The Ministry of MSME sanctioned ₹66.45 lakh for the conduct of 27 training programs,encompassing ESDP, A-ESDP, MDP, and A-MDP.",
     },
     {
-      text: "Undergraduate students have successfully completed 33 innovative projects, showcasing their creativity and technical skills under the UG Innovation Project 8.64 lakhs (under IIPA) in 2025.",
+      text: "Undergraduate students have successfully completed 33 innovative projects,showcasing their creativity and technical skills under the UG Innovation Project 8.64 lakhs (under IIPA) in 2025.",
     },
     {
       text: "ICICI Foundation has given amount ₹73,98,600 for the Development of Reverse Engineering Facilities for Skill Development of youth under CSR fund.",

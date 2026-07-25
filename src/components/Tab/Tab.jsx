@@ -123,6 +123,20 @@ const Tab = () => {
       >
         Research Bulletin
       </Link>
+      <Link
+        to={"/researchInsight"}
+        className={`block px-4 py-2 text-sm rounded-md transition duration-200 ${isActive("/researchInsight") ? "bg-slate-200 text-black" : "text-slate-700 hover:bg-slate-100 hover:text-black"}`}
+        onClick={() => { setDropdownOpen(false); setMobileMenuOpen(false); }}
+      >
+        Research Strength Insight
+      </Link>
+      <Link
+        to={"/newsLetters"}
+        className={`block px-4 py-2 text-sm rounded-md transition duration-200 ${isActive("/newsLetters") ? "bg-slate-200 text-black" : "text-slate-700 hover:bg-slate-100 hover:text-black"}`}
+        onClick={() => { setDropdownOpen(false); setMobileMenuOpen(false); }}
+      >
+        Newsletters
+      </Link>
     </>
   );
 

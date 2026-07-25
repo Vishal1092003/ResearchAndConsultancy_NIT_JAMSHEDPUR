@@ -18,6 +18,8 @@ import RNCdetails from "./pages/RNCdetails";
 import InformationCircularsNotices from "./pages/InformationCircularsNotices";
 import ResearchBulletin from "./pages/ResearchBulletin";
 import FundOpportunities from "./pages/FundOpportunities";
+import ResearchInsight from "./pages/ResearchInsight";
+import NewsLetters from "./pages/NewsLetters";
 // import Events from "./pages/Events"
 function App() {
   return (
@@ -41,8 +43,11 @@ function App() {
           <Route path="/informationCirculars" element={<InformationCircularsNotices />} />
           <Route path="/achievements" element={<Achievements />} />
           <Route path="/researchBulletin" element={<ResearchBulletin />} />
+          <Route path="/researchInsight" element={<ResearchInsight />} />
+           <Route path="/newsLetters" element={<NewsLetters />} />
           <Route path="/rncDetails" element={<RNCdetails />} />
           <Route path="/sidenavbar" element={<SideNavbar />} />
+          
         </Routes>
       </Router>
     </>
