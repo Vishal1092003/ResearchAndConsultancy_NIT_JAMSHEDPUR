@@ -9,14 +9,14 @@ const SponsoredResearch = () => {
 
   const tabData = {
     ongoing: SponseredResearchData.Sheet1,
-    "2024-25": SponseredResearchData.Sheet2,
-    "2023-24": SponseredResearchData.Sheet3,
+    "2025-26": SponseredResearchData.Sheet2,
+    "2024-25": SponseredResearchData.Sheet3,
   };
 
   const tabs = [
     { id: "ongoing", label: "Ongoing Projects" },
+    { id: "2025-26", label: "Received Projects 2025-26" },
     { id: "2024-25", label: "Received Projects 2024-25" },
-    { id: "2023-24", label: "Received Projects 2023-24" },
   ];
 
   return (
@@ -67,7 +67,7 @@ const SponsoredResearch = () => {
             <div className="text-4xl font-bold text-gray-700 mb-2">
               {SponseredResearchData.Sheet2.length}
             </div>
-            <div className="text-gray-600 font-medium">Projects Received during 2024-25</div>
+            <div className="text-gray-600 font-medium">Projects Received during 2025-26</div>
           </div>
 
           {/* 2023-24 Projects Box */}
@@ -84,7 +84,7 @@ const SponsoredResearch = () => {
             <div className="text-4xl font-bold text-gray-700 mb-2">
               {SponseredResearchData.Sheet3.length}
             </div>
-            <div className="text-gray-600 font-medium">Projects Received during 2023-24</div>
+            <div className="text-gray-600 font-medium">Projects Received during 2024-25</div>
           </div>
         </div>
 
