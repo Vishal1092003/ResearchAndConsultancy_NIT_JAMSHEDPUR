@@ -5,38 +5,35 @@ import Tab from '@/components/Tab/Tab';
 const Achievements = () => {
   const achievements =[
     {
-      text: "Secured the 82nd position among all Engineering Institutes of India in the NIRF rankings.",
-    },
-    {
-      text: "NIT Jamshedpur records an impressive overall placement percentage of 94.1% in the session 2024-25.",
-    },
-    {
-      text: "Central Research Facility is established to bridge the gap between departmental research infrastructure and modern scientific requirements by providing centralized access to state of the art sophisticated equipments.",
-    },
-    {
-      text: "Currently, 58 ongoing research projects are funded by reputed agencies such as SERB,DST, DRDO, ICMR & various industries.",
-    },
-    {
-      text: "Aligning with its Vision 2035 roadmap, NIT Jamshedpur has successfully completed a comprehensive academic audit across all 11 departments to ensure excellence and future-readiness.",
-    },
-    {
-      text: "The Ministry of MSME sanctioned ₹66.45 lakh for the conduct of 27 training programs,encompassing ESDP, A-ESDP, MDP, and A-MDP.",
-    },
-    {
-      text: "Undergraduate students have successfully completed 33 innovative projects,showcasing their creativity and technical skills under the UG Innovation Project 8.64 lakhs (under IIPA) in 2025.",
-    },
-    {
-      text: "ICICI Foundation has given amount ₹73,98,600 for the Development of Reverse Engineering Facilities for Skill Development of youth under CSR fund.",
-    },
-    {
-      text: "Seven faculty members featured among the world's top 2% scientists, as recognized by Stanford University in 2025.",
-    },
-    {
-      text: "Signed 50+ MoUs with premier institutions, industries, and government bodies to foster innovation, knowledge exchange and skill development.",
-    },
-    {
-      text: "Over 150 of the 205 faculty members are young and dynamic, contributing actively to academic and research growth.",
-    }
+    text: "Secured the 82nd position among all Engineering Institutes of India in the NIRF rankings"
+  },
+  {
+    text: "Currently, 65 ongoing research projects are funded by reputed agencies such as SERB, DST, DRDO, ICMR & various industries and 105 consultancy projects has been completed"
+  },
+  {
+    text: "The Ministry of MSME sanctioned the conduct of 33 training programs, encompassing ESDP, A-ESDP, MDP, and A-MDP, with a total financial assistance of ₹67.23 lakh"
+  },
+  {
+    text: "Three faculty members featured among the world's top 5% scientists, in SciRank Global Registry Report"
+  },
+  {
+    text: "Central Research Facility is established to bridge the gap between departmental research infrastructure and modern scientific requirements by providing centralized access to state of the art sophisticated equipments"
+  },
+  {
+    text: "NIT Jamshedpur records an impressive overall placement percentage of 95.6% in the session 2025-26"
+  },
+  {
+    text: "ICICI Foundation has given amount ₹73,98,600 for the Development of Reverse Engineering Facilities for Skill Development of youth under CSR fund"
+  },
+  {
+    text: "Undergraduate students have successfully completed 36 innovative projects, showcasing their creativity and technical skills under the UG Innovation Project 9.72 lakhs (under IIPA) in 2025"
+  },
+  {
+    text: "Aligning with its Vision 2035 roadmap, NIT Jamshedpur has successfully completed a comprehensive academic audit across all 11 departments to ensure excellence and future-readiness"
+  },
+  {
+    text: "Signed 50+ MoUs with premier institutions, industries, and government bodies to foster innovation, knowledge exchange and skill development"
+  }
   ];
   return (
     <div className="min-h-screen bg-gray-50">

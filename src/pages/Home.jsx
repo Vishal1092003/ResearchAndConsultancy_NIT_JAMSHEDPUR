@@ -233,7 +233,7 @@ const teams = {
     },
   ],
   "Research Bulletin Team": [
-    //Faculty
+    // Faculty
     // {
     //   name: "Dr. Abhishek Sharma",
     //   role: "Assistant Professor Mechanical Engineering",
@@ -246,21 +246,8 @@ const teams = {
     //   img: "./nehaJaiswal.jpeg",
     //   linkedin: "#",
     // },
-    //Student Volunteer
-    {
-      name: "Nihal Sahay",
-      role: "2023UGME007",
-      img: "mrinalAyushRaj.jpg",
-      linkedin: "#",
-    },
-    {
-      name: "Mrinal Ayush Raj",
-      role: "2023UGME052",
-      img: "./nihalSahay.jpg",
-      linkedin: "#",
-    },
-  ],
-  "Web Team": [
+    
+//Web Team
     {
       name: "Aditya Raj",
       role: "Web Team Member",
@@ -320,6 +307,19 @@ const teams = {
     //     "https://www.linkedin.com/in/ishika-gupta-88104a229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     //   email: "2024ugme051@nitjsr.ac.in",
     // },
+    //Student Volunteer
+    {
+      name: "Nihal Sahay",
+      role: "2023UGME007",
+      img: "mrinalAyushRaj.jpg",
+      linkedin: "#",
+    },
+    {
+      name: "Mrinal Ayush Raj",
+      role: "2023UGME052",
+      img: "./nihalSahay.jpg",
+      linkedin: "#",
+    },
   ],
 };
 
@@ -375,9 +375,9 @@ const TeamSection = () => {
       ));
     }
 
-    const faculty = teams[activeTab].filter(
+    const webteam = teams[activeTab].filter(
       (member) =>
-        member.role.includes("Professor") || member.role.includes("Faculty")
+        member.role.includes("Web Team Member")
     );
     const students = teams[activeTab].filter(
       (member) =>
@@ -389,17 +389,7 @@ const TeamSection = () => {
 
     return (
       <>
-        {/* Faculty Section */}
-        <div className="md:col-span-2">
-          <h3 className="text-2xl font-bold text-gray-700 mb-4 border-b pb-2">
-            Faculty
-          </h3>
-        </div>
-        {faculty.map((member, index) => (
-          <TeamMemberCard key={`faculty-${index}`} member={member} />
-        ))}
-
-        {/* Student Volunteer Section */}
+       {/* Student Volunteer Section */}
         <div className="md:col-span-2 mt-8">
           <h3 className="text-2xl font-bold text-gray-700 mb-4 border-b pb-2">
             Student Volunteers
@@ -408,6 +398,17 @@ const TeamSection = () => {
         {students.map((member, index) => (
           <TeamMemberCard key={`student-${index}`} member={member} />
         ))}
+        {/* webteam Section */}
+        <div className="md:col-span-2">
+          <h3 className="text-2xl font-bold text-gray-700 mb-4 border-b pb-2">
+            Web Team
+          </h3>
+        </div>
+        {webteam.map((member, index) => (
+          <TeamMemberCard key={`web-${index}`} member={member} />
+        ))}
+
+       
       </>
     );
   };
