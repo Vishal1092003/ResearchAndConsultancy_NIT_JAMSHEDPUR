@@ -44,16 +44,16 @@ import DynamicTable from "@/components/dynamicTable/dynamicTable";
 const Patent = () => {
   const [activeTab, setActiveTab] = useState("Published");
 
-  const tabData = {
+ const tabData = {
    "Published": PatentData.Sheet1,
-    "2024-25": PatentData.Sheet2,
-    "2023-24": PatentData.Sheet3,
+    "Design-registration": PatentData.Sheet2,
+    "Granted": PatentData.Sheet3,
   };
 
   const tabs = [
     { id: "Published", label: "Published Patent" },
-    { id: "2024-25", label: "Design Registration" },
-    { id: "2023-24", label: "Granted Patent" },
+    { id: "Design-registration", label: "Design Registration" },
+    { id: "Granted", label: "Granted Patent" },
   ];
 
   return (
