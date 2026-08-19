@@ -576,5 +576,197 @@
   "department": "Computer Science and Engineering",
   "date": "15/01/26 To 16/01/26"
  }
+    ],
+    "Sheet2":[
+        {
+    "sl_no": 1,
+    "subject": "IAC 2025",
+    "coordinators": "Dr. Swagatadeb Sahoo, Prof. Satish Kumar",
+    "department": "Dean R&C",
+    "date": "12/12/25 to 13/12/25"
+  },
+  {
+    "sl_no": 2,
+    "subject": "5 Days Workshop on \"Role of Artificial Intelligence in - Higher education\"",
+    "coordinators": "Dr. S.K. Tiwary, Dr. Alok Priyadarshi, Dr. Kundan Kumar, Dr. Surya Prakash",
+    "department": "Electrical Engineering",
+    "date": "22/09/25 to 26/09/25"
+  },
+  {
+    "sl_no": 3,
+    "subject": "International workshop on algebra and fluid dynamics (IWAFD-2025)",
+    "coordinators": "Dr. Ratnesh Kr. Mishra & Dr. Snehasis Kundu",
+    "department": "Department of Mathematics",
+    "date": "21/10/25 to 25/10/25"
+  },
+  {
+    "sl_no": 4,
+    "subject": "Analysis and design of Tall buildings ADTB-2025",
+    "coordinators": "Dr. Prahlad Prasad",
+    "department": "Civil Engineering",
+    "date": "15/12/25-19/12/25"
+  },
+  {
+    "sl_no": 5,
+    "subject": "One week online workshop on emerging trends in metamaterials-Based Antennas for modern and futuristic applications",
+    "coordinators": "Dr. Arjun Kumar, Dr. Surajit Kundu & Dr. Amit kumar",
+    "department": "Electronics and Communication Engineering",
+    "date": "16/07/25 to 21/07/25"
+  },
+  {
+    "sl_no": 6,
+    "subject": "Fifth one week Short term training cum National level workshop on advancement in manufacturing and processing to Industry & their challenges (AMPTIC-2025)",
+    "coordinators": "Dr. Rina Sahu",
+    "department": "Metallurgical and Materials Engineering",
+    "date": "23/07/25 to 27/07/25"
+  },
+  {
+    "sl_no": 7,
+    "subject": "5 days workshop on \"Electrical wiring for domestic and Industrial applications\"",
+    "coordinators": "Dr. Kundan Kumar & Dr. Alok priyadarshi",
+    "department": "Electrical Engineering",
+    "date": "07/07/25 to 11/07/25"
+  },
+  {
+    "sl_no": 8,
+    "subject": "5 days workshop on Basic computer skill and digital literacy for youth",
+    "coordinators": "Dr. Dilip Kumar & Dr. Alok Priyadarsi",
+    "department": "Computer Science and Engineering",
+    "date": "30/06/25 to 04/07/25"
+  },
+  {
+    "sl_no": 9,
+    "subject": "5 day self sponsored workshop on \"IPR and Patent Awareness: Empowering Innovations\"",
+    "coordinators": "Dr. Kundan Kumar & Dr. Neha Jaiswal",
+    "department": "Electrical Engineering",
+    "date": "14/07/25 to 18/07/25"
+  },
+  {
+    "sl_no": 10,
+    "subject": "6 day FDP on \"Advanced AI/ML Applications for smart energy management in Electric Vehicles\"",
+    "coordinators": "Dr. Kundan Kumar",
+    "department": "Electrical Engineering",
+    "date": "11/08/25 to 16/08/25"
+  },
+  {
+    "sl_no": 11,
+    "subject": "MSME ESDP Program on \" Training on Repairing and services of Domestic Electrical Appliances for Jharkhand people\"",
+    "coordinators": "Dr. Basanta Bhowmik, Dr. Swagatadeb Sahoo",
+    "department": "Electronics and Communication Engineering",
+    "date": "09/12/25 to 22/01/26"
+  },
+  {
+    "sl_no": 12,
+    "subject": "MSME ESDP Program on \" Mobile Set Repairs for Jharkhand people\"",
+    "coordinators": "Dr. Swagatadeb Sahoo, Dr. Basanta Bhowmik",
+    "department": "Electronics and Communication Engineering",
+    "date": "02/12/25 to 13/01/26"
+  },
+  {
+    "sl_no": 13,
+    "subject": "MSME ESDP Program on \" Training on Land survey and Measurement Technique to tribal people of Jharkhand\"",
+    "coordinators": "Dr. Basanta Bhowmik, Dr. Swagatadeb Sahoo",
+    "department": "Electronics and Communication Engineering",
+    "date": "19/01/26 to 27/02/26"
+  },
+  {
+    "sl_no": 14,
+    "subject": "MSME Sponsored E-SDP on \"Entrepreneurship and skill Development program on Beauty, self-Grooming, and Wellness for Self sustainability of Weaken section of Society\"",
+    "coordinators": "Dr. Rashmi Sinha, Dr. Ananta Kr. Atta, Dr. K. Namrata, Dr. Neha Jaiswal",
+    "department": "Electronics and Communication Engineering",
+    "date": "18/12/25 to 29/01/26"
+  },
+  {
+    "sl_no": 15,
+    "subject": "MSME Sponsored Training on Bakery produts Dr K Namrata DEE",
+    "coordinators": "Dr. K. Namrata, Dr. Ananta Kr. Atta, Dr. Rashmi Sinha,Dr. Neha Jaiswal",
+    "department": "Electrical Engineering",
+    "date": "18/12/25 to 29/01/27"
+  },
+  {
+    "sl_no": 16,
+    "subject": "MSME-Sponsored training on Sauce making",
+    "coordinators": "Dr. Ananta Kumar Atta",
+    "department": "Department of Chemical Engineering",
+    "date": "19/01/26 to 26/02/26"
+  },
+  {
+    "sl_no": 17,
+    "subject": "MSME-Sponsored training on Tailoring",
+    "coordinators": "Dr. Ananta Kumar Atta, Dr. Basanta Bhawmik, Dr. Swagatdeb Sahoo",
+    "department": "Department of Chemical Engineering",
+    "date": "19/01/26 to 26/02/27"
+  },
+  {
+    "sl_no": 18,
+    "subject": "MSME Sponsoned ESDP workshop on Advanced Solor Training Program",
+    "coordinators": "Dr. Kundan Kumar, Dr. Madhu Singh , Dr. Ravi Bhushan",
+    "department": "Electrical Engineering",
+    "date": "13/02/2026 to 19/02/26"
+  },
+  {
+    "sl_no": 19,
+    "subject": "Five Days Workshop on Water Resources System Analysis using recent modelling Tools ( in Hybrid Mode)",
+    "coordinators": "Dr. Ch. Madhusudana Rao, Dr. Sangeeta Kumari",
+    "department": "Civil Engineering",
+    "date": "20/03/26 to 24/03/26"
+  },
+  {
+    "sl_no": 20,
+    "subject": "MSME Sponsered training programme on \"Millet Cultivation, processing and value addition for jharkhand people.",
+    "coordinators": "Dr. Vishesh Ranjan Kar, Dr. Ashok Kr. Barik, Dr. Dulari Hansdah",
+    "department": "Mechanical Engineering",
+    "date": "19/01/26 to 28/02/26"
+  },
+  {
+    "sl_no": 21,
+    "subject": "MSME Sponsored AESDP on \" IoT driven Healthcare Innovations for MSMEs\"",
+    "coordinators": "Dr. Basudeba Behera, Dr. Nagendra Kr, Dr. Ajay Kr",
+    "department": "Electronics and Communication Engineering",
+    "date": "19/01/26 to 23/01/26"
+  },
+  {
+    "sl_no": 22,
+    "subject": "To Conduct A-MDP Program \"capacity building of MSME through Web Development\".",
+    "coordinators": "Dr. B. K. Singh, Dr. C. Azad, Dr. Kanika Prasad, Dr. D. A. Khan",
+    "department": "Computer Science and Engineering",
+    "date": "27/01/26 to 31/01/26"
+  },
+  {
+    "sl_no": 23,
+    "subject": "A-ESDP on Scaling Success, Auto Components for ICEs and EV's in Domestic and Export Markets funded by MSME in PIE Department",
+    "coordinators": "Dr. Kanika Prasad, Dr. K. R. Naik, Dr. O. H. Gupta",
+    "department": "Production and Industrial Engineering",
+    "date": "12/02/26 to 16/02/26"
+  },
+  {
+    "sl_no": 24,
+    "subject": "One Day hands on Workshop on Software based Analysis of Tunneling and Slope Stability GeoSTS -2026",
+    "coordinators": "Dr. Subhadeep Metya, Dr. Somenath Mondal",
+    "department": "Civil Engineering",
+    "date": "02/07/26"
+  },
+  {
+    "sl_no": 25,
+    "subject": "International conference on Innovation in Mechanical Engineering for Sustainable Transfomation (InnoMEST 2025)",
+    "coordinators": "Dr. R. K. Gouda, Dr. A. K. Patel, Dr. K.S.K. Sudhamsu, Dr. S.K. Jha, Dr. A.K. Ray, Dr. Abhishek Sharma",
+    "department": "Mechanical Engineering",
+    "date": "03/04/2026 to 04/04/2026",
+    "note": "Possible duplicate/update of ref sl_no 81 (InnoMEST) — same conference name, but different date and expanded coordinator list. Verify before merging."
+  },
+  {
+    "sl_no": 26,
+    "subject": "International Conference on Recent Advances in Materials Processing and Characterization (RAMPC) 2024",
+    "coordinators": "Dr. Ram krishna, Dr. Prakash Sarkar, Dr. Monalisa Mandal",
+    "department": "Metallurgical and Materials Engineering",
+    "date": "18/05/2026 to 20/05/2026"
+  },
+  {
+    "sl_no": 27,
+    "subject": "Proposal for conducting an International Conference, SPMC2026 at Dept. of Civil Engineering",
+    "coordinators": "Dr. K.K. sharma, Dr. Subhadeep Metya, Dr. Somenath Mondal",
+    "department": "Civil Engineering",
+    "date": "28/05/26 to 30/05/26"
+  }
     ]
 }
