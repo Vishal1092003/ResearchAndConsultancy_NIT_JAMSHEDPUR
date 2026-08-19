@@ -8,11 +8,13 @@ const Workshops = () => {
   const [activeTab, setActiveTab] = useState("2024-25");
 
   const tabData = {
-    "2024-25": workshopData.Sheet1
+    "2024-25": workshopData.Sheet1,
+    "2025-26": workshopData.Sheet2
   };
 
   const tabs = [
     { id: "2024-25", label: "2024-25 events" },
+    { id: "2025-26", label: "2025-26 events" },
   ];
   
    return (
